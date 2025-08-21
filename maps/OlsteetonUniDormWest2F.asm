@@ -15,8 +15,8 @@ OlsteetonUniDormWest2F_MapScriptHeader:
 
 	def_bg_events
 	bg_event  8,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FText
-	bg_event 7,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom1Text
-	bg_event  13,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom2Text
+	bg_event 13,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom1Text
+	bg_event  7,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom2Text
 	bg_event  3,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom3Text
 
 	def_object_events
