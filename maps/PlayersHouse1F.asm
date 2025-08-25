@@ -62,10 +62,25 @@ MotherTrigger2:
 	step_up
 	step_end
 
+
+; 	opentext
+; 	writetext ElmsLabOfficerText2
+; 	promptbutton
+; 	special SpecialNameRival
+; 	writetext ElmsLabOfficerText3
+; 	waitbutton
+; 	closetext
 MotherEventScript:
 	opentext
 	writetext MotherIntroText
 	promptbutton
+	special SpecialNameRival
+	writetext MotherIntroText2
+	waitbutton
+	closetext
+	opentext
+	writetext MomPokegearText
+	waitbutton
 	givespecialitem POKEGEAR 
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
@@ -153,18 +168,27 @@ MotherIntroText:
 	para "Your friend"
 	line "was just here."
 
-	para "They said some-"
-	line "thing about"
+	para "What was their"
+	line "name again?"
+	done	
+MotherIntroText2:
+	text "Oh, right!"
 
-	para "a professor"
+	para "Anyway, <RIVAL>"
+	line "said something"
+
+	para "about a professor"
 	line "setting up a"
 
 	para "a lab in town?"
 	line "I hope they"
 
 	para "don't cause"
-	line "any ruckus."
+	line "any ruckus..."
+	done
+end
 
+MomPokegearText:
 	para "Oh! I almost"
 	line "forgot! Your dad"
 
@@ -172,8 +196,6 @@ MotherIntroText:
 	line "#gear!"
 	cont "Here ya go!"
 	done
-end
-
 MotherPokegearText:
 	text "#mon Gear, or"
 	line "just #gear."
