@@ -1,31 +1,31 @@
-CeladonUniversityLounge_MapScriptHeader:
+OlsteetonUniOfficeLounge_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
 
 	def_warp_events
-	warp_event  5,  9, CELADON_UNIVERSITY_1F, 10
-	warp_event  6,  9, CELADON_UNIVERSITY_1F, 10
+	warp_event  5,  9, OLSTEETON_UNI_OFFICE, 11
+	warp_event  6,  9, OLSTEETON_UNI_OFFICE, 11
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  4,  1, BGEVENT_JUMPTEXT, CeladonUniversityLoungeBookshelf1Text
-	bg_event  5,  1, BGEVENT_READ, CeladonUniversityLoungeBookshelf2
-	bg_event  0,  3, BGEVENT_RIGHT, CeladonUniversityLoungeComputer
+	bg_event  4,  1, BGEVENT_JUMPTEXT, OlsteetonUniOfficeLoungeBookshelf1Text
+	bg_event  5,  1, BGEVENT_READ, OlsteetonUniOfficeLoungeBookshelf2
+	bg_event  0,  3, BGEVENT_RIGHT, OlsteetonUniOfficeLoungeComputer
 
 	def_object_events
-	object_event  2,  7, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, CeladonUniversityLoungeNeeshaScript, -1
-	object_event  3,  1, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLoungeLassText, -1
-	object_event  8,  1, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLoungeRichBoyText, -1
-	object_event  6,  5, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLoungeCooltrainerfText, -1
-	object_event  8,  8, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLoungeSuper_nerd1Text, -1
-	object_event  0,  8, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLoungeSuper_nerd2Text, -1
+	object_event  2,  7, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonUniOfficeLoungeNeeshaScript, -1
+	object_event  3,  1, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLoungeLassText, -1
+	object_event  8,  1, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLoungeRichBoyText, -1
+	object_event  6,  5, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLoungeCooltrainerfText, -1
+	object_event  8,  8, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLoungeSuper_nerd1Text, -1
+	object_event  0,  8, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLoungeSuper_nerd2Text, -1
 
 	object_const_def
-	const CELADONUNIVERSITYLOUNGE_NEESHA
+	const OlsteetonUniOfficeLOUNGE_NEESHA
 
-CeladonUniversityLoungeNeeshaScript:
+OlsteetonUniOfficeLoungeNeeshaScript:
 	faceplayer
 	opentext
 	checkevent EVENT_BEAT_COOLTRAINERF_NEESHA
@@ -43,7 +43,7 @@ CeladonUniversityLoungeNeeshaScript:
 	waitbutton
 	closetext
 	winlosstext .BeatenText, 0
-	setlasttalked CELADONUNIVERSITYLOUNGE_NEESHA
+	setlasttalked OlsteetonUniOfficeLOUNGE_NEESHA
 	loadtrainer COOLTRAINERF, NEESHA
 	startbattle
 	reloadmapafterbattle
@@ -144,7 +144,7 @@ CeladonUniversityLoungeNeeshaScript:
 	line "you, trainer!"
 	done
 
-CeladonUniversityLoungeLassText:
+OlsteetonUniOfficeLoungeLassText:
 	text "Next month we're"
 	line "going on a trip"
 	cont "to Mt.Moon."
@@ -153,7 +153,7 @@ CeladonUniversityLoungeLassText:
 	line "Clefairy!"
 	done
 
-CeladonUniversityLoungeRichBoyText:
+OlsteetonUniOfficeLoungeRichBoyText:
 	text "Have you ever"
 	line "wondered why"
 
@@ -166,7 +166,7 @@ CeladonUniversityLoungeRichBoyText:
 	cont "Hyper Balls!"
 	done
 
-CeladonUniversityLoungeCooltrainerfText:
+OlsteetonUniOfficeLoungeCooltrainerfText:
 	text "#mon with"
 	line "reduced physical"
 
@@ -175,7 +175,7 @@ CeladonUniversityLoungeCooltrainerfText:
 	cont "enter a # Ball."
 	done
 
-CeladonUniversityLoungeSuper_nerd1Text:
+OlsteetonUniOfficeLoungeSuper_nerd1Text:
 	text "What do you get if"
 	line "you cross a joke"
 
@@ -185,7 +185,7 @@ CeladonUniversityLoungeSuper_nerd1Text:
 	para "………………………………"
 	done
 
-CeladonUniversityLoungeSuper_nerd2Text:
+OlsteetonUniOfficeLoungeSuper_nerd2Text:
 	text "I'm writing scripts"
 	line "for a game."
 
@@ -193,13 +193,13 @@ CeladonUniversityLoungeSuper_nerd2Text:
 	line "asm!"
 	done
 
-CeladonUniversityLoungeBookshelf1Text:
+OlsteetonUniOfficeLoungeBookshelf1Text:
 	text "It's stuffed full"
 	line "of copies of"
 	cont "#mon manga!"
 	done
 
-CeladonUniversityLoungeBookshelf2:
+OlsteetonUniOfficeLoungeBookshelf2:
 	opentext
 	writetext .Text1
 	waitbutton
@@ -227,7 +227,7 @@ CeladonUniversityLoungeBookshelf2:
 	line "empty."
 	done
 
-CeladonUniversityLoungeComputer:
+OlsteetonUniOfficeLoungeComputer:
 	jumpthistext
 
 	text "There's a player"

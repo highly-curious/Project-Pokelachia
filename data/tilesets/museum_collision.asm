@@ -81,7 +81,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 50
 	tilecoll WALL, WALL, BOOKSHELF, BOOKSHELF ; 51
 	tilecoll WALL, WALL, FLOOR, COUNTER ; 52
-	tilecoll WALL, WALL, WALL, BOOKSHELF ; 53
+	tilecoll WALL, WALL, BOOKSHELF, WALL ; 53
 	tilecoll FLOOR, FLOOR, FLOOR, COUNTER ; 54
 	tilecoll FLOOR, FLOOR, COUNTER, COUNTER ; 55
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 56
@@ -103,7 +103,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 66
 	tilecoll WALL, WALL, WALL, FLOOR ; 67
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 68
-	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 69
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 69
 	tilecoll WALL, WALL, WALL, WALL ; 6a
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 6b
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 6c

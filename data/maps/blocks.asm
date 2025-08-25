@@ -389,6 +389,21 @@ SECTION "OlsteetonUniDeansOffice_BlockData", ROMX
 OlsteetonUniDeansOffice_BlockData:
 	INCBIN "maps/OlsteetonUniDeansOffice.ablk.lz"
 
+SECTION "OlsteetonUniOfficePawpaw_BlockData", ROMX
+OlsteetonUniOfficePawpaw_BlockData:
+OlsteetonUniOfficeSpruce_BlockData:
+OlsteetonUniOfficePoplar_BlockData:
+
+	INCBIN "maps/OlsteetonUniOfficePawpaw.ablk.lz"
+
+SECTION "OlsteetonUniOfficeLounge_BlockData", ROMX
+OlsteetonUniOfficeLounge_BlockData:
+	INCBIN "maps/OlsteetonUniOfficeLounge.ablk.lz"
+
+SECTION "OlsteetonUniOfficeTA_BlockData", ROMX
+OlsteetonUniOfficeTA_BlockData:
+	INCBIN "maps/OlsteetonUniOfficeTA.ablk.lz"
+
 SECTION "OlsteetonUniClockTower1F_BlockData", ROMX
 OlsteetonUniClockTower1F_BlockData:
 	INCBIN "maps/OlsteetonUniClockTower1F.ablk.lz"

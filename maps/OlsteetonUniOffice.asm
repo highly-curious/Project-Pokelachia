@@ -11,11 +11,11 @@ OlsteetonUniOffice_MapScriptHeader:
 	warp_event 10, 17, OLSTEETON_UNI, 9
 	warp_event 11, 17, OLSTEETON_UNI, 9
 	warp_event 11,  0, OLSTEETON_UNI_DEANS_OFFICE, 1
-	; warp_event 17, 15, OLSTEETON_UNI_BREAK_ROOM, 1
-	; warp_event  3,  4, OLSTEETON_UNI_PROF_1, 1
-	; warp_event 15,  4, OLSTEETON_UNI_PROF_2, 1
-	; warp_event 21,  4, OLSTEETON_UNI_PROF_3, 1
-	; warp_event 17, 12, OLSTEETON_UNI_PROF_4, 1
+	warp_event  3,  4, OLSTEETON_UNI_OFFICE_SPRUCE, 1
+	warp_event 15,  4, OLSTEETON_UNI_OFFICE_POPLAR, 2
+	warp_event 21,  4, OLSTEETON_UNI_OFFICE_PAWPAW, 2
+	warp_event  5, 12, OLSTEETON_UNI_OFFICE_LOUNGE, 1
+	warp_event 17, 12, OLSTEETON_UNI_OFFICE_TA, 2
 
 	def_coord_events
 
@@ -26,7 +26,6 @@ OlsteetonUniOffice_MapScriptHeader:
 	bg_event 20,  4, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf3SignText
 	bg_event 16, 12, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf4SignText
 	bg_event  4, 12, BGEVENT_JUMPTEXT, OlsteetonUniOfficeStudentLoungeSignText
-	bg_event 17, 15, BGEVENT_JUMPTEXT, OlsteetonUniOfficeLibrarySignText
 	bg_event  6,  5, BGEVENT_JUMPTEXT, OlsteetonUniOfficeTrophyCaseSignText
 	bg_event 20, 13, BGEVENT_JUMPTEXT, OlsteetonUniOfficeBookshelfText
 	bg_event 21, 13, BGEVENT_JUMPTEXT, OlsteetonUniOfficeBookshelfText
@@ -84,7 +83,7 @@ OlsteetonUniOfficeCooltrainermText:
 	done
 
 OlsteetonUniOfficeYoungsterText:
-	text "Magikarp is the"
+	text "Bouffalant is the"
 	line "university's mascot"
 	cont "#mon."
 
@@ -108,24 +107,22 @@ OlsteetonUniOfficePokefanmText:
 	done
 
 OlsteetonUniOfficeReceptionistText:
-	text "Welcome to Celadon"
-	line "University!"
+	text "Welcome to"
+	line "Bouffalant Uni!"
 
 	para "Profs and the"
-	line "principal's office"
+	line "Dean's office"
 	cont "are down the hall."
 
-	para "The library is to"
+	para "TA Office is to"
 	line "your right, the"
 
 	para "student lounge to"
 	line "your left."
 
-	para "The cafeteria,"
-	line "pool, and nurse's"
-
-	para "office are up-"
-	line "stairs."
+	para "Please let me"
+	line "know if you"
+	cont "have any questions!"
 	done
 
 OlsteetonUniOfficeCooltrainerfText:
@@ -144,27 +141,23 @@ OlsteetonUniOfficeDeansOfficeSignText:
 	done
 
 OlsteetonUniOfficeProf1SignText:
-	text "W2 Art"
+	text "Prof. Spruce"
 	done
 
 OlsteetonUniOfficeProf2SignText:
-	text "W1 History"
+	text "Prof. Poplar"
 	done
 
 OlsteetonUniOfficeProf3SignText:
-	text "E1 Science"
+	text "Prof.Pawpaw"
 	done
 
 OlsteetonUniOfficeProf4SignText:
-	text "E2 Battling"
+	text "TA Office"
 	done
 
 OlsteetonUniOfficeStudentLoungeSignText:
 	text "Student Lounge"
-	done
-
-OlsteetonUniOfficeLibrarySignText:
-	text "Library"
 	done
 
 OlsteetonUniOfficeTrophyCaseSignText:
