@@ -4,8 +4,8 @@ OlsteetonQuickHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, OLSTEETON, 19
 	warp_event  3,  7, OLSTEETON, 19
+	warp_event  4,  7, OLSTEETON, 19
 
 	def_coord_events
 
@@ -13,7 +13,7 @@ OlsteetonQuickHouse_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  4, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonQuickHouseYoungsterScript, -1
-	object_event  6,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonQuickHouseBugCatcherText, -1
+	object_event  4,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonQuickHouseBugCatcherText, -1
 
 OlsteetonQuickHouseYoungsterScript:
 	checkevent EVENT_GOT_NET_BALL_FROM_GOLDENROD
