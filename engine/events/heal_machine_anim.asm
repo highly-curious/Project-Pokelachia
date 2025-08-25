@@ -166,7 +166,7 @@ HealMachineAnim:
 	bcpixel 2, 4
 	dec a ; ElmsLab = 1
 	jr z, .okay
-	bcpixel 0, 0
+	bcpixel 4, 5
 
 .okay
 	ld a, [de]

@@ -84,11 +84,11 @@ FieldLab_MapScriptHeader:
 ProfPawpawScript:
 	faceplayer
  	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
-	iftrue_jumpopenedtext PawpawDescribesMrPokemonText
+	iftruefwd PawpawAfterMon
  	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue_jumpopenedtext PawpawDescribesMrPokemonText
+	iftruefwd PawpawAfterMon
  	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue_jumpopenedtext PawpawDescribesMrPokemonText
+	iftruefwd PawpawAfterMon
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
 	opentext
 	writetext PawpawText_Intro
@@ -123,7 +123,6 @@ endc
 	showtext PawpawText_ChooseAPokemon
 	setevent EVENT_CHOOSE_POKEMON
 	setevent EVENT_GOT_A_POKEMON_FROM_ELM
-	setscene $1
 	end
 
 ; FieldLab_AutoAssistantSpeech:
@@ -184,10 +183,15 @@ endc
 ; 	iftrue_jumpopenedtext PawpawStudyingEggText
 ; 	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 ; 	iftrue PawpawAfterTheftScript
+
 ; 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 ; 	iftrue_jumpopenedtext PawpawDescribesMrPokemonText
 ; 	jumpopenedtext PawpawText_LetYourMonBattleIt
 
+PawpawAfterMon:
+	opentext
+	writetext PawpawDescribesMrPokemonText
+	; jumpopenedtext PawpawText_LetYourMonBattleIt
 FieldLabTryToLeaveScript:
 	turnobject ELMSLAB_ELM, DOWN
 	showtext PawpawWhereGoingText
@@ -333,7 +337,7 @@ endc
 	showtext PawpawDirectionsText3
 	setevent EVENT_GOT_A_POKEMON_FROM_ELM
 	; setevent EVENT_RIVAL_CHERRYGROVE_CITY
-	setscene $6
+	setscene $2
 	end
 
 FieldLabHealingMachine:
