@@ -23,7 +23,8 @@ Hollowport_MapScriptHeader:
 	bg_event 15,  5, BGEVENT_JUMPTEXT, PlayerHouseSignText
 	bg_event  3,  4, BGEVENT_JUMPTEXT, FieldLabSignText
 	bg_event 14, 12, BGEVENT_JUMPTEXT, RivalsHouseSignText
-	; bg_event  2,  8, BGEVENT_ITEM + POTION, EVENT_NEW_BARK_TOWN_HIDDEN_POTION
+	bg_event 10,  4, BGEVENT_ITEM + POTION, EVENT_HOLLOWPORT_HIDDEN_POTION
+	bg_event  4, 12, BGEVENT_ITEM + NUGGET, EVENT_HOLLOWPORT_HIDDEN_NUGGET
 
 	def_object_events
 	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, -1

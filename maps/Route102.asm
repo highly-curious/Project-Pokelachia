@@ -24,7 +24,12 @@ Route102_MapScriptHeader:
 
 	def_object_events
 	fruittree_event 26, 14, FRUITTREE_ROUTE_36, RAWST_BERRY, PAL_NPC_TEAL
+	itemball_event 12,  9, GREAT_BALL, 1, EVENT_ROUTE_102_GREAT_BALL
+	itemball_event 25, 17, REPEL, 1, EVENT_ROUTE_102_REPEL
+
+
 	; object_event 50,  5, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSchoolgirlMolly, -1
+
 
 	object_const_def
 

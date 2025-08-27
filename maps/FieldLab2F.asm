@@ -13,7 +13,8 @@ FieldLab2F_MapScriptHeader:
 	def_bg_events
 	bg_event  9,  5, BGEVENT_JUMPTEXT, FieldLab2FSignText
 	bg_event  8,  5, BGEVENT_ITEM + STAR_PIECE, EVENT_MOUNT_MOON_B1F_HIDDEN_STAR_PIECE
-	; itemball_event  3,  4, STAR_PIECE, 1, EVENT_ROUTE_21_STAR_PIECE
+	; itemball_event  3,  4, STAR_PIECE, 1, EVENT_FIELD_LAB_STAR_PIECE
+
 
 	def_object_events
 	object_event  5,  7, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabAideText, -1

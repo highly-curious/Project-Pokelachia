@@ -13,14 +13,22 @@ Route101_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
+	bg_event  2,  8, BGEVENT_ITEM + SUPER_POTION, EVENT_ROUTE_101_HIDDEN_SUPER_POTION
+
 
 	def_object_events
 	; object_event  6, 12, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolboyDanny, -1
 	; object_event 17, 14, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolboySherman, -1
 	; object_event 16, 21, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainermFrench, -1
 	; object_event 11, 25, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainerfQuinn, -1
-	fruittree_event 22,  4, FRUITTREE_ROUTE_1, FIGY_BERRY, PAL_NPC_BROWN
-	fruittree_event  4,  2, FRUITTREE_ROUTE_2, LUM_BERRY, PAL_NPC_GREEN
+	fruittree_event 22,  4, FRUITTREE_ROUTE_101_1, ORAN_BERRY, PAL_NPC_BLUE
+	fruittree_event 23,  4, FRUITTREE_ROUTE_101_2, PECHA_BERRY, PAL_NPC_PINK
+	fruittree_event  4,  2, FRUITTREE_ROUTE_101_3, PERSIM_BERRY, PAL_NPC_PINK
+	; fruittree_event  4,  2, FRUITTREE_ROUTE_2, LUM_BERRY, PAL_NPC_GREEN
+	itemball_event 20, 20, POKE_BALL, 1, EVENT_ROUTE_101_POKE_BALL
+	itemball_event 17,  6, POTION, 1, EVENT_ROUTE_101_POTION
+
+
 
 
 ; GenericTrainerSchoolboyDanny:
