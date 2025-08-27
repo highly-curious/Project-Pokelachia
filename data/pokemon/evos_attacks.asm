@@ -3363,8 +3363,8 @@ endc
 	evo_data EVOLVE_LEVEL, 14, QUILAVA
 	learnset 1, TACKLE
 	learnset 1, LEER
-	learnset 6, SMOKESCREEN
-	learnset 10, EMBER
+	learnset 6, EMBER
+	learnset 10, SMOKESCREEN
 	learnset 13, QUICK_ATTACK
 	learnset 19, DEFENSE_CURL ; Flame Wheel → Defense Curl
 	learnset 22, FLAME_CHARGE ; Defense Curl → Flame Charge
@@ -3438,7 +3438,7 @@ endc
 
 	evos_attacks Totodile
 	evo_data EVOLVE_LEVEL, 18, CROCONAW
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 1, LEER
 	learnset 6, WATER_GUN
 	learnset 8, RAGE
@@ -3464,15 +3464,15 @@ endc
 	learnset 8, RAGE
 	learnset 13, BITE
 	learnset 15, SCARY_FACE
-	learnset 21, METAL_CLAW ; Ice Fang → egg move
-	learnset 24, REVERSAL ; Flail → similar move
-	learnset 30, AGILITY ; Feraligatr move
+	learnset 18, ROCK_THROW 
+	learnset 22, REVERSAL ; Flail → similar move
+	learnset 28, AQUA_JET
 	learnset 33, CRUNCH
-	learnset 39, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 42, SLASH
+	learnset 39, ANCIENTPOWER 
+	learnset 42, AQUA_TAIL
 	learnset 48, SCREECH
 	learnset 51, THRASH
-	learnset 57, AQUA_TAIL
+	learnset 57, ROCK_SLIDE
 	learnset 60, CLOSE_COMBAT ; Superpower → similar move
 	learnset 66, HYDRO_PUMP
 
@@ -3484,16 +3484,16 @@ endc
 	learnset 8, RAGE
 	learnset 13, BITE
 	learnset 15, SCARY_FACE
-	learnset 21, METAL_CLAW ; Ice Fang → egg move
+	learnset 18, ROCK_THROW 
 	learnset 24, REVERSAL ; Flail → similar move
-	learnset 32, AGILITY
-	learnset 37, CRUNCH
-	learnset 45, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 50, SLASH
-	learnset 56, SCREECH
-	learnset 62, THRASH
-	learnset 68, OUTRAGE ; HGSS tutor move
-	learnset 73, AQUA_TAIL
+	learnset 30, AQUA_JET
+	learnset 34, CRUNCH
+	learnset 40, ANCIENTPOWER
+	learnset 47, AQUA_TAIL
+	learnset 54, SCREECH
+	learnset 60, THRASH
+	learnset 68, ROCK_SLIDE ; HGSS tutor move
+	learnset 73, OUTRAGE
 	learnset 78, CLOSE_COMBAT ; Superpower → similar move
 	learnset 84, HYDRO_PUMP
 
@@ -3502,7 +3502,8 @@ endc
 	learnset 1, TACKLE
 	learnset 1, FORESIGHT
 	learnset 4, DEFENSE_CURL
-	learnset 7, QUICK_ATTACK
+	learnset 6, POISON_STING
+	learnset 9, QUICK_ATTACK
 	learnset 13, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 16, DIZZY_PUNCH ; Helping Hand → event move
 	learnset 19, SUPER_FANG ; Follow Me → HGSS tutor move
