@@ -18,6 +18,7 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPTEXT, PlayerHouse1FSinkText
 	bg_event  8,  1, BGEVENT_JUMPTEXT, PlayerHouse1FStoveText
 	bg_event  3,  1, BGEVENT_UP, PlayerHouse1FTVScript
+	bg_event 10,  1, BGEVENT_ITEM + RARE_CANDY, EVENT_PLAYER_HOUSE_HIDDEN_RARE_CANDY
 
 	def_object_events
 	object_event  2,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MotherScript, EVENT_PLAYERS_HOUSE_MOTHER

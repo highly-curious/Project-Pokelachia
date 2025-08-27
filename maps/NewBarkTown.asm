@@ -25,7 +25,6 @@ NewBarkTown_MapScriptHeader:
 	bg_event 13,  5, BGEVENT_JUMPTEXT, PlayersHouseSignText
 	bg_event  3,  3, BGEVENT_JUMPTEXT, ElmsLabSignText
 	bg_event  9, 13, BGEVENT_JUMPTEXT, LyrasHouseSignText
-	bg_event  3,  2, BGEVENT_ITEM + POTION, EVENT_NEW_BARK_TOWN_HIDDEN_POTION
 
 	def_object_events
 	object_event  3,  2, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownRivalScript, EVENT_RIVAL_NEW_BARK_TOWN
