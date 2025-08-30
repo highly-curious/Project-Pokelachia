@@ -131,7 +131,7 @@ RiverfrontAptRoofGrampsText:
 
 RiverfrontAptRoofAlakazamText:
 	text "Alakazam:"
-	line: "Psshhakzm"
+	line "Psshhakzm"
 	done
 
 ; PokeDollVendingMachineText:

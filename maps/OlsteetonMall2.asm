@@ -113,7 +113,7 @@ DescribeMulchText:
 
 	para "it's made from"
 	line "soil, wood chips,"
-	cont "and #mon $#!+"
+	cont "and #mon sh!t"
 	done
 
 OlsteetonMall2LadyText: 

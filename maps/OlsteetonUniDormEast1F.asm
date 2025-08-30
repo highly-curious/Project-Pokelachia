@@ -55,6 +55,10 @@ OlsteetonUniDormEast1FCoolDudeText:
 	line "these exams..."
 	done
 
+OlsteetonUniDormEast1FGuardText:
+	text "Needs dialogue"
+	done
+
 OlsteetonUniDormEast1FSignText:
 	text "Gym Trainees:"
 	line "Don't slack off"

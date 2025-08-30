@@ -14,7 +14,7 @@ OlsteetonUniDormEast3F_MapScriptHeader:
 
 	def_bg_events
 	bg_event 11,  1, BGEVENT_JUMPTEXT, OlsteetonUniDormEast3FBookshelf1Text
-	bg_event 10,  1, BGEVENT_READ, OlsteetonUniDormEast3FBookshelf2
+	bg_event 10,  1, BGEVENT_READ, OlsteetonUniDormEast3FBookshelf2Text
 	bg_event  0,  9, BGEVENT_RIGHT, OlsteetonUniDormEast3FComputer
 
 	def_object_events
@@ -123,4 +123,8 @@ OlsteetonUniDormEast3FRoom2Text:
 OlsteetonUniDormEast3FRoom3Text:
 	text "Room 303"
 	line "Elijah"
+	done
+
+OlsteetonUniDormEast3FBookshelf2Text:
+	text "Needs Text"
 	done

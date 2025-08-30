@@ -17,7 +17,6 @@ OlsteetonUniClassroomStrategy_MapScriptHeader:
 	bg_event  1,  1, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBookshelf2Text
 
 	def_object_events
-	object_event  9,  1, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonUniClassroomStrategyRaymondScript, -1
 	object_event  6,  2, SPRITE_CANDELA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyCandelaText, -1
 	object_event  3,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyTeacherText, -1
 	object_event  2,  5, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyBug_catcherText, -1

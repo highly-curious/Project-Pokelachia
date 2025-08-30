@@ -17,7 +17,6 @@ OlsteetonUniClassroomArt_MapScriptHeader:
 	bg_event  1,  1, BGEVENT_JUMPTEXT, OlsteetonUniClassroomArtBookshelf2Text
 
 	def_object_events
-	object_event  7,  2, SPRITE_IMAKUNI, SPRITEMOVEDATA_WANDER, 2, 1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonUniClassroomArtImakuniScript, -1
 	object_event  5,  2, SPRITE_ANDY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomArtProfText, -1
 	object_event  3,  5, SPRITE_DRAGON_TAMER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniClassroomArtDragon_tamerText, -1
 	object_event 10,  5, SPRITE_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomArtLadyText, -1
