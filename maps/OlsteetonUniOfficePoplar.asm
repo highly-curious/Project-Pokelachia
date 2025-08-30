@@ -20,26 +20,7 @@ OlsteetonUniOfficePoplar_MapScriptHeader:
 	object_event  4,  3, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniOfficeProfPoplarBookText, -1
 
 OlsteetonUniOfficeProfPoplarBookText: ; <- unchanged text from a celdadon script
-	text "Dear Diary,"
-
-	para "My work compiling"
-	line "entries for the"
-
-	para "#dex continues"
-	line "to be well-recei-"
-	cont "ved."
-
-	para "Proof that one"
-	line "does not always"
-
-	para "need to leave the"
-	line "office to succeed!"
-
-	para "Using reports sub-"
-	line "mitted by others"
-
-	para "gets the job done"
-	line "just fine."
+	text "Needs text"
 	done
 
 OlsteetonUniOfficeProfPoplarSignpost1Text:

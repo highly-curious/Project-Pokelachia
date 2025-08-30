@@ -20,34 +20,17 @@ OlsteetonUniClassroomBusiness_MapScriptHeader:
 	object_event 10,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBusinessTeacherText, -1
 
 OlsteetonUniClassroomBusinessGentlemanText:
-	text "I want to buy some"
-	line "items that raise"
-
-	para "#mon stats, but"
-	line "I don't have"
-	cont "enough money…"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomBusinessSailorText:
-	text "I want PP Up, so I"
-	line "can raise the PP"
-
-	para "of moves. But you"
-	line "can't buy it…"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomBusinessTeacherText:
-	text "Using items on"
-	line "them makes #-"
-	cont "mon happy."
-
-	para "They hate certain"
-	line "items, though…"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomBusinessDirectoryText:
-	text "Bring Out"
-	line "#mon Potential"
-
-	para "5F: Drug Store"
+	text "Needs text"
 	done

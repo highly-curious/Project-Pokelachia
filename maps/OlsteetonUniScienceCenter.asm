@@ -22,63 +22,36 @@ OlsteetonUniScienceCenter_MapScriptHeader:
 
 	def_object_events
 	object_event 11,  8, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniScienceCenterScientistText, -1
-	object_event  5,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniScienceCenterTwin1Text, -1
+	object_event  5,  4, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniScienceCenterTwin1Text, -1
 	object_event  5,  6, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniScienceCenterTwin2Text, -1
 
 OlsteetonUniScienceCenterScientistText:
-	text "The Hyper Test is"
-	line "a rite of passage"
-
-	para "for all Celadon"
-	line "University grad-"
-	cont "uates."
-
-	para "It tests all of"
-	line "their faculties to"
-	cont "the utmost!"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniScienceCenterTwin1Text:
-	text "I'll pass the Hyper"
-	line "Test before you!"
+	text "Needs dialogue"
 	done
-
 OlsteetonUniScienceCenterTwin2Text:
-	text "No, I'll pass the"
-	line "Hyper Test before"
-	cont "you!"
+	text "Needs dialogue"
 	done
-
 OlsteetonUniScienceCenterNurseText:
 	text "#mon Nursing"
 	line "Department"
 	done
 
 OlsteetonUniScienceCenterBookshelf1Text:
-	text "This book has a"
-	line "bookmark in it."
-
-	para "Someone's not done"
-	line "with it yet!"
+	text "Needs text"
 	done
 
 OlsteetonUniScienceCenterBookshelf2Text:
-	text "It's a copy of"
-	line "Nintendo Power!"
-
-	para "A Pikachu picture"
-	line "fills the front"
-	cont "cover."
+	text "Needs text"
 	done
 
 OlsteetonUniScienceCenterComputer:
 	jumpthistext
 
-	text "There's a file on"
-	line "the desktop named"
-	cont "questions.txt."
-
-	para "Better not cheat!"
+	text "Needs text"
 	done
 
 OlsteetonUniScienceCenterLabText:

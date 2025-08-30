@@ -16,6 +16,7 @@ OlsteetonUniDormWest2F_MapScriptHeader:
 	def_bg_events
 	bg_event  8,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FText
 	bg_event 13,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom1Text
+	bg_event 12,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRAText
 	bg_event  7,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom2Text
 	bg_event  3,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest2FRoom3Text
 
@@ -38,4 +39,14 @@ OlsteetonUniDormWest2FRoom2Text:
 OlsteetonUniDormWest2FRoom3Text:
 	text "Room 203"
 	line "Chris"
+	done
+
+OlsteetonUniDormWest2FRAText:
+	text "There's a"
+	line "message on"
+	cont "the door:"
+
+	para "If anybody needs"
+	line "me, I'll be at"
+	cont "the Clocktower"
 	done

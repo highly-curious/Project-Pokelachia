@@ -16,7 +16,7 @@ OlsteetonQuickHouse_MapScriptHeader:
 	object_event  4,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonQuickHouseBugCatcherText, -1
 
 OlsteetonQuickHouseYoungsterScript:
-	checkevent EVENT_GOT_NET_BALL_FROM_GOLDENROD
+	checkevent EVENT_GOT_QUICK_BALL_FROM_OLSTEETON
 	iftrue_jumptextfaceplayer .Text2
 	faceplayer
 	opentext
@@ -24,7 +24,7 @@ OlsteetonQuickHouseYoungsterScript:
 	promptbutton
 	verbosegiveitem QUICK_BALL
 	iffalse_endtext
-	setevent EVENT_GOT_NET_BALL_FROM_GOLDENROD
+	setevent EVENT_GOT_QUICK_BALL_FROM_OLSTEETON
 	jumpthisopenedtext
 
 .Text2:
@@ -34,6 +34,9 @@ OlsteetonQuickHouseYoungsterScript:
 
 	para "full HP. I love"
 	line "that feeling."
+
+	para "Quick Balls are"
+	line "great for that!"
 	done
 
 .Text1:

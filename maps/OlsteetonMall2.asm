@@ -19,7 +19,7 @@ OlsteetonMall2_MapScriptHeader:
 	object_event  4,  1, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OlsteetonMall2TeacherScript, -1
 	object_event  5,  1, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_BITTER, MART_UNDERGROUND, -1
 	object_event  2,  3, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, DescribeMulchText, -1
-	object_event  6,  6, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall2GentlemanText, -1
+	object_event  6,  6, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall2LadyText, -1
 
 	object_const_def
 	const OLSTEETONMALL2_TEACHER
@@ -84,8 +84,9 @@ WoukdYouLikeMulchText:
 	done
 
 BoughtMulchText:
-	text "Thank you!"
-	line "Please come again!"
+	text "Thank you"
+	line "very mulch!"
+	cont "Please come again!"
 	done
 
 DontBuyMulchText:
@@ -93,28 +94,29 @@ DontBuyMulchText:
 	done
 
 NotEnoughMulchMoneyText:
-	text "Well… Excuse me,"
-	line "but you're short"
-	cont "of money."
+	text "... you come"
+	line "on back when ya"
+	cont "mulch money, ok?"
 	done
 
 NoRoomForMulchText:
-	text "Oh no, your Bag"
-	line "is full!"
+	text "Ya ain't got"
+	line "room for it!"
 	done
 
 DescribeMulchText:
-	text "Our Mulch is a"
-	line "mix of high-qual-"
+	text "Ya wanna know"
+	line "what's in the"
 
-	para "ity soil and #-"
-	line "mon's… er… you"
+	para "mulch?"
+	line "Alright, well"
 
-	para "know. It's full"
-	line "of nutrients!"
+	para "it's made from"
+	line "soil, wood chips,"
+	cont "and #mon $#!+"
 	done
 
-OlsteetonMall2GentlemanText: 
+OlsteetonMall2LadyText: 
 	text "I've been working"
 	line "late a lot recent-"
 	cont "ly, so I'm buying"

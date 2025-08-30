@@ -8,7 +8,6 @@ OlsteetonUniDormWest3F_MapScriptHeader:
 	warp_event 12,  0, OLSTEETON_UNI_DORM_WEST_3F_ROOM_1, 1
 	warp_event  2,  0, OLSTEETON_UNI_DORM_WEST_3F_ROOM_3, 1
 	warp_event  9,  0, OLSTEETON_UNI_DORM_WEST_ELEVATOR, 1
-	; warp_event 17,  3, OLSTEETON_UNI_DORM_WEST_ROOF, 1
 
 
 
@@ -18,6 +17,7 @@ OlsteetonUniDormWest3F_MapScriptHeader:
 	bg_event  8,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest3FText
 	bg_event 13,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest3FRoom1Text
 	bg_event  7,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest3FRoom2Text
+	bg_event  6,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest3FRoomLockedText
 	bg_event  3,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormWest3FRoom3Text
 
 	def_object_events
@@ -39,4 +39,9 @@ OlsteetonUniDormWest3FRoom2Text:
 OlsteetonUniDormWest3FRoom3Text:
 	text "Room 303"
 	line "Eleanor"
+	done
+
+OlsteetonUniDormWest3FRoomLockedText:
+	text "The door"
+	line "is locked."
 	done

@@ -26,27 +26,15 @@ OlsteetonUniWaterLab_MapScriptHeader:
 	object_const_def
 
 OlsteetonUniWaterLabLassText:
-	text "Ouch!"
-
-	para "I'm working out a"
-	line "cramp in my leg."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniWaterLabSwimmer_girlText:
-	text "I applied for a"
-	line "special program to"
-
-	para "study in the Sea-"
-	line "foam Islands!"
-
-	para "I need to be pre-"
-	line "pared for intense"
-	cont "swimming."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniWaterLabTeacherText:
-	text "OK, five more"
-	line "laps!"
+	text "Needs dialogue"
 	done
 
 
