@@ -191,6 +191,8 @@ endc
 PawpawAfterMon:
 	opentext
 	writetext PawpawDescribesMrPokemonText
+	closetext
+	end
 	; jumpopenedtext PawpawText_LetYourMonBattleIt
 FieldLabTryToLeaveScript:
 	turnobject ELMSLAB_ELM, DOWN

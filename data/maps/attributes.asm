@@ -465,7 +465,7 @@ ENDM
 	map_attributes RiverfrontApt4FRoom1, RIVERFRONT_APT_4F_ROOM_1, $0, 0
 	map_attributes RiverfrontApt4FRoom3, RIVERFRONT_APT_4F_ROOM_3, $0, 0
 	map_attributes RiverfrontApt5F, RIVERFRONT_APT_5F, $0, 0
-	map_attributes RiverfrontAptRoof, RIVERFRONT_APT_ROOF, $0, 0
+	map_attributes RiverfrontAptRoof, RIVERFRONT_APT_ROOF, $68, 0
 	map_attributes RiverfrontAptElevator, RIVERFRONT_APT_ELEVATOR, $0, 0
 	map_attributes OlsteetonDiner, OLSTEETON_DINER, $0, 0	
 	map_attributes OlsteetonArcade, OLSTEETON_ARCADE, $0, 0

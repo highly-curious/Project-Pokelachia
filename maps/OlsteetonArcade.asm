@@ -432,7 +432,7 @@ OlsteetonArcadePokefanFText:
 
 	para "Look, I have"
 	line "a holographic"
-	line "Doozee card."
+	cont "Doozee card."
 
 	para "That's right,"
 	line "be jealous."

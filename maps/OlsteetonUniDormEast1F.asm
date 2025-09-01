@@ -16,14 +16,14 @@ OlsteetonUniDormEast1F_MapScriptHeader:
 
 	def_bg_events
 	bg_event 11,  6, BGEVENT_RIGHT, OlsteetonUniDormEast1FComputer
-	bg_event  2,  6, BGEVENT_JUMPTEXT, OlsteetonUniDormEast1FSignText
+	bg_event  6,  0, BGEVENT_JUMPTEXT, OlsteetonUniDormEast1FSignText
 	bg_event 11,  8, BGEVENT_RIGHT, OlsteetonUniDormEast1FComputer
 
 	def_object_events
-	object_event  5,  1, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FLassText, -1
-	object_event  2,  6, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FPicknickerText, -1
-	object_event  5,  7, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FCoolDudeText, -1
-	object_event  5,  7, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GRAY, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FGuardText, -1
+	object_event 10,  1, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FLassText, -1
+	object_event 10,  9, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FPicknickerText, -1
+	object_event 11,  5, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FCoolDudeText, -1
+	object_event  1,  6, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GRAY, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast1FGuardText, -1
 
 	object_const_def
 

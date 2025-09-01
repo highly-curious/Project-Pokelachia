@@ -27,7 +27,7 @@ RiverfrontApt3FText:
 	done
 RiverfrontApt3FRoom1Text:
 	text "Apt. 301"
-	line "James"
+	line "Betty"
 	done
 
 RiverfrontApt3FRoom2Text:

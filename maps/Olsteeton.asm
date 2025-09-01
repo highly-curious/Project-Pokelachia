@@ -302,7 +302,8 @@ OlsteetonFishingGuruSignText:
 OlsteetonHomeDecorStoreSignText:
 	text "Olsteeton Mall"
 	line "MegaMart"
-	line "Have you Herb?"
+
+	para "Have you Herb?"
 	line "Bob's Battle Emp."
 	done
 
