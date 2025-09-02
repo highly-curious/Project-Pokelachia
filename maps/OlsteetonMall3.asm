@@ -20,9 +20,6 @@ OlsteetonMall3_MapScriptHeader:
 	bg_event 10,  0, BGEVENT_JUMPTEXT, OlsteetonMall3SignText
 
 
-
-
-
 	def_object_events
 	object_event  2,  8, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_STANDARD, MART_GOLDENROD_3F, -1
 	object_event  4,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall3SuperNerdText, -1

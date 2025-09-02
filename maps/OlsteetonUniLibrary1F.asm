@@ -37,31 +37,15 @@ OlsteetonUniLibrary1F_MapScriptHeader:
 	object_event 12,  5, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniLibrary1FBookText, -1
 
 OlsteetonUniLibrary1FLadyText:
-	para "This library is on"
-	line "university"
-	cont "grounds, but it's"
-
-	para "open for anyone"
-	line "to use."
-
-	para "Isn't that great?"
+	para "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FGentlemanText:
-	text "Shh! Can't you see"
-	line "I'm reading here?"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FCooltrainerfText:
-	text "Prof.Oak used to"
-	line "teach here, so the"
-
-	para "library has copies"
-	line "of all his journal"
-	cont "articles."
-
-	para "I've read each one"
-	line "cover to cover!"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FGameboyKidScript:
@@ -70,18 +54,11 @@ OlsteetonUniLibrary1FGameboyKidScript:
 	end
 
 .Text:
-	text "My #dex has a"
-	line "game upgrade."
-
-	para "I'm playing Tetris!"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FPokefan_fText:
-	text "We have a mutual"
-	line "lending agreement"
-
-	para "with Canalave"
-	line "Library in Sinnoh."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FCooltrainermScript:
@@ -97,189 +74,71 @@ OlsteetonUniLibrary1FCooltrainermScript:
 	jumpopenedtext .Text2
 
 .Text1:
-	text "I have a big test"
-	line "coming up, so I'm"
-
-	para "planning to be"
-	line "here a while."
-
-	para "I just need to"
-	line "hang in there."
-
-	para "This is what helps"
-	line "me out."
+	text "Needs dialogue"
 	done
 
 .Text2:
-	text "If you want your"
-	line "#mon to hang in"
-	cont "there, give them"
-	cont "that Focus Band."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FTeacherText:
-	text "I'm the head"
-	line "librarian."
-
-	para "If you need any-"
-	line "thing, just shout."
-
-	para "Quietly, though."
-	line "This IS a library."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FBookText:
-	text "It's a book about"
-	line "flower arranging."
-
-	para "A Sunflora is on"
-	line "the cover."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniLibrary1FSignpost1Text:
-	text "Please do not"
-	line "disturb students"
-
-	para "reading in the"
-	line "library."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FSignpost2Text:
-	text "Please do not"
-	line "bring food or"
-
-	para "beverages into"
-	line "the library."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf1Text:
-	text "Huh? Someone left"
-	line "an old photograph"
-	cont "in this book."
-
-	para "Erika and a man"
-	line "with a gentle"
-
-	para "smile are posing"
-	line "happily alongside"
-	cont "an Oddish."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf2Text:
-	text "It's a photo album"
-	line "containing many"
-
-	para "pictures of"
-	line "#mon."
-
-	para "“Todd Snap's Scrap-"
-	line "folio” is written"
-	cont "on the cover."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf3Text:
-	text "It's a book about"
-	line "a man who taught"
-
-	para "his #mon to"
-	line "play a musical"
-	cont "instrument."
-
-	para "They seem the best"
-	line "of friends."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf4Text:
-	text "It's a book about"
-	line "#mon palin-"
-	cont "dromes."
-
-	para "There's an Eevee"
-	line "and a Girafarig"
-	cont "on the cover."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf5Text:
-	text "This book is about"
-	line "Toy #mon that"
-
-	para "come to life after"
-	line "being wound up by"
-	cont "a Wonder Key."
-
-	para "They look kinda"
-	line "cute."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf6Text:
-	text "It's a book about"
-	line "a #mon puppet"
-	cont "that can't tell"
-	cont "lies."
-
-	para "“Pinpokéo” is"
-	line "written on the"
-	cont "cover."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf7Text:
-	text "It's a bo…"
-	line "wait…"
-
-	para "This is a video"
-	line "game!"
-
-	para "A #mon pinball"
-	line "machine is shown"
-
-	para "proudly on the"
-	line "box art."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf8Text:
-	text "It's a book writ-"
-	line "ten by a fishing"
-	cont "guru providing"
-
-	para "advice to new"
-	line "anglers."
-
-	para "“Odds and Rods” is"
-	line "written on the"
-	cont "cover."
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf9Text:
-	text "It's a manual"
-	line "explaining the"
-
-	para "#mon Trading"
-	line "Card game."
+	text "Needs text"
 	done
-
 OlsteetonUniLibrary1FBookshelf10Text:
-	text "It's a cookbook"
-	line "full of #mon-"
-	cont "themed recipes!"
-
-	para "Jigglypuff Jello,"
-	line "Charmander Chut-"
-	cont "ney, Munchlax"
-	cont "Snacks…"
+	text "Needs text"
 	done
 
 OlsteetonUniLibrary1FBookshelf11Text:
-	text "It's a guide to"
-	line "Poffin blending."
-
-	para "A famous #mon"
-	line "breeder is on the"
-	cont "cover."
+	text "Needs text"
 	done
-
 OlsteetonUniLibrary1FBookshelf12Text:
-	text "“The Secret Life"
-	line "of Laughter” by"
-	cont "Joe King."
-	cont "Puntastic!"
+	text "Needs text"
 	done

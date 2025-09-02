@@ -130,7 +130,8 @@ RiverfrontAptRoofGrampsText:
 	done
 
 RiverfrontAptRoofAlakazamText:
-	text "Psshhakzm"
+	text "Alakazam:"
+	line "Psshhakzm"
 	done
 
 ; PokeDollVendingMachineText:

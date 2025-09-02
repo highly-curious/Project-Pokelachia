@@ -40,7 +40,7 @@ BoatMillText_Ask:
 	done
 
 OlsteetonAbandonedMillOutsideSignText:
-	text "Olstee Mill "
+	text "Olsteefac Mill"
 
 	para "There is a sign "
 	line "nailed below..."
@@ -53,8 +53,9 @@ OlsteetonAbandonedMillOutsideSailorText:
 	text "Heh, I ain't"
 	line "gettin involved"
 
-	para "any of Rusty's"
-	line "crew drama."
+	para "with any of"
+	line "Rusty's crew's"
+	cont "drama..."
 
 	para "You just get back"
 	line "in the boat"
@@ -69,6 +70,6 @@ OlsteetonAbandonedMillOutsideDoorsClosedText:
 	done
 
 OlsteetonAbandonedMillOutsideSailboatText:
-	text "It's a sailboat"
+	text "It's a boat"
 	line "named Magic Harp."
 	done

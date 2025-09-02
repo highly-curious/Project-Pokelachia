@@ -17,24 +17,24 @@ OlsteetonArcade_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  1, 11, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  1,  8, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  9,  7, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event 10, 13, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event 10, 12, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  9,  9, BGEVENT_RIGHT, OlsteetonArcadeSlotsMachineScript
-	bg_event  1, 10, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  1,  7, BGEVENT_READ, OlsteetonArcadeLuckySlotsMachineScript
-	bg_event  1,  9, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  8,  9, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event 10, 11, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  8,  7, BGEVENT_LEFT, OlsteetonArcadeSlotsMachineScript
-	bg_event 16,  3, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event 16,  4, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  1,  6, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event 14, 11, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event 18, 11, BGEVENT_READ, OlsteetonArcadeSlotsMachineScript
-	bg_event  9,  8, BGEVENT_RIGHT, OlsteetonArcadeSlotsMachineScript
+	bg_event  1, 11, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  1,  8, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  9,  7, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event 10, 13, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event 10, 12, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  9,  9, BGEVENT_RIGHT, OlsteetonArcadeGameMachineScript
+	bg_event  1, 10, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  1,  7, BGEVENT_READ, OlsteetonArcadeLuckyGameMachineScript
+	bg_event  1,  9, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  8,  9, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event 10, 11, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  8,  7, BGEVENT_LEFT, OlsteetonArcadeGameMachineScript
+	bg_event 16,  3, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event 16,  4, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  1,  6, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event 14, 11, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event 18, 11, BGEVENT_READ, OlsteetonArcadeGameMachineScript
+	bg_event  9,  8, BGEVENT_RIGHT, OlsteetonArcadeGameMachineScript
 	bg_event 18, 13, BGEVENT_READ, OlsteetonArcadeCardFlipMachineScript
 	bg_event 11, 13, BGEVENT_READ, OlsteetonArcadeCardFlipMachineScript
 	bg_event 15, 13, BGEVENT_READ, OlsteetonArcadeCardFlipMachineScript
@@ -296,15 +296,15 @@ OlsteetonArcadeGentlemanScript:
 OlsteetonArcadeLeftTheirDrinkScript:
 	jumptext OlsteetonArcadeLeftTheirDrinkText
 
-OlsteetonArcadeSlotsMachineScript:
+OlsteetonArcadeGameMachineScript:
 	random 6
-	ifequalfwd 0, OlsteetonArcadeLuckySlotsMachineScript
+	ifequalfwd 0, OlsteetonArcadeLuckyGameMachineScript
 	reanchormap
 	setval FALSE
 	special Special_SlotMachine
 	endtext
 
-OlsteetonArcadeLuckySlotsMachineScript:
+OlsteetonArcadeLuckyGameMachineScript:
 	reanchormap
 	setval TRUE
 	special Special_SlotMachine
@@ -319,7 +319,7 @@ OlsteetonArcadePrizeVendorIntroText:
 	text "Welcome!"
 
 	para "We exchange your"
-	line "game coins for"
+	line "game tokens for"
 	cont "fabulous prizes!"
 	done
 
@@ -345,7 +345,7 @@ OlsteetonArcadePrizeVendorAlreadyHaveTMText:
 
 OlsteetonArcadePrizeVendorNeedMoreCoinsText:
 	text "Sorry! You need"
-	line "more coins."
+	line "more tokens."
 	done
 
 OlsteetonArcadePrizeVendorNoMoreRoomText:
@@ -354,24 +354,24 @@ OlsteetonArcadePrizeVendorNoMoreRoomText:
 	cont "your Box is full."
 
 	para "I'll return your"
-	line "coins to you."
+	line "tokens to you."
 	done
 
 OlsteetonArcadePrizeVendorQuitText:
 	text "OK. Please save"
-	line "your coins and"
+	line "your tokens and"
 	cont "come again!"
 	done
 
 OlsteetonArcadePrizeVendorNoCoinCaseText:
 	text "Oh? You don't have"
-	line "a Coin Case."
+	line "a Token Case."
 	done
 
 OlsteetonArcadeFisherText:
 	text "Today's my pay day!"
 	line "Time to celebrate"
-	cont "with some slots!"
+	cont "with some game!"
 
 	para "…You know, #mon"
 	line "get a Pay Day too."
@@ -432,7 +432,7 @@ OlsteetonArcadePokefanFText:
 
 	para "Look, I have"
 	line "a holographic"
-	line "Doozee card."
+	cont "Doozee card."
 
 	para "That's right,"
 	line "be jealous."

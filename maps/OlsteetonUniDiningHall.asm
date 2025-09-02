@@ -25,41 +25,19 @@ OlsteetonUniDiningHall_MapScriptHeader:
 
 	object_const_def
 OlsteetonUniDiningHallCooltrainerfText:
-	text "This place makes"
-	line "the best Cinnabar-"
-	cont "style hamburger"
-
-	para "steaks this side"
-	line "of Kanto!"
-
-	para "It's just like"
-	line "being home."
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallBeautyText:
-	text "The cook finally"
-	line "made another batch"
-	cont "of Old Gateau!"
-
-	para "I might go back"
-	line "for seconds."
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallYoungster1Text:
-	text "I asked the cafe-"
-	line "teria to stock"
-	cont "Casteliacones."
-
-	para "They remind me of"
-	line "home, and they're"
-	cont "yummy too!"
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallLadyText:
-	text "I'm on a diet."
-	line "Today it's a"
-	para "nutritious Slip"
-	line "Seed salad for me."
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallYoungster2Script:

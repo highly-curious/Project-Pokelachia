@@ -8,7 +8,6 @@ OlsteetonMall1_MapScriptHeader:
 	warp_event  7,  7, OLSTEETON, 5
 	warp_event 15,  4, OLSTEETON_MALL_2, 3
 	warp_event 15,  5, OLSTEETON_MALL_2, 4
-	; warp_event  9,  0, GOLDENROD_DEPT_STORE_ELEVATOR, 1
 
 	def_coord_events
 
@@ -23,22 +22,14 @@ OlsteetonMall1_MapScriptHeader:
 	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall1GentlemanText, -1
 
 OlsteetonMall1YoungsterText: ;needs new dialogue
-	text "#gear has no"
-	line "storage limit."
-
-	para "But getting too"
-	line "many phone calls"
-	cont "can be annoying."
+	text "Needs dialogue."
 	done
-
 OlsteetonMall1CooltrainerFText:
-	text "I need"
-	line "dialogue."
+	text "Needs dialogue."
 	done
 
 OlsteetonMall1GentlemanText:
-	text "Good sir, I"
-	line "need some text."
+	text "Needs dialogue."
 	done
 
 OlsteetonMall1DirectoryText:

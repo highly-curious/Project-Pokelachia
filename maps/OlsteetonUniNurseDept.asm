@@ -31,19 +31,12 @@ OlsteetonUniNurseDeptNurseScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "Stay safe, dear!"
+	text "and that's how you"
+	line "heal a #mon!"
 	done
 
 OlsteetonUniNurseDeptNurseText:
-	text "Come in, dear."
-	line "Are you feeling"
-	cont "well?"
-
-	para "Or are your #-"
-	line "mon tuckered out?"
-
-	para "Please rest here"
-	line "for a while!"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniNurseDeptSignText:

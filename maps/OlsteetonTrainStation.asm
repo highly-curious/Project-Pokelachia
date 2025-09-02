@@ -90,29 +90,15 @@ OlsteetonTrainStationOfficerScript:
 ; 	step_end
 
 OlsteetonTrainStationOfficerTheTrainHasntComeInText:
-	text "The train hasn't"
-	line "come in…"
-
-	para "I know! I'll carry"
-	line "the passengers on"
-	cont "my back!"
-
-	para "That won't work."
+	text "Needs dialogue"
 	done
 
 OlsteetonTrainStationCooltrainerText:
-	text "-sigh-  "
-	line "..."
-
-	para "I just really "
-	line "like trains."
+	text "Needs dialogue"
 	done
 
 OlsteetonTrainStationOfficerAreYouComingAboardText:
-	text "We'll soon depart"
-	line "for Saffron."
-
-	para "Are you coming"
+	text "Are you coming"
 	line "aboard?"
 	done
 
@@ -135,40 +121,20 @@ OlsteetonTrainStationOfficerHopeToSeeYouAgainText:
 	done
 
 OlsteetonTrainStationOfficerArrivedInGoldenrodText:
-	text "We have arrived in"
-	line "Goldenrod."
+	text "We have arrived!"
 
 	para "We hope to see you"
 	line "again."
 	done
 
 OlsteetonTrainStationGentlemanText:
-	text "I'm the President."
-
-	para "My dream was to"
-	line "build a train that"
-
-	para "is faster than any"
-	line "#mon."
-
-	para "It really brings"
-	line "Johto much closer"
-	cont "to Kanto."
+	text "Needs dialogue"
 	done
 
 OlsteetonTrainStationCooltrainerfText1:
-	text "The Magnet Train"
-	line "is like, zoooom,"
-	cont "byun! Shuuu!"
-
-	para "At least when"
-	line "it's running…"
+	text "Needs dialogue"
 	done
 
 OlsteetonTrainStationCooltrainerfText2:
-	text "The Magnet Train"
-	line "is like, zoooom,"
-	cont "byun! Shuuu!"
-
-	para "It's so cool!"
+	text "Needs dialogue"
 	done

@@ -13,7 +13,7 @@ OlsteetonUniDormEastElevator_MapScriptHeader:
 	bg_event  3,  0, BGEVENT_READ, OlsteetonUniDormEastElevatorButton
 
 	def_object_events
-
+;person rides elevator bc awkward gap between classes. .... "There's no rule against it!!"
 OlsteetonUniDormEastElevatorButton:
 	opentext
 	elevator .Floors
