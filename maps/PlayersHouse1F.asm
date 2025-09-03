@@ -32,6 +32,7 @@ PlayersHouse1F_MapScriptHeader:
 	const PLAYERSHOUSE1F_MOTHER
 	const PLAYERSHOUSE1F_SISTER
 
+
 MotherTrigger1:
 	playmusic MUSIC_MOM
 	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOTHER, 15
@@ -64,13 +65,6 @@ MotherTrigger2:
 	step_end
 
 
-; 	opentext
-; 	writetext ElmsLabOfficerText2
-; 	promptbutton
-; 	special SpecialNameRival
-; 	writetext ElmsLabOfficerText3
-; 	waitbutton
-; 	closetext
 MotherEventScript:
 	opentext
 	writetext MotherIntroText
@@ -133,8 +127,7 @@ SisTrigger:
 	sjumpfwd SisterScript
 
 SisterScript:
-	checkevent EVENT_PLAYERS_SISTER
-	iftruefwd SisScript
+	sjumpfwd SisScript
 	opentext
 	writetext SisterIntroText
 	closetext

@@ -1612,7 +1612,7 @@ YoungsterGroup:
 
 	def_trainer MIKEY, "Mikey"
 	tr_mon 2, RATTATA
-	tr_mon 4, PIDGEY
+	tr_mon 4, SPEAROW
 	end_trainer
 
 	def_trainer ALBERT, "Albert"
