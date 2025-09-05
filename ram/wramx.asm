@@ -1144,7 +1144,11 @@ wVictoryRoad2FSceneID:: db
 wVioletGymSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
-wYellowForestSceneID:: db
+; wYellowForestSceneID:: db
+
+;Aplan Map Triggers
+wRoute101SceneID:: db
+
 
 ; fight counts
 wJackFightCount::    db
