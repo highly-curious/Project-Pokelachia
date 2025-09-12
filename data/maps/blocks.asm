@@ -6,7 +6,6 @@ Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
 OlivinePokeCenter1F_BlockData:
-SnowtopPokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
@@ -57,7 +56,6 @@ Route2946Gate_BlockData:
 Route34IlexForestGate_BlockData:
 Route35GoldenrodGate_BlockData:
 Route36RuinsOfAlphGate_BlockData:
-Route39RuggedRoadGate_BlockData:
 Route40BattleTowerGate_BlockData:
 YellowForestGate_BlockData:
 Route43Gate_BlockData:
@@ -815,14 +813,6 @@ SECTION "WiseTriosRoom_BlockData", ROMX
 WiseTriosRoom_BlockData:
 	INCBIN "maps/WiseTriosRoom.ablk.lz"
 
-SECTION "EcruteakShrineOutside_BlockData", ROMX
-EcruteakShrineOutside_BlockData:
-	INCBIN "maps/EcruteakShrineOutside.ablk.lz"
-
-SECTION "EcruteakShrineInside_BlockData", ROMX
-EcruteakShrineInside_BlockData:
-	INCBIN "maps/EcruteakShrineInside.ablk.lz"
-
 SECTION "BellchimeTrail_BlockData", ROMX
 BellchimeTrail_BlockData:
 	INCBIN "maps/BellchimeTrail.ablk.lz"
@@ -879,21 +869,6 @@ SECTION "BurnedTowerB1F_BlockData", ROMX
 BurnedTowerB1F_BlockData:
 	INCBIN "maps/BurnedTowerB1F.ablk.lz"
 
-SECTION "RuggedRoadNorth_BlockData", ROMX
-RuggedRoadNorth_BlockData:
-	INCBIN "maps/RuggedRoadNorth.ablk.lz"
-
-SECTION "RuggedRoadSouth_BlockData", ROMX
-RuggedRoadSouth_BlockData:
-	INCBIN "maps/RuggedRoadSouth.ablk.lz"
-
-SECTION "SnowtopMountainInside_BlockData", ROMX
-SnowtopMountainInside_BlockData:
-	INCBIN "maps/SnowtopMountainInside.ablk.lz"
-
-SECTION "SnowtopMountainOutside_BlockData", ROMX
-SnowtopMountainOutside_BlockData:
-	INCBIN "maps/SnowtopMountainOutside.ablk.lz"
 
 SECTION "OlivineGym_BlockData", ROMX
 OlivineGym_BlockData:

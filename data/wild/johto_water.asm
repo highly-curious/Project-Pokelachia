@@ -280,13 +280,6 @@
 	wildmon 20, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
-	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, POLIWAG
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
 	wildmon 25, MAGIKARP
@@ -390,13 +383,6 @@
 	wildmon LEVEL_FROM_BADGES - 5, WOOPER
 	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
 	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
-	end_water_wildmons
-
-	def_water_wildmons RUGGED_ROAD_SOUTH
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, GOLDEEN
-	wildmon LEVEL_FROM_BADGES + 0, SEAKING
-	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
 	end_water_wildmons
 
 	db -1 ; end

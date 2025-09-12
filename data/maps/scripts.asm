@@ -39,11 +39,6 @@ INCLUDE "maps/GoldenrodPokecomCenter1F.asm"
 INCLUDE "maps/GoldenrodPokecomCenterOffice.asm"
 
 
-SECTION "Pokemon Center Scripts 5", ROMX
-
-INCLUDE "maps/SnowtopPokeCenter1F.asm"
-
-
 SECTION "Special Map Scripts", ROMX
 
 INCLUDE "maps/PokeCenter2F.asm"
@@ -380,8 +375,6 @@ INCLUDE "maps/WiseTriosRoom.asm"
 
 SECTION "Ecruteak Scripts 2", ROMX
 
-INCLUDE "maps/EcruteakShrineOutside.asm"
-INCLUDE "maps/EcruteakShrineInside.asm"
 INCLUDE "maps/EcruteakCherishBallHouse.asm"
 INCLUDE "maps/EcruteakDestinyKnotHouse.asm"
 INCLUDE "maps/ValeriesHouse.asm"
@@ -403,15 +396,6 @@ INCLUDE "maps/TinTower10F.asm"
 INCLUDE "maps/TinTowerRoof.asm"
 INCLUDE "maps/BurnedTower1F.asm"
 INCLUDE "maps/BurnedTowerB1F.asm"
-
-
-SECTION "Rugged Road + Snowtop Mountain Scripts", ROMX
-
-INCLUDE "maps/RuggedRoadNorth.asm"
-INCLUDE "maps/RuggedRoadSouth.asm"
-INCLUDE "maps/SnowtopMountainInside.asm"
-INCLUDE "maps/SnowtopMountainOutside.asm"
-INCLUDE "maps/Route39RuggedRoadGate.asm"
 
 
 SECTION "Olivine Scripts", ROMX
