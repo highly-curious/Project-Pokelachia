@@ -82,7 +82,7 @@ SpecialNameRival:
 	jmp InitName
 
 .DefaultRivalName:
-	rawchar "Blake@@"
+	rawchar "Brooke@"
 
 SpecialTrendyPhrase:
 	ld b, $3 ; trendy phrase

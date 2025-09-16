@@ -31,7 +31,7 @@ Route30_MapScriptHeader:
 	itemball_event  8, 35, ANTIDOTE, 1, EVENT_ROUTE_30_ANTIDOTE
 
 	object_const_def
-	const ROUTE30_YOUNGSTER1
+	const ROUTE30_YOUNGSTER1   
 	const ROUTE30_PIDGEY
 	const ROUTE30_RATTATA
 

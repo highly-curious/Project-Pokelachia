@@ -11,16 +11,17 @@ Route101_MapScriptHeader:
 
 
 	def_coord_events
+	coord_event 14, 12, 0, FakeBattleTrigger1
+	coord_event 14, 13, 0, FakeBattleTrigger2
+
 
 	def_bg_events
-	bg_event  2,  8, BGEVENT_ITEM + SUPER_POTION, EVENT_ROUTE_101_HIDDEN_SUPER_POTION
+	bg_event 20,  6, BGEVENT_ITEM + SUPER_POTION, EVENT_ROUTE_101_HIDDEN_SUPER_POTION
 
 
 	def_object_events
-	; object_event  6, 12, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolboyDanny, -1
-	; object_event 17, 14, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolboySherman, -1
-	; object_event 16, 21, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainermFrench, -1
-	; object_event 11, 25, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCooltrainerfQuinn, -1
+	object_event 14, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GrannyScript, EVENT_FAKE_BATTLE
+	; object_event 14, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GrannyScript, EVENT_FAKE_BATTLE_2
 	fruittree_event 22,  4, FRUITTREE_ROUTE_101_1, ORAN_BERRY, PAL_NPC_BLUE
 	fruittree_event 23,  4, FRUITTREE_ROUTE_101_2, PECHA_BERRY, PAL_NPC_PINK
 	fruittree_event  4,  2, FRUITTREE_ROUTE_101_3, PERSIM_BERRY, PAL_NPC_PINK
@@ -28,91 +29,85 @@ Route101_MapScriptHeader:
 	itemball_event 20, 20, POKE_BALL, 1, EVENT_ROUTE_101_POKE_BALL
 	itemball_event 17,  6, POTION, 1, EVENT_ROUTE_101_POTION
 
+	object_const_def
+	const ROUTE101_GRANNY
 
 
+FakeBattleTrigger1:
+	playmusic MUSIC_LASS_ENCOUNTER
+	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 15
+	turnobject PLAYER, UP
+	showtext Text_GrannyFakeBattle
+	setevent EVENT_FAKE_BATTLE
+	clearevent EVENT_FAKE_BATTLE_2
+	setscene $1
+	special RestartMapMusic
+	end
 
-; GenericTrainerSchoolboyDanny:
-; 	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
+FakeBattleTrigger2:
+	playmusic MUSIC_LASS_ENCOUNTER
+	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 15
+	turnobject PLAYER, UP
+	applymovement ROUTE101_GRANNY, .granny_steps
+	showtext Text_GrannyFakeBattle
+	setevent EVENT_FAKE_BATTLE
+	clearevent EVENT_FAKE_BATTLE_2
+	setscene $1
+	special RestartMapMusic
+	end
 
-; 	text "For trainers, it's"
-; 	line "a given that we'll"
+.granny_steps
+	step_down
+	step_end
+GrannyFakeBattleScript:
+	checkevent EVENT_FAKE_BATTLE
+	iftrue_jumptextfaceplayer Text_GrannyAfter
+	faceplayer
+	playmusic MUSIC_LASS_ENCOUNTER
+	showemote EMOTE_SHOCK, LAST_TALKED, 30
+	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 30
+	showtext Text_GrannyFakeBattle
+	setevent EVENT_FAKE_BATTLE
+	clearevent EVENT_FAKE_BATTLE_2
+	setscene $1
+	special RestartMapMusic
+	end
 
-; 	para "battle whenever we"
-; 	line "meet."
-; 	done
+GrannyScript:
+	faceplayer
+	checkscene
+	iffalsefwd .GrannyEvent
+	opentext
+	checkevent EVENT_FAKE_BATTLE
+	iftrue_jumpopenedtext Text_GrannyAfter
+end
 
-; GenericTrainerSchoolboySherman:
-; 	generictrainer SCHOOLBOY, SHERMAN, EVENT_BEAT_SCHOOLBOY_SHERMAN, SchoolboyShermanSeenText, SchoolboyShermanBeatenText
+.GrannyEvent:
+	playmusic MUSIC_LASS_ENCOUNTER
+	sjump GrannyFakeBattleScript
 
-; 	text "I should record"
-; 	line "all of today's"
-; 	cont "mistakes."
-; 	done
+Text_GrannyFakeBattle:
+	para "Got yourself a"
+	line "#mon, I see!"
 
-; GenericTrainerCooltrainermFrench:
-; 	generictrainer COOLTRAINERM, FRENCH, EVENT_BEAT_COOLTRAINERM_FRENCH, CooltrainermFrenchSeenText, CooltrainermFrenchBeatenText
+	para "Time for your"
+	line "first lesson"
 
-; 	text "That was a great"
-; 	line "fight!"
-; 	cont "Don't you agree?"
-; 	done
+	para "in the school of"
+	line "hard knocks!"
 
-; GenericTrainerCooltrainerfQuinn:
-; 	generictrainer COOLTRAINERF, QUINN, EVENT_BEAT_COOLTRAINERF_QUINN, CooltrainerfQuinnSeenText, CooltrainerfQuinnBeatenText
+	para "......"
+	line "Just kiddin'!"
 
-; 	text "You're strong."
+	para "That's what it'll"
+	line "be like though"
+	cont "So be ready!"
+	done
 
-; 	para "You obviously must"
-; 	line "have trained hard."
-; 	done
+Text_GrannyAfter:
+	para "Heh! It"
+	line "never gets old!"
 
-; SchoolboyDannySeenText:
-; 	text "If trainers meet,"
-; 	line "the first thing to"
-; 	cont "do is battle."
-; 	done
-
-; SchoolboyDannyBeatenText:
-; 	text "Awww… I've got a"
-; 	line "losing record…"
-; 	done
-
-; SchoolboyShermanSeenText:
-; 	text "Right after class,"
-; 	line "I head outside to"
-; 	cont "practice!"
-; 	done
-
-; SchoolboyShermanBeatenText:
-; 	text "I need to follow"
-; 	line "the textbook."
-; 	done
-
-; CooltrainermFrenchSeenText:
-; 	text "You!"
-
-; 	para "I've been waiting"
-; 	line "for someone like"
-; 	cont "you!"
-; 	done
-
-; CooltrainermFrenchBeatenText:
-; 	text "Yep, as strong as"
-; 	line "expected!"
-; 	done
-
-; CooltrainerfQuinnSeenText:
-; 	text "You there!"
-; 	line "Want to battle?"
-; 	done
-
-; CooltrainerfQuinnBeatenText:
-; 	text "Down and out…"
-; 	done
-
-; Route1SignText:
-; 	text "Route 1"
-
-; 	para "Pallet Town -"
-; 	line "Viridian City"
-; 	done
+	para "Good luck out"
+	line "there, kid!"
+	done

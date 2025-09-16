@@ -24,13 +24,14 @@ PlayersHouse1F_MapScriptHeader:
 	object_event  2,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MotherScript, EVENT_PLAYERS_HOUSE_MOTHER
 	object_event  3,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SisterScript, EVENT_PLAYERS_SISTER
 	object_event  8,  3, SPRITE_DAD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, DadText, -1
-
+	object_event  9,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MotherScript, EVENT_PLAYERS_HOUSE_MOM_2
 	pokemon_event  3,  5, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GRAY, HomeMeowthText, -1
 
 
 	object_const_def
 	const PLAYERSHOUSE1F_MOTHER
 	const PLAYERSHOUSE1F_SISTER
+
 
 MotherTrigger1:
 	playmusic MUSIC_MOM
@@ -64,13 +65,6 @@ MotherTrigger2:
 	step_end
 
 
-; 	opentext
-; 	writetext ElmsLabOfficerText2
-; 	promptbutton
-; 	special SpecialNameRival
-; 	writetext ElmsLabOfficerText3
-; 	waitbutton
-; 	closetext
 MotherEventScript:
 	opentext
 	writetext MotherIntroText
@@ -133,8 +127,7 @@ SisTrigger:
 	sjumpfwd SisterScript
 
 SisterScript:
-	checkevent EVENT_PLAYERS_SISTER
-	iftruefwd SisScript
+	sjumpfwd SisScript
 	opentext
 	writetext SisterIntroText
 	closetext
