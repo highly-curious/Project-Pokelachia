@@ -125,8 +125,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .BurnedTower ; no calls
 	dw .Route38
 	dw .Route39
-	dw .RuggedRoad
-	dw .SnowtopMountain
 	dw .OlivineCity
 	dw .Lighthouse
 	dw .Route40

@@ -38,8 +38,6 @@ MapGroupRoofs:
 	db -1            ; 33
 	db ROOF_AZALEA   ; 34 (Sinjoh Ruins)
 	db -1            ; 35
-	db ROOF_VIOLET   ; 36 (Rugged Road)
-	db ROOF_STATUE   ; 37 (Ecruteak Shrine)
 	db ROOF_VIOLET   ; 38
 	db ROOF_AZALEA   ; 39
 	db ROOF_OLIVINE  ; 40

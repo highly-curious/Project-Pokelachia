@@ -418,12 +418,6 @@ ENDM
 	map_attributes Route49, ROUTE_49, $0, EAST
 	connection east, ValenciaIsland, VALENCIA_ISLAND, 2
 
-	map_attributes RuggedRoadNorth, RUGGED_ROAD_NORTH, $71, SOUTH
-	connection south, RuggedRoadSouth, RUGGED_ROAD_SOUTH, 0
-
-	map_attributes RuggedRoadSouth, RUGGED_ROAD_SOUTH, $71, NORTH
-	connection north, RuggedRoadNorth, RUGGED_ROAD_NORTH, 0
-
 	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
 	connection north, Route101, ROUTE_101, 2
 
@@ -651,8 +645,6 @@ ENDM
 	map_attributes ValeriesHouse, VALERIES_HOUSE, $0, 0
 	map_attributes EcruteakCherishBallHouse, ECRUTEAK_CHERISH_BALL_HOUSE, $0, 0
 	map_attributes EcruteakDestinyKnotHouse, ECRUTEAK_DESTINY_KNOT_HOUSE, $0, 0
-	map_attributes EcruteakShrineOutside, ECRUTEAK_SHRINE_OUTSIDE, $0, 0
-	map_attributes EcruteakShrineInside, ECRUTEAK_SHRINE_INSIDE, $0, 0
 	map_attributes BlackthornGym1F, BLACKTHORN_GYM_1F, $0, 0
 	map_attributes BlackthornGym2F, BLACKTHORN_GYM_2F, $0, 0
 	map_attributes BlackthornDragonSpeechHouse, BLACKTHORN_DRAGON_SPEECH_HOUSE, $0, 0
@@ -951,10 +943,6 @@ ENDM
 	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
 	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0
-	map_attributes Route39RuggedRoadGate, ROUTE_39_RUGGED_ROAD_GATE, $0, 0
-	map_attributes SnowtopMountainInside, SNOWTOP_MOUNTAIN_INSIDE, $d5, 0
-	map_attributes SnowtopMountainOutside, SNOWTOP_MOUNTAIN_OUTSIDE, $0, 0
-	map_attributes SnowtopPokeCenter1F, SNOWTOP_POKECENTER_1F, $0, 0
 	map_attributes YellowForestGate, YELLOW_FOREST_GATE, $0, 0
 	map_attributes YellowForest, YELLOW_FOREST, $55, 0
 	map_attributes QuietCave1F, QUIET_CAVE_1F, $9, 0
