@@ -35,7 +35,7 @@ _Init::
 	xor a
 	ldh [rIF], a
 	ldh [rIE], a
-	ld a, JOYP_GET_NONE
+	ld a, $30
 	ldh [rJOYP], a
 	stop ; rgbasm adds a nop after this instruction by default
 .no_double_speed
@@ -93,13 +93,13 @@ _Init::
 
 ; Initialize the RNG state. It can be initialized to anything but zero; this is just a simple way of doing it.
 	ld hl, wRNGState
-	ld a, 'R'
+	ld a, "R"
 	ld [hli], a
-	ld a, 'N'
+	ld a, "N"
 	ld [hli], a
-	ld a, 'G'
+	ld a, "G"
 	ld [hli], a
-	ld [hl], '!'
+	ld [hl], "!"
 
 	call WriteOAMDMACodeToHRAM
 
