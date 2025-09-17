@@ -47,7 +47,7 @@ OlsteetonMall1CooltrainerFText:
 	cont "really sad." 
 	
 	para "Maybe a Gluttle plushie?"
-	line "Or-oh! This 
+	line "Or-oh! This"
 	
 	para "paint-by-numbers"
 	line "Pricupi book is"
@@ -56,7 +56,7 @@ OlsteetonMall1CooltrainerFText:
 
 OlsteetonMall1GentlemanText:
 	text "Gaublin here is"
-	line "always up to 
+	line "always up to" 
 	cont "mischief."
 	
 	para "It snuck into the"
@@ -78,7 +78,7 @@ OlsteetonMall1HaunterText:
 	text "Gaublin:HAUNTHANT!"
 	line "It looks pleased"
 	cont "with itself."
-
+	done
 OlsteetonMall1DirectoryText:
 	text "Employees Only"
 	line "Beyond This"
