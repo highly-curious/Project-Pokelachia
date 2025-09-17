@@ -40,32 +40,32 @@ SendSGBPacket:
 	push bc
 	ld a, 1
 	ld [wInputFlags], a
-	xor a ; JOYP_SGB_START
+	xor a
 	ldh [rJOYP], a
-	ld a, JOYP_SGB_FINISH
+	ld a, $30
 	ldh [rJOYP], a
-	ld b, JOYP_SGB_ONE
+	ld b, $10
 .nextByte
-	ld e, 8
+	ld e, $8
 	ld a, [hli]
 	ld d, a
 .nextBit0
 	bit 0, d
-	ld a, JOYP_SGB_ONE
+	ld a, $10
 	jr nz, .next0
-	ld a, JOYP_SGB_ZERO
+	ld a, $20
 .next0
 	ldh [rJOYP], a
-	ld a, JOYP_SGB_FINISH
+	ld a, $30
 	ldh [rJOYP], a
 	rr d
 	dec e
 	jr nz, .nextBit0
 	dec b
 	jr nz, .nextByte
-	ld a, JOYP_SGB_ZERO
+	ld a, $20
 	ldh [rJOYP], a
-	ld a, JOYP_SGB_FINISH
+	ld a, $30
 	ldh [rJOYP], a
 	xor a
 	ld [wInputFlags], a
@@ -91,7 +91,7 @@ CopyGfxToSuperNintendoVRAM:
 	di
 	push de
 	call DisableLCD
-	ld a, BGP_SGB_TRANSFER
+	ld a, $e4
 	ldh [rBGP], a
 	ld de, vTiles1
 	ld bc, $1000
@@ -104,11 +104,11 @@ CopyGfxToSuperNintendoVRAM:
 	or b
 	jr nz, .copyData
 	ld hl, vBGMap0
-	ld de, TILEMAP_WIDTH - SCREEN_WIDTH
+	ld de, $c
 	ld a, $80
-	ld c, 13
+	ld c, $d
 .loop
-	ld b, SCREEN_WIDTH
+	ld b, $14
 .innerLoop
 	ld [hli], a
 	inc a

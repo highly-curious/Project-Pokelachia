@@ -164,7 +164,8 @@ CinnabarIslandVolcanoWarningSignText:
 	line "is dormant, but"
 	cont "still active!"
 
-	para "Do not enter the"
-	line "volcano without"
-	cont "a means of escape!"
+	para "Do not explore"
+	line "the volcano"
+	cont "without a means"
+	cont "of escape!"
 	done

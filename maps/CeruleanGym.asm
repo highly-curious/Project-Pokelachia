@@ -392,10 +392,5 @@ CeruleanGymFoundMachinePartText:
 CeruleanGymSomethingUnderwaterText:
 	text "There's something"
 	line "under the water…"
-
-	para "Maybe that Rocket"
-	line "Grunt will talk?"
-
-	para "Where did he run"
-	line "off to?"
+	cont "Wonder what it is?"
 	done

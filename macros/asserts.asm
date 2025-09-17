@@ -51,11 +51,9 @@ MACRO table_width
 ENDM
 
 MACRO assert_table_length
-	def v = \1
-	def x = v * CURRENT_TABLE_WIDTH
-	def y = @ - {CURRENT_TABLE_START}
-	assert x == y, "{CURRENT_TABLE_START}: expected {d:v} entries, each {d:CURRENT_TABLE_WIDTH} " ++ \
-		"bytes, for {d:x} total; but got {d:y} bytes"
+	def x = \1
+	assert x * CURRENT_TABLE_WIDTH == @ - {CURRENT_TABLE_START}, \
+		"{CURRENT_TABLE_START}: expected {d:x} entries, each {d:CURRENT_TABLE_WIDTH} bytes"
 ENDM
 
 MACRO list_start
@@ -84,9 +82,8 @@ MACRO def_grass_wildmons
 ENDM
 
 MACRO end_grass_wildmons
-	def x = @ - {CURRENT_GRASS_WILDMONS_LABEL}
-	assert GRASS_WILDDATA_LENGTH == x, \
-		"def_grass_wildmons {CURRENT_GRASS_WILDMONS_MAP}: expected {d:GRASS_WILDDATA_LENGTH} bytes, got {d:x}"
+	assert GRASS_WILDDATA_LENGTH == @ - {CURRENT_GRASS_WILDMONS_LABEL}, \
+		"def_grass_wildmons {CURRENT_GRASS_WILDMONS_MAP}: expected {d:GRASS_WILDDATA_LENGTH} bytes"
 ENDM
 
 MACRO def_water_wildmons
@@ -98,9 +95,8 @@ MACRO def_water_wildmons
 ENDM
 
 MACRO end_water_wildmons
-	def x = @ - {CURRENT_WATER_WILDMONS_LABEL}
-	assert WATER_WILDDATA_LENGTH == x, \
-		"def_water_wildmons {CURRENT_WATER_WILDMONS_MAP}: expected {d:WATER_WILDDATA_LENGTH} bytes, got {d:x}"
+	assert WATER_WILDDATA_LENGTH == @ - CURRENT_WATER_WILDMONS_LABEL, \
+		"def_water_wildmons {CURRENT_WATER_WILDMONS_MAP}: expected {d:WATER_WILDDATA_LENGTH} bytes"
 ENDM
 
 MACRO wildmon

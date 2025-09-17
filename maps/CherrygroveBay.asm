@@ -217,7 +217,7 @@ GenericTrainerSwimmerfTara:
 	cont "Cherrygrove."
 
 	para "Some say rare bird"
-	line "#mon come from"
+	line "#MON come from"
 
 	para "far away to nest"
 	line "there."
@@ -253,7 +253,7 @@ GenericTrainerHikerTony:
 
 	para "just to see the"
 	line "legendary bird"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 .BeatenText:
