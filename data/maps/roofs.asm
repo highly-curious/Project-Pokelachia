@@ -36,9 +36,7 @@ MapGroupRoofs:
 	db -1            ; 31
 	db -1            ; 32
 	db -1            ; 33
-	db ROOF_AZALEA   ; 34 (Sinjoh Ruins)
-	db -1            ; 35
-	db ROOF_VIOLET   ; 38
-	db ROOF_AZALEA   ; 39
-	db ROOF_OLIVINE  ; 40
+	db ROOF_AZALEA   ; 34 Hollowport
+	db -1            ; 35 Olsteeton
+	db ROOF_VIOLET   ; 36 Uni
 	assert_table_length NUM_MAP_GROUPS + 1

@@ -4607,8 +4607,6 @@ endc
 
 	evos_attacks Ursaring
 	evo_data EVOLVE_ITEM, MOON_STONE, URSALUNA
-	evo_data EVOLVE_LOCATION, SINJOH_RUINS, URSALUNA
-	evo_data EVOLVE_LOCATION, MYSTRI_STAGE, URSALUNA
 	learnset 1, GUNK_SHOT ; HGSS tutor move
 	learnset 1, THIEF ; Covet → TM move
 	learnset 1, SCRATCH
@@ -4936,8 +4934,7 @@ endc
 	learnset 67, HYPER_BEAM
 
 	evos_attacks Stantler
-	evo_data EVOLVE_LOCATION, SINJOH_RUINS, WYRDEER
-	evo_data EVOLVE_LOCATION, MYSTRI_STAGE, WYRDEER
+	evo_data EVOLVE_MOVE, CALM_MIND, WYRDEER
 	learnset 1, TACKLE
 	learnset 3, LEER
 	learnset 7, ASTONISH

@@ -598,18 +598,6 @@ SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
 RuinsOfAlphOmanyteWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphOmanyteWordRoom.ablk.lz"
 
-SECTION "SinjohRuins_BlockData", ROMX
-SinjohRuins_BlockData:
-	INCBIN "maps/SinjohRuins.ablk.lz"
-
-SECTION "MystriStage_BlockData", ROMX
-MystriStage_BlockData:
-	INCBIN "maps/MystriStage.ablk.lz"
-
-SECTION "SinjohRuinsHouse_BlockData", ROMX
-SinjohRuinsHouse_BlockData:
-	INCBIN "maps/SinjohRuinsHouse.ablk.lz"
-
 SECTION "UnionCave1F_BlockData", ROMX
 UnionCave1F_BlockData:
 GiovannisCave_BlockData:
@@ -1016,10 +1004,6 @@ QuietCaveB2F_BlockData:
 SECTION "QuietCaveB3F_BlockData", ROMX
 QuietCaveB3F_BlockData:
 	INCBIN "maps/QuietCaveB3F.ablk.lz"
-
-SECTION "EmbeddedTower_BlockData", ROMX
-EmbeddedTower_BlockData:
-	INCBIN "maps/EmbeddedTower.ablk.lz"
 
 SECTION "MountMortar1FOutside_BlockData", ROMX
 MountMortar1FOutside_BlockData:
@@ -1596,10 +1580,6 @@ SECTION "SaffronGym_BlockData", ROMX
 SaffronGym_BlockData:
 	INCBIN "maps/SaffronGym.ablk.lz"
 
-SECTION "SaffronCity_BlockData", ROMX
-SaffronCity_BlockData:
-	INCBIN "maps/SaffronCity.ablk.lz"
-
 SECTION "SaffronBookSpeechHouse_BlockData", ROMX
 SaffronBookSpeechHouse_BlockData:
 	INCBIN "maps/SaffronBookSpeechHouse.ablk.lz"
@@ -1776,11 +1756,7 @@ ShamoutiIsland_BlockData:
 
 SECTION "NoisyForest_BlockData", ROMX
 NoisyForest_BlockData:
-	INCBIN "maps/NoisyForest.ablk.lz"
-
-SECTION "ShamoutiShrineRuins_BlockData", ROMX
-ShamoutiShrineRuins_BlockData:
-	INCBIN "maps/ShamoutiShrineRuins.ablk.lz"
+	INCBIN "maps/NoisyForest.ablk.lz"	
 
 SECTION "ShamoutiTunnel_BlockData", ROMX
 ShamoutiTunnel_BlockData:

@@ -72,8 +72,6 @@
 	const ROUTE_46           ; 3f
 	const SILVER_CAVE        ; 40
 	const FAST_SHIP          ; 41
-	const SINJOH_RUINS       ; 42
-	const MYSTRI_STAGE       ; 43
 DEF KANTO_LANDMARK EQU const_value
 	const PALLET_TOWN        ; 44
 	const ROUTE_1            ; 45
@@ -106,7 +104,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const SOUL_HOUSE         ; 60
 	const CELADON_CITY       ; 61
 	const CELADON_UNIVERSITY ; 62
-	const SAFFRON_CITY       ; 63
 	const ROUTE_11           ; 64
 	const ROUTE_12           ; 65
 	const ROUTE_13           ; 66
@@ -142,7 +139,6 @@ DEF SHAMOUTI_LANDMARK EQU const_value
 	const BEAUTIFUL_BEACH    ; 83
 	const ROCKY_BEACH        ; 84
 	const NOISY_FOREST       ; 85
-	const SHRINE_RUINS       ; 86
 	const SHAMOUTI_TUNNEL    ; 87
 	const WARM_BEACH         ; 88
 	const SHAMOUTI_COAST     ; 89

@@ -20,7 +20,7 @@ OlsteetonMall1_MapScriptHeader:
 	object_event 12,  7, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall1YoungsterText, -1
 	object_event  2,  6, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall1CooltrainerFText, -1
 	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMall1GentlemanText, -1
-	pokemon_event 2, 3, HAUNTER, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PURPLE, OlsteetonMall1HaunterText, -1
+	pokemon_event  0,  3, HAUNTER, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PURPLE, OlsteetonMall1HaunterText, -1
 
 
 OlsteetonMall1YoungsterText: 
