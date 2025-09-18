@@ -252,13 +252,6 @@ INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
 
 
-SECTION "Sinjoh Ruins Scripts", ROMX
-
-INCLUDE "maps/SinjohRuins.asm"
-INCLUDE "maps/SinjohRuinsHouse.asm"
-INCLUDE "maps/MystriStage.asm"
-
-
 SECTION "Union Cave Scripts", ROMX
 
 INCLUDE "maps/UnionCave1F.asm"
@@ -809,7 +802,6 @@ INCLUDE "maps/RocketHideoutElevator.asm"
 
 SECTION "Saffron Scripts", ROMX
 
-INCLUDE "maps/SaffronCity.asm"
 INCLUDE "maps/SaffronMart.asm"
 INCLUDE "maps/SaffronGym.asm"
 INCLUDE "maps/SaffronBookSpeechHouse.asm"
@@ -937,7 +929,6 @@ INCLUDE "maps/RockyBeachHouse.asm"
 SECTION "Shamouti Scripts 2", ROMX
 
 INCLUDE "maps/NoisyForest.asm"
-INCLUDE "maps/ShamoutiShrineRuins.asm"
 INCLUDE "maps/ShamoutiTunnel.asm"
 INCLUDE "maps/ShamoutiCoast.asm"
 

@@ -681,16 +681,6 @@ ENDM
 	map_const VALENCIA_HOUSE,                              4,  4 ;  5
 	map_const VALENCIA_PORT,                              11,  9 ;  6
 
-	newgroup                                                     ; 34
-	map_const SINJOH_RUINS,                                9, 13 ;  1
-	map_const SINJOH_RUINS_HOUSE,                          4,  4 ;  2
-	map_const MYSTRI_STAGE,                                7, 10 ;  3
-	map_const EMBEDDED_TOWER,                              7, 12 ;  4
-
-	newgroup                                                     ; 35
-	map_const SAFFRON_CITY,                               20, 19 ;  1
-	map_const SHAMOUTI_SHRINE_RUINS,                      12, 17 ;  2
-
 	newgroup                            						 ; 38
 	map_const HOLLOWPORT,                                 12,  9 ;  1
 	map_const FIELD_LAB,								   9,  5 ;  2
