@@ -28,7 +28,7 @@ Hollowport_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, -1
-	object_event 10,  5, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PINK, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportRival, -1
+	object_event 10,  5, SPRITE_CAITLIN, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PINK, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportRival, -1
 	object_event 14,  4, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, HollowportElderScript, -1
 	object_event 11, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_Technologia, -1
 	object_event  6, 10, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportBirdFriend, -1

@@ -31,7 +31,7 @@ ENDM
 TreeMonSet_City:
 TreeMonSet_Canyon:
 	tree_mon 80, SPEAROW,    10
-	tree_mon 20, AIPOM,      10
+	tree_mon 20, SENTRET,    10
 	db -1
 	; rare
 	tree_mon 50, SPEAROW,    10
