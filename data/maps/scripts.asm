@@ -31,7 +31,6 @@ INCLUDE "maps/CinnabarPokeCenter1F.asm"
 SECTION "Pokemon Center Scripts 4", ROMX
 
 INCLUDE "maps/SilverCavePokeCenter1F.asm"
-INCLUDE "maps/ShamoutiPokeCenter1F.asm"
 INCLUDE "maps/Route3PokeCenter1F.asm"
 INCLUDE "maps/Route10PokeCenter1F.asm"
 INCLUDE "maps/Route32PokeCenter1F.asm"
@@ -225,32 +224,6 @@ SECTION "Violet Outskirts Scripts", ROMX
 
 INCLUDE "maps/VioletOutskirts.asm"
 INCLUDE "maps/VioletOutskirtsHouse.asm"
-
-
-SECTION "Ruins of Alph Scripts", ROMX
-
-INCLUDE "maps/RuinsOfAlphOutside.asm"
-
-
-SECTION "Ruins of Alph Scripts 2", ROMX
-
-INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphKabutoChamber.asm
-INCLUDE "maps/RuinsOfAlphEntranceChamber.asm"
-INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
-INCLUDE "maps/RuinsOfAlphSinjohChamber.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylChamber.asm"
-INCLUDE "maps/RuinsOfAlphHoOhChamber.asm"
-INCLUDE "maps/RuinsOfAlphKabutoChamber.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteChamber.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphHoOhItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphKabutoItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphHoOhWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
-
 
 SECTION "Union Cave Scripts", ROMX
 
@@ -845,15 +818,6 @@ INCLUDE "maps/LuckyIsland.asm"
 
 SECTION "Safari Zone Scripts", ROMX
 
-INCLUDE "maps/SafariZoneHub.asm"
-INCLUDE "maps/SafariZoneNorth.asm"
-INCLUDE "maps/SafariZoneEast.asm"
-INCLUDE "maps/SafariZoneWest.asm"
-INCLUDE "maps/SafariZoneHubRestHouse.asm"
-INCLUDE "maps/SafariZoneNorthRestHouse.asm"
-INCLUDE "maps/SafariZoneEastRestHouse.asm"
-INCLUDE "maps/SafariZoneWestRestHouse1.asm"
-INCLUDE "maps/SafariZoneWestRestHouse2.asm"
 INCLUDE "maps/SafariZoneFuchsiaGate.asm"
 
 
@@ -914,64 +878,6 @@ SECTION "Seagallop Ferry Scripts", ROMX
 INCLUDE "maps/SeagallopFerryVermilionGate.asm"
 INCLUDE "maps/SeagallopFerryShamoutiGate.asm"
 INCLUDE "maps/SeagallopFerryNavelGate.asm"
-
-
-SECTION "Shamouti Scripts", ROMX
-
-INCLUDE "maps/ShamoutiIsland.asm"
-INCLUDE "maps/ShamoutiHouse.asm"
-INCLUDE "maps/ShamoutiMerchant.asm"
-INCLUDE "maps/ShamoutiTouristCenter.asm"
-INCLUDE "maps/RockyBeach.asm" ; shares text with ShamoutiIsland.asm
-INCLUDE "maps/RockyBeachHouse.asm"
-
-
-SECTION "Shamouti Scripts 2", ROMX
-
-INCLUDE "maps/NoisyForest.asm"
-INCLUDE "maps/ShamoutiTunnel.asm"
-INCLUDE "maps/ShamoutiCoast.asm"
-
-
-SECTION "Shamouti Hotel Scripts", ROMX
-
-INCLUDE "maps/ShamoutiHotel1F.asm"
-INCLUDE "maps/ShamoutiHotel2F.asm"
-INCLUDE "maps/ShamoutiHotel3F.asm"
-INCLUDE "maps/ShamoutiHotelRestaurant.asm"
-INCLUDE "maps/ShamoutiHotelRoom2A.asm"
-INCLUDE "maps/ShamoutiHotelRoom2B.asm"
-INCLUDE "maps/ShamoutiHotelRoom3B.asm"
-INCLUDE "maps/ShamoutiHotelRoom3C.asm"
-
-
-SECTION "Shamouti Beach Scripts", ROMX
-
-INCLUDE "maps/BeautifulBeach.asm"
-INCLUDE "maps/BeautifulBeachVilla.asm"
-INCLUDE "maps/WarmBeach.asm"
-INCLUDE "maps/WarmBeachHouse.asm"
-INCLUDE "maps/WarmBeachShack.asm"
-
-
-SECTION "Elemental Island Scripts", ROMX
-
-INCLUDE "maps/FireIsland.asm"
-INCLUDE "maps/IceIsland.asm"
-INCLUDE "maps/LightningIsland.asm"
-INCLUDE "maps/FireIslandRoof.asm"
-INCLUDE "maps/IceIslandRoof.asm"
-INCLUDE "maps/LightningIslandRoof.asm"
-
-
-SECTION "Valencia Scripts", ROMX
-
-INCLUDE "maps/ValenciaIsland.asm"
-INCLUDE "maps/ValenciaHouse.asm"
-INCLUDE "maps/ValenciaPort.asm"
-INCLUDE "maps/IvysLab.asm"
-INCLUDE "maps/IvysHouse.asm"
-
 
 SECTION "Navel Rock Scripts", ROMX
 
@@ -1066,7 +972,6 @@ SECTION "Routes 21-23 Scripts", ROMX
 
 INCLUDE "maps/Route21.asm"
 INCLUDE "maps/Route22.asm"
-INCLUDE "maps/Route22Past.asm"
 INCLUDE "maps/Route23.asm"
 
 
@@ -1148,10 +1053,9 @@ INCLUDE "maps/Route46.asm"
 INCLUDE "maps/Route47.asm"
 
 
-SECTION "Routes 48-49 Scripts", ROMX
+SECTION "Routes 48 Scripts", ROMX
 
 INCLUDE "maps/Route48.asm"
-INCLUDE "maps/Route49.asm"
 
 SECTION "Map Scripts 25", ROMX
 

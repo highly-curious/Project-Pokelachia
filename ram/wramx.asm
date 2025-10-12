@@ -1118,17 +1118,9 @@ wRoute42SceneID:: db
 wRoute43GateSceneID:: db
 wRoute47SceneID:: db
 wRoute48SceneID:: db
-wRuinsOfAlphAerodactylChamberSceneID:: db
-wRuinsOfAlphHoOhChamberSceneID:: db
-wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphKabutoChamberSceneID:: db
-wRuinsOfAlphOmanyteChamberSceneID:: db
-wRuinsOfAlphOutsideSceneID:: db
-wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
-wShamoutiHotelRestaurantSceneID:: db
 wSproutTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
@@ -1143,7 +1135,7 @@ wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
 ; wYellowForestSceneID:: db
 
-;Aplan Map Triggers
+;Folkora Map Triggers
 wRoute101SceneID:: db
 
 
@@ -1192,7 +1184,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 64 ; unused
+	ds 72 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

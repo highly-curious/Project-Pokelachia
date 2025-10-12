@@ -64,7 +64,6 @@ MapScenes::
 	scene_var ROUTE_16_17_GATE,                       wAlways0SceneID
 	scene_var ROUTE_18_GATE,                          wAlways0SceneID
 	scene_var ROUTE_18_WEST,                          wAlways0SceneID
-	scene_var ROUTE_22_PAST,                          wAlways0SceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_24,                               wRoute24SceneID
 	scene_var ROUTE_27,                               wRoute27SceneID
@@ -79,18 +78,10 @@ MapScenes::
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
 	scene_var ROUTE_47,                               wRoute47SceneID
 	scene_var ROUTE_48,                               wRoute48SceneID
-	scene_var RUINS_OF_ALPH_AERODACTYL_CHAMBER,       wRuinsOfAlphAerodactylChamberSceneID
-	scene_var RUINS_OF_ALPH_HO_OH_CHAMBER,            wRuinsOfAlphHoOhChamberSceneID
-	scene_var RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberSceneID
-	scene_var RUINS_OF_ALPH_KABUTO_CHAMBER,           wRuinsOfAlphKabutoChamberSceneID
-	scene_var RUINS_OF_ALPH_OMANYTE_CHAMBER,          wRuinsOfAlphOmanyteChamberSceneID
-	scene_var RUINS_OF_ALPH_OUTSIDE,                  wRuinsOfAlphOutsideSceneID
-	scene_var RUINS_OF_ALPH_RESEARCH_CENTER,          wRuinsOfAlphResearchCenterSceneID
 	scene_var SAFFRON_TRAIN_STATION,                  wAlways0SceneID
 	scene_var SEAGALLOP_FERRY_NAVEL_GATE,             wSeagallopFerryNavelGateSceneID
 	scene_var SEAGALLOP_FERRY_SHAMOUTI_GATE,          wSeagallopFerryShamoutiGateSceneID
 	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID
-	scene_var SHAMOUTI_HOTEL_RESTAURANT,              wShamoutiHotelRestaurantSceneID
 	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
 	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID

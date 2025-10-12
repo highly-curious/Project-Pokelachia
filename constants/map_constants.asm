@@ -611,77 +611,7 @@ ENDM
 	map_const GOLDENROD_HARBOR,                           24, 18 ;  1
 	map_const GOLDENROD_HARBOR_GATE,                       5,  4 ;  2
 
-	newgroup                                                     ; 30
-	map_const RUINS_OF_ALPH_OUTSIDE,                      11, 21 ;  1
-	map_const RUINS_OF_ALPH_HO_OH_CHAMBER,                 4,  5 ;  2
-	map_const RUINS_OF_ALPH_KABUTO_CHAMBER,                4,  5 ;  3
-	map_const RUINS_OF_ALPH_OMANYTE_CHAMBER,               4,  5 ;  4
-	map_const RUINS_OF_ALPH_AERODACTYL_CHAMBER,            4,  5 ;  5
-	map_const RUINS_OF_ALPH_ENTRANCE_CHAMBER,              4,  4 ;  6
-	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 14 ;  7
-	map_const RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ;  8
-	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               4,  5 ;  9
-	map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM,              4,  5 ; 10
-	map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM,             4,  5 ; 11
-	map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM,          4,  5 ; 12
-	map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,              10, 12 ; 13
-	map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,             10,  7 ; 14
-	map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,            10,  8 ; 15
-	map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,         10,  7 ; 16
-	map_const RUINS_OF_ALPH_SINJOH_CHAMBER,                5,  5 ; 17
-	map_const ROUTE_22_PAST,                               6,  6 ; 18
-
-	newgroup                                                     ; 31
-	map_const SHAMOUTI_ISLAND,                            18, 15 ;  1
-	map_const BEAUTIFUL_BEACH,                            21, 15 ;  2
-	map_const WARM_BEACH,                                 12, 13 ;  3
-	map_const SHAMOUTI_COAST,                             48, 10 ;  4
-	map_const ROCKY_BEACH,                                20, 15 ;  5
-	map_const SHAMOUTI_TUNNEL,                            18, 10 ;  6
-	map_const NOISY_FOREST,                               22, 20 ;  7
-	map_const SHAMOUTI_POKECENTER_1F,                      6,  4 ;  8
-	map_const SHAMOUTI_HOTEL_1F,                           9,  4 ;  9
-	map_const SHAMOUTI_HOTEL_2F,                           9,  2 ; 10
-	map_const SHAMOUTI_HOTEL_3F,                           9,  2 ; 11
-	map_const SHAMOUTI_HOTEL_ROOM_2A,                      3,  3 ; 12
-	map_const SHAMOUTI_HOTEL_ROOM_2B,                      3,  3 ; 13
-	map_const SHAMOUTI_HOTEL_ROOM_3B,                      3,  3 ; 14
-	map_const SHAMOUTI_HOTEL_ROOM_3C,                      3,  3 ; 15
-	map_const SHAMOUTI_HOTEL_RESTAURANT,                   9,  4 ; 16
-	map_const SHAMOUTI_TOURIST_CENTER,                     4,  4 ; 17
-	map_const SHAMOUTI_MERCHANT,                           4,  4 ; 18
-	map_const SHAMOUTI_HOUSE,                              4,  4 ; 19
-	map_const BEAUTIFUL_BEACH_VILLA,                       6,  4 ; 20
-	map_const WARM_BEACH_SHACK,                            4,  4 ; 21
-	map_const WARM_BEACH_HOUSE,                            4,  4 ; 22
-	map_const ROCKY_BEACH_HOUSE,                           4,  4 ; 23
-	map_const FIRE_ISLAND,                                13, 16 ; 24
-	map_const FIRE_ISLAND_ROOF,                            6,  6 ; 25
-	map_const ICE_ISLAND,                                 13, 16 ; 26
-	map_const ICE_ISLAND_ROOF,                             6,  6 ; 27
-	map_const LIGHTNING_ISLAND,                           13, 16 ; 28
-	map_const LIGHTNING_ISLAND_ROOF,                       6,  6 ; 29
-
-	newgroup                                                     ; 32
-	map_const SAFARI_ZONE_HUB,                            17, 16 ;  1
-	map_const SAFARI_ZONE_EAST,                           17, 15 ;  2
-	map_const SAFARI_ZONE_NORTH,                          22, 20 ;  3
-	map_const SAFARI_ZONE_WEST,                           17, 15 ;  4
-	map_const SAFARI_ZONE_HUB_REST_HOUSE,                  4,  4 ;  5
-	map_const SAFARI_ZONE_EAST_REST_HOUSE,                 4,  4 ;  6
-	map_const SAFARI_ZONE_NORTH_REST_HOUSE,                4,  4 ;  7
-	map_const SAFARI_ZONE_WEST_REST_HOUSE_1,               4,  4 ;  8
-	map_const SAFARI_ZONE_WEST_REST_HOUSE_2,               4,  4 ;  9
-
-	newgroup                                                     ; 33
-	map_const VALENCIA_ISLAND,                            14, 12 ;  1
-	map_const ROUTE_49,                                   20, 11 ;  2
-	map_const IVYS_LAB,                                    5,  6 ;  3
-	map_const IVYS_HOUSE,                                  4,  4 ;  4
-	map_const VALENCIA_HOUSE,                              4,  4 ;  5
-	map_const VALENCIA_PORT,                              11,  9 ;  6
-
-	newgroup                            						 ; 38
+	newgroup                            						 ; 30
 	map_const HOLLOWPORT,                                 12,  9 ;  1
 	map_const FIELD_LAB,								   9,  5 ;  2
 	map_const FIELD_LAB_2F,								   9,  5 ;  3
@@ -698,7 +628,7 @@ ENDM
 	map_const ROUTE_101_102_GATE,                          5,  4 ;  14
 	map_const ROUTE_102_OLSTEETON_GATE,                    5,  4 ;  15
 
-	newgroup                                         			 ; 39
+	newgroup                                         			 ; 31
 	map_const OLSTEETON,                          	      23, 20 ;  1
 	map_const OLSTEETON_GYM_1F,                       	   9,  6 ;  2
 	map_const OLSTEETON_GYM_2F,                            8,  5 ;  3
@@ -737,7 +667,7 @@ ENDM
 	map_const RIVERFRONT_APT_4F_ROOM_3,                    4,  4 ;  37
 
 
-	newgroup                                                     ; 40
+	newgroup                                                     ; 32
 	map_const OLSTEETON_UNI,	                          21, 14 ;  1
 	map_const OLSTEETON_UNI_LIBRARY_1F,   	               7,  6 ;  2
 	map_const OLSTEETON_UNI_LIBRARY_2F,   	               9,  7 ;  3
@@ -780,4 +710,4 @@ ENDM
 	map_const OLSTEETON_UNI_DORM_EAST_ELEVATOR,            2,  2 ;  40
  	map_const OLSTEETON_UNI_GYM_DEPT,                      8,  7 ;  41
 
-DEF NUM_MAP_GROUPS EQU const_value ; 40
+DEF NUM_MAP_GROUPS EQU const_value ; 32

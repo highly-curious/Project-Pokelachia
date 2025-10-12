@@ -366,15 +366,11 @@ ENDM
 	connection north, Route42, ROUTE_42, -5
 	connection south, VioletCity, VIOLET_CITY, 0
 
-	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $5, SOUTH
-	connection south, MagnetTunnelEast, MAGNET_TUNNEL_EAST, -2
-
 	map_attributes GoldenrodHarbor, GOLDENROD_HARBOR, $35, NORTH | WEST
 	connection north, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
 	connection west, Route41, ROUTE_41, -3
 
-	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, NORTH | EAST
-	connection north, RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, 2
+	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, EAST
 	connection east, Route32, ROUTE_32, -9
 
 	map_attributes MagnetTunnelWest, MAGNET_TUNNEL_WEST, $5, WEST
@@ -385,28 +381,6 @@ ENDM
 
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $2c, SOUTH
 	connection south, Route23, ROUTE_23, 0
-
-	map_attributes ShamoutiIsland, SHAMOUTI_ISLAND, $35, NORTH | EAST
-	connection north, RockyBeach, ROCKY_BEACH, 0
-	connection east, BeautifulBeach, BEAUTIFUL_BEACH, 0
-
-	map_attributes BeautifulBeach, BEAUTIFUL_BEACH, $35, WEST
-	connection west, ShamoutiIsland, SHAMOUTI_ISLAND, 0
-
-	map_attributes WarmBeach, WARM_BEACH, $35, SOUTH
-	connection south, ShamoutiCoast, SHAMOUTI_COAST, 0
-
-	map_attributes ShamoutiCoast, SHAMOUTI_COAST, $35, NORTH
-	connection north, WarmBeach, WARM_BEACH, 0
-
-	map_attributes RockyBeach, ROCKY_BEACH, $35, SOUTH
-	connection south, ShamoutiIsland, SHAMOUTI_ISLAND, 0
-
-	map_attributes ValenciaIsland, VALENCIA_ISLAND, $0, WEST
-	connection west, Route49, ROUTE_49, -2
-
-	map_attributes Route49, ROUTE_49, $0, EAST
-	connection east, ValenciaIsland, VALENCIA_ISLAND, 2
 
 	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
 	connection north, Route101, ROUTE_101, 2
@@ -530,23 +504,6 @@ ENDM
 	map_attributes RadioTower3F, RADIO_TOWER_3F, $0, 0
 	map_attributes RadioTower4F, RADIO_TOWER_4F, $0, 0
 	map_attributes RadioTower5F, RADIO_TOWER_5F, $0, 0
-	map_attributes RuinsOfAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphKabutoChamber, RUINS_OF_ALPH_KABUTO_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphOmanyteChamber, RUINS_OF_ALPH_OMANYTE_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphAerodactylChamber, RUINS_OF_ALPH_AERODACTYL_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphEntranceChamber, RUINS_OF_ALPH_ENTRANCE_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $0, 0
-	map_attributes RuinsOfAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphKabutoItemRoom, RUINS_OF_ALPH_KABUTO_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphOmanyteItemRoom, RUINS_OF_ALPH_OMANYTE_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphAerodactylItemRoom, RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphHoOhWordRoom, RUINS_OF_ALPH_HO_OH_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphKabutoWordRoom, RUINS_OF_ALPH_KABUTO_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphOmanyteWordRoom, RUINS_OF_ALPH_OMANYTE_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphSinjohChamber, RUINS_OF_ALPH_SINJOH_CHAMBER, $0, 0
-	map_attributes Route22Past, ROUTE_22_PAST, $2c, 0
 	map_attributes UnionCave1F, UNION_CAVE_1F, $9, 0
 	map_attributes UnionCaveB1FNorth, UNION_CAVE_B1F_NORTH, $9, 0
 	map_attributes UnionCaveB1FSouth, UNION_CAVE_B1F_SOUTH, $9, 0
@@ -944,15 +901,6 @@ ENDM
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0
 	map_attributes SafariZoneFuchsiaGate, SAFARI_ZONE_FUCHSIA_GATE, $0, 0
-	map_attributes SafariZoneHub, SAFARI_ZONE_HUB, $0, 0
-	map_attributes SafariZoneEast, SAFARI_ZONE_EAST, $0, 0
-	map_attributes SafariZoneNorth, SAFARI_ZONE_NORTH, $0, 0
-	map_attributes SafariZoneWest, SAFARI_ZONE_WEST, $0, 0
-	map_attributes SafariZoneHubRestHouse, SAFARI_ZONE_HUB_REST_HOUSE, $0, 0
-	map_attributes SafariZoneEastRestHouse, SAFARI_ZONE_EAST_REST_HOUSE, $0, 0
-	map_attributes SafariZoneNorthRestHouse, SAFARI_ZONE_NORTH_REST_HOUSE, $0, 0
-	map_attributes SafariZoneWestRestHouse1, SAFARI_ZONE_WEST_REST_HOUSE_1, $0, 0
-	map_attributes SafariZoneWestRestHouse2, SAFARI_ZONE_WEST_REST_HOUSE_2, $0, 0
 	map_attributes NavelRockOutside, NAVEL_ROCK_OUTSIDE, $35, 0
 	map_attributes NavelRockInside, NAVEL_ROCK_INSIDE, $9, 0
 	map_attributes NavelRockRoof, NAVEL_ROCK_ROOF, $1, 0
@@ -968,31 +916,3 @@ ENDM
 	map_attributes ScaryCaveB1F, SCARY_CAVE_B1F, $9, 0
 	map_attributes ScaryCaveShipwreck, SCARY_CAVE_SHIPWRECK, $9, 0
 	map_attributes Route19BeachHouse, ROUTE_19_BEACH_HOUSE, $0, 0
-	map_attributes ShamoutiTunnel, SHAMOUTI_TUNNEL, $9, 0
-	map_attributes NoisyForest, NOISY_FOREST, $0, 0
-	map_attributes ShamoutiPokeCenter1F, SHAMOUTI_POKECENTER_1F, $0, 0
-	map_attributes ShamoutiHotel1F, SHAMOUTI_HOTEL_1F, $0, 0
-	map_attributes ShamoutiHotel2F, SHAMOUTI_HOTEL_2F, $0, 0
-	map_attributes ShamoutiHotel3F, SHAMOUTI_HOTEL_3F, $0, 0
-	map_attributes ShamoutiHotelRoom2A, SHAMOUTI_HOTEL_ROOM_2A, $0, 0
-	map_attributes ShamoutiHotelRoom2B, SHAMOUTI_HOTEL_ROOM_2B, $0, 0
-	map_attributes ShamoutiHotelRoom3B, SHAMOUTI_HOTEL_ROOM_3B, $0, 0
-	map_attributes ShamoutiHotelRoom3C, SHAMOUTI_HOTEL_ROOM_3C, $0, 0
-	map_attributes ShamoutiHotelRestaurant, SHAMOUTI_HOTEL_RESTAURANT, $0, 0
-	map_attributes ShamoutiTouristCenter, SHAMOUTI_TOURIST_CENTER, $0, 0
-	map_attributes ShamoutiMerchant, SHAMOUTI_MERCHANT, $0, 0
-	map_attributes ShamoutiHouse, SHAMOUTI_HOUSE, $0, 0
-	map_attributes BeautifulBeachVilla, BEAUTIFUL_BEACH_VILLA, $0, 0
-	map_attributes WarmBeachShack, WARM_BEACH_SHACK, $0, 0
-	map_attributes WarmBeachHouse, WARM_BEACH_HOUSE, $0, 0
-	map_attributes RockyBeachHouse, ROCKY_BEACH_HOUSE, $0, 0
-	map_attributes FireIsland, FIRE_ISLAND, $9, 0
-	map_attributes FireIslandRoof, FIRE_ISLAND_ROOF, $35, 0
-	map_attributes IceIsland, ICE_ISLAND, $9, 0
-	map_attributes IceIslandRoof, ICE_ISLAND_ROOF, $35, 0
-	map_attributes LightningIsland, LIGHTNING_ISLAND, $9, 0
-	map_attributes LightningIslandRoof, LIGHTNING_ISLAND_ROOF, $35, 0
-	map_attributes IvysLab, IVYS_LAB, $0, 0
-	map_attributes IvysHouse, IVYS_HOUSE, $0, 0
-	map_attributes ValenciaHouse, VALENCIA_HOUSE, $0, 0
-	map_attributes ValenciaPort, VALENCIA_PORT, $0, 0

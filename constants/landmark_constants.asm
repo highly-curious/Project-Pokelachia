@@ -18,7 +18,6 @@
 	const VIOLET_CITY        ; 07
 	const SPROUT_TOWER       ; 08
 	const VIOLET_OUTSKIRTS   ; 09
-	const RUINS_OF_ALPH      ; 0a
 	const ROUTE_32           ; 0b
 	const ROUTE_32_COAST     ; 0c
 	const UNION_CAVE         ; 0d
@@ -114,7 +113,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_17           ; 6b
 	const ROUTE_18           ; 6c
 	const FUCHSIA_CITY       ; 6d
-	const SAFARI_ZONE        ; 6e
 	const URAGA_CHANNEL      ; 6f
 	const SCARY_CAVE         ; 70
 	const ROUTE_19           ; 71
@@ -135,18 +133,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_28           ; 80
 	const CINNABAR_LAB       ; 81
 DEF SHAMOUTI_LANDMARK EQU const_value
-	const SHAMOUTI_ISLAND    ; 82
-	const BEAUTIFUL_BEACH    ; 83
-	const ROCKY_BEACH        ; 84
-	const NOISY_FOREST       ; 85
-	const SHAMOUTI_TUNNEL    ; 87
-	const WARM_BEACH         ; 88
-	const SHAMOUTI_COAST     ; 89
-	const FIRE_ISLAND        ; 8a
-	const ICE_ISLAND         ; 8b
-	const LIGHTNING_ISLAND   ; 8c
-	const ROUTE_49           ; 8d
-	const VALENCIA_ISLAND    ; 8e
 	const NAVEL_ROCK         ; 8f
 	const FARAWAY_ISLAND     ; 90
 DEF NUM_LANDMARKS EQU const_value

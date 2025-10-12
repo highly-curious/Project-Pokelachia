@@ -32,11 +32,7 @@ MapGroupRoofs:
 	db -1            ; 27
 	db -1            ; 28
 	db ROOF_OLIVINE  ; 29 (Goldenrod Harbor)
-	db ROOF_NEW_BARK ; 30 (Ruins of Alph)
-	db -1            ; 31
-	db -1            ; 32
-	db -1            ; 33
-	db ROOF_AZALEA   ; 34 Hollowport
-	db -1            ; 35 Olsteeton
-	db ROOF_VIOLET   ; 36 Uni
+	db ROOF_AZALEA   ; 30 Hollowport
+	db ROOF_VIOLET   ; 31 Olsteeton
+	db ROOF_VIOLET   ; 32 Uni
 	assert_table_length NUM_MAP_GROUPS + 1

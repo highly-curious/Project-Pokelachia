@@ -116,11 +116,9 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_MT_SILVER
 	const SPAWN_FAST_SHIP
 ; orange
-	const SPAWN_SHAMOUTI
-	const SPAWN_VALENCIA
 	const SPAWN_NAVEL
 
-; appalachia
+; folkora
 	const SPAWN_HOLLOWPORT
 	const SPAWN_OLSTEETON
 	; const SPAWN_UNI_CAMPUS

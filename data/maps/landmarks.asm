@@ -22,7 +22,6 @@ Landmarks:
 	landmark  84,  60, VioletCityName
 	landmark  86,  58, SproutTowerName
 	landmark  84,  52, VioletOutskirtsName
-	landmark  76,  76, RuinsOfAlphName
 	landmark  84,  92, Route32Name
 	landmark  92, 112, Route32CoastName
 	landmark  84, 124, UnionCaveName
@@ -118,7 +117,6 @@ Landmarks:
 	landmark  76,  88, Route17Name
 	landmark  80, 108, Route18Name
 	landmark  92, 108, FuchsiaCityName
-	landmark  92, 100, SafariZoneName
 	landmark  64, 108, UragaChannelName
 	landmark  60, 116, ScaryCaveName
 	landmark  92, 120, Route19Name
@@ -138,22 +136,17 @@ Landmarks:
 	landmark  28,  36, IndigoPlateauName
 	landmark  16,  76, Route28Name
 	landmark  54, 134, CinnabarLabName
-	landmark  68,  52, ShamoutiIslandName
-	landmark  84,  60, BeautifulBeachName
-	landmark  68,  40, RockyBeachName
-	landmark  76,  40, NoisyForestName
-	landmark  52,  52, ShamoutiTunnelName
-	landmark  52,  60, WarmBeachName
-	landmark  52,  72, ShamoutiCoastName
-	landmark  60,  76, FireIslandName
-	landmark  76,  76, IceIslandName
-	landmark  92,  76, LightningIslandName
-	landmark  68, 116, Route49Name
-	landmark  76, 116, ValenciaIslandName
 	landmark 132, 100, NavelRockName
 	landmark  24, 120, FarawayIslandName
 	assert_table_length NUM_LANDMARKS
 
+SpecialMapName:        rawchar "?@"
+HollowportName:        rawchar "Hollowport@"
+Route101Name:          rawchar "Route 101@"
+Route102Name:          rawchar "Route 102@"
+OlsteetonName: 		   rawchar "Olsteeton@"
+NationalForest1Name:   rawchar "Jolly Sods@"
+OlsteetonUniName: 	   rawchar "Bouffalant¯Academy@"
 NewBarkTownName:       rawchar "New Bark¯Town@"
 CherrygroveCityName:   rawchar "Cherrygrove¯City@"
 VioletCityName:        rawchar "Violet City@"
@@ -168,7 +161,6 @@ LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
 VioletOutskirtsName:   rawchar "Violet¯Outskirts@"
-RuinsOfAlphName:       rawchar "Ruins¯of Alph@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
 RadioTowerName:        rawchar "Radio Tower@"
@@ -198,7 +190,6 @@ RockTunnelName:        rawchar "Rock Tunnel@"
 LavRadioTowerName:     rawchar "Lav.Radio¯Tower@"
 SoulHouseName:         rawchar "House of¯Souls@"
 CeladonUniversityName: rawchar "Celadon¯University@"
-SafariZoneName:        rawchar "Safari Zone@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
@@ -277,25 +268,6 @@ MurkySwampName:        rawchar "Murky¯Swamp@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
 DimCaveName:           rawchar "Dim Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
-ShamoutiIslandName:    rawchar "Shamouti¯Island@"
-BeautifulBeachName:    rawchar "Beautiful¯Beach@"
-RockyBeachName:        rawchar "Rocky¯Beach@"
-NoisyForestName:       rawchar "Noisy¯Forest@"
-ShamoutiTunnelName:    rawchar "Shamouti¯Tunnel@"
-WarmBeachName:         rawchar "Warm Beach@"
-ShamoutiCoastName:     rawchar "Shamouti¯Coast@"
-FireIslandName:        rawchar "Fire¯Island@"
-IceIslandName:         rawchar "Ice Island@"
-LightningIslandName:   rawchar "Lightning¯Island@"
-Route49Name:           rawchar "Route 49@"
-ValenciaIslandName:    rawchar "Valencia¯Island@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
-HollowportName:        rawchar "Hollowport@"
-Route101Name:          rawchar "Route 101@"
-Route102Name:          rawchar "Route 102@"
-OlsteetonName: 		   rawchar "Olsteeton@"
-NationalForest1Name:   rawchar "Jolly Sods@"
-OlsteetonUniName: 	   rawchar "Bouffalant¯Academy@"
-SpecialMapName:        rawchar "?@"

@@ -10,7 +10,6 @@ CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
-ShamoutiPokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -117,13 +116,6 @@ CianwoodCityPhotoStudio_BlockData:
 CherrygroveGymSpeechHouse_BlockData:
 CherrygroveEvolutionSpeechHouse_BlockData:
 Route32CoastHouse_BlockData:
-ShamoutiHotel_BlockData:
-ShamoutiTouristCenter_BlockData:
-ShamoutiMerchant_BlockData:
-ShamoutiHouse_BlockData:
-WarmBeachHouse_BlockData:
-RockyBeachHouse_BlockData:
-IvysHouse_BlockData:
 OlsteetonGymHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
@@ -162,7 +154,6 @@ LakeOfRageHiddenPowerHouse_BlockData:
 Route28FamousSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
 Route30BerrySpeechHouse_BlockData:
-ValenciaHouse_BlockData:
 HollowportNeighbor_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
@@ -547,56 +538,6 @@ SproutTower3F_BlockData:
 SECTION "VioletOutskirts_BlockData", ROMX
 VioletOutskirts_BlockData:
 	INCBIN "maps/VioletOutskirts.ablk.lz"
-
-SECTION "RuinsOfAlphOutside_BlockData", ROMX
-RuinsOfAlphOutside_BlockData:
-	INCBIN "maps/RuinsOfAlphOutside.ablk.lz"
-
-SECTION "RuinsOfAlphResearchCenter_BlockData", ROMX
-RuinsOfAlphResearchCenter_BlockData:
-	INCBIN "maps/RuinsOfAlphResearchCenter.ablk.lz"
-
-SECTION "RuinsOfAlphEntranceChamber_BlockData", ROMX
-RuinsOfAlphEntranceChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphEntranceChamber.ablk.lz"
-
-SECTION "RuinsOfAlphInnerChamber_BlockData", ROMX
-RuinsOfAlphInnerChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphInnerChamber.ablk.lz"
-
-SECTION "RuinsOfAlphSinjohChamber_BlockData", ROMX
-RuinsOfAlphSinjohChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphSinjohChamber.ablk.lz"
-
-SECTION "RuinsOfAlphAerodactylChamber_BlockData", ROMX
-RuinsOfAlphAerodactylChamber_BlockData:
-RuinsOfAlphHoOhChamber_BlockData:
-RuinsOfAlphKabutoChamber_BlockData:
-RuinsOfAlphOmanyteChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
-
-SECTION "RuinsOfAlphAerodactylItemRoom_BlockData", ROMX
-RuinsOfAlphAerodactylItemRoom_BlockData:
-RuinsOfAlphHoOhItemRoom_BlockData:
-RuinsOfAlphKabutoItemRoom_BlockData:
-RuinsOfAlphOmanyteItemRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
-
-SECTION "RuinsOfAlphAerodactylWordRoom_BlockData", ROMX
-RuinsOfAlphAerodactylWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphAerodactylWordRoom.ablk.lz"
-
-SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
-RuinsOfAlphHoOhWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphHoOhWordRoom.ablk.lz"
-
-SECTION "RuinsOfAlphKabutoWordRoom_BlockData", ROMX
-RuinsOfAlphKabutoWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphKabutoWordRoom.ablk.lz"
-
-SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
-RuinsOfAlphOmanyteWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphOmanyteWordRoom.ablk.lz"
 
 SECTION "UnionCave1F_BlockData", ROMX
 UnionCave1F_BlockData:
@@ -1519,10 +1460,6 @@ SECTION "CeladonHotelRoom1_BlockData", ROMX
 CeladonHotelRoom1_BlockData:
 CeladonHotelRoom2_BlockData:
 CeladonHotelRoom3_BlockData:
-ShamoutiHotelRoom2A_BlockData:
-ShamoutiHotelRoom2B_BlockData:
-ShamoutiHotelRoom3B_BlockData:
-ShamoutiHotelRoom3C_BlockData:
 	INCBIN "maps/HotelRoom.ablk.lz"
 
 SECTION "CeladonUniversityWestwoodsOffice_BlockData", ROMX
@@ -1636,30 +1573,6 @@ SECTION "LuckyIslandHidden_BlockData", ROMX
 LuckyIslandHidden_BlockData:
 	INCBIN "maps/LuckyIslandHidden.ablk.lz"
 
-SECTION "SafariZoneHub_BlockData", ROMX
-SafariZoneHub_BlockData:
-	INCBIN "maps/SafariZoneHub.ablk.lz"
-
-SECTION "SafariZoneNorth_BlockData", ROMX
-SafariZoneNorth_BlockData:
-	INCBIN "maps/SafariZoneNorth.ablk.lz"
-
-SECTION "SafariZoneEast_BlockData", ROMX
-SafariZoneEast_BlockData:
-	INCBIN "maps/SafariZoneEast.ablk.lz"
-
-SECTION "SafariZoneWest_BlockData", ROMX
-SafariZoneWest_BlockData:
-	INCBIN "maps/SafariZoneWest.ablk.lz"
-
-SECTION "SafariZoneHubRestHouse_BlockData", ROMX
-SafariZoneHubRestHouse_BlockData:
-SafariZoneNorthRestHouse_BlockData:
-SafariZoneEastRestHouse_BlockData:
-SafariZoneWestRestHouse1_BlockData:
-SafariZoneWestRestHouse2_BlockData:
-	INCBIN "maps/SafariZoneRestHouse.ablk.lz"
-
 SECTION "UragaChannelEast_BlockData", ROMX
 UragaChannelEast_BlockData:
 	INCBIN "maps/UragaChannelEast.ablk.lz"
@@ -1749,89 +1662,6 @@ SeagallopFerryVermilionGate_BlockData:
 SeagallopFerryShamoutiGate_BlockData:
 SeagallopFerryNavelGate_BlockData:
 	INCBIN "maps/SeagallopFerryGate.ablk.lz"
-
-SECTION "ShamoutiIsland_BlockData", ROMX
-ShamoutiIsland_BlockData:
-	INCBIN "maps/ShamoutiIsland.ablk.lz"
-
-SECTION "NoisyForest_BlockData", ROMX
-NoisyForest_BlockData:
-	INCBIN "maps/NoisyForest.ablk.lz"	
-
-SECTION "ShamoutiTunnel_BlockData", ROMX
-ShamoutiTunnel_BlockData:
-	INCBIN "maps/ShamoutiTunnel.ablk.lz"
-
-SECTION "ShamoutiCoast_BlockData", ROMX
-ShamoutiCoast_BlockData:
-	INCBIN "maps/ShamoutiCoast.ablk.lz"
-
-SECTION "ShamoutiHotel1F_BlockData", ROMX
-ShamoutiHotel1F_BlockData:
-	INCBIN "maps/ShamoutiHotel1F.ablk.lz"
-
-SECTION "ShamoutiHotel2F_BlockData", ROMX
-ShamoutiHotel2F_BlockData:
-	INCBIN "maps/ShamoutiHotel2F.ablk.lz"
-
-SECTION "ShamoutiHotel3F_BlockData", ROMX
-ShamoutiHotel3F_BlockData:
-	INCBIN "maps/ShamoutiHotel3F.ablk.lz"
-
-SECTION "ShamoutiHotelRestaurant_BlockData", ROMX
-ShamoutiHotelRestaurant_BlockData:
-	INCBIN "maps/ShamoutiHotelRestaurant.ablk.lz"
-
-SECTION "BeautifulBeach_BlockData", ROMX
-BeautifulBeach_BlockData:
-	INCBIN "maps/BeautifulBeach.ablk.lz"
-
-SECTION "BeautifulBeachVilla_BlockData", ROMX
-BeautifulBeachVilla_BlockData:
-	INCBIN "maps/BeautifulBeachVilla.ablk.lz"
-
-SECTION "WarmBeach_BlockData", ROMX
-WarmBeach_BlockData:
-	INCBIN "maps/WarmBeach.ablk.lz"
-
-SECTION "WarmBeachShack_BlockData", ROMX
-WarmBeachShack_BlockData:
-	INCBIN "maps/WarmBeachShack.ablk.lz"
-
-SECTION "RockyBeach_BlockData", ROMX
-RockyBeach_BlockData:
-	INCBIN "maps/RockyBeach.ablk.lz"
-
-SECTION "FireIsland_BlockData", ROMX
-FireIsland_BlockData:
-	INCBIN "maps/FireIsland.ablk.lz"
-
-SECTION "IceIsland_BlockData", ROMX
-IceIsland_BlockData:
-	INCBIN "maps/IceIsland.ablk.lz"
-
-SECTION "LightningIsland_BlockData", ROMX
-LightningIsland_BlockData:
-	INCBIN "maps/LightningIsland.ablk.lz"
-
-SECTION "FireIslandRoof_BlockData", ROMX
-FireIslandRoof_BlockData:
-IceIslandRoof_BlockData:
-LightningIslandRoof_BlockData:
-	INCBIN "maps/ElementalIsland.ablk.lz"
-
-SECTION "ValenciaIsland_BlockData", ROMX
-ValenciaIsland_BlockData:
-	INCBIN "maps/ValenciaIsland.ablk.lz"
-
-SECTION "ValenciaPort_BlockData", ROMX
-ValenciaPort_BlockData:
-	INCBIN "maps/ValenciaPort.ablk.lz"
-
-SECTION "IvysLab_BlockData", ROMX
-IvysLab_BlockData:
-	INCBIN "maps/IvysLab.ablk.lz"
-
 SECTION "NavelRockOutside_BlockData", ROMX
 NavelRockOutside_BlockData:
 	INCBIN "maps/NavelRockOutside.ablk.lz"
@@ -1973,11 +1803,6 @@ Route21_BlockData:
 SECTION "Route22_BlockData", ROMX
 Route22_BlockData:
 	INCBIN "maps/Route22.ablk.lz"
-
-SECTION "Route22Past_BlockData", ROMX
-Route22Past_BlockData:
-	INCBIN "maps/Route22Past.ablk.lz"
-
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:
 	INCBIN "maps/Route23.ablk.lz"
@@ -2113,10 +1938,6 @@ Route47_BlockData:
 SECTION "Route48_BlockData", ROMX
 Route48_BlockData:
 	INCBIN "maps/Route48.ablk.lz"
-
-SECTION "Route49_BlockData", ROMX
-Route49_BlockData:
-	INCBIN "maps/Route49.ablk.lz"
 
 SECTION "BattleFactory1F_BlockData", ROMX
 BattleFactory1F_BlockData:
