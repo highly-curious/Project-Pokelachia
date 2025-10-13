@@ -526,11 +526,6 @@ ENDM
 	map_const LYRAS_HOUSE_1F,                              6,  4 ;  9
 	map_const LYRAS_HOUSE_2F,                              4,  3 ; 10
 	map_const ELMS_HOUSE,                                  4,  4 ; 11
-	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  6
-	map_const LYRAS_HOUSE_1F,                              6,  4 ;  7
-	map_const LYRAS_HOUSE_2F,                              4,  3 ; 9
-	map_const ELMS_HOUSE,                                  4,  4 ; 10
-
 
 	newgroup                            						 ; 30
 	map_const HOLLOWPORT,                                 12,  9 ;  1
