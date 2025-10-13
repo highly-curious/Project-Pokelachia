@@ -90,7 +90,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .NationalForest1
 	dw .OlsteetonUni
 	dw .NewBarkTown
-	dw .Route29
 	dw .VioletCity
 	dw .SproutTower
 	dw .VioletOutskirts	
@@ -147,7 +146,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .NationalForest1:
 .OlsteetonUni:
 .NewBarkTown:
-.Route29:
 .VioletCity:
 .SproutTower:
 .VioletOutskirts:
