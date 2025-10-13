@@ -4,7 +4,6 @@ VioletPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
-OlivinePokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
@@ -35,7 +34,6 @@ OlsteetonPokeCenter_BlockData:
 VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
-OlivineMart_BlockData:
 BlackthornMart_BlockData:
 ViridianMart_BlockData:
 PewterMart_BlockData:
@@ -73,7 +71,6 @@ Route12Gate_BlockData:
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
-Route38EcruteakGate_BlockData:
 Route42EcruteakGate_BlockData:
 Route101102Gate_BlockData:
 Route102OlsteetonGate_BlockData:
@@ -99,10 +96,7 @@ Route15FuchsiaGate2F_BlockData:
 Route1617Gate2F_BlockData:
 Route18Gate2F_BlockData:
 	INCBIN "maps/KantoGate2F.ablk.lz"
-
-OlivineTimsHouse_BlockData:
-OlivinePunishmentSpeechHouse_BlockData:
-OlivineGoodRodHouse_BlockData:
+	
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
 CianwoodCityPhotoStudio_BlockData:
@@ -138,7 +132,6 @@ MoveManiacsHouse_BlockData:
 OlsteetonNameRater_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
-Route39Farmhouse_BlockData:
 LakeOfRageHiddenPowerHouse_BlockData:
 Route28FamousSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
@@ -781,22 +774,6 @@ SECTION "BurnedTowerB1F_BlockData", ROMX
 BurnedTowerB1F_BlockData:
 	INCBIN "maps/BurnedTowerB1F.ablk.lz"
 
-
-SECTION "OlivineGym_BlockData", ROMX
-OlivineGym_BlockData:
-	INCBIN "maps/OlivineGym.ablk.lz"
-
-SECTION "OlivineCity_BlockData", ROMX
-OlivineCity_BlockData:
-	INCBIN "maps/OlivineCity.ablk.lz"
-
-SECTION "OlivineCityRoute35CoastDual_BlockData", ROMX
-OlivineCityRoute35CoastDual_BlockData:
-	INCBIN "maps/OlivineCityRoute35CoastDual.ablk.lz"
-
-SECTION "OlivineCafe_BlockData", ROMX
-OlivineCafe_BlockData:
-	INCBIN "maps/OlivineCafe.ablk.lz"
 
 SECTION "OlivinePort_BlockData", ROMX
 OlivinePort_BlockData:
@@ -1732,14 +1709,6 @@ SECTION "Route35_BlockData", ROMX
 Route35_BlockData:
 	INCBIN "maps/Route35.ablk.lz"
 
-SECTION "Route35CoastNorth_BlockData", ROMX
-Route35CoastNorth_BlockData:
-	INCBIN "maps/Route35CoastNorth.ablk.lz"
-
-SECTION "Route35CoastSouth_BlockData", ROMX
-Route35CoastSouth_BlockData:
-	INCBIN "maps/Route35CoastSouth.ablk.lz"
-
 SECTION "Route35NationalParkGate_BlockData", ROMX
 Route35NationalParkGate_BlockData:
 	INCBIN "maps/Route35NationalParkGate.ablk.lz"
@@ -1755,18 +1724,6 @@ Route36NationalParkGate_BlockData:
 SECTION "Route37_BlockData", ROMX
 Route37_BlockData:
 	INCBIN "maps/Route37.ablk.lz"
-
-SECTION "Route38_BlockData", ROMX
-Route38_BlockData:
-	INCBIN "maps/Route38.ablk.lz"
-
-SECTION "Route39_BlockData", ROMX
-Route39_BlockData:
-	INCBIN "maps/Route39.ablk.lz"
-
-SECTION "Route39Barn_BlockData", ROMX
-Route39Barn_BlockData:
-	INCBIN "maps/Route39Barn.ablk.lz"
 
 SECTION "Route40_BlockData", ROMX
 Route40_BlockData:
