@@ -1,6 +1,5 @@
 SECTION "Special Map Blockdata", ROMX
 
-CherrygrovePokeCenter1F_BlockData:
 VioletPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
@@ -34,7 +33,6 @@ KantoPokeCenter2F_BlockData:
 OlsteetonPokeCenter_BlockData:
 	INCBIN "maps/OlsteetonPokeCenter.ablk.lz"
 
-CherrygroveMart_BlockData:
 VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
@@ -75,7 +73,6 @@ SafariZoneFuchsiaGate_BlockData:
 Route12Gate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
-Route31VioletGate_BlockData:
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
@@ -112,8 +109,6 @@ OlivineGoodRodHouse_BlockData:
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
 CianwoodCityPhotoStudio_BlockData:
-CherrygroveGymSpeechHouse_BlockData:
-CherrygroveEvolutionSpeechHouse_BlockData:
 Route32CoastHouse_BlockData:
 OlsteetonGymHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
@@ -121,7 +116,6 @@ OlsteetonGymHouse_BlockData:
 GoldenrodHappinessRater_BlockData:
 GoldenrodPPSpeechHouse_BlockData:
 GoldenrodHoneyHouse_BlockData:
-GuideGentsHouse_BlockData:
 CeruleanGymBadgeSpeechHouse_BlockData:
 CeruleanTradeSpeechHouse_BlockData:
 CeruleanCoupleHouse_BlockData:
@@ -152,7 +146,6 @@ Route39Farmhouse_BlockData:
 LakeOfRageHiddenPowerHouse_BlockData:
 Route28FamousSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
-Route30BerrySpeechHouse_BlockData:
 HollowportNeighbor_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
@@ -484,18 +477,6 @@ LyrasHouse2F_BlockData:
 SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
-
-SECTION "CherrygroveCity_BlockData", ROMX
-CherrygroveCity_BlockData:
-	INCBIN "maps/CherrygroveCity.ablk.lz"
-
-SECTION "MrPokemonsHouse_BlockData", ROMX
-MrPokemonsHouse_BlockData:
-	INCBIN "maps/MrPokemonsHouse.ablk.lz"
-
-SECTION "CherrygroveBay_BlockData", ROMX
-CherrygroveBay_BlockData:
-	INCBIN "maps/CherrygroveBay.ablk.lz"
 
 SECTION "Route32Coast_BlockData", ROMX
 Route32Coast_BlockData:
@@ -1783,14 +1764,6 @@ Route28_BlockData:
 SECTION "Route29_BlockData", ROMX
 Route29_BlockData:
 	INCBIN "maps/Route29.ablk.lz"
-
-SECTION "Route30_BlockData", ROMX
-Route30_BlockData:
-	INCBIN "maps/Route30.ablk.lz"
-
-SECTION "Route31_BlockData", ROMX
-Route31_BlockData:
-	INCBIN "maps/Route31.ablk.lz"
 
 SECTION "Route32_BlockData", ROMX
 Route32_BlockData:
