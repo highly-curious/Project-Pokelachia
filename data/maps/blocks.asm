@@ -79,7 +79,6 @@ Route31VioletGate_BlockData:
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
-GoldenrodHarborGate_BlockData:
 Route38EcruteakGate_BlockData:
 Route42EcruteakGate_BlockData:
 Route101102Gate_BlockData:
@@ -639,10 +638,6 @@ GoldenrodMagnetTrainStation_BlockData:
 SECTION "DayCare_BlockData", ROMX
 DayCare_BlockData:
 	INCBIN "maps/DayCare.ablk.lz"
-
-SECTION "GoldenrodHarbor_BlockData", ROMX
-GoldenrodHarbor_BlockData:
-	INCBIN "maps/GoldenrodHarbor.ablk.lz"
 
 SECTION "GoldenrodDeptStore1F_BlockData", ROMX
 GoldenrodDeptStore1F_BlockData:
@@ -1254,26 +1249,12 @@ PowerPlant_BlockData:
 	INCBIN "maps/PowerPlant.ablk.lz"
 
 SECTION "DimCave1F_BlockData", ROMX
-DimCave1F_BlockData:
 SeafoamIslands1F_BlockData:
 	INCBIN "maps/DimCave1F.ablk.lz"
 
 SECTION "DimCave2F_BlockData", ROMX
-DimCave2F_BlockData:
 WhirlIslandNW_BlockData:
 	INCBIN "maps/DimCave2F.ablk.lz"
-
-SECTION "DimCave3F_BlockData", ROMX
-DimCave3F_BlockData:
-	INCBIN "maps/DimCave3F.ablk.lz"
-
-SECTION "DimCave4F_BlockData", ROMX
-DimCave4F_BlockData:
-	INCBIN "maps/DimCave4F.ablk.lz"
-
-SECTION "DimCave5F_BlockData", ROMX
-DimCave5F_BlockData:
-	INCBIN "maps/DimCave5F.ablk.lz"
 
 SECTION "LavenderTown_BlockData", ROMX
 LavenderTown_BlockData:
@@ -1725,14 +1706,6 @@ Route7_BlockData:
 SECTION "Route8_BlockData", ROMX
 Route8_BlockData:
 	INCBIN "maps/Route8.ablk.lz"
-
-SECTION "Route9_BlockData", ROMX
-Route9_BlockData:
-	INCBIN "maps/Route9.ablk.lz"
-
-SECTION "Route10North_BlockData", ROMX
-Route10North_BlockData:
-	INCBIN "maps/Route10North.ablk.lz"
 
 SECTION "Route10South_BlockData", ROMX
 Route10South_BlockData:

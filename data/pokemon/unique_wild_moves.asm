@@ -26,7 +26,6 @@ UniqueWildMoves:
 	unique_moves STORMY_BEACH,     VENOMOTH,   0
 	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
 	unique_moves MAGNET_TUNNEL,    MAGNEMITE,  PSYBEAM      ; new move
-	unique_moves GOLDENROD_HARBOR, PSYDUCK,    ENCORE       ; Dream World move
 	unique_moves ROUTE_35_COAST,   0,          0
 	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves TIN_TOWER,        0,          0
@@ -49,8 +48,6 @@ UniqueWildMoves:
 	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
 	unique_moves DIGLETTS_CAVE,    DUGTRIO,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
-	unique_moves DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
-	unique_moves DIM_CAVE,         RHYDON,     CRUNCH       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MAROWAK,    PERISH_SONG  ; Dream World move

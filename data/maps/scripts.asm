@@ -284,8 +284,6 @@ INCLUDE "maps/GoldenrodNameRater.asm"
 
 SECTION "Goldenrod Scripts 3", ROMX
 
-INCLUDE "maps/GoldenrodHarbor.asm"
-INCLUDE "maps/GoldenrodHarborGate.asm"
 INCLUDE "maps/GoldenrodMuseum1F.asm"
 INCLUDE "maps/GoldenrodMuseum2F.asm"
 INCLUDE "maps/GoldenrodBandHouse.asm"
@@ -636,15 +634,6 @@ INCLUDE "maps/RockTunnelB1F.asm"
 INCLUDE "maps/PowerPlant.asm"
 
 
-SECTION "Dim Cave Scripts", ROMX
-
-INCLUDE "maps/DimCave1F.asm"
-INCLUDE "maps/DimCave2F.asm"
-INCLUDE "maps/DimCave3F.asm"
-INCLUDE "maps/DimCave4F.asm"
-INCLUDE "maps/DimCave5F.asm"
-
-
 SECTION "Lavender Scripts", ROMX
 
 INCLUDE "maps/LavenderTown.asm"
@@ -921,8 +910,6 @@ INCLUDE "maps/Route8SaffronGate.asm"
 
 SECTION "Routes 9-11 Scripts", ROMX
 
-INCLUDE "maps/Route9.asm"
-INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/Route10South.asm"
 INCLUDE "maps/Route11.asm"
 INCLUDE "maps/Route11Gate.asm"

@@ -35,7 +35,6 @@ Landmarks:
 	landmark  52, 132, MurkySwampName
 	landmark  52,  92, GoldenrodCityName
 	landmark  50,  92, RadioTowerName
-	landmark  44,  92, GoldenrodHarborName
 	landmark  68,  92, MagnetTunnelName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
@@ -97,11 +96,9 @@ Landmarks:
 	landmark 116,  68, DiglettsCaveName
 	landmark  96,  60, Route7Name
 	landmark 124,  60, Route8Name
-	landmark 124,  44, Route9Name
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
 	landmark 148,  52, PowerPlantName
-	landmark 148,  44, DimCaveName
 	landmark 140,  60, LavenderTownName
 	landmark 142,  58, LavRadioTowerName
 	landmark 142,  62, SoulHouseName
@@ -204,7 +201,6 @@ Route5Name:            rawchar "Route 5@"
 Route6Name:            rawchar "Route 6@"
 Route7Name:            rawchar "Route 7@"
 Route8Name:            rawchar "Route 8@"
-Route9Name:            rawchar "Route 9@"
 Route10Name:           rawchar "Route 10@"
 Route11Name:           rawchar "Route 11@"
 Route12Name:           rawchar "Route 12@"
@@ -258,7 +254,6 @@ CliffCaveName:         rawchar "Cliff Cave@"
 YellowForestName:      rawchar "Yellow¯Forest@"
 QuietCaveName:         rawchar "Quiet Cave@"
 CherrygroveBayName:    rawchar "Cherrygrove¯Bay@"
-GoldenrodHarborName:   rawchar "Goldenrod¯Harbor@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"
 Route34CoastName:      rawchar "Route 34¯Coast@"
@@ -266,7 +261,6 @@ Route35CoastName:      rawchar "Route 35¯Coast@"
 StormyBeachName:       rawchar "Stormy¯Beach@"
 MurkySwampName:        rawchar "Murky¯Swamp@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
-DimCaveName:           rawchar "Dim Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"

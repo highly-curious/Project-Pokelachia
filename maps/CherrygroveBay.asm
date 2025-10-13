@@ -52,8 +52,7 @@ CherrygroveBayGalarianBirdsScript:
 	closetext
 	callasm GalarianMoltresEvent
 	opentext
-	farwritetext MoltresText
-	cry MOLTRES
+	cry RATTATA
 	pause 15
 	closetext
 	loadwildmon MOLTRES, GALARIAN_FORM, 65
@@ -73,8 +72,7 @@ CherrygroveBayGalarianBirdsScript:
 	closetext
 	callasm GalarianArticunoEvent
 	opentext
-	farwritetext ArticunoText
-	cry ARTICUNO
+	cry RATTATA
 	pause 15
 	closetext
 	loadwildmon ARTICUNO, GALARIAN_FORM, 65
@@ -94,8 +92,7 @@ CherrygroveBayGalarianBirdsScript:
 	closetext
 	callasm GalarianZapdosEvent
 	opentext
-	farwritetext ZapdosText
-	cry ZAPDOS
+	cry RATTATA
 	pause 15
 	closetext
 	loadwildmon ZAPDOS, GALARIAN_FORM, 65

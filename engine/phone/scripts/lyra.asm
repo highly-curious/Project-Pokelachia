@@ -111,7 +111,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .MurkySwamp
 	dw .GoldenrodCity
 	dw .RadioTower ; no calls
-	dw .GoldenrodHarbor
 	dw .MagnetTunnel
 	dw .Route35
 	dw .Route35Coast
@@ -181,7 +180,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .MurkySwamp:
 .GoldenrodCity:
 .RadioTower:
-.GoldenrodHarbor:
 .MagnetTunnel:
 .Route35:
 .Route35Coast:

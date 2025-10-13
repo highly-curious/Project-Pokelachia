@@ -113,10 +113,9 @@ ENDM
 	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, -15
 	connection west, OlivineCity, OLIVINE_CITY, -3
 
-	map_attributes Route35CoastSouth, ROUTE_35_COAST_SOUTH, $35, NORTH | SOUTH
+	map_attributes Route35CoastSouth, ROUTE_35_COAST_SOUTH, $35, NORTH
 	connection north, OlivineCityRoute35CoastDual, OLIVINE_CITY_ROUTE_35_COAST_DUAL, 0
-	connection south, GoldenrodHarbor, GOLDENROD_HARBOR, 0
-
+	
 	map_attributes OlivineCityRoute35CoastDual, OLIVINE_CITY_ROUTE_35_COAST_DUAL, $35, SOUTH
 	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
 
@@ -141,10 +140,9 @@ ENDM
 	connection south, Route41, ROUTE_41, -15
 	connection east, OlivineCity, OLIVINE_CITY, -7
 
-	map_attributes Route41, ROUTE_41, $35, NORTH | WEST | EAST
+	map_attributes Route41, ROUTE_41, $35, NORTH | WEST
 	connection north, Route40, ROUTE_40, 15
 	connection west, CianwoodCity, CIANWOOD_CITY, 0
-	connection east, GoldenrodHarbor, GOLDENROD_HARBOR, 3
 
 	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
 	connection south, VioletOutskirts, VIOLET_OUTSKIRTS, 5
@@ -310,11 +308,10 @@ ENDM
 	map_attributes Route5, ROUTE_5, $f, NORTH
 	connection north, CeruleanCity, CERULEAN_CITY, -5
 
-	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST | EAST
+	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST
 	connection north, Route24, ROUTE_24, 0
 	connection south, Route5, ROUTE_5, 5
 	connection west, Route4, ROUTE_4, 2
-	connection east, Route9, ROUTE_9, 4
 
 	map_attributes Route24, ROUTE_24, $2c, SOUTH | EAST
 	connection south, CeruleanCity, CERULEAN_CITY, 0
@@ -336,16 +333,7 @@ ENDM
 	map_attributes Route8, ROUTE_8, $2c, EAST
 	connection east, LavenderTown, LAVENDER_TOWN, 0
 
-	map_attributes Route9, ROUTE_9, $2c, WEST | EAST
-	connection west, CeruleanCity, CERULEAN_CITY, -4
-	connection east, Route10North, ROUTE_10_NORTH, -6
-
-	map_attributes Route10North, ROUTE_10_NORTH, $2c, SOUTH | WEST
-	connection south, Route10South, ROUTE_10_SOUTH, 0
-	connection west, Route9, ROUTE_9, 6
-
-	map_attributes Route10South, ROUTE_10_SOUTH, $2c, NORTH | SOUTH
-	connection north, Route10North, ROUTE_10_NORTH, 0
+	map_attributes Route10South, ROUTE_10_SOUTH, $2c, SOUTH
 	connection south, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route47, ROUTE_47, $35, NORTH
@@ -365,10 +353,6 @@ ENDM
 	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, NORTH | SOUTH
 	connection north, Route42, ROUTE_42, -5
 	connection south, VioletCity, VIOLET_CITY, 0
-
-	map_attributes GoldenrodHarbor, GOLDENROD_HARBOR, $35, NORTH | WEST
-	connection north, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
-	connection west, Route41, ROUTE_41, -3
 
 	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, EAST
 	connection east, Route32, ROUTE_32, -9
@@ -664,7 +648,6 @@ ENDM
 	map_attributes GoldenrodGameCorner, GOLDENROD_GAME_CORNER, $0, 0
 	map_attributes GoldenrodPokecomCenter1F, GOLDENROD_POKECOM_CENTER_1F, $0, 0
 	map_attributes GoldenrodPokecomCenterOffice, GOLDENROD_POKECOM_CENTER_OFFICE, $0, 0
-	map_attributes GoldenrodHarborGate, GOLDENROD_HARBOR_GATE, $0, 0
 	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $0, 0
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $0, 0
 	map_attributes DayCare, DAYCARE, $0, 0
@@ -892,11 +875,6 @@ ENDM
 	map_attributes QuietCaveB1F, QUIET_CAVE_B1F, $9, 0
 	map_attributes QuietCaveB2F, QUIET_CAVE_B2F, $9, 0
 	map_attributes QuietCaveB3F, QUIET_CAVE_B3F, $9, 0
-	map_attributes DimCave1F, DIM_CAVE_1F, $9, 0
-	map_attributes DimCave2F, DIM_CAVE_2F, $9, 0
-	map_attributes DimCave3F, DIM_CAVE_3F, $9, 0
-	map_attributes DimCave4F, DIM_CAVE_4F, $9, 0
-	map_attributes DimCave5F, DIM_CAVE_5F, $9, 0
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0

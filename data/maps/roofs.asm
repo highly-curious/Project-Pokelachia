@@ -30,8 +30,6 @@ MapGroupRoofs:
 	db -1            ; 25
 	db ROOF_NEW_BARK ; 26 (Cherrygrove City)
 	db -1            ; 27
-	db -1            ; 28
-	db ROOF_OLIVINE  ; 29 (Goldenrod Harbor)
 	db ROOF_AZALEA   ; 30 Hollowport
 	db ROOF_VIOLET   ; 31 Olsteeton
 	db ROOF_VIOLET   ; 32 Uni
