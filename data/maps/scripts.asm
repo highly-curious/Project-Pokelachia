@@ -424,14 +424,6 @@ INCLUDE "maps/CliffCave.asm"
 INCLUDE "maps/CliffEdgeGate.asm"
 
 
-SECTION "Quiet Cave Scripts", ROMX
-
-INCLUDE "maps/QuietCave1F.asm"
-INCLUDE "maps/QuietCaveB1F.asm"
-INCLUDE "maps/QuietCaveB2F.asm"
-INCLUDE "maps/QuietCaveB3F.asm"
-INCLUDE "maps/EmbeddedTower.asm"
-
 
 SECTION "Mount Mortar Scripts", ROMX
 
@@ -1037,13 +1029,6 @@ SECTION "Routes 45-47 Scripts", ROMX
 
 INCLUDE "maps/Route45.asm"
 INCLUDE "maps/Route46.asm"
-INCLUDE "maps/Route47.asm"
 
-
-SECTION "Routes 48 Scripts", ROMX
-
-INCLUDE "maps/Route48.asm"
-
-SECTION "Map Scripts 25", ROMX
 
 ENDSECTION

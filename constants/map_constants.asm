@@ -588,16 +588,6 @@ ENDM
 	map_const MR_POKEMONS_HOUSE,                           4,  4 ; 11
 	map_const ROUTE_31_VIOLET_GATE,                        5,  4 ; 12
 
-	newgroup                                                     ; 27
-	map_const CLIFF_EDGE_GATE,                            10, 11 ;  1
-	map_const CLIFF_CAVE,                                  6, 18 ;  2
-	map_const ROUTE_47,                                   39, 19 ;  3
-	map_const ROUTE_48,                                   18, 11 ;  4
-	map_const QUIET_CAVE_1F,                              18, 18 ;  5
-	map_const QUIET_CAVE_B1F,                             18, 18 ;  6
-	map_const QUIET_CAVE_B2F,                             18, 18 ;  7
-	map_const QUIET_CAVE_B3F,                             18, 18 ;  8
-
 	newgroup                            						 ; 30
 	map_const HOLLOWPORT,                                 12,  9 ;  1
 	map_const FIELD_LAB,								   9,  5 ;  2

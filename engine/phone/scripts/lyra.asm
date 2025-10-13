@@ -130,12 +130,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .WhirlIslands ; no calls
 	dw .Route41
 	dw .CianwoodCity
-	dw .CliffEdgeGate ; no calls
-	dw .Route47
-	dw .CliffCave ; no calls
-	dw .Route48
 	dw .YellowForest
-	dw .QuietCave ; no calls
 	dw .Route42
 	dw .MtMortar ; no calls
 	dw .MahoganyTown
@@ -199,12 +194,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 .WhirlIslands:
 .Route41:
 .CianwoodCity:
-.CliffEdgeGate:
-.Route47:
-.CliffCave:
-.Route48:
 .YellowForest:
-.QuietCave:
 .Route42:
 .MtMortar:
 .MahoganyTown:
