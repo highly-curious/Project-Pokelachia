@@ -27,7 +27,6 @@ MapGroupRoofs:
 	db ROOF_OLIVINE  ; 22 (Cianwood City)
 	db -1            ; 23
 	db ROOF_NEW_BARK ; 24 (New Bark Town)
-	db -1            ; 25
 	db ROOF_AZALEA   ; 30 Hollowport
 	db ROOF_VIOLET   ; 31 Olsteeton
 	db ROOF_VIOLET   ; 32 Uni
