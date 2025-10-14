@@ -23,7 +23,6 @@ MapGroupRoofs:
 	db ROOF_NEW_BARK ; 19 (Route 28)
 	db -1            ; 20
 	db -1            ; 21
-	db ROOF_OLIVINE  ; 22 (Cianwood City)
 	db ROOF_NEW_BARK ; 24 (New Bark Town)
 	db ROOF_AZALEA   ; 30 Hollowport
 	db ROOF_VIOLET   ; 31 Olsteeton
