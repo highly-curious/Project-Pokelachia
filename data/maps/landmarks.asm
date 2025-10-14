@@ -64,9 +64,6 @@ Landmarks:
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  88, Route1Name
-	landmark  52,  76, ViridianCityName
-	landmark  52,  68, Route2Name
-	landmark  52,  60, ViridianForestName
 	landmark  52,  44, PewterCityName
 	landmark  64,  44, Route3Name
 	landmark  76,  44, MtMoonName
@@ -153,7 +150,6 @@ MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
 PalletTownName:        rawchar "Pallet Town@"
-ViridianCityName:      rawchar "Viridian¯City@"
 PewterCityName:        rawchar "Pewter City@"
 CeruleanCityName:      rawchar "Cerulean¯City@"
 LavenderTownName:      rawchar "Lavender¯Town@"
@@ -176,7 +172,6 @@ CeruleanCaveName:      rawchar "Cerulean¯Cave@"
 CeruleanCapeName:      rawchar "Cerulean¯Cape@"
 LuckyIslandName:       rawchar "Lucky¯Island@"
 Route1Name:            rawchar "Route 1@"
-Route2Name:            rawchar "Route 2@"
 Route3Name:            rawchar "Route 3@"
 Route4Name:            rawchar "Route 4@"
 Route6Name:            rawchar "Route 6@"
@@ -216,7 +211,6 @@ DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
 FastShipName:          rawchar "Fast Ship@"
-ViridianForestName:    rawchar "Viridian¯Forest@"
 DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
