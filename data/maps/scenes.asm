@@ -85,7 +85,6 @@ MapScenes::
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	; scene_var YELLOW_FOREST,                          wYellowForestSceneID
-	scene_var ROCKET_HIDEOUT_B4F,                     wRocketHideoutB4FSceneID
 	scene_var ROUTE_101,                              wRoute101SceneID
 
 	db -1
