@@ -17,26 +17,9 @@ OlsteetonMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonMartGrannyText, -1
 
 OlsteetonMartSuperNerdText:
-	text "My Eevee evolved"
-	line "into an Espeon."
-
-	para "But my friend's"
-	line "Eevee turned into"
-	cont "an Umbreon."
-
-	para "I wonder why? We"
-	line "both were raising"
-
-	para "our Eevee in the"
-	line "same way…"
+	text "Needs dialogue"
 	done
 
 OlsteetonMartGrannyText:
-	text "The Magnet Train"
-	line "in Goldenrod is"
-	cont "great, but there"
-
-	para "were also plans to"
-	line "put a station in"
-	cont "Olsteeton at first."
+	text "Needs dialogue"
 	done

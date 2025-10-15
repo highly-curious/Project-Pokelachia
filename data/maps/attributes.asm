@@ -257,9 +257,8 @@ ENDM
 	connection west, Route16Northeast, ROUTE_16_NORTHEAST, 10
 	connection east, Route7, ROUTE_7, 5
 
-	map_attributes Route7, ROUTE_7, $f, WEST | EAST
+	map_attributes Route7, ROUTE_7, $f, WEST 
 	connection west, CeladonCity, CELADON_CITY, -5
-	connection east, SaffronCity, SAFFRON_CITY, -6
 
 	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
 	connection north, Route13East, ROUTE_13_EAST, 0
@@ -305,19 +304,11 @@ ENDM
 	connection north, Route6, ROUTE_6, 3
 	connection east, Route11, ROUTE_11, 5
 
-	map_attributes Route6, ROUTE_6, $f, NORTH | SOUTH
-	connection north, SaffronCity, SAFFRON_CITY, -3
+	map_attributes Route6, ROUTE_6, $f, SOUTH
 	connection south, VermilionCity, VERMILION_CITY, -3
 
-	map_attributes SaffronCity, SAFFRON_CITY, $f, NORTH | SOUTH | WEST | EAST
-	connection north, Route5, ROUTE_5, 5
-	connection south, Route6, ROUTE_6, 3
-	connection west, Route7, ROUTE_7, 6
-	connection east, Route8, ROUTE_8, 4
-
-	map_attributes Route5, ROUTE_5, $f, NORTH | SOUTH
+	map_attributes Route5, ROUTE_5, $f, NORTH
 	connection north, CeruleanCity, CERULEAN_CITY, -5
-	connection south, SaffronCity, SAFFRON_CITY, -5
 
 	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST | EAST
 	connection north, Route24, ROUTE_24, 0
@@ -342,8 +333,7 @@ ENDM
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
 
-	map_attributes Route8, ROUTE_8, $2c, WEST | EAST
-	connection west, SaffronCity, SAFFRON_CITY, -4
+	map_attributes Route8, ROUTE_8, $2c, EAST
 	connection east, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route9, ROUTE_9, $2c, WEST | EAST
@@ -418,12 +408,6 @@ ENDM
 	map_attributes Route49, ROUTE_49, $0, EAST
 	connection east, ValenciaIsland, VALENCIA_ISLAND, 2
 
-	map_attributes RuggedRoadNorth, RUGGED_ROAD_NORTH, $71, SOUTH
-	connection south, RuggedRoadSouth, RUGGED_ROAD_SOUTH, 0
-
-	map_attributes RuggedRoadSouth, RUGGED_ROAD_SOUTH, $71, NORTH
-	connection north, RuggedRoadNorth, RUGGED_ROAD_NORTH, 0
-
 	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
 	connection north, Route101, ROUTE_101, 2
 
@@ -455,10 +439,17 @@ ENDM
 	map_attributes OlsteetonMart, OLSTEETON_MART, $0, 0	
 	map_attributes RiverfrontApt1F, RIVERFRONT_APT_1F, $0, 0
 	map_attributes RiverfrontApt2F, RIVERFRONT_APT_2F, $0, 0
+	map_attributes RiverfrontApt2FRoom1, RIVERFRONT_APT_2F_ROOM_1, $0, 0
+	map_attributes RiverfrontApt2FRoom2, RIVERFRONT_APT_2F_ROOM_2, $0, 0
+	map_attributes RiverfrontApt2FRoom3, RIVERFRONT_APT_2F_ROOM_3, $0, 0
 	map_attributes RiverfrontApt3F, RIVERFRONT_APT_3F, $0, 0
+	map_attributes RiverfrontApt3FRoom1, RIVERFRONT_APT_3F_ROOM_1, $0, 0
+	map_attributes RiverfrontApt3FRoom2, RIVERFRONT_APT_3F_ROOM_2, $0, 0
 	map_attributes RiverfrontApt4F, RIVERFRONT_APT_4F, $0, 0
+	map_attributes RiverfrontApt4FRoom1, RIVERFRONT_APT_4F_ROOM_1, $0, 0
+	map_attributes RiverfrontApt4FRoom3, RIVERFRONT_APT_4F_ROOM_3, $0, 0
 	map_attributes RiverfrontApt5F, RIVERFRONT_APT_5F, $0, 0
-	map_attributes RiverfrontAptRoof, RIVERFRONT_APT_ROOF, $0, 0
+	map_attributes RiverfrontAptRoof, RIVERFRONT_APT_ROOF, $68, 0
 	map_attributes RiverfrontAptElevator, RIVERFRONT_APT_ELEVATOR, $0, 0
 	map_attributes OlsteetonDiner, OLSTEETON_DINER, $0, 0	
 	map_attributes OlsteetonArcade, OLSTEETON_ARCADE, $0, 0
@@ -479,6 +470,11 @@ ENDM
 	map_attributes OlsteetonUniWaterLab, OLSTEETON_UNI_WATER_LAB, $0, 0
 	map_attributes OlsteetonUniOffice, OLSTEETON_UNI_OFFICE, $0, 0
 	map_attributes OlsteetonUniDeansOffice, OLSTEETON_UNI_DEANS_OFFICE, $0, 0
+	map_attributes OlsteetonUniOfficeSpruce, OLSTEETON_UNI_OFFICE_SPRUCE, $0, 0
+	map_attributes OlsteetonUniOfficePoplar, OLSTEETON_UNI_OFFICE_POPLAR, $0, 0
+	map_attributes OlsteetonUniOfficePawpaw, OLSTEETON_UNI_OFFICE_PAWPAW, $0, 0
+	map_attributes OlsteetonUniOfficeLounge, OLSTEETON_UNI_OFFICE_LOUNGE, $0, 0
+	map_attributes OlsteetonUniOfficeTA, OLSTEETON_UNI_OFFICE_TA, $0, 0
 	map_attributes OlsteetonUniClockTower1F, OLSTEETON_UNI_CLOCK_TOWER_1F, $0, 0
 	map_attributes OlsteetonUniClockTower2F, OLSTEETON_UNI_CLOCK_TOWER_2F, $0, 0
 	map_attributes OlsteetonUniClockTower3F, OLSTEETON_UNI_CLOCK_TOWER_3F, $0, 0
@@ -490,8 +486,22 @@ ENDM
 	map_attributes OlsteetonUniClassroomHistory, OLSTEETON_UNI_CLASSROOM_HISTORY, $0, 0
 	map_attributes OlsteetonUniClassroomTheory, OLSTEETON_UNI_CLASSROOM_THEORY, $0, 0
 	map_attributes OlsteetonUniDormWest1F, OLSTEETON_UNI_DORM_WEST_1F, $0, 0
+	map_attributes OlsteetonUniDormWest2F, OLSTEETON_UNI_DORM_WEST_2F, $0, 0
+	map_attributes OlsteetonUniDormWest2FRoom2, OLSTEETON_UNI_DORM_WEST_2F_ROOM_2, $0, 0
+	map_attributes OlsteetonUniDormWest2FRoom3, OLSTEETON_UNI_DORM_WEST_2F_ROOM_3, $0, 0
+	map_attributes OlsteetonUniDormWest3F, OLSTEETON_UNI_DORM_WEST_3F, $0, 0
+	map_attributes OlsteetonUniDormWest3FRoom1, OLSTEETON_UNI_DORM_WEST_3F_ROOM_1, $0, 0
+	map_attributes OlsteetonUniDormWest3FRoom3, OLSTEETON_UNI_DORM_WEST_3F_ROOM_3, $0, 0
+	map_attributes OlsteetonUniDormWestElevator, OLSTEETON_UNI_DORM_WEST_ELEVATOR, $0, 0
 	map_attributes OlsteetonUniDiningHall, OLSTEETON_UNI_DINING_HALL, $0, 0
 	map_attributes OlsteetonUniDormEast1F, OLSTEETON_UNI_DORM_EAST_1F, $0, 0
+	map_attributes OlsteetonUniDormEast2F, OLSTEETON_UNI_DORM_EAST_2F, $0, 0
+	map_attributes OlsteetonUniDormEast2FRoom1, OLSTEETON_UNI_DORM_EAST_2F_ROOM_1, $0, 0
+	map_attributes OlsteetonUniDormEast2FRoom3, OLSTEETON_UNI_DORM_EAST_2F_ROOM_3, $0, 0
+	map_attributes OlsteetonUniDormEast3F, OLSTEETON_UNI_DORM_EAST_3F, $0, 0
+	map_attributes OlsteetonUniDormEast3FRoom2, OLSTEETON_UNI_DORM_EAST_3F_ROOM_2, $0, 0
+	map_attributes OlsteetonUniDormEast3FRoom3, OLSTEETON_UNI_DORM_EAST_3F_ROOM_3, $0, 0
+	map_attributes OlsteetonUniDormEastElevator, OLSTEETON_UNI_DORM_EAST_ELEVATOR, $0, 0
 	map_attributes OlsteetonUniGymDept, OLSTEETON_UNI_GYM_DEPT, $0, 0
 	map_attributes OlsteetonAbandonedMill, OLSTEETON_ABANDONED_MILL, $0, 0
 	map_attributes OlsteetonAbandonedMillOutside, OLSTEETON_ABANDONED_MILL_OUTSIDE, $0F, 0
@@ -625,8 +635,6 @@ ENDM
 	map_attributes ValeriesHouse, VALERIES_HOUSE, $0, 0
 	map_attributes EcruteakCherishBallHouse, ECRUTEAK_CHERISH_BALL_HOUSE, $0, 0
 	map_attributes EcruteakDestinyKnotHouse, ECRUTEAK_DESTINY_KNOT_HOUSE, $0, 0
-	map_attributes EcruteakShrineOutside, ECRUTEAK_SHRINE_OUTSIDE, $0, 0
-	map_attributes EcruteakShrineInside, ECRUTEAK_SHRINE_INSIDE, $0, 0
 	map_attributes BlackthornGym1F, BLACKTHORN_GYM_1F, $0, 0
 	map_attributes BlackthornGym2F, BLACKTHORN_GYM_2F, $0, 0
 	map_attributes BlackthornDragonSpeechHouse, BLACKTHORN_DRAGON_SPEECH_HOUSE, $0, 0
@@ -665,10 +673,6 @@ ENDM
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
 	map_attributes Route43Gate, ROUTE_43_GATE, $0, 0
-	map_attributes SinjohRuins, SINJOH_RUINS, $d5, 0
-	map_attributes SinjohRuinsHouse, SINJOH_RUINS_HOUSE, $0, 0
-	map_attributes MystriStage, MYSTRI_STAGE, $0, 0
-	map_attributes EmbeddedTower, EMBEDDED_TOWER, $0, 0
 	map_attributes VioletMart, VIOLET_MART, $0, 0
 	map_attributes VioletGym, VIOLET_GYM, $0, 0
 	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $0, 0
@@ -925,10 +929,6 @@ ENDM
 	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
 	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0
-	map_attributes Route39RuggedRoadGate, ROUTE_39_RUGGED_ROAD_GATE, $0, 0
-	map_attributes SnowtopMountainInside, SNOWTOP_MOUNTAIN_INSIDE, $d5, 0
-	map_attributes SnowtopMountainOutside, SNOWTOP_MOUNTAIN_OUTSIDE, $0, 0
-	map_attributes SnowtopPokeCenter1F, SNOWTOP_POKECENTER_1F, $0, 0
 	map_attributes YellowForestGate, YELLOW_FOREST_GATE, $0, 0
 	map_attributes YellowForest, YELLOW_FOREST, $55, 0
 	map_attributes QuietCave1F, QUIET_CAVE_1F, $9, 0
@@ -970,7 +970,6 @@ ENDM
 	map_attributes Route19BeachHouse, ROUTE_19_BEACH_HOUSE, $0, 0
 	map_attributes ShamoutiTunnel, SHAMOUTI_TUNNEL, $9, 0
 	map_attributes NoisyForest, NOISY_FOREST, $0, 0
-	map_attributes ShamoutiShrineRuins, SHAMOUTI_SHRINE_RUINS, $37, 0
 	map_attributes ShamoutiPokeCenter1F, SHAMOUTI_POKECENTER_1F, $0, 0
 	map_attributes ShamoutiHotel1F, SHAMOUTI_HOTEL_1F, $0, 0
 	map_attributes ShamoutiHotel2F, SHAMOUTI_HOTEL_2F, $0, 0

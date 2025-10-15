@@ -44,12 +44,11 @@ OlsteetonUniDeansOfficeMatsumotoScript:
 
 .Text1:
 	text "Hello there,"
-	line "young trainer!"
 
 	para "I am Dean"
-	line "Matsumoto."
+	line "Name."
 
-	para "I'm the principal"
+	para "I'm the dean"
 	line "of Bouffalant"
 	cont "Academy."
 
@@ -62,14 +61,13 @@ OlsteetonUniDeansOfficeMatsumotoScript:
 	done
 
 OlsteetonUniDeansOfficeSignpost1Text:
-	text "It's Prof.Matsu-"
-	line "moto's degree in"
-	cont "Education."
+	text "It's a degree"
+	cont "in Education."
 	done
 
 OlsteetonUniDeansOfficeSignpost2Text:
 	text "It's a picture of"
-	line "Prof.Matsumoto in"
+	line "the dean in"
 
 	para "front of a grad-"
 	line "uating class."

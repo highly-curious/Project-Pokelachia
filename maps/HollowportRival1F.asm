@@ -41,7 +41,7 @@ HollowportRival1F_MapScriptHeader:
 
 RivalsDadHelpingText:
 	text "Hi, <PLAYER>!"
-	line "Gwen isn't here."
+	line "<RIVAL> isn't here."
 
 	para "She's been busy"
 	line "helping the prof-"

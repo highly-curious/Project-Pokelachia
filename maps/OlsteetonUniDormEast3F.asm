@@ -1,243 +1,130 @@
-; OlsteetonUniDormWest1F_MapScriptHeader:
-; 	def_scene_scripts
+OlsteetonUniDormEast3F_MapScriptHeader:
+	def_scene_scripts
 
-; 	def_callbacks
+	def_callbacks
 
-; 	def_warp_events
-; 	warp_event  5, 11, OLSTEETON_UNI, 10
-; 	warp_event  6, 11, OLSTEETON_UNI, 10
-; 	warp_event 11,  3, OLSTEETON_UNI_DORM_WEST_2F, 10
-; 	warp_event 11,  8, OLSTEETON_UNI_DINING_HALL, 10
-; 	warp_event 11,  9, OLSTEETON_UNI_DINING_HALL, 10
-
+	def_warp_events
+	warp_event  1,  0, OLSTEETON_UNI_DORM_EAST_2F, 2
+	warp_event 10,  0, OLSTEETON_UNI_DORM_EAST_3F_ROOM_2, 1
+	warp_event 14,  0, OLSTEETON_UNI_DORM_EAST_3F_ROOM_3, 1
+	warp_event  9,  0, OLSTEETON_UNI_DORM_EAST_ELEVATOR, 1
 
 
-; 	def_coord_events
+	def_coord_events
 
-; 	def_bg_events
-; 	bg_event 11,  1, BGEVENT_JUMPTEXT, OlsteetonUniDormWest1FBookshelf1Text
-; 	bg_event 10,  1, BGEVENT_READ, OlsteetonUniDormWest1FBookshelf2
-; 	bg_event  0,  9, BGEVENT_RIGHT, OlsteetonUniDormWest1FComputer
+	def_bg_events
+	bg_event 11,  1, BGEVENT_JUMPTEXT, OlsteetonUniDormEast3FBookshelf1Text
+	bg_event 10,  1, BGEVENT_READ, OlsteetonUniDormEast3FBookshelf2Text
+	bg_event  0,  9, BGEVENT_RIGHT, OlsteetonUniDormEast3FComputer
 
-; 	def_object_events
-; 	object_event 10,  6, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonUniDormWest1FNeeshaScript, -1
-; 	object_event  5,  1, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormWest1FLassText, -1
-; 	object_event  4,  1, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormWest1FRichBoyText, -1
-; 	object_event  1,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormWest1FCooltrainerfText, -1
-; 	object_event  2,  6, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormWest1FSuper_nerd1Text, -1
-; 	object_event  5,  7, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormWest1FSuper_nerd2Text, -1
+	def_object_events
+	object_event  4,  1, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FRichBoyText, -1
+	object_event  1,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FCooltrainerfText, -1
+	object_event  5,  7, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FSuper_nerd1Text, -1
+	object_event  2,  6, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FSuper_nerd2Text, -1
 
-; 	object_const_def
-; 	const OlsteetonUniDormWest1F_NEESHA
+	object_const_def
 
-; OlsteetonUniDormWest1FNeeshaScript:
-; 	faceplayer
-; 	opentext
-; 	checkevent EVENT_BEAT_COOLTRAINERF_NEESHA
-; 	iftruefwd .Beaten
-; 	checkevent EVENT_INTRODUCED_CELADON_FOUR
-; 	iftruefwd .IntroducedCeladonFour1
-; 	writetext .IntroText1
-; 	sjumpfwd .AfterIntro
-; .IntroducedCeladonFour1
-; 	writetext .IntroText2
-; .AfterIntro
-; 	yesorno
-; 	iffalse_jumpopenedtext .NoBattleText
-; 	writetext .SeenText
-; 	waitbutton
-; 	closetext
-; 	winlosstext .BeatenText, 0
-; 	setlasttalked OlsteetonUniDormWest1F_NEESHA
-; 	loadtrainer COOLTRAINERF, NEESHA
-; 	startbattle
-; 	reloadmapafterbattle
-; 	setevent EVENT_BEAT_COOLTRAINERF_NEESHA
-; 	opentext
-; .Beaten
-; 	setevent EVENT_INTRODUCED_CELADON_FOUR
-; 	checkevent EVENT_BEAT_COOLTRAINERM_COREY
-; 	iffalse_jumpopenedtext .AfterText1
-; 	checkevent EVENT_BEAT_COOLTRAINERM_RAYMOND
-; 	iffalse_jumpopenedtext .AfterText1
-; 	checkevent EVENT_BEAT_COOLTRAINERM_FERGUS
-; 	iffalse_jumpopenedtext .AfterText1
-; 	checkevent EVENT_GOT_CHOICE_BAND_FROM_CELADON_FOUR
-; 	iftrue_jumpopenedtext .FinalText
-; 	writetext .AfterText2
-; 	promptbutton
-; 	verbosegiveitem CHOICE_BAND
-; 	iffalse_endtext
-; 	setevent EVENT_GOT_CHOICE_BAND_FROM_CELADON_FOUR
-; 	jumpopenedtext .FinalText
+OlsteetonUniDormEast3FRichBoyText:
+	text "My roommate is"
+	line "super into"
+	cont "legendary #mon."
 
-; .IntroText1:
-; 	text "Hi! I'm Neesha!"
-; 	line "I'm one of top four"
+	para "For me, I just"
+	line "think Fairy"
+	cont "types are cool!"
+	done
 
-; 	para "trainers in Cela-"
-; 	line "don University."
+OlsteetonUniDormEast3FCooltrainerfText:
+	text "What's even the"
+	line "point of my" 
 
-; 	para "We're known as the"
-; 	line "Celadon Four!"
+	para "Native Bio-"
+	line "logy degree?"
 
-; 	para "Want me to show"
-; 	line "you why we're so"
-; 	cont "famous?"
+	para "I'm gonna have"
+	line "to move clear"
 
-; 	para "Then let's battle!"
-; 	done
+	para "to Unova if I"
+	line "want to find"
+	cont "a job!"
 
-; .IntroText2:
-; 	text "Hi! I'm Neesha!"
-; 	line "I'm one of the"
-; 	cont "Celadon Four!"
+	para "Stupid Mega-"
+	line "Corp!"
+	done
 
-; 	para "It looks like"
-; 	line "you've heard of us."
+OlsteetonUniDormEast3FSuper_nerd1Text:
+	text "No one truly ap-"
+	line "preciates Bug"
+	cont "#mon like me."
 
-; 	para "Then let's battle!"
-; 	done
+	para "And Ast. Asher,"
+	line "I suppose..."
+	done
 
-; .NoBattleText:
-; 	text "Not interested in"
-; 	line "a challenge?"
-; 	done
+OlsteetonUniDormEast3FSuper_nerd2Text:
+	text "Who cares about"
+	line "Bug types?!"
 
-; .SeenText:
-; 	text "We'll blow you"
-; 	line "away!"
-; 	done
+	para "Where are all"
+	line "the Dragons?!"
 
-; .BeatenText:
-; 	text "A painful loss…"
-; 	done
+	para "We need more"
+	line "research on"
+	cont "them!"
+	done
 
-; .AfterText1:
-; 	text "You're a worthy"
-; 	line "opponent!"
+OlsteetonUniDormEast3FBookshelf1Text:
+	text "A recreational"
+  	line "bookshelf."
 
-; 	para "But you haven't"
-; 	line "seen everything"
+  	para "'Not Yet Night,'"
+	line "'Not-Old Moon,'"
 
-; 	para "the Celadon Four"
-; 	line "can do."
+	para "'Hidden Sun,' &"
+	line "'Smashing Sunrise'"
 
-; 	para "Why don't you find"
-; 	line "the rest of us and"
-; 	cont "challenge them?"
-; 	done
+	para "Some of these"
+	line "sound semi"
+	cont "familiar..."
+	done
 
-; .AfterText2:
-; 	text "So you beat all of"
-; 	line "the Celadon Four…"
+OlsteetonUniDormEast3FComputer:
+	jumpthistext
 
-; 	para "That's so cool!"
+	text "Finally! A PC"
+  line "where it looks"
 
-; 	para "Take this as a"
-; 	line "prize!"
-; 	done
+  para "like someone is"
+  line "actually studying!"
 
-; .FinalText:
-; 	text "It's not often that"
-; 	line "someone gives us"
+  para "..."
 
-; 	para "Celadon Four a"
-; 	line "real challenge."
+  para "No, wait."
+  line "It's actually"
 
-; 	para "I won't forget"
-; 	line "you, trainer!"
-; 	done
+  para "Not-Giant"
+  line "Fortress..."
+	done
+OlsteetonUniDormEast3FText:
+	text "3rd Floor"
+	done
+OlsteetonUniDormEast3FRoom1Text:
+	text "Room 301"
+	line "Resident Advisor"
+	cont "David"
+	done
 
-; OlsteetonUniDormWest1FLassText:
-; 	text "Next month we're"
-; 	line "going on a trip"
-; 	cont "to Mt.Moon."
+OlsteetonUniDormEast3FRoom2Text:
+	text "Room 302"
+	line "Shane"
+	done
 
-; 	para "Maybe I'll see a"
-; 	line "Clefairy!"
-; 	done
+OlsteetonUniDormEast3FRoom3Text:
+	text "Room 303"
+	line "Elijah"
+	done
 
-; OlsteetonUniDormWest1FRichBoyText:
-; 	text "Have you ever"
-; 	line "wondered why"
-
-; 	para "Ultra Balls have"
-; 	line "a yellow letter"
-; 	cont "H on the top?"
-
-; 	para "It's because they"
-; 	line "were first called"
-; 	cont "Hyper Balls!"
-; 	done
-
-; OlsteetonUniDormWest1FCooltrainerfText:
-; 	text "#mon with"
-; 	line "reduced physical"
-
-; 	para "strength instinct-"
-; 	line "ively attempt to"
-; 	cont "enter a # Ball."
-; 	done
-
-; OlsteetonUniDormWest1FSuper_nerd1Text:
-; 	text "What do you get if"
-; 	line "you cross a joke"
-
-; 	para "with a rhetorical"
-; 	line "question?"
-
-; 	para "………………………………"
-; 	done
-
-; OlsteetonUniDormWest1FSuper_nerd2Text:
-; 	text "I'm writing scripts"
-; 	line "for a game."
-
-; 	para "Do not said use"
-; 	line "asm!"
-; 	done
-
-; OlsteetonUniDormWest1FBookshelf1Text:
-; 	text "It's stuffed full"
-; 	line "of copies of"
-; 	cont "#mon manga!"
-; 	done
-
-; OlsteetonUniDormWest1FBookshelf2:
-; 	opentext
-; 	writetext .Text1
-; 	waitbutton
-; 	checkevent EVENT_GOT_PP_MAX_IN_UNIVERSITY
-; 	iftruefwd .GotItem
-; 	verbosegiveitem PP_MAX
-; 	iffalsefwd .Done
-; 	setevent EVENT_GOT_PP_MAX_IN_UNIVERSITY
-; .Done
-; 	endtext
-
-; .GotItem
-; 	jumpopenedtext .Text2
-
-; .Text1:
-; 	text "This book has a"
-; 	line "secret compartment"
-
-; 	para "where the pages"
-; 	line "should be!"
-; 	done
-
-; .Text2:
-; 	text "Too bad--it's"
-; 	line "empty."
-; 	done
-
-; OlsteetonUniDormWest1FComputer:
-; 	jumpthistext
-
-; 	text "There's a player"
-; 	line "character running"
-
-; 	para "around a 2D"
-; 	line "Celadon City."
-; 	done
+OlsteetonUniDormEast3FBookshelf2Text:
+	text "Needs Text"
+	done

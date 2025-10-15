@@ -15,7 +15,6 @@ Route35_MapScriptHeader:
 	bg_event  5,  7, BGEVENT_JUMPTEXT, Route35SignText
 	bg_event 15, 31, BGEVENT_JUMPTEXT, Route35SignText
 	bg_event 12, 23, BGEVENT_JUMPTEXT, Route35AdvancedTipsSignText
-	bg_event  4, 11, BGEVENT_ITEM + NUGGET, EVENT_ROUTE_35_HIDDEN_NUGGET
 	bg_event 14, 15, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_35
 	bg_event 15, 15, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_35
 

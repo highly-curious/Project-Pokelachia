@@ -16,50 +16,28 @@ OlsteetonUniDiningHall_MapScriptHeader:
 	bg_event 10,  0, BGEVENT_JUMPTEXT, OlsteetonUniDiningHallSignText
 
 	def_object_events
-	object_event  4,  2, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDiningHallCooltrainerfText, -1
-	object_event  7,  3, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDiningHallBeautyText, -1
+	object_event  4,  1, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDiningHallCooltrainerfText, -1
+	object_event 11,  3, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDiningHallBeautyText, -1
 	object_event  2,  6, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDiningHallYoungster1Text, -1
 	object_event  8,  6, SPRITE_LADY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDiningHallLadyText, -1
 	object_event 11,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, OlsteetonUniDiningHallYoungster2Script, -1
-	object_event  0,  3, SPRITE_BAKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonUniDiningHallBakerScript, -1
+	object_event  9,  2, SPRITE_BAKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonUniDiningHallBakerScript, -1
 
 	object_const_def
 OlsteetonUniDiningHallCooltrainerfText:
-	text "This place makes"
-	line "the best Cinnabar-"
-	cont "style hamburger"
-
-	para "steaks this side"
-	line "of Kanto!"
-
-	para "It's just like"
-	line "being home."
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallBeautyText:
-	text "The cook finally"
-	line "made another batch"
-	cont "of Old Gateau!"
-
-	para "I might go back"
-	line "for seconds."
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallYoungster1Text:
-	text "I asked the cafe-"
-	line "teria to stock"
-	cont "Casteliacones."
-
-	para "They remind me of"
-	line "home, and they're"
-	cont "yummy too!"
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallLadyText:
-	text "I'm on a diet."
-	line "Today it's a"
-	para "nutritious Slip"
-	line "Seed salad for me."
+	text "needs dialogue"
 	done
 
 OlsteetonUniDiningHallYoungster2Script:

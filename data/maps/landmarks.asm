@@ -49,8 +49,6 @@ Landmarks:
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
-	landmark  36,  36, RuggedRoadName
-	landmark  36,  28, SnowtopMountainName
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
 	landmark  28,  64, Route40Name
@@ -78,8 +76,6 @@ Landmarks:
 	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
 	landmark 102, 124, FastShipName
-	landmark 120,  28, SinjohRuinsName
-	landmark 120,  28, MystriStageName
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  88, Route1Name
@@ -112,7 +108,6 @@ Landmarks:
 	landmark 142,  62, SoulHouseName
 	landmark  84,  60, CeladonCityName
 	landmark  82,  62, CeladonUniversityName
-	landmark 108,  60, SaffronCityName
 	landmark 124,  76, Route11Name
 	landmark 140,  76, Route12Name
 	landmark 132,  92, Route13Name
@@ -147,7 +142,6 @@ Landmarks:
 	landmark  84,  60, BeautifulBeachName
 	landmark  68,  40, RockyBeachName
 	landmark  76,  40, NoisyForestName
-	landmark  84,  44, ShrineRuinsName
 	landmark  52,  52, ShamoutiTunnelName
 	landmark  52,  60, WarmBeachName
 	landmark  52,  72, ShamoutiCoastName
@@ -194,7 +188,6 @@ CeruleanCityName:      rawchar "Cerulean¯City@"
 LavenderTownName:      rawchar "Lavender¯Town@"
 VermilionCityName:     rawchar "Vermilion¯City@"
 CeladonCityName:       rawchar "Celadon¯City@"
-SaffronCityName:       rawchar "Saffron¯City@"
 FuchsiaCityName:       rawchar "Fuchsia¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
@@ -281,8 +274,6 @@ Route34CoastName:      rawchar "Route 34¯Coast@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
 StormyBeachName:       rawchar "Stormy¯Beach@"
 MurkySwampName:        rawchar "Murky¯Swamp@"
-RuggedRoadName:        rawchar "Rugged¯Road@"
-SnowtopMountainName:   rawchar "Snowtop¯Mountain@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
 DimCaveName:           rawchar "Dim Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
@@ -290,7 +281,6 @@ ShamoutiIslandName:    rawchar "Shamouti¯Island@"
 BeautifulBeachName:    rawchar "Beautiful¯Beach@"
 RockyBeachName:        rawchar "Rocky¯Beach@"
 NoisyForestName:       rawchar "Noisy¯Forest@"
-ShrineRuinsName:       rawchar "Shrine¯Ruins@"
 ShamoutiTunnelName:    rawchar "Shamouti¯Tunnel@"
 WarmBeachName:         rawchar "Warm Beach@"
 ShamoutiCoastName:     rawchar "Shamouti¯Coast@"
@@ -301,8 +291,6 @@ Route49Name:           rawchar "Route 49@"
 ValenciaIslandName:    rawchar "Valencia¯Island@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"
-SinjohRuinsName:       rawchar "Sinjoh¯Ruins@"
-MystriStageName:       rawchar "Mystri¯Stage@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
 HollowportName:        rawchar "Hollowport@"
 Route101Name:          rawchar "Route 101@"

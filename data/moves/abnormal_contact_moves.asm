@@ -24,4 +24,4 @@ AbnormalContactMoves:
 	db SACRED_FIRE
 	db SEED_BOMB
 	db STONE_EDGE
-	db -1 ; Struggle does make contact
+	db STRUGGLE ; -1

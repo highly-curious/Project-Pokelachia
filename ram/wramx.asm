@@ -1058,9 +1058,6 @@ wFarfetchdPosition:: db
 wAlways0SceneID:: db
 wAzaleaTownSceneID:: db
 wBattleFacilitySceneID:: db
-wRoute39RuggedRoadGateSceneID:: db
-wRuggedRoadSouthSceneID:: db
-wSnowtopMountainOutsideSceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBellchimeTrailSceneID:: db
 wBrunosRoomSceneID:: db
@@ -1144,7 +1141,11 @@ wVictoryRoad2FSceneID:: db
 wVioletGymSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
-wYellowForestSceneID:: db
+; wYellowForestSceneID:: db
+
+;Aplan Map Triggers
+wRoute101SceneID:: db
+
 
 ; fight counts
 wJackFightCount::    db

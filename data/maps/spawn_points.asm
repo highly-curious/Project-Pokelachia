@@ -20,7 +20,6 @@ SpawnPoints:
 	spawn ROUTE_10_NORTH,             11, 36
 	spawn VERMILION_CITY,              9,  6
 	spawn LAVENDER_TOWN,               5,  8
-	spawn SAFFRON_CITY,                9, 30
 	spawn CELADON_CITY,               33, 10
 	spawn FUCHSIA_CITY,               19, 28
 	spawn CINNABAR_ISLAND,            11, 16
@@ -35,7 +34,6 @@ SpawnPoints:
 	spawn GOLDENROD_CITY,             18, 28
 	spawn OLIVINE_CITY,               13, 18
 	spawn ECRUTEAK_CITY,              23, 28
-	spawn SNOWTOP_MOUNTAIN_OUTSIDE,   17, 34
 	spawn MAHOGANY_TOWN,              15, 14
 	spawn ROUTE_48,                   11,  6
 	spawn LAKE_OF_RAGE,               21, 29

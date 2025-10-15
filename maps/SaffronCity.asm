@@ -55,7 +55,6 @@ SaffronCity_MapScriptHeader:
 	object_event 11, 22, SPRITE_SILPH_EMPLOYEE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 4, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronCitySilphEmployeeText, -1
 
 SaffronCityFlyPoint:
-	setflag ENGINE_FLYPOINT_SAFFRON
 	endcallback
 
 SaffronCityLass1Script:

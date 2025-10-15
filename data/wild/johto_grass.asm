@@ -2212,62 +2212,6 @@
 	wildmon LEVEL_FROM_BADGES - 1, ELEKID
 	end_grass_wildmons
 
-	def_grass_wildmons RUGGED_ROAD_SOUTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, GEODUDE
-	wildmon LEVEL_FROM_BADGES - 2, GROWLITHE, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, GRAVELER
-	wildmon LEVEL_FROM_BADGES - 1, SKARMORY
-	wildmon LEVEL_FROM_BADGES + 0, SKARMORY
-	wildmon LEVEL_FROM_BADGES + 1, GROWLITHE, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, GROWLITHE, HISUIAN_FORM
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, GEODUDE
-	wildmon LEVEL_FROM_BADGES - 2, GROWLITHE, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, GRAVELER
-	wildmon LEVEL_FROM_BADGES - 1, SKARMORY
-	wildmon LEVEL_FROM_BADGES + 0, SKARMORY
-	wildmon LEVEL_FROM_BADGES + 1, GROWLITHE, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, GROWLITHE, HISUIAN_FORM
-	; nite
-	wildmon LEVEL_FROM_BADGES - 2, GEODUDE
-	wildmon LEVEL_FROM_BADGES - 2, GRAVELER
-	wildmon LEVEL_FROM_BADGES - 1, GRAVELER
-	wildmon LEVEL_FROM_BADGES - 1, GLIGAR
-	wildmon LEVEL_FROM_BADGES + 0, GLIGAR
-	wildmon LEVEL_FROM_BADGES + 1, HOUNDOUR
-	wildmon LEVEL_FROM_BADGES - 1, HOUNDOUR
-	end_grass_wildmons
-
-	def_grass_wildmons SNOWTOP_MOUNTAIN_INSIDE
-	db 8 percent, 8 percent, 8 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, SWINUB
-	wildmon LEVEL_FROM_BADGES + 1, SWINUB
-	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
-	wildmon LEVEL_FROM_BADGES + 0, STANTLER
-	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, SWINUB
-	wildmon LEVEL_FROM_BADGES + 1, SWINUB
-	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
-	wildmon LEVEL_FROM_BADGES + 0, STANTLER
-	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
-	; nite
-	wildmon LEVEL_FROM_BADGES - 2, SWINUB
-	wildmon LEVEL_FROM_BADGES + 1, SWINUB
-	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
-	wildmon LEVEL_FROM_BADGES + 0, STANTLER
-	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, SNEASEL, HISUIAN_FORM
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_101
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -2275,7 +2219,7 @@
 	wildmon 2, SPEAROW
 	wildmon 3, MEOWTH
 	wildmon 3, SPEAROW
-	wildmon 4, MEOWTH
+	wildmon 4, SENTRET
 	wildmon 5, MEOWTH
 	wildmon 6, MEOWTH
 	; day
@@ -2283,15 +2227,15 @@
 	wildmon 2, SPEAROW
 	wildmon 3, MEOWTH
 	wildmon 3, SPEAROW
-	wildmon 4, MEOWTH
-	wildmon 5, MEOWTH
+	wildmon 4, SENTRET
+	wildmon 5, SENTRET
 	wildmon 6, MEOWTH
 	; nite
-	wildmon 3, MEOWTH
-	wildmon 4, PILOSWINE
+	wildmon 3, HOOTHOOT
+	wildmon 4, SENTRET
 	wildmon 3, MURKROW
-	wildmon 5, PILOSWINE
-	wildmon 3, MURKROW
+	wildmon 5, SENTRET
+	wildmon 4, MURKROW
 	wildmon 6, MEOWTH
 	wildmon 10, NOCTOWL
 	end_grass_wildmons
@@ -2332,7 +2276,7 @@
 	wildmon 3, SPEAROW
 	wildmon 4, MEOWTH
 	wildmon 5, MEOWTH
-	wildmon 6, MEOWTH
+	wildmon 6, SENTRET
 	; day
 	wildmon 2, MEOWTH
 	wildmon 2, SPEAROW
@@ -2340,14 +2284,14 @@
 	wildmon 3, SPEAROW
 	wildmon 4, MEOWTH
 	wildmon 5, MEOWTH
-	wildmon 6, MEOWTH
+	wildmon 6, SENTRET
 	; nite
-	wildmon 3, MEOWTH
-	wildmon 4, PILOSWINE
+	wildmon 3, HOOTHOOT
+	wildmon 4, SENTRET
 	wildmon 3, MURKROW
-	wildmon 5, PILOSWINE
+	wildmon 5, SENTRET
 	wildmon 3, MURKROW
-	wildmon 6, MEOWTH
+	wildmon 6, SENTRET
 	wildmon 10, NOCTOWL
 	end_grass_wildmons
 

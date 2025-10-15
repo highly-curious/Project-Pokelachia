@@ -52,6 +52,6 @@ CeladonMansion2FComputerText:
 	done
 
 CeladonMansion2FSignText:
-	text "Game Freak"
+	text "GAME FREAK"
 	line "Meeting Room"
 	done

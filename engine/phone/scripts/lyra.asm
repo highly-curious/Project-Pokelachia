@@ -125,8 +125,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .BurnedTower ; no calls
 	dw .Route38
 	dw .Route39
-	dw .RuggedRoad
-	dw .SnowtopMountain
 	dw .OlivineCity
 	dw .Lighthouse
 	dw .Route40
@@ -154,8 +152,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route46
 	dw .SilverCave
 	dw .FastShip
-	dw .SinjohRuins ; no calls
-	dw .MystriStage ; no calls
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .Hollowport:
@@ -229,8 +225,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Route46:
 .SilverCave:
 .FastShip:
-.SinjohRuins:
-.MystriStage:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
 	end

@@ -39,11 +39,6 @@ INCLUDE "maps/GoldenrodPokecomCenter1F.asm"
 INCLUDE "maps/GoldenrodPokecomCenterOffice.asm"
 
 
-SECTION "Pokemon Center Scripts 5", ROMX
-
-INCLUDE "maps/SnowtopPokeCenter1F.asm"
-
-
 SECTION "Special Map Scripts", ROMX
 
 INCLUDE "maps/PokeCenter2F.asm"
@@ -100,6 +95,13 @@ INCLUDE "maps/OlsteetonMall3.asm"
 INCLUDE "maps/OlsteetonMart.asm"
 INCLUDE "maps/RiverfrontApt1F.asm"
 INCLUDE "maps/RiverfrontApt2F.asm"
+INCLUDE "maps/RiverfrontApt2FRoom1.asm"
+INCLUDE "maps/RiverfrontApt2FRoom2.asm"
+INCLUDE "maps/RiverfrontApt2FRoom3.asm"
+INCLUDE "maps/RiverfrontApt3FRoom1.asm"
+INCLUDE "maps/RiverfrontApt3FRoom2.asm"
+INCLUDE "maps/RiverfrontApt4FRoom1.asm"
+INCLUDE "maps/RiverfrontApt4FRoom3.asm"
 INCLUDE "maps/RiverfrontApt3F.asm"
 INCLUDE "maps/RiverfrontApt4F.asm"
 INCLUDE "maps/RiverfrontApt5F.asm"
@@ -129,6 +131,11 @@ INCLUDE "maps/OlsteetonUniNurseDept.asm"
 INCLUDE "maps/OlsteetonUniWaterLab.asm"
 INCLUDE "maps/OlsteetonUniOffice.asm"
 INCLUDE "maps/OlsteetonUniDeansOffice.asm"
+INCLUDE "maps/OlsteetonUniOfficeSpruce.asm"
+INCLUDE "maps/OlsteetonUniOfficePoplar.asm"
+INCLUDE "maps/OlsteetonUniOfficePawpaw.asm"
+INCLUDE "maps/OlsteetonUniOfficeLounge.asm"
+INCLUDE "maps/OlsteetonUniOfficeTA.asm"
 INCLUDE "maps/OlsteetonUniClockTower1F.asm"
 INCLUDE "maps/OlsteetonUniClockTower2F.asm"
 INCLUDE "maps/OlsteetonUniClockTower3F.asm"
@@ -139,11 +146,27 @@ INCLUDE "maps/OlsteetonUniClassroomBusiness.asm"
 INCLUDE "maps/OlsteetonUniClassroomStrategy.asm"
 INCLUDE "maps/OlsteetonUniClassroomHistory.asm"
 INCLUDE "maps/OlsteetonUniClassroomTheory.asm"
+
+SECTION "Academy Scripts 2", ROMX
+
 INCLUDE "maps/OlsteetonUniDormWest1F.asm"
+INCLUDE "maps/OlsteetonUniDormWest2F.asm"
+INCLUDE "maps/OlsteetonUniDormWest2FRoom2.asm"
+INCLUDE "maps/OlsteetonUniDormWest2FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormWest3F.asm"
+INCLUDE "maps/OlsteetonUniDormWest3FRoom1.asm"
+INCLUDE "maps/OlsteetonUniDormWest3FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormWestElevator.asm"
 INCLUDE "maps/OlsteetonUniDiningHall.asm"
 INCLUDE "maps/OlsteetonUniDormEast1F.asm"
+INCLUDE "maps/OlsteetonUniDormEast2F.asm"
+INCLUDE "maps/OlsteetonUniDormEast2FRoom1.asm"
+INCLUDE "maps/OlsteetonUniDormEast2FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormEast3F.asm"
+INCLUDE "maps/OlsteetonUniDormEast3FRoom2.asm"
+INCLUDE "maps/OlsteetonUniDormEast3FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormEastElevator.asm"
 INCLUDE "maps/OlsteetonUniGymDept.asm"
-
 
 SECTION "New Bark Scripts", ROMX
 
@@ -227,13 +250,6 @@ INCLUDE "maps/RuinsOfAlphAerodactylWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphHoOhWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
-
-
-SECTION "Sinjoh Ruins Scripts", ROMX
-
-INCLUDE "maps/SinjohRuins.asm"
-INCLUDE "maps/SinjohRuinsHouse.asm"
-INCLUDE "maps/MystriStage.asm"
 
 
 SECTION "Union Cave Scripts", ROMX
@@ -360,8 +376,6 @@ INCLUDE "maps/WiseTriosRoom.asm"
 
 SECTION "Ecruteak Scripts 2", ROMX
 
-INCLUDE "maps/EcruteakShrineOutside.asm"
-INCLUDE "maps/EcruteakShrineInside.asm"
 INCLUDE "maps/EcruteakCherishBallHouse.asm"
 INCLUDE "maps/EcruteakDestinyKnotHouse.asm"
 INCLUDE "maps/ValeriesHouse.asm"
@@ -383,15 +397,6 @@ INCLUDE "maps/TinTower10F.asm"
 INCLUDE "maps/TinTowerRoof.asm"
 INCLUDE "maps/BurnedTower1F.asm"
 INCLUDE "maps/BurnedTowerB1F.asm"
-
-
-SECTION "Rugged Road + Snowtop Mountain Scripts", ROMX
-
-INCLUDE "maps/RuggedRoadNorth.asm"
-INCLUDE "maps/RuggedRoadSouth.asm"
-INCLUDE "maps/SnowtopMountainInside.asm"
-INCLUDE "maps/SnowtopMountainOutside.asm"
-INCLUDE "maps/Route39RuggedRoadGate.asm"
 
 
 SECTION "Olivine Scripts", ROMX
@@ -797,7 +802,6 @@ INCLUDE "maps/RocketHideoutElevator.asm"
 
 SECTION "Saffron Scripts", ROMX
 
-INCLUDE "maps/SaffronCity.asm"
 INCLUDE "maps/SaffronMart.asm"
 INCLUDE "maps/SaffronGym.asm"
 INCLUDE "maps/SaffronBookSpeechHouse.asm"
@@ -925,7 +929,6 @@ INCLUDE "maps/RockyBeachHouse.asm"
 SECTION "Shamouti Scripts 2", ROMX
 
 INCLUDE "maps/NoisyForest.asm"
-INCLUDE "maps/ShamoutiShrineRuins.asm"
 INCLUDE "maps/ShamoutiTunnel.asm"
 INCLUDE "maps/ShamoutiCoast.asm"
 

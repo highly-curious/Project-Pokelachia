@@ -52,7 +52,6 @@ MapScenes::
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
 	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID
-	scene_var MYSTRI_STAGE,                           wMystriStageSceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var OLIVINE_CITY,                           wOlivineCitySceneID
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
@@ -76,12 +75,10 @@ MapScenes::
 	scene_var ROUTE_35_NATIONAL_PARK_GATE,            wRoute35NationalParkGateSceneID
 	scene_var ROUTE_36,                               wRoute36SceneID
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
-	scene_var ROUTE_39_RUGGED_ROAD_GATE,              wRoute39RuggedRoadGateSceneID
 	scene_var ROUTE_42,                               wRoute42SceneID
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
 	scene_var ROUTE_47,                               wRoute47SceneID
 	scene_var ROUTE_48,                               wRoute48SceneID
-	scene_var RUGGED_ROAD_SOUTH,                      wRuggedRoadSouthSceneID
 	scene_var RUINS_OF_ALPH_AERODACTYL_CHAMBER,       wRuinsOfAlphAerodactylChamberSceneID
 	scene_var RUINS_OF_ALPH_HO_OH_CHAMBER,            wRuinsOfAlphHoOhChamberSceneID
 	scene_var RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberSceneID
@@ -94,7 +91,6 @@ MapScenes::
 	scene_var SEAGALLOP_FERRY_SHAMOUTI_GATE,          wSeagallopFerryShamoutiGateSceneID
 	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID
 	scene_var SHAMOUTI_HOTEL_RESTAURANT,              wShamoutiHotelRestaurantSceneID
-	scene_var SNOWTOP_MOUNTAIN_OUTSIDE,               wSnowtopMountainOutsideSceneID
 	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
 	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID
@@ -109,6 +105,8 @@ MapScenes::
 	scene_var VIOLET_GYM,                             wVioletGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
-	scene_var YELLOW_FOREST,                          wYellowForestSceneID
+	; scene_var YELLOW_FOREST,                          wYellowForestSceneID
 	scene_var ROCKET_HIDEOUT_B4F,                     wRocketHideoutB4FSceneID
+	scene_var ROUTE_101,                              wRoute101SceneID
+
 	db -1

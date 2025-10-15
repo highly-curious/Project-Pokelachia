@@ -22,8 +22,8 @@ Olsteeton_MapScriptHeader:
 	warp_event 10, 29, OLSTEETON_TRAIN_STATION, 2
 	warp_event 29, 33, OLSTEETON_NAME_RATER, 1
 	warp_event  7, 31, OLSTEETON_FISHER_HOUSE, 1
-	warp_event 31, 37, OLSTEETON_QUICK_HOUSE, 1
 	warp_event 13, 37, OLSTEETON_GYM_HOUSE, 1
+	warp_event 31, 37, OLSTEETON_QUICK_HOUSE, 1
 	warp_event 21, 35, OLSTEETON_FOREST_GATE, 1
 	warp_event 22, 35, OLSTEETON_FOREST_GATE, 2
 	warp_event 37, 12, OLSTEETON_UNI_GATE, 1
@@ -69,7 +69,7 @@ Olsteeton_MapScriptHeader:
 	object_event 24, 16, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker2Text, -1
 	object_event 26, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker3Text, -1
 	object_event 26, 19, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandCooltrainerFText, -1
-	object_event 38,  3, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, 0, OBJECTTYPE_SCRIPT_SILENT, 0, OlsteetonSailboatScript, -1
+	object_event 38,  3, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, PAL_NPC_BROWN, 0, -1, 0, OBJECTTYPE_SCRIPT_SILENT, 0, OlsteetonSailboatScript, -1
 
 	; itemball_event 39,  7, MAX_ETHER, 1, EVENT_Olsteeton_CITY_MAX_ETHER
 	; cuttree_event 33, 34, EVENT_Olsteeton_CITY_CUT_TREE
@@ -108,7 +108,7 @@ BoatText_Ask:
 	done
 
 OlsteetonSailboatText:
-	text "It's a sailboat"
+	text "It's a boat"
 	line "named Magic Harp."
 	done
 OlsteetonFlyPoint:
@@ -301,11 +301,15 @@ OlsteetonFishingGuruSignText:
 	done
 OlsteetonHomeDecorStoreSignText:
 	text "Olsteeton Mall"
-	line "Have you Herb?"
+	line "MegaMart"
+
+	para "Have you Herb?"
+	line "Bob's Battle Emp."
 	done
 
 OlsteetonBoatText:
-	text "It's a boat."
+	text "It's a boat"
+	line "called Magic Harp."
 	done
 
 OlsteetonGameCornerSignText:

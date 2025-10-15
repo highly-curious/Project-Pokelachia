@@ -18,18 +18,20 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPTEXT, PlayerHouse1FSinkText
 	bg_event  8,  1, BGEVENT_JUMPTEXT, PlayerHouse1FStoveText
 	bg_event  3,  1, BGEVENT_UP, PlayerHouse1FTVScript
+	bg_event 10,  1, BGEVENT_ITEM + RARE_CANDY, EVENT_PLAYER_HOUSE_HIDDEN_RARE_CANDY
 
 	def_object_events
-	object_event  2,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MotherScript, EVENT_PLAYERS_HOUSE_MOTHER
-	object_event  3,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SisTrigger, EVENT_PLAYERS_SISTER
+	object_event  2,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MotherScript, EVENT_PLAYERS_HOUSE_MOTHER
+	object_event  3,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SisterScript, EVENT_PLAYERS_SISTER
 	object_event  8,  3, SPRITE_DAD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, DadText, -1
-
-	pokemon_event  3,  5, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, HomeMeowthText, -1
+	object_event  9,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MotherScript, EVENT_PLAYERS_HOUSE_MOM_2
+	pokemon_event  3,  5, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GRAY, HomeMeowthText, -1
 
 
 	object_const_def
 	const PLAYERSHOUSE1F_MOTHER
 	const PLAYERSHOUSE1F_SISTER
+
 
 MotherTrigger1:
 	playmusic MUSIC_MOM
@@ -62,10 +64,18 @@ MotherTrigger2:
 	step_up
 	step_end
 
+
 MotherEventScript:
 	opentext
 	writetext MotherIntroText
 	promptbutton
+	special SpecialNameRival
+	writetext MotherIntroText2
+	waitbutton
+	closetext
+	opentext
+	writetext MomPokegearText
+	waitbutton
 	givespecialitem POKEGEAR 
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
@@ -117,8 +127,7 @@ SisTrigger:
 	sjumpfwd SisterScript
 
 SisterScript:
-	checkevent EVENT_PLAYERS_SISTER
-	iftruefwd SisScript
+	sjumpfwd SisScript
 	opentext
 	writetext SisterIntroText
 	closetext
@@ -153,18 +162,27 @@ MotherIntroText:
 	para "Your friend"
 	line "was just here."
 
-	para "They said some-"
-	line "thing about"
+	para "What was their"
+	line "name again?"
+	done	
+MotherIntroText2:
+	text "Oh, right!"
 
-	para "a professor"
+	para "Anyway, <RIVAL>"
+	line "said something"
+
+	para "about a professor"
 	line "setting up a"
 
 	para "a lab in town?"
 	line "I hope they"
 
 	para "don't cause"
-	line "any ruckus."
+	line "any ruckus..."
+	done
+end
 
+MomPokegearText:
 	para "Oh! I almost"
 	line "forgot! Your dad"
 
@@ -172,8 +190,6 @@ MotherIntroText:
 	line "#gear!"
 	cont "Here ya go!"
 	done
-end
-
 MotherPokegearText:
 	text "#mon Gear, or"
 	line "just #gear."

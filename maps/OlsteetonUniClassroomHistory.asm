@@ -25,54 +25,23 @@ OlsteetonUniClassroomHistory_MapScriptHeader:
 	object_event  3,  5, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonUniClassroomHistoryCooltrainermScript, -1
 
 OlsteetonUniClassroomHistoryBlancheText:
-	text "I am Blanche."
-	line "I teach History"
-	cont "here."
-
-	para "We must learn from"
-	line "history, or we"
-
-	para "will be doomed to"
-	line "repeat it."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomHistoryTeacherText:
-	text "I'm afraid Blanche"
-	line "isn't available."
-
-	para "They only teach"
-	line "during the day."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomHistoryYoungsterText:
-	text "Flipping through"
-	line "my notes at the"
-	cont "speed of--YOW!"
-	cont "Paper cut…"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomHistoryChildText:
-	text "We just had a"
-	line "lecture on Prof."
-
-	para "Westwood's contri-"
-	line "butions to the"
-	cont "#dex."
-
-	para "I heard that"
-	line "towards the end"
-
-	para "he got lazy and"
-	line "just made some of"
-	cont "it up!"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomHistoryLadyText:
-	text "You're from Johto?"
-	line "That region has"
-
-	para "such fascinating"
-	line "history!"
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomHistoryCooltrainermScript:
@@ -83,67 +52,23 @@ OlsteetonUniClassroomHistoryCooltrainermScript:
 
 .Text1: ; text > text
 	text "…Zzz…"
-	line "Aah!"
+	line "Huh!"
 	done
 
 .Text2:
-	text "Ahem."
-
-	para "Sorry about that--"
-	line "you startled me."
-
-	para "I stayed up late"
-	line "to finish an"
-
-	para "assignment, so now"
-	line "I'm exhausted."
+	text "Needs dialogue"
 	done
 
 OlsteetonUniClassroomHistoryBlackboardText:
-	text "There's a timeline"
-	line "of recent history."
-
-	para "400 years ago:"
-	line "Toxic move invent-"
-	cont "ed."
-
-	para "71 years ago:"
-	line "modern # Ball"
-	cont "developed."
-
-	para "27 years ago:"
-	line "first Moon land-"
-	cont "ing."
-
-	para "Three years ago:"
-	line "first virtual"
-	cont "#mon created."
-
-	para "“Hypothesis: tech-"
-	line "nology grows expo-"
-	cont "nentially.”"
+	text "Needs text"
 	done
 
 OlsteetonUniClassroomHistoryBookshelf1Text:
-	text "It's a book about"
-if DEF(FAITHFUL)
-	line "how the Brass"
-	cont "Tower in Ecruteak"
-
-	para "City burned down"
-	line "150 years ago."
-else
-	line "how the Gong Tower"
-	cont "in Ecruteak City"
-
-	para "burned down 150"
-	line "years ago."
-endc
+	text "Needs text"
 	done
+
 
 OlsteetonUniClassroomHistoryBookshelf2Text:
-	text "It's a book of"
-	line "slang terms from"
-	cont "the 1980s."
-	cont "Heavy!"
+	text "Needs text"
 	done
+
