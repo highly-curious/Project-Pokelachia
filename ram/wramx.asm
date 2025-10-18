@@ -1122,8 +1122,6 @@ wVictoryRoad2FSceneID:: db
 wVioletGymSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
-; wYellowForestSceneID:: db
-
 ;Folkora Map Triggers
 wRoute101SceneID:: db
 
@@ -1173,7 +1171,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 83 ; unused
+	ds 84 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
