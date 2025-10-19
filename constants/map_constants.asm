@@ -345,42 +345,6 @@ ENDM
 	map_const HALL_OF_FAME,                                5,  7 ;  9
 	map_const BELLCHIME_TRAIL,                            12,  7 ; 10
 
-	newgroup                                                     ; 17
-	map_const ROUTE_12_SOUTH,                             10, 44 ;  1
-	map_const ROUTE_13_EAST,                              23, 10 ;  2
-	map_const ROUTE_13_WEST,                              12, 10 ;  3
-	map_const ROUTE_14,                                   12, 19 ;  4
-	map_const ROUTE_15,                                   20,  9 ;  5
-	map_const ROUTE_18_EAST,                              12, 11 ;  6
-	map_const FUCHSIA_CITY,                               20, 18 ;  7
-	map_const FUCHSIA_MART,                                6,  4 ;  8
-	map_const FUCHSIA_GYM,                                 5,  9 ;  9
-	map_const FUCHSIA_BILL_SPEECH_HOUSE,                   4,  4 ; 10
-	map_const FUCHSIA_SAFARI_BALL_HOUSE,                   4,  4 ; 11
-	map_const FUCHSIA_POKECENTER_1F,                       6,  4 ; 12
-	map_const SAFARI_ZONE_WARDENS_HOME,                    5,  4 ; 13
-	map_const SAFARI_ZONE_FUCHSIA_GATE,                    5,  4 ; 14
-	map_const ROUTE_12_GATE,                               5,  5 ; 15
-	map_const ROUTE_12_GATE_2F,                            4,  4 ; 16
-	map_const ROUTE_15_FUCHSIA_GATE,                       5,  5 ; 17
-	map_const ROUTE_15_FUCHSIA_GATE_2F,                    4,  4 ; 18
-	map_const ROUTE_19_FUCHSIA_GATE,                       5,  4 ; 19
-	map_const ROUTE_12_SUPER_ROD_HOUSE,                    4,  4 ; 20
-	map_const LUCKY_ISLAND,                               23, 17 ; 21
-
-	newgroup                                                     ; 18
-	map_const ROUTE_8,                                    26, 11 ;  1
-	map_const ROUTE_8_SAFFRON_GATE,                        5,  4 ;  2
-	map_const ROUTE_10_SOUTH,                             10,  9 ;  3
-	map_const ROUTE_12_NORTH,                             10,  9 ;  4
-	map_const LAVENDER_TOWN,                              10, 10 ;  5
-	map_const LAVENDER_POKECENTER_1F,                      6,  4 ;  6
-	map_const MR_FUJIS_HOUSE,                              5,  4 ;  7
-	map_const LAVENDER_TOWN_SPEECH_HOUSE,                  4,  4 ;  8
-	map_const LAVENDER_NAME_RATER,                         4,  4 ;  9
-	map_const LAVENDER_MART,                               6,  4 ; 10
-	map_const ROUTE_16_WEST,                              31, 13 ; 25
-
 	newgroup                                                     ; 20
 	map_const POKECENTER_2F,                               8,  4 ;  1
 	map_const TRADE_CENTER,                                5,  4 ;  2

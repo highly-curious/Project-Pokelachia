@@ -117,62 +117,14 @@ ENDM
 	connection west, CinnabarIsland, CINNABAR_ISLAND, -2
 	connection east, Route19, ROUTE_19, -20
 
-	map_attributes Route19, ROUTE_19, $43, NORTH | WEST
-	connection north, FuchsiaCity, FUCHSIA_CITY, 0
+	map_attributes Route19, ROUTE_19, $43, WEST
 	connection west, Route20, ROUTE_20, 20
-
-	map_attributes FuchsiaCity, FUCHSIA_CITY, $f, SOUTH | WEST | EAST
-	connection south, Route19, ROUTE_19, 0
-	connection west, Route18East, ROUTE_18_EAST, 7
-	connection east, Route15, ROUTE_15, 9
-
-	map_attributes Route18East, ROUTE_18_EAST, $43, EAST
-	connection east, FuchsiaCity, FUCHSIA_CITY, -7
 
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
 
-	map_attributes Route16West, ROUTE_16_WEST, $f, 0
-
-	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
-	connection north, Route13East, ROUTE_13_EAST, 0
-	connection west, Route14, ROUTE_14, 0
-
-	map_attributes Route15, ROUTE_15, $f, WEST | EAST
-	connection west, FuchsiaCity, FUCHSIA_CITY, -9
-	connection east, Route14, ROUTE_14, -10
-
-	map_attributes Route14, ROUTE_14, $43, NORTH | WEST | EAST
-	connection north, Route13West, ROUTE_13_WEST, 0
-	connection west, Route15, ROUTE_15, 10
-	connection east, LuckyIsland, LUCKY_ISLAND, 0
-
-	map_attributes Route13East, ROUTE_13_EAST, $43, NORTH | SOUTH | WEST
-	connection north, Route12South, ROUTE_12_SOUTH, 13
-	connection south, LuckyIsland, LUCKY_ISLAND, 0
-	connection west, Route13West, ROUTE_13_WEST, 0
-
-	map_attributes Route13West, ROUTE_13_WEST, $43, SOUTH | EAST
-	connection south, Route14, ROUTE_14, 0
-	connection east, Route13East, ROUTE_13_EAST, 0
-
-	map_attributes Route12North, ROUTE_12_NORTH, $43, NORTH | SOUTH
-	connection north, LavenderTown, LAVENDER_TOWN, 0
-	connection south, Route12South, ROUTE_12_SOUTH, 0
-
-	map_attributes Route12South, ROUTE_12_SOUTH, $43, NORTH | SOUTH | WEST
-	connection north, Route12North, ROUTE_12_NORTH, 0
-	connection south, Route13East, ROUTE_13_EAST, -13
-	connection west, Route11, ROUTE_11, 17
-
-	map_attributes Route11, ROUTE_11, $f, WEST | EAST
+	map_attributes Route11, ROUTE_11, $f, WEST
 	connection west, VermilionCity, VERMILION_CITY, -5
-	connection east, Route12South, ROUTE_12_SOUTH, -17
-
-	map_attributes LavenderTown, LAVENDER_TOWN, $2c, NORTH | SOUTH | WEST
-	connection north, Route10South, ROUTE_10_SOUTH, 0
-	connection south, Route12North, ROUTE_12_NORTH, 0
-	connection west, Route8, ROUTE_8, 0
 
 	map_attributes VermilionCity, VERMILION_CITY, $43, NORTH | EAST
 	connection north, Route6, ROUTE_6, 3
@@ -201,12 +153,6 @@ ENDM
 
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
-
-	map_attributes Route8, ROUTE_8, $2c, EAST
-	connection east, LavenderTown, LAVENDER_TOWN, 0
-
-	map_attributes Route10South, ROUTE_10_SOUTH, $2c, SOUTH
-	connection south, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, 0
 
@@ -434,7 +380,6 @@ ENDM
 	map_attributes BlackthornPokeCenter1F, BLACKTHORN_POKECENTER_1F, $0, 0
 	map_attributes MoveDeletersHouse, MOVE_DELETERS_HOUSE, $0, 0
 	map_attributes CinnabarPokeCenter1F, CINNABAR_POKECENTER_1F, $0, 0
-	map_attributes Route19FuchsiaGate, ROUTE_19_FUCHSIA_GATE, $0, 0
 	map_attributes SeafoamIslands1F, SEAFOAM_ISLANDS_1F, $9, 0
 	map_attributes SeafoamGym, SEAFOAM_GYM, $9, 0
 	map_attributes SeafoamIslandsB1F, SEAFOAM_ISLANDS_B1F, $9, 0
@@ -549,23 +494,6 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $0, 0
 	map_attributes LancesRoom, LANCES_ROOM, $0, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
-	map_attributes FuchsiaMart, FUCHSIA_MART, $0, 0
-	map_attributes FuchsiaGym, FUCHSIA_GYM, $0, 0
-	map_attributes FuchsiaBillSpeechHouse, FUCHSIA_BILL_SPEECH_HOUSE, $0, 0
-	map_attributes FuchsiaSafariBallHouse, FUCHSIA_SAFARI_BALL_HOUSE, $0, 0
-	map_attributes FuchsiaPokeCenter1F, FUCHSIA_POKECENTER_1F, $0, 0
-	map_attributes SafariZoneWardensHome, SAFARI_ZONE_WARDENS_HOME, $0, 0
-	map_attributes Route12Gate, ROUTE_12_GATE, $0, 0
-	map_attributes Route12Gate2F, ROUTE_12_GATE_2F, $0, 0
-	map_attributes Route15FuchsiaGate, ROUTE_15_FUCHSIA_GATE, $0, 0
-	map_attributes Route15FuchsiaGate2F, ROUTE_15_FUCHSIA_GATE_2F, $0, 0
-	map_attributes LavenderPokeCenter1F, LAVENDER_POKECENTER_1F, $0, 0
-	map_attributes MrFujisHouse, MR_FUJIS_HOUSE, $0, 0
-	map_attributes LavenderTownSpeechHouse, LAVENDER_TOWN_SPEECH_HOUSE, $0, 0
-	map_attributes LavenderNameRater, LAVENDER_NAME_RATER, $0, 0
-	map_attributes LavenderMart, LAVENDER_MART, $0, 0
-	map_attributes Route8SaffronGate, ROUTE_8_SAFFRON_GATE, $0, 0
-	map_attributes Route12SuperRodHouse, ROUTE_12_SUPER_ROD_HOUSE, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0
@@ -592,7 +520,6 @@ ENDM
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0
-	map_attributes SafariZoneFuchsiaGate, SAFARI_ZONE_FUCHSIA_GATE, $0, 0
 	map_attributes PokemonMansion1F, POKEMON_MANSION_1F, $0, 0
 	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $45, 0
 	map_attributes CinnabarLab, CINNABAR_LAB, $0, 0

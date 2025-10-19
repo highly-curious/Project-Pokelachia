@@ -74,18 +74,10 @@ Landmarks:
 	landmark 108,  68, Route6Name
 	landmark 108,  76, VermilionCityName
 	landmark 116,  68, DiglettsCaveName
-	landmark 124,  60, Route8Name
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
 	landmark 148,  52, PowerPlantName
-	landmark 140,  60, LavenderTownName
 	landmark 124,  76, Route11Name
-	landmark 140,  76, Route12Name
-	landmark 132,  92, Route13Name
-	landmark 124, 100, Route14Name
-	landmark 108, 108, Route15Name
-	landmark 136, 104, LuckyIslandName
-	landmark  92, 108, FuchsiaCityName
 	landmark  64, 108, UragaChannelName
 	landmark  60, 116, ScaryCaveName
 	landmark  92, 120, Route19Name
@@ -137,9 +129,7 @@ IcePathName:           rawchar "Ice Path@"
 PalletTownName:        rawchar "Pallet Town@"
 PewterCityName:        rawchar "Pewter City@"
 CeruleanCityName:      rawchar "Cerulean¯City@"
-LavenderTownName:      rawchar "Lavender¯Town@"
 VermilionCityName:     rawchar "Vermilion¯City@"
-FuchsiaCityName:       rawchar "Fuchsia¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 VictoryRoadName:       rawchar "Victory¯Road@"
@@ -151,18 +141,12 @@ PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
 CeruleanCaveName:      rawchar "Cerulean¯Cave@"
 CeruleanCapeName:      rawchar "Cerulean¯Cape@"
-LuckyIslandName:       rawchar "Lucky¯Island@"
 Route1Name:            rawchar "Route 1@"
 Route3Name:            rawchar "Route 3@"
 Route4Name:            rawchar "Route 4@"
 Route6Name:            rawchar "Route 6@"
-Route8Name:            rawchar "Route 8@"
 Route10Name:           rawchar "Route 10@"
 Route11Name:           rawchar "Route 11@"
-Route12Name:           rawchar "Route 12@"
-Route13Name:           rawchar "Route 13@"
-Route14Name:           rawchar "Route 14@"
-Route15Name:           rawchar "Route 15@"
 Route19Name:           rawchar "Route 19@"
 Route20Name:           rawchar "Route 20@"
 Route21Name:           rawchar "Route 21@"

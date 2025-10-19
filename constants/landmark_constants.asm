@@ -70,18 +70,10 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_6            ; 54
 	const VERMILION_CITY     ; 55
 	const DIGLETTS_CAVE      ; 56
-	const ROUTE_8            ; 58
 	const ROUTE_10           ; 5a
 	const ROCK_TUNNEL        ; 5b
 	const POWER_PLANT        ; 5c
-	const LAVENDER_TOWN      ; 5e
 	const ROUTE_11           ; 64
-	const ROUTE_12           ; 65
-	const ROUTE_13           ; 66
-	const ROUTE_14           ; 67
-	const ROUTE_15           ; 68
-	const LUCKY_ISLAND       ; 69
-	const FUCHSIA_CITY       ; 6d
 	const URAGA_CHANNEL      ; 6f
 	const SCARY_CAVE         ; 70
 	const ROUTE_19           ; 71

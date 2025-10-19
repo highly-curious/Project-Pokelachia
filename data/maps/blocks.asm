@@ -16,8 +16,6 @@ Route3PokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
-LavenderPokeCenter1F_BlockData:
-FuchsiaPokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
 
@@ -34,8 +32,6 @@ BlackthornMart_BlockData:
 PewterMart_BlockData:
 CeruleanMart_BlockData:
 VermilionMart_BlockData:
-LavenderMart_BlockData:
-FuchsiaMart_BlockData:
 OlsteetonMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
@@ -50,12 +46,7 @@ OlsteetonForestGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 Route6SaffronGate_BlockData:
-Route19FuchsiaGate_BlockData:
-SafariZoneFuchsiaGate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate.ablk.lz"
-
-Route12Gate_BlockData:
-	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
@@ -67,17 +58,13 @@ OlsteetonUniGate_BlockData:
 
 	INCBIN "maps/EastWestGate.ablk.lz"
 
-Route8SaffronGate_BlockData:
 OlsteetonRoute103Gate_BlockData:
 	INCBIN "maps/KantoEastWestGate.ablk.lz"
 
 Route11Gate_BlockData:
-Route15FuchsiaGate_BlockData:
 	INCBIN "maps/KantoEastWestGate1F.ablk.lz"
 
 Route11Gate2F_BlockData:
-Route12Gate2F_BlockData:
-Route15FuchsiaGate2F_BlockData:
 	INCBIN "maps/KantoGate2F.ablk.lz"
 	
 GoldenrodBillsHouse_BlockData:
@@ -92,9 +79,6 @@ GoldenrodHoneyHouse_BlockData:
 CeruleanGymBadgeSpeechHouse_BlockData:
 CeruleanTradeSpeechHouse_BlockData:
 CeruleanCoupleHouse_BlockData:
-FuchsiaBillSpeechHouse_BlockData:
-FuchsiaSafariBallHouse_BlockData:
-LavenderTownSpeechHouse_BlockData:
 OlsteetonFisherHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
@@ -145,7 +129,6 @@ SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
 VermilionMagnetTrainSpeechHouse_BlockData:
 VermilionHouseDiglettsCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
-LavenderNameRater_BlockData:
 Route19BeachHouse_BlockData:
 OlsteetonUniDormWest2FRoom2_BlockData:
 OlsteetonUniDormWest2FRoom3_BlockData:
@@ -160,7 +143,6 @@ OlsteetonUniDormEast3FRoom3_BlockData:
 SECTION "PewterNidoranSpeechHouse_BlockData", ROMX
 PewterNidoranSpeechHouse_BlockData:
 PewterSnoozeSpeechHouse_BlockData:
-Route12SuperRodHouse_BlockData:
 OlsteetonQuickHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
@@ -1075,7 +1057,6 @@ VermilionPort_BlockData:
 
 SECTION "PokemonFanClub_BlockData", ROMX
 PokemonFanClub_BlockData:
-SafariZoneWardensHome_BlockData:
 	INCBIN "maps/PokemonFanClub.ablk.lz"
 
 SECTION "DiglettsCave_BlockData", ROMX
@@ -1106,33 +1087,9 @@ SECTION "DimCave2F_BlockData", ROMX
 WhirlIslandNW_BlockData:
 	INCBIN "maps/DimCave2F.ablk.lz"
 
-SECTION "LavenderTown_BlockData", ROMX
-LavenderTown_BlockData:
-	INCBIN "maps/LavenderTown.ablk.lz"
-
-SECTION "MrFujisHouse_BlockData", ROMX
-MrFujisHouse_BlockData:
-	INCBIN "maps/MrFujisHouse.ablk.lz"
-
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"
-
-SECTION "FuchsiaGym_BlockData", ROMX
-FuchsiaGym_BlockData:
-	INCBIN "maps/FuchsiaGym.ablk.lz"
-
-SECTION "FuchsiaCity_BlockData", ROMX
-FuchsiaCity_BlockData:
-	INCBIN "maps/FuchsiaCity.ablk.lz"
-
-SECTION "LuckyIsland_BlockData", ROMX
-LuckyIsland_BlockData:
-	INCBIN "maps/LuckyIsland.ablk.lz"
-
-SECTION "LuckyIslandHidden_BlockData", ROMX
-LuckyIslandHidden_BlockData:
-	INCBIN "maps/LuckyIslandHidden.ablk.lz"
 
 SECTION "UragaChannelWest_BlockData", ROMX
 UragaChannelWest_BlockData:
@@ -1236,49 +1193,9 @@ SECTION "Route5UndergroundEntrance_BlockData", ROMX
 Route6UndergroundEntrance_BlockData:
 	INCBIN "maps/UndergroundPathEntrance.ablk.lz"
 
-SECTION "Route8_BlockData", ROMX
-Route8_BlockData:
-	INCBIN "maps/Route8.ablk.lz"
-
-SECTION "Route10South_BlockData", ROMX
-Route10South_BlockData:
-	INCBIN "maps/Route10South.ablk.lz"
-
 SECTION "Route11_BlockData", ROMX
 Route11_BlockData:
 	INCBIN "maps/Route11.ablk.lz"
-
-SECTION "Route12North_BlockData", ROMX
-Route12North_BlockData:
-	INCBIN "maps/Route12North.ablk.lz"
-
-SECTION "Route12South_BlockData", ROMX
-Route12South_BlockData:
-	INCBIN "maps/Route12South.ablk.lz"
-
-SECTION "Route13East_BlockData", ROMX
-Route13East_BlockData:
-	INCBIN "maps/Route13East.ablk.lz"
-
-SECTION "Route13West_BlockData", ROMX
-Route13West_BlockData:
-	INCBIN "maps/Route13West.ablk.lz"
-
-SECTION "Route14_BlockData", ROMX
-Route14_BlockData:
-	INCBIN "maps/Route14.ablk.lz"
-
-SECTION "Route15_BlockData", ROMX
-Route15_BlockData:
-	INCBIN "maps/Route15.ablk.lz"
-
-SECTION "Route16West_BlockData", ROMX
-Route16West_BlockData:
-	INCBIN "maps/Route16West.ablk.lz"
-
-SECTION "Route18East_BlockData", ROMX
-Route18East_BlockData:
-	INCBIN "maps/Route18East.ablk.lz"
 
 SECTION "Route19_BlockData", ROMX
 Route19_BlockData:

@@ -17,8 +17,6 @@ INCLUDE "maps/CeruleanPokeCenter1F.asm"
 SECTION "Pokemon Center Scripts 3", ROMX
 
 INCLUDE "maps/VermilionPokeCenter1F.asm"
-INCLUDE "maps/LavenderPokeCenter1F.asm"
-INCLUDE "maps/FuchsiaPokeCenter1F.asm"
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
 
@@ -561,34 +559,9 @@ INCLUDE "maps/RockTunnelB1F.asm"
 INCLUDE "maps/PowerPlant.asm"
 
 
-SECTION "Lavender Scripts", ROMX
-
-INCLUDE "maps/LavenderTown.asm"
-INCLUDE "maps/LavenderMart.asm"
-INCLUDE "maps/LavenderNameRater.asm"
-INCLUDE "maps/LavenderTownSpeechHouse.asm"
-INCLUDE "maps/MrFujisHouse.asm"
-
-
 SECTION "Saffron Scripts 2", ROMX
 
 INCLUDE "maps/Underground.asm"
-
-
-SECTION "Fuchsia Scripts", ROMX
-
-INCLUDE "maps/FuchsiaCity.asm"
-INCLUDE "maps/FuchsiaMart.asm"
-INCLUDE "maps/FuchsiaGym.asm"
-INCLUDE "maps/FuchsiaBillSpeechHouse.asm"
-INCLUDE "maps/FuchsiaSafariBallHouse.asm"
-INCLUDE "maps/SafariZoneWardensHome.asm"
-INCLUDE "maps/LuckyIsland.asm"
-
-
-SECTION "Safari Zone Scripts", ROMX
-
-INCLUDE "maps/SafariZoneFuchsiaGate.asm"
 
 
 SECTION "Uraga Channel Scripts", ROMX
@@ -652,44 +625,19 @@ SECTION "Routes 5-8 Scripts", ROMX
 INCLUDE "maps/Route6.asm"
 INCLUDE "maps/Route6SaffronGate.asm"
 INCLUDE "maps/Route6UndergroundEntrance.asm"
-INCLUDE "maps/Route8.asm"
-INCLUDE "maps/Route8SaffronGate.asm"
 
 
 SECTION "Routes 9-11 Scripts", ROMX
 
-INCLUDE "maps/Route10South.asm"
 INCLUDE "maps/Route11.asm"
 INCLUDE "maps/Route11Gate.asm"
 INCLUDE "maps/Route11Gate2F.asm"
 
 
-SECTION "Routes 12-14 Scripts", ROMX
-
-INCLUDE "maps/Route12Gate.asm"
-INCLUDE "maps/Route12Gate2F.asm"
-INCLUDE "maps/Route12North.asm"
-INCLUDE "maps/Route12South.asm"
-INCLUDE "maps/Route12SuperRodHouse.asm"
-INCLUDE "maps/Route13East.asm"
-INCLUDE "maps/Route13West.asm"
-INCLUDE "maps/Route14.asm"
-
-
-SECTION "Routes 15-17 Scripts", ROMX
-
-INCLUDE "maps/Route15.asm"
-INCLUDE "maps/Route15FuchsiaGate.asm"
-INCLUDE "maps/Route15FuchsiaGate2F.asm"
-INCLUDE "maps/Route16West.asm"
-
-
 SECTION "Routes 18-20 Scripts", ROMX
 
-INCLUDE "maps/Route18East.asm"
 INCLUDE "maps/Route19.asm"
 INCLUDE "maps/Route19BeachHouse.asm"
-INCLUDE "maps/Route19FuchsiaGate.asm"
 INCLUDE "maps/Route20.asm"
 
 
