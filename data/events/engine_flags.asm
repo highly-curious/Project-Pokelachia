@@ -84,8 +84,6 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_HOLLOWPORT
 	engine_flag wVisitedSpawns, SPAWN_OLSTEETON
 	engine_flag wVisitedSpawns, SPAWN_PALLET
-	engine_flag wVisitedSpawns, SPAWN_PEWTER
-	engine_flag wVisitedSpawns, SPAWN_MT_MOON
 	engine_flag wVisitedSpawns, SPAWN_CERULEAN
 	engine_flag wVisitedSpawns, SPAWN_CERULEAN_CAPE
 	engine_flag wVisitedSpawns, SPAWN_VERMILION

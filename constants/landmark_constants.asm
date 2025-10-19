@@ -53,12 +53,9 @@
 	const DARK_CAVE          ; 3e
 	const ROUTE_46           ; 3f
 	const SILVER_CAVE        ; 40
-	const FAST_SHIP          ; 41
 DEF KANTO_LANDMARK EQU const_value
 	const PALLET_TOWN        ; 44
 	const ROUTE_1            ; 45
-	const PEWTER_CITY        ; 49
-	const ROUTE_3            ; 4a
 	const MT_MOON            ; 4b
 	const ROUTE_4            ; 4c
 	const CERULEAN_CITY      ; 4d

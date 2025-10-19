@@ -94,9 +94,6 @@ ENDM
 	map_attributes Route46, ROUTE_46, $5, EAST
 	connection east, Route45, ROUTE_45, -37
 
-	map_attributes PewterCity, PEWTER_CITY, $f, EAST
-	connection east, Route3, ROUTE_3, 5
-
 	map_attributes Route1, ROUTE_1, $f, SOUTH
 	connection south, PalletTown, PALLET_TOWN, 1
 
@@ -147,9 +144,6 @@ ENDM
 
 	map_attributes CeruleanCape, CERULEAN_CAPE, $2c, WEST
 	connection west, Route25, ROUTE_25, 0
-
-	map_attributes Route3, ROUTE_3, $2c, WEST
-	connection west, PewterCity, PEWTER_CITY, -5
 
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
@@ -396,7 +390,6 @@ ENDM
 	map_attributes CeruleanBerryPowderHouse, CERULEAN_BERRY_POWDER_HOUSE, $0, 0
 	map_attributes CeruleanCoupleHouse, CERULEAN_COUPLE_HOUSE, $0, 0
 	map_attributes CeruleanWaterShowSpeechHouse, CERULEAN_WATER_SHOW_SPEECH_HOUSE, $0, 0
-	map_attributes Route3PokeCenter1F, ROUTE_3_POKECENTER_1F, $0, 0
 	map_attributes Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
 	map_attributes PowerPlant, POWER_PLANT, $0, 0
 	map_attributes BillsHouse, BILLS_HOUSE, $0, 0
@@ -472,21 +465,6 @@ ENDM
 	map_attributes BluesHouse1F, BLUES_HOUSE_1F, $0, 0
 	map_attributes BluesHouse2F, BLUES_HOUSE_2F, $0, 0
 	map_attributes OaksLab, OAKS_LAB, $0, 0
-	map_attributes PewterNidoranSpeechHouse, PEWTER_NIDORAN_SPEECH_HOUSE, $0, 0
-	map_attributes PewterGym, PEWTER_GYM, $0, 0
-	map_attributes PewterMart, PEWTER_MART, $0, 0
-	map_attributes PewterPokeCenter1F, PEWTER_POKECENTER_1F, $0, 0
-	map_attributes PewterSnoozeSpeechHouse, PEWTER_SNOOZE_SPEECH_HOUSE, $0, 0
-	map_attributes OlivinePort, OLIVINE_PORT, $a, 0
-	map_attributes VermilionPort, VERMILION_PORT, $a, 0
-	map_attributes FastShip1F, FAST_SHIP_1F, $0, 0
-	map_attributes FastShipCabins_NNW_NNE_NE, FAST_SHIP_CABINS_NNW_NNE_NE, $0, 0
-	map_attributes FastShipCabins_SW_SSW_NW, FAST_SHIP_CABINS_SW_SSW_NW, $0, 0
-	map_attributes FastShipCabins_SE_SSE_CaptainsCabin, FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN, $0, 0
-	map_attributes FastShipB1F, FAST_SHIP_B1F, $0, 0
-	map_attributes MountMoonSquare, MOUNT_MOON_SQUARE, $2d, 0
-	map_attributes MountMoonGiftShop, MOUNT_MOON_GIFT_SHOP, $0, 0
-	map_attributes TinTowerRoof, TIN_TOWER_ROOF, $1, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0
@@ -512,8 +490,6 @@ ENDM
 	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
-	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0
-	map_attributes PewterMuseumOfScience2F, PEWTER_MUSEUM_OF_SCIENCE_2F, $0, 0
 	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
 	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0

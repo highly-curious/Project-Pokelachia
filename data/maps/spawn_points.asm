@@ -12,8 +12,6 @@ SpawnPoints:
 	spawn HOLLOWPORT,				   7,  3
 	spawn OLSTEETON,				   7,  12
 	spawn PALLET_TOWN,                 5,  6
-	spawn PEWTER_CITY,                13, 26
-	spawn ROUTE_3,                    61,  4
 	spawn CERULEAN_CITY,              19, 18
 	spawn CERULEAN_CAPE,               9,  6
 	spawn VERMILION_CITY,              9,  6
@@ -29,7 +27,6 @@ SpawnPoints:
 	spawn MAHOGANY_TOWN,              15, 14
 	spawn LAKE_OF_RAGE,               21, 29
 	spawn BLACKTHORN_CITY,            21, 30
-	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2
 
 	spawn N_A,                        -1, -1
 

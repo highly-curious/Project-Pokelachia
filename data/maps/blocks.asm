@@ -11,8 +11,6 @@ BlackthornPokeCenter1F_BlockData:
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-PewterPokeCenter1F_BlockData:
-Route3PokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
@@ -29,7 +27,6 @@ VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 BlackthornMart_BlockData:
-PewterMart_BlockData:
 CeruleanMart_BlockData:
 VermilionMart_BlockData:
 OlsteetonMart_BlockData:
@@ -140,9 +137,7 @@ OlsteetonUniDormEast3FRoom2_BlockData:
 OlsteetonUniDormEast3FRoom3_BlockData:
 	INCBIN "maps/KantoHouse3.ablk.lz"
 
-SECTION "PewterNidoranSpeechHouse_BlockData", ROMX
-PewterNidoranSpeechHouse_BlockData:
-PewterSnoozeSpeechHouse_BlockData:
+SECTION "OlsteetonQuickHouse_BlockData", ROMX
 OlsteetonQuickHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
@@ -712,10 +707,6 @@ SECTION "TinTower10F_BlockData", ROMX
 TinTower10F_BlockData:
 	INCBIN "maps/TinTower10F.ablk.lz"
 
-SECTION "TinTowerRoof_BlockData", ROMX
-TinTowerRoof_BlockData:
-	INCBIN "maps/TinTowerRoof.ablk.lz"
-
 SECTION "BurnedTower1F_BlockData", ROMX
 BurnedTower1F_BlockData:
 	INCBIN "maps/BurnedTower1F.ablk.lz"
@@ -723,11 +714,6 @@ BurnedTower1F_BlockData:
 SECTION "BurnedTowerB1F_BlockData", ROMX
 BurnedTowerB1F_BlockData:
 	INCBIN "maps/BurnedTowerB1F.ablk.lz"
-
-
-SECTION "OlivinePort_BlockData", ROMX
-OlivinePort_BlockData:
-	INCBIN "maps/OlivinePort.ablk.lz"
 
 SECTION "OlivineLighthouse1F_BlockData", ROMX
 OlivineLighthouse1F_BlockData:
@@ -819,7 +805,6 @@ MountMortarB1F_BlockData:
 
 SECTION "MahoganyMart1F_BlockData", ROMX
 MahoganyMart1F_BlockData:
-MountMoonGiftShop_BlockData:
 	INCBIN "maps/GiftShop.ablk.lz"
 
 SECTION "MahoganyGym_BlockData", ROMX
@@ -938,26 +923,6 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
-SECTION "FastShip1F_BlockData", ROMX
-FastShip1F_BlockData:
-	INCBIN "maps/FastShip1F.ablk.lz"
-
-SECTION "FastShipB1F_BlockData", ROMX
-FastShipB1F_BlockData:
-	INCBIN "maps/FastShipB1F.ablk.lz"
-
-SECTION "FastShipCabins_NNW_NNE_NE_BlockData", ROMX
-FastShipCabins_NNW_NNE_NE_BlockData:
-	INCBIN "maps/FastShipCabins_NNW_NNE_NE.ablk.lz"
-
-SECTION "FastShipCabins_SW_SSW_NW_BlockData", ROMX
-FastShipCabins_SW_SSW_NW_BlockData:
-	INCBIN "maps/FastShipCabins_SW_SSW_NW.ablk.lz"
-
-SECTION "FastShipCabins_SE_SSE_CaptainsCabin_BlockData", ROMX
-FastShipCabins_SE_SSE_CaptainsCabin_BlockData:
-	INCBIN "maps/FastShipCabins_SE_SSE_CaptainsCabin.ablk.lz"
-
 SECTION "PalletTown_BlockData", ROMX
 PalletTown_BlockData:
 	INCBIN "maps/PalletTown.ablk.lz"
@@ -979,22 +944,6 @@ RedsHouse2F_BlockData:
 BluesHouse2F_BlockData:
 	INCBIN "maps/RedsHouse2F.ablk.lz"
 
-SECTION "PewterGym_BlockData", ROMX
-PewterGym_BlockData:
-	INCBIN "maps/PewterGym.ablk.lz"
-
-SECTION "PewterCity_BlockData", ROMX
-PewterCity_BlockData:
-	INCBIN "maps/PewterCity.ablk.lz"
-
-SECTION "PewterMuseumOfScience1F_BlockData", ROMX
-PewterMuseumOfScience1F_BlockData:
-	INCBIN "maps/PewterMuseumOfScience1F.ablk.lz"
-
-SECTION "PewterMuseumOfScience2F_BlockData", ROMX
-PewterMuseumOfScience2F_BlockData:
-	INCBIN "maps/PewterMuseumOfScience2F.ablk.lz"
-
 SECTION "MountMoon1F_BlockData", ROMX
 MountMoon1F_BlockData:
 	INCBIN "maps/MountMoon1F.ablk.lz"
@@ -1006,10 +955,6 @@ MountMoonB1F_BlockData:
 SECTION "MountMoonB2F_BlockData", ROMX
 MountMoonB2F_BlockData:
 	INCBIN "maps/MountMoonB2F.ablk.lz"
-
-SECTION "MountMoonSquare_BlockData", ROMX
-MountMoonSquare_BlockData:
-	INCBIN "maps/MountMoonSquare.ablk.lz"
 
 SECTION "CeruleanGym_BlockData", ROMX
 CeruleanGym_BlockData:
@@ -1050,10 +995,6 @@ VermilionGym_BlockData:
 SECTION "VermilionCity_BlockData", ROMX
 VermilionCity_BlockData:
 	INCBIN "maps/VermilionCity.ablk.lz"
-
-SECTION "VermilionPort_BlockData", ROMX
-VermilionPort_BlockData:
-	INCBIN "maps/VermilionPort.ablk.lz"
 
 SECTION "PokemonFanClub_BlockData", ROMX
 PokemonFanClub_BlockData:
@@ -1176,10 +1117,6 @@ HiddenCaveGrotto_BlockData:
 SECTION "Route1_BlockData", ROMX
 Route1_BlockData:
 	INCBIN "maps/Route1.ablk.lz"
-
-SECTION "Route3_BlockData", ROMX
-Route3_BlockData:
-	INCBIN "maps/Route3.ablk.lz"
 
 SECTION "Route4_BlockData", ROMX
 Route4_BlockData:
