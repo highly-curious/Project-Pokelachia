@@ -182,7 +182,6 @@ endr
 	setflag ENGINE_FLYPOINT_VIOLET
 	setflag ENGINE_FLYPOINT_UNION_CAVE
 	setflag ENGINE_FLYPOINT_AZALEA
-	setflag ENGINE_FLYPOINT_GOLDENROD
 	setflag ENGINE_FLYPOINT_ECRUTEAK
 	setflag ENGINE_FLYPOINT_MAHOGANY
 	setflag ENGINE_FLYPOINT_LAKE_OF_RAGE
@@ -282,7 +281,6 @@ endr
 	; blackthorn events
 	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
 	closetext
-	warpfacing DOWN, GOLDENROD_CITY, 13, 14
 	end
 
 FillPokedex:

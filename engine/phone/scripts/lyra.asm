@@ -99,7 +99,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route34Coast
 	dw .StormyBeach
 	dw .MurkySwamp
-	dw .GoldenrodCity
 	dw .RadioTower ; no calls
 	dw .MagnetTunnel
 	dw .Route35
@@ -151,7 +150,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Route34Coast:
 .StormyBeach:
 .MurkySwamp:
-.GoldenrodCity:
 .RadioTower:
 .MagnetTunnel:
 .Route35:
