@@ -85,11 +85,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .NationalForest1
 	dw .OlsteetonUni
 	dw .NewBarkTown
-	dw .VioletCity
 	dw .SproutTower
-	dw .VioletOutskirts	
-	dw .Route32
-	dw .Route32Coast
 	dw .UnionCave ; no calls
 	dw .Route33
 	dw .AzaleaTown
@@ -131,11 +127,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 .NationalForest1:
 .OlsteetonUni:
 .NewBarkTown:
-.VioletCity:
 .SproutTower:
-.VioletOutskirts:
-.Route32:
-.Route32Coast:
 .UnionCave:
 .Route33:
 .AzaleaTown:

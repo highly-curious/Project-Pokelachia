@@ -10,11 +10,7 @@
 
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
-	const VIOLET_CITY        ; 07
 	const SPROUT_TOWER       ; 08
-	const VIOLET_OUTSKIRTS   ; 09
-	const ROUTE_32           ; 0b
-	const ROUTE_32_COAST     ; 0c
 	const UNION_CAVE         ; 0d
 	const ROUTE_33           ; 0e
 	const AZALEA_TOWN        ; 0f

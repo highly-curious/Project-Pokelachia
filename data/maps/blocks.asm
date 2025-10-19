@@ -1,7 +1,5 @@
 SECTION "Special Map Blockdata", ROMX
 
-VioletPokeCenter1F_BlockData:
-Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
@@ -22,7 +20,6 @@ KantoPokeCenter2F_BlockData:
 OlsteetonPokeCenter_BlockData:
 	INCBIN "maps/OlsteetonPokeCenter.ablk.lz"
 
-VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 BlackthornMart_BlockData:
@@ -39,7 +36,6 @@ OlsteetonForestGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 Route36VioletGate_BlockData:
-Route32RuinsOfAlphGate_BlockData:
 Route42EcruteakGate_BlockData:
 Route101102Gate_BlockData:
 Route102OlsteetonGate_BlockData:
@@ -55,7 +51,6 @@ OlsteetonRoute103Gate_BlockData:
 ; Route11Gate2F_BlockData:
 ; 	INCBIN "maps/KantoGate2F.ablk.lz"
 	
-Route32CoastHouse_BlockData:
 OlsteetonGymHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
@@ -82,9 +77,6 @@ EcruteakLugiaSpeechHouse_BlockData:
 EcruteakItemfinderHouse_BlockData:
 EcruteakCherishBallHouse_BlockData:
 EcruteakDestinyKnotHouse_BlockData:
-VioletNicknameSpeechHouse_BlockData:
-VioletOnixTradeHouse_BlockData:
-VioletOutskirtsHouse_BlockData:
 ValeriesHouse_BlockData:
 Route101House_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
@@ -387,10 +379,6 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "Route32Coast_BlockData", ROMX
-Route32Coast_BlockData:
-	INCBIN "maps/Route32Coast.ablk.lz"
-
 SECTION "DarkCaveVioletEntrance_BlockData", ROMX
 DarkCaveVioletEntrance_BlockData:
 SilverCaveItemRooms_BlockData:
@@ -399,18 +387,6 @@ SilverCaveItemRooms_BlockData:
 SECTION "DarkCaveBlackthornEntrance_BlockData", ROMX
 DarkCaveBlackthornEntrance_BlockData:
 	INCBIN "maps/DarkCaveBlackthornEntrance.ablk.lz"
-
-SECTION "VioletGym_BlockData", ROMX
-VioletGym_BlockData:
-	INCBIN "maps/VioletGym.ablk.lz"
-
-SECTION "VioletCity_BlockData", ROMX
-VioletCity_BlockData:
-	INCBIN "maps/VioletCity.ablk.lz"
-
-SECTION "EarlsPokemonAcademy_BlockData", ROMX
-EarlsPokemonAcademy_BlockData:
-	INCBIN "maps/EarlsPokemonAcademy.ablk.lz"
 
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
@@ -423,10 +399,6 @@ SproutTower2F_BlockData:
 SECTION "SproutTower3F_BlockData", ROMX
 SproutTower3F_BlockData:
 	INCBIN "maps/SproutTower3F.ablk.lz"
-
-SECTION "VioletOutskirts_BlockData", ROMX
-VioletOutskirts_BlockData:
-	INCBIN "maps/VioletOutskirts.ablk.lz"
 
 SECTION "UnionCave1F_BlockData", ROMX
 UnionCave1F_BlockData:
@@ -991,10 +963,6 @@ Route24_BlockData:
 SECTION "Route25_BlockData", ROMX
 Route25_BlockData:
 	INCBIN "maps/Route25.ablk.lz"
-
-SECTION "Route32_BlockData", ROMX
-Route32_BlockData:
-	INCBIN "maps/Route32.ablk.lz"
 
 SECTION "Route33_BlockData", ROMX
 Route33_BlockData:
