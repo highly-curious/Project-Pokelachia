@@ -33,8 +33,6 @@ ENDM
 	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette
 	special_bg_pal map,      CERULEAN_GYM,                PAL_SINGLE,    CeruleanGymPalette
 	special_bg_pal map,      VIOLET_CITY,                 PAL_TIMEOFDAY, VioletEcruteakPalette
-	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
-	special_bg_pal map,      MAGNET_TUNNEL_INSIDE,        PAL_SINGLE,    MagnetTunnelPalette
 	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
 	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
 	special_bg_pal map,      BRUNOS_ROOM,                 PAL_SINGLE,    BrunosRoomPalette
@@ -519,19 +517,6 @@ endr
 	RGB_MONOCHROME_BLACK
 	MONOCHROME_RGB_FOUR_NIGHT
 	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-MurkySwampPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/MurkySwamp.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_DARK
