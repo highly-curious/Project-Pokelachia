@@ -11,7 +11,6 @@ SpawnPoints:
 	spawn PLAYERS_HOUSE_2F,            2,  5
 	spawn HOLLOWPORT,				   7,  3
 	spawn OLSTEETON,				   7,  12
-	spawn PALLET_TOWN,                 5,  6
 	spawn CERULEAN_CITY,              19, 18
 	spawn CERULEAN_CAPE,               9,  6
 	spawn VERMILION_CITY,              9,  6
