@@ -85,7 +85,6 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_OLSTEETON
 	engine_flag wVisitedSpawns, SPAWN_CERULEAN
 	engine_flag wVisitedSpawns, SPAWN_CERULEAN_CAPE
-	engine_flag wVisitedSpawns, SPAWN_VERMILION
 	engine_flag wVisitedSpawns, SPAWN_CINNABAR
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
 	engine_flag wVisitedSpawns, SPAWN_NEW_BARK

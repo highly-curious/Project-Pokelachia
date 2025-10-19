@@ -12,7 +12,6 @@ PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
 CeruleanPokeCenter1F_BlockData:
-VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
@@ -28,7 +27,6 @@ AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 BlackthornMart_BlockData:
 CeruleanMart_BlockData:
-VermilionMart_BlockData:
 OlsteetonMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
@@ -41,9 +39,6 @@ Route43Gate_BlockData:
 Route43MahoganyGate_BlockData:
 OlsteetonForestGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
-
-Route6SaffronGate_BlockData:
-	INCBIN "maps/KantoNorthSouthGate.ablk.lz"
 
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
@@ -58,11 +53,11 @@ OlsteetonUniGate_BlockData:
 OlsteetonRoute103Gate_BlockData:
 	INCBIN "maps/KantoEastWestGate.ablk.lz"
 
-Route11Gate_BlockData:
-	INCBIN "maps/KantoEastWestGate1F.ablk.lz"
+; Route11Gate_BlockData:
+; 	INCBIN "maps/KantoEastWestGate1F.ablk.lz"
 
-Route11Gate2F_BlockData:
-	INCBIN "maps/KantoGate2F.ablk.lz"
+; Route11Gate2F_BlockData:
+; 	INCBIN "maps/KantoGate2F.ablk.lz"
 	
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
@@ -111,8 +106,6 @@ SECTION "CeruleanPoliceStation_BlockData", ROMX
 CeruleanPoliceStation_BlockData:
 CeruleanBerryPowderHouse_BlockData:
 CeruleanWaterShowSpeechHouse_BlockData:
-VermilionHouseFishingSpeechHouse_BlockData:
-VermilionPollutionSpeechHouse_BlockData:
 RiverfrontApt2FRoom1_BlockData:
 RiverfrontApt2FRoom2_BlockData:
 RiverfrontApt2FRoom3_BlockData:
@@ -123,9 +116,6 @@ RiverfrontApt4FRoom3_BlockData:
 	INCBIN "maps/KantoHouse1.ablk.lz"
 
 SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
-VermilionMagnetTrainSpeechHouse_BlockData:
-VermilionHouseDiglettsCaveSpeechHouse_BlockData:
-VermilionSSAnneSpeechHouse_BlockData:
 Route19BeachHouse_BlockData:
 OlsteetonUniDormWest2FRoom2_BlockData:
 OlsteetonUniDormWest2FRoom3_BlockData:
@@ -967,18 +957,6 @@ SECTION "BillsHouse_BlockData", ROMX
 BillsHouse_BlockData:
 	INCBIN "maps/BillsHouse.ablk.lz"
 
-SECTION "VermilionGym_BlockData", ROMX
-VermilionGym_BlockData:
-	INCBIN "maps/VermilionGym.ablk.lz"
-
-SECTION "VermilionCity_BlockData", ROMX
-VermilionCity_BlockData:
-	INCBIN "maps/VermilionCity.ablk.lz"
-
-SECTION "PokemonFanClub_BlockData", ROMX
-PokemonFanClub_BlockData:
-	INCBIN "maps/PokemonFanClub.ablk.lz"
-
 SECTION "DiglettsCave_BlockData", ROMX
 DiglettsCave_BlockData:
 	INCBIN "maps/DiglettsCave.ablk.lz"
@@ -1097,18 +1075,6 @@ SECTION "Route4_BlockData", ROMX
 Route4_BlockData:
 	INCBIN "maps/Route4.ablk.lz"
 
-SECTION "Route6_BlockData", ROMX
-Route6_BlockData:
-	INCBIN "maps/Route6.ablk.lz"
-
-SECTION "Route5UndergroundEntrance_BlockData", ROMX
-Route6UndergroundEntrance_BlockData:
-	INCBIN "maps/UndergroundPathEntrance.ablk.lz"
-
-SECTION "Route11_BlockData", ROMX
-Route11_BlockData:
-	INCBIN "maps/Route11.ablk.lz"
-
 SECTION "Route19_BlockData", ROMX
 Route19_BlockData:
 	INCBIN "maps/Route19.ablk.lz"
@@ -1197,16 +1163,4 @@ SECTION "Route46_BlockData", ROMX
 Route46_BlockData:
 	INCBIN "maps/Route46.ablk.lz"
 
-SECTION "BattleFactory1F_BlockData", ROMX
-BattleFactory1F_BlockData:
-	INCBIN "maps/BattleFactory1F.ablk.lz"
-
-SECTION "BattleFactoryHallway_BlockData", ROMX
-BattleFactoryHallway_BlockData:
-	INCBIN "maps/BattleFactoryHallway.ablk.lz"
-
-SECTION "BattleFactoryBattleRoom_BlockData", ROMX
-BattleFactoryBattleRoom_BlockData:
-	INCBIN "maps/BattleFactoryBattleRoom.ablk.lz"
-	
 ENDSECTION
