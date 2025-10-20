@@ -10,33 +10,19 @@
 
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
-	const SPROUT_TOWER       ; 08
-	const UNION_CAVE         ; 0d
-	const SLOWPOKE_WELL      ; 10
-	const ILEX_FOREST        ; 11
 	const RADIO_TOWER        ; 17
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b
-	const NATIONAL_PARK      ; 1c
 	const ROUTE_36           ; 1d
 	const ROUTE_37           ; 1e
 	const ECRUTEAK_CITY      ; 1f
 	const BELLCHIME_TRAIL    ; 20
-	const TIN_TOWER          ; 21
-	const BURNED_TOWER       ; 22
-	const LIGHTHOUSE         ; 28
 	const BATTLE_TOWER       ; 2a
-	const WHIRL_ISLANDS      ; 2b
 	const ROUTE_42           ; 34
-	const MT_MORTAR          ; 35
 	const MAHOGANY_TOWN      ; 36
 	const ROUTE_43           ; 37
 	const LAKE_OF_RAGE       ; 38
 	const ROUTE_44           ; 39
-	const ICE_PATH           ; 3a
-	const DRAGONS_DEN        ; 3c
-	const DARK_CAVE          ; 3e
-	const SILVER_CAVE        ; 40
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const ROUTE_22           ; 78

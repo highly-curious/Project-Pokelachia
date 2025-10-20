@@ -85,33 +85,19 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .NationalForest1
 	dw .OlsteetonUni
 	dw .NewBarkTown
-	dw .SproutTower
-	dw .UnionCave ; no call
-	dw .SlowpokeWell ; no calls
-	dw .IlexForest
 	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
-	dw .NationalPark
 	dw .Route36
 	dw .Route37
 	dw .EcruteakCity
 	dw .BellchimeTrail
-	dw .TinTower
-	dw .BurnedTower ; no calls
-	dw .Lighthouse
 	dw .BattleTower
-	dw .WhirlIslands ; no calls
 	dw .Route42
-	dw .MtMortar ; no calls
 	dw .MahoganyTown
 	dw .Route43
 	dw .LakeOfRage
 	dw .Route44
-	dw .IcePath ; no calls
-	dw .DragonsDen ; no calls
-	dw .DarkCave ; no calls
-	dw .SilverCave
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .Hollowport:
@@ -121,33 +107,19 @@ LyraPhoneScript_JohtoLandmarksTable:
 .NationalForest1:
 .OlsteetonUni:
 .NewBarkTown:
-.SproutTower:
-.UnionCave:
-.SlowpokeWell:
-.IlexForest:
 .RadioTower:
 .Route35:
 .Route35Coast:
-.NationalPark:
 .Route36:
 .Route37:
 .EcruteakCity:
 .BellchimeTrail:
-.TinTower:
-.BurnedTower:
-.Lighthouse:
 .BattleTower:
-.WhirlIslands:
 .Route42:
-.MtMortar:
 .MahoganyTown:
 .Route43:
 .LakeOfRage:
 .Route44:
-.IcePath:
-.DragonsDen:
-.DarkCave:
-.SilverCave:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
 	end

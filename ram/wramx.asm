@@ -1060,39 +1060,25 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBellchimeTrailSceneID:: db
 wBrunosRoomSceneID:: db
-wBurnedTower1FSceneID:: db
-wBurnedTowerB1FSceneID:: db
 wColosseumSceneID:: db
-wDarkCaveVioletEntranceSceneID:: db
 wDayCareSceneID:: db
-wDragonsDenB1FSceneID:: db
-wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
 wHallOfFameSceneID:: db
-wIlexForestSceneID:: db
 wKarensRoomSceneID:: db
 wKogasRoomSceneID:: db
 wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
-wMahoganyMart1FSceneID:: db
 wMahoganyTownSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
-wRoute35NationalParkGateSceneID:: db
-wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
 wRoute42SceneID:: db
 wRoute43GateSceneID:: db
-wSproutTower3FSceneID:: db
-wTeamRocketBaseB2FSceneID:: db
-wTeamRocketBaseB3FSceneID:: db
-wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
-wUndergroundPathSwitchRoomEntrancesSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
 ;Folkora Map Triggers
@@ -1144,7 +1130,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 111 ; unused
+	ds 125 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
