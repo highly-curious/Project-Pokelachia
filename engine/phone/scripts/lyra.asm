@@ -92,8 +92,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .EcruteakCity
 	dw .BellchimeTrail
 	dw .BattleTower
-	dw .MahoganyTown
-	dw .LakeOfRage
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .Hollowport:
@@ -110,8 +108,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .EcruteakCity:
 .BellchimeTrail:
 .BattleTower:
-.MahoganyTown:
-.LakeOfRage:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
 	end

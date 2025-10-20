@@ -1070,7 +1070,6 @@ wKarensRoomSceneID:: db
 wKogasRoomSceneID:: db
 wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
-wMahoganyTownSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
 wRoute23SceneID:: db
@@ -1127,7 +1126,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 128 ; unused
+	ds 129 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
