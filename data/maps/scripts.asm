@@ -133,11 +133,6 @@ SECTION "New Bark Scripts 2", ROMX
 
 SECTION "Indigo Plateau Scripts", ROMX
 
-INCLUDE "maps/WillsRoom.asm"
-INCLUDE "maps/KogasRoom.asm"
-INCLUDE "maps/BrunosRoom.asm"
-INCLUDE "maps/KarensRoom.asm"
-INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
 
 
