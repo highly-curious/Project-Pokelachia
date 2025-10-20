@@ -48,11 +48,8 @@ Landmarks:
 	landmark  52,  88, Route1Name
 	landmark  76,  44, MtMoonName
 	landmark  92,  44, Route4Name
-	landmark 108,  44, CeruleanCityName
-	landmark 100,  36, CeruleanCaveName
 	landmark 108,  36, Route24Name
 	landmark 124,  28, Route25Name
-	landmark 140,  28, CeruleanCapeName
 	landmark 114,  66, UndergroundName
 	landmark 116,  68, DiglettsCaveName
 	landmark 140,  52, Route10Name
@@ -102,7 +99,6 @@ WhirlIslandsName:      rawchar "Whirl¯Islands@"
 MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
-CeruleanCityName:      rawchar "Cerulean¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 VictoryRoadName:       rawchar "Victory¯Road@"
@@ -112,8 +108,6 @@ RockTunnelName:        rawchar "Rock Tunnel@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
-CeruleanCaveName:      rawchar "Cerulean¯Cave@"
-CeruleanCapeName:      rawchar "Cerulean¯Cape@"
 Route1Name:            rawchar "Route 1@"
 Route4Name:            rawchar "Route 4@"
 Route10Name:           rawchar "Route 10@"
