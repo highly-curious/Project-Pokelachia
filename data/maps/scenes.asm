@@ -26,11 +26,8 @@ MapScenes::
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
-	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_36,                               wRoute36SceneID
-	scene_var ROUTE_42,                               wRoute42SceneID
-	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID

@@ -19,13 +19,9 @@ GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
 Route36RuinsOfAlphGate_BlockData:
-Route43Gate_BlockData:
-Route43MahoganyGate_BlockData:
 OlsteetonForestGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
-Route36VioletGate_BlockData:
-Route42EcruteakGate_BlockData:
 Route101102Gate_BlockData:
 Route102OlsteetonGate_BlockData:
 OlsteetonUniGate_BlockData:
@@ -356,26 +352,6 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "RadioTower1F_BlockData", ROMX
-RadioTower1F_BlockData:
-	INCBIN "maps/RadioTower1F.ablk.lz"
-
-SECTION "RadioTower2F_BlockData", ROMX
-RadioTower2F_BlockData:
-	INCBIN "maps/RadioTower2F.ablk.lz"
-
-SECTION "RadioTower3F_BlockData", ROMX
-RadioTower3F_BlockData:
-	INCBIN "maps/RadioTower3F.ablk.lz"
-
-SECTION "RadioTower4F_BlockData", ROMX
-RadioTower4F_BlockData:
-	INCBIN "maps/RadioTower4F.ablk.lz"
-
-SECTION "RadioTower5F_BlockData", ROMX
-RadioTower5F_BlockData:
-	INCBIN "maps/RadioTower5F.ablk.lz"
-
 SECTION "EcruteakGym_BlockData", ROMX
 EcruteakGym_BlockData:
 	INCBIN "maps/EcruteakGym.ablk.lz"
@@ -491,21 +467,5 @@ Route36_BlockData:
 SECTION "Route37_BlockData", ROMX
 Route37_BlockData:
 	INCBIN "maps/Route37.ablk.lz"
-
-SECTION "Route42_BlockData", ROMX
-Route42_BlockData:
-	INCBIN "maps/Route42.ablk.lz"
-
-SECTION "Route43_BlockData", ROMX
-Route43_BlockData:
-	INCBIN "maps/Route43.ablk.lz"
-
-SECTION "Route43Raining_BlockData", ROMX
-Route43Raining_BlockData:
-	INCBIN "maps/Route43Raining.ablk.lz"
-
-SECTION "Route44_BlockData", ROMX
-Route44_BlockData:
-	INCBIN "maps/Route44.ablk.lz"
 
 ENDSECTION

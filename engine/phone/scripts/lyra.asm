@@ -85,7 +85,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .NationalForest1
 	dw .OlsteetonUni
 	dw .NewBarkTown
-	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
 	dw .Route36
@@ -93,11 +92,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .EcruteakCity
 	dw .BellchimeTrail
 	dw .BattleTower
-	dw .Route42
 	dw .MahoganyTown
-	dw .Route43
 	dw .LakeOfRage
-	dw .Route44
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .Hollowport:
@@ -107,7 +103,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .NationalForest1:
 .OlsteetonUni:
 .NewBarkTown:
-.RadioTower:
 .Route35:
 .Route35Coast:
 .Route36:
@@ -115,11 +110,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 .EcruteakCity:
 .BellchimeTrail:
 .BattleTower:
-.Route42:
 .MahoganyTown:
-.Route43:
 .LakeOfRage:
-.Route44:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
 	end

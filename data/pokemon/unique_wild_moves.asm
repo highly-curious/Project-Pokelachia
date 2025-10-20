@@ -17,5 +17,4 @@ UniqueWildMoves:
 	; unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
 	; unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
-	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	db -1

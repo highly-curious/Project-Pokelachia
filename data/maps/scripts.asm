@@ -148,15 +148,6 @@ INCLUDE "maps/LyrasHouse1F.asm"
 INCLUDE "maps/LyrasHouse2F.asm"
 
 
-SECTION "Radio Tower Scripts", ROMX
-
-INCLUDE "maps/RadioTower1F.asm"
-INCLUDE "maps/RadioTower2F.asm"
-INCLUDE "maps/RadioTower3F.asm"
-INCLUDE "maps/RadioTower4F.asm"
-INCLUDE "maps/RadioTower5F.asm"
-
-
 SECTION "Magnet Tunnel Scripts", ROMX
 
 INCLUDE "maps/MagnetTunnelEast.asm"
@@ -221,18 +212,7 @@ SECTION "Routes 36-38 Scripts", ROMX
 
 INCLUDE "maps/Route36.asm"
 INCLUDE "maps/Route36RuinsOfAlphGate.asm"
-INCLUDE "maps/Route36VioletGate.asm"
 INCLUDE "maps/Route37.asm"
-
-
-SECTION "Routes 42-44 Scripts", ROMX
-
-INCLUDE "maps/Route42.asm"
-INCLUDE "maps/Route42EcruteakGate.asm"
-INCLUDE "maps/Route43.asm"
-INCLUDE "maps/Route43Gate.asm"
-INCLUDE "maps/Route43MahoganyGate.asm"
-INCLUDE "maps/Route44.asm"
 
 
 ENDSECTION

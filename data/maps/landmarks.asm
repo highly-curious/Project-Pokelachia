@@ -14,7 +14,6 @@ Landmarks:
 	landmark  20,  20, NationalForest1Name
 	landmark  25,  25, OlsteetonUniName
 	landmark 140, 100, NewBarkTownName
-	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
 	landmark  64,  60, Route36Name
@@ -22,11 +21,8 @@ Landmarks:
 	landmark  68,  44, EcruteakCityName
 	landmark  69,  42, BellchimeTrailName
 	landmark  28,  52, BattleTowerName
-	landmark  92,  44, Route42Name
 	landmark 108,  44, MahoganyTownName
-	landmark 108,  36, Route43Name
 	landmark 108,  28, LakeOfRageName
-	landmark 120,  44, Route44Name
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
 	landmark  40,  76, Route22Name
@@ -47,7 +43,6 @@ NewBarkTownName:       rawchar "New Bark¯Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
-RadioTowerName:        rawchar "Radio Tower@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
@@ -57,9 +52,6 @@ Route23Name:           rawchar "Route 23@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"
-Route42Name:           rawchar "Route 42@"
-Route43Name:           rawchar "Route 43@"
-Route44Name:           rawchar "Route 44@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
