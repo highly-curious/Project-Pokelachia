@@ -10,20 +10,6 @@ ENDM
 
 	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
-	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH
-	connection south, Route37, ROUTE_37, 5
-
-	map_attributes Route35, ROUTE_35, $5, NORTH
-	connection north, Route36, ROUTE_36, 0
-
-	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH
-	connection north, Route37, ROUTE_37, 12
-	connection south, Route35, ROUTE_35, 0
-
-	map_attributes Route37, ROUTE_37, $5, NORTH | SOUTH
-	connection north, EcruteakCity, ECRUTEAK_CITY, -5
-	connection south, Route36, ROUTE_36, -12
-
 	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
 	connection north, Route101, ROUTE_101, 2
 
@@ -123,18 +109,6 @@ ENDM
 	map_attributes OlsteetonAbandonedMillOutside, OLSTEETON_ABANDONED_MILL_OUTSIDE, $0F, 0
 
 	;johto maps
-	map_attributes EcruteakHouse, ECRUTEAK_HOUSE, $0, 0
-	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $0, 0
-	map_attributes EcruteakPokeCenter1F, ECRUTEAK_POKECENTER_1F, $0, 0
-	map_attributes EcruteakLugiaSpeechHouse, ECRUTEAK_LUGIA_SPEECH_HOUSE, $0, 0
-	map_attributes DanceTheatre, DANCE_THEATRE, $0, 0
-	map_attributes EcruteakMart, ECRUTEAK_MART, $0, 0
-	map_attributes EcruteakGym, ECRUTEAK_GYM, $0, 0
-	map_attributes EcruteakItemfinderHouse, ECRUTEAK_ITEMFINDER_HOUSE, $0, 0
-	map_attributes ValeriesHouse, VALERIES_HOUSE, $0, 0
-	map_attributes EcruteakCherishBallHouse, ECRUTEAK_CHERISH_BALL_HOUSE, $0, 0
-	map_attributes EcruteakDestinyKnotHouse, ECRUTEAK_DESTINY_KNOT_HOUSE, $0, 0
-	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0
 	map_attributes BrunosRoom, BRUNOS_ROOM, $0, 0

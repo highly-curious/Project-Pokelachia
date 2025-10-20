@@ -1,8 +1,5 @@
 SECTION "Special Map Blockdata", ROMX
 
-EcruteakPokeCenter1F_BlockData:
-	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
-
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
@@ -12,12 +9,10 @@ KantoPokeCenter2F_BlockData:
 OlsteetonPokeCenter_BlockData:
 	INCBIN "maps/OlsteetonPokeCenter.ablk.lz"
 
-EcruteakMart_BlockData:
 OlsteetonMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
-Route36RuinsOfAlphGate_BlockData:
 OlsteetonForestGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
@@ -48,11 +43,6 @@ PlayersNeighborsHouse_BlockData:
 HollowportNeighbor_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
-EcruteakLugiaSpeechHouse_BlockData:
-EcruteakItemfinderHouse_BlockData:
-EcruteakCherishBallHouse_BlockData:
-EcruteakDestinyKnotHouse_BlockData:
-ValeriesHouse_BlockData:
 Route101House_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
@@ -348,26 +338,6 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "EcruteakGym_BlockData", ROMX
-EcruteakGym_BlockData:
-	INCBIN "maps/EcruteakGym.ablk.lz"
-
-SECTION "EcruteakCity_BlockData", ROMX
-EcruteakCity_BlockData:
-	INCBIN "maps/EcruteakCity.ablk.lz"
-
-SECTION "EcruteakHouse_BlockData", ROMX
-EcruteakHouse_BlockData:
-	INCBIN "maps/EcruteakHouse.ablk.lz"
-
-SECTION "DanceTheatre_BlockData", ROMX
-DanceTheatre_BlockData:
-	INCBIN "maps/DanceTheatre.ablk.lz"
-
-SECTION "WiseTriosRoom_BlockData", ROMX
-WiseTriosRoom_BlockData:
-	INCBIN "maps/WiseTriosRoom.ablk.lz"
-
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lz"
@@ -419,17 +389,5 @@ HallOfFame_BlockData:
 SECTION "NavelRockInside_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "Route35_BlockData", ROMX
-Route35_BlockData:
-	INCBIN "maps/Route35.ablk.lz"
-
-SECTION "Route36_BlockData", ROMX
-Route36_BlockData:
-	INCBIN "maps/Route36.ablk.lz"
-
-SECTION "Route37_BlockData", ROMX
-Route37_BlockData:
-	INCBIN "maps/Route37.ablk.lz"
 
 ENDSECTION

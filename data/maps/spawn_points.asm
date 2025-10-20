@@ -13,7 +13,6 @@ SpawnPoints:
 	spawn OLSTEETON,				   7,  12
 
 	spawn NEW_BARK_TOWN,              15,  6
-	spawn ECRUTEAK_CITY,              23, 28
 
 	spawn N_A,                        -1, -1
 

@@ -87,7 +87,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_HOME
 ; johto
 	const SPAWN_NEW_BARK
-	const SPAWN_ECRUTEAK
 ; folkora
 	const SPAWN_HOLLOWPORT
 	const SPAWN_OLSTEETON
@@ -100,7 +99,6 @@ DEF SPAWN_N_A EQU -1
 	const_def
 ; johto
 	const FLY_NEW_BARK
-	const FLY_ECRUTEAK
 ; folkora
 	; const FLY_UNI_CAMPUS
 	const FLY_HOLLOWPORT

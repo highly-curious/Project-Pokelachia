@@ -1060,9 +1060,6 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBrunosRoomSceneID:: db
 wColosseumSceneID:: db
-wDayCareSceneID:: db
-wEcruteakGymSceneID:: db
-wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
 wHallOfFameSceneID:: db
 wKarensRoomSceneID:: db
@@ -1071,10 +1068,8 @@ wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
-wRoute36SceneID:: db
 wTradeCenterSceneID:: db
 wWillsRoomSceneID:: db
-wWiseTriosRoomSceneID:: db
 ;Folkora Map Triggers
 wRoute101SceneID:: db
 
@@ -1124,7 +1119,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 131 ; unused
+	ds 136 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
