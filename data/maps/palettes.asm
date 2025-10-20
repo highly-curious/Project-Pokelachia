@@ -28,8 +28,6 @@ ENDM
 	special_bg_pal map,      SILVER_CAVE_ITEM_ROOMS,      PAL_SINGLE,    SilverCavePalette
 	special_bg_pal map,      DRAGON_SHRINE,               PAL_SINGLE,    DragonShrinePalette
 	special_bg_pal map,      ECRUTEAK_CITY,               PAL_TIMEOFDAY, VioletEcruteakPalette
-	special_bg_pal map,      BLACKTHORN_GYM_1F,           PAL_SINGLE,    BlackthornGym1FPalette
-	special_bg_pal map,      BLACKTHORN_GYM_2F,           PAL_SINGLE,    BlackthornGym1FPalette
 	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
 	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
 	special_bg_pal map,      BRUNOS_ROOM,                 PAL_SINGLE,    BrunosRoomPalette
@@ -42,7 +40,6 @@ ENDM
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
-	special_bg_pal landmark, SCARY_CAVE,                  PAL_SINGLE,    ScaryCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    PokeComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -427,19 +424,6 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
-BlackthornGym1FPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/BlackthornGym1F.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
 BellchimeTrailPalette:
 if !DEF(MONOCHROME)
 INCLUDE "maps/BellchimeTrail.pal"
@@ -502,25 +486,6 @@ endc
 WhirlIslandsPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/whirl_islands.pal"
-else
-rept 4
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-ScaryCavePalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/scary_cave.pal"
 else
 rept 4
 	MONOCHROME_RGB_FOUR_NIGHT

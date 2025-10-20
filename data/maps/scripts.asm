@@ -6,7 +6,6 @@ INCLUDE "maps/EcruteakPokeCenter1F.asm"
 SECTION "Pokemon Center Scripts 2", ROMX
 
 INCLUDE "maps/MahoganyPokeCenter1F.asm"
-INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 
 
@@ -311,22 +310,11 @@ INCLUDE "maps/IcePathB2FBlackthornSide.asm"
 INCLUDE "maps/IcePathB3F.asm"
 
 
-SECTION "Blackthorn Scripts", ROMX
-
-INCLUDE "maps/BlackthornCity.asm"
-INCLUDE "maps/BlackthornMart.asm"
-INCLUDE "maps/BlackthornDragonSpeechHouse.asm"
-INCLUDE "maps/BlackthornEmysHouse.asm"
-INCLUDE "maps/MoveDeletersHouse.asm"
-
-
 SECTION "Dragon's Den Scripts", ROMX
 
 INCLUDE "maps/DragonsDen1F.asm"
 INCLUDE "maps/DragonsDenB1F.asm"
 INCLUDE "maps/DragonShrine.asm"
-INCLUDE "maps/BlackthornGym1F.asm" ; shares text with DragonsDen1F.asm
-INCLUDE "maps/BlackthornGym2F.asm"
 
 
 SECTION "Victory Road Scripts", ROMX
@@ -377,18 +365,6 @@ SECTION "Saffron Scripts 2", ROMX
 INCLUDE "maps/Underground.asm"
 
 
-SECTION "Uraga Channel Scripts", ROMX
-
-INCLUDE "maps/UragaChannelWest.asm"
-
-
-SECTION "Scary Cave Scripts", ROMX
-
-INCLUDE "maps/ScaryCave1F.asm"
-INCLUDE "maps/ScaryCaveB1F.asm"
-INCLUDE "maps/ScaryCaveShipwreck.asm"
-
-
 SECTION "Silver Cave Scripts", ROMX
 
 INCLUDE "maps/SilverCaveRoom1.asm"
@@ -397,16 +373,8 @@ INCLUDE "maps/SilverCaveRoom3.asm"
 INCLUDE "maps/SilverCaveItemRooms.asm"
 
 
-SECTION "Routes 18-20 Scripts", ROMX
-
-INCLUDE "maps/Route19.asm"
-INCLUDE "maps/Route19BeachHouse.asm"
-INCLUDE "maps/Route20.asm"
-
-
 SECTION "Routes 21-23 Scripts", ROMX
 
-INCLUDE "maps/Route21.asm"
 INCLUDE "maps/Route23.asm"
 
 
@@ -433,12 +401,6 @@ INCLUDE "maps/Route43.asm"
 INCLUDE "maps/Route43Gate.asm"
 INCLUDE "maps/Route43MahoganyGate.asm"
 INCLUDE "maps/Route44.asm"
-
-
-SECTION "Routes 45-47 Scripts", ROMX
-
-INCLUDE "maps/Route45.asm"
-INCLUDE "maps/Route46.asm"
 
 
 ENDSECTION

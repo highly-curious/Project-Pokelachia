@@ -2,7 +2,6 @@ SECTION "Special Map Blockdata", ROMX
 
 EcruteakPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
-BlackthornPokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -15,7 +14,6 @@ OlsteetonPokeCenter_BlockData:
 	INCBIN "maps/OlsteetonPokeCenter.ablk.lz"
 
 EcruteakMart_BlockData:
-BlackthornMart_BlockData:
 OlsteetonMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
@@ -49,9 +47,6 @@ OlsteetonFisherHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
-BlackthornDragonSpeechHouse_BlockData:
-BlackthornEmysHouse_BlockData:
-MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 OlsteetonNameRater_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
@@ -69,8 +64,6 @@ ValeriesHouse_BlockData:
 Route101House_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
-
-
 SECTION "RiverfrontApt2FRoom1_BlockData", ROMX
 RiverfrontApt2FRoom1_BlockData:
 RiverfrontApt2FRoom2_BlockData:
@@ -81,8 +74,7 @@ RiverfrontApt4FRoom1_BlockData:
 RiverfrontApt4FRoom3_BlockData:
 	INCBIN "maps/KantoHouse1.ablk.lz"
 
-SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
-Route19BeachHouse_BlockData:
+SECTION "OlsteetonUniDormWest2FRoom2_BlockData", ROMX
 OlsteetonUniDormWest2FRoom2_BlockData:
 OlsteetonUniDormWest2FRoom3_BlockData:
 OlsteetonUniDormWest3FRoom1_BlockData:
@@ -675,18 +667,6 @@ SECTION "IcePathB3F_BlockData", ROMX
 IcePathB3F_BlockData:
 	INCBIN "maps/IcePathB3F.ablk.lz"
 
-SECTION "BlackthornGym1F_BlockData", ROMX
-BlackthornGym1F_BlockData:
-	INCBIN "maps/BlackthornGym1F.ablk.lz"
-
-SECTION "BlackthornGym2F_BlockData", ROMX
-BlackthornGym2F_BlockData:
-	INCBIN "maps/BlackthornGym2F.ablk.lz"
-
-SECTION "BlackthornCity_BlockData", ROMX
-BlackthornCity_BlockData:
-	INCBIN "maps/BlackthornCity.ablk.lz"
-
 SECTION "DragonsDenB1F_BlockData", ROMX
 DragonsDenB1F_BlockData:
 	INCBIN "maps/DragonsDenB1F.ablk.lz"
@@ -779,22 +759,6 @@ SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"
 
-SECTION "UragaChannelWest_BlockData", ROMX
-UragaChannelWest_BlockData:
-	INCBIN "maps/UragaChannelWest.ablk.lz"
-
-SECTION "ScaryCave1F_BlockData", ROMX
-ScaryCave1F_BlockData:
-	INCBIN "maps/ScaryCave1F.ablk.lz"
-
-SECTION "ScaryCaveB1F_BlockData", ROMX
-ScaryCaveB1F_BlockData:
-	INCBIN "maps/ScaryCaveB1F.ablk.lz"
-
-SECTION "ScaryCaveShipwreck_BlockData", ROMX
-ScaryCaveShipwreck_BlockData:
-	INCBIN "maps/ScaryCaveShipwreck.ablk.lz"
-
 SECTION "SilverCaveRoom1_BlockData", ROMX
 SilverCaveRoom1_BlockData:
 	INCBIN "maps/SilverCaveRoom1.ablk.lz"
@@ -812,18 +776,6 @@ DragonsDen1F_BlockData:
 WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "Route19_BlockData", ROMX
-Route19_BlockData:
-	INCBIN "maps/Route19.ablk.lz"
-
-SECTION "Route20_BlockData", ROMX
-Route20_BlockData:
-	INCBIN "maps/Route20.ablk.lz"
-
-SECTION "Route21_BlockData", ROMX
-Route21_BlockData:
-	INCBIN "maps/Route21.ablk.lz"
 
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:
@@ -864,13 +816,5 @@ Route43Raining_BlockData:
 SECTION "Route44_BlockData", ROMX
 Route44_BlockData:
 	INCBIN "maps/Route44.ablk.lz"
-
-SECTION "Route45_BlockData", ROMX
-Route45_BlockData:
-	INCBIN "maps/Route45.ablk.lz"
-
-SECTION "Route46_BlockData", ROMX
-Route46_BlockData:
-	INCBIN "maps/Route46.ablk.lz"
 
 ENDSECTION

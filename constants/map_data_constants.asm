@@ -92,8 +92,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_ECRUTEAK
 	const SPAWN_MAHOGANY
 	const SPAWN_LAKE_OF_RAGE
-	const SPAWN_BLACKTHORN
-
 ; folkora
 	const SPAWN_HOLLOWPORT
 	const SPAWN_OLSTEETON
@@ -109,12 +107,9 @@ DEF SPAWN_N_A EQU -1
 	const FLY_ECRUTEAK
 	const FLY_MAHOGANY
 	const FLY_LAKE_OF_RAGE
-	const FLY_BLACKTHORN
 ; kanto
 	const FLY_INDIGO
-
 ; appalachia
-
 	; const FLY_UNI_CAMPUS
 	const FLY_HOLLOWPORT
 	const FLY_OLSTEETON

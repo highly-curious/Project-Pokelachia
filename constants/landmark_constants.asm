@@ -34,11 +34,8 @@
 	const LAKE_OF_RAGE       ; 38
 	const ROUTE_44           ; 39
 	const ICE_PATH           ; 3a
-	const BLACKTHORN_CITY    ; 3b
 	const DRAGONS_DEN        ; 3c
-	const ROUTE_45           ; 3d
 	const DARK_CAVE          ; 3e
-	const ROUTE_46           ; 3f
 	const SILVER_CAVE        ; 40
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
@@ -46,11 +43,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const UNDERGROUND        ; 53
 	const DIGLETTS_CAVE      ; 56
 	const ROCK_TUNNEL        ; 5b
-	const URAGA_CHANNEL      ; 6f
-	const SCARY_CAVE         ; 70
-	const ROUTE_19           ; 71
-	const ROUTE_20           ; 72
-	const ROUTE_21           ; 77
 	const ROUTE_22           ; 78
 	const TOHJO_FALLS        ; 7a
 	const POKEMON_LEAGUE     ; 7c

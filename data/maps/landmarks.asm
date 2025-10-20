@@ -38,11 +38,8 @@ Landmarks:
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
 	landmark 128,  40, IcePathName
-	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
-	landmark 132,  64, Route45Name
 	landmark 116,  68, DarkCaveName
-	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
@@ -50,11 +47,6 @@ Landmarks:
 	landmark 114,  66, UndergroundName
 	landmark 116,  68, DiglettsCaveName
 	landmark 140,  44, RockTunnelName
-	landmark  64, 108, UragaChannelName
-	landmark  60, 116, ScaryCaveName
-	landmark  92, 120, Route19Name
-	landmark  80, 132, Route20Name
-	landmark  52, 116, Route21Name
 	landmark  40,  76, Route22Name
 	landmark  12, 100, TohjoFallsName
 	landmark  28,  76, PokemonLeagueName
@@ -74,7 +66,6 @@ OlsteetonUniName: 	   rawchar "Bouffalant¯Academy@"
 NewBarkTownName:       rawchar "New Bark¯Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
-BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
@@ -95,9 +86,6 @@ IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 MtMoonName:            rawchar "Mt.Moon@"
 RockTunnelName:        rawchar "Rock Tunnel@"
 Route1Name:            rawchar "Route 1@"
-Route19Name:           rawchar "Route 19@"
-Route20Name:           rawchar "Route 20@"
-Route21Name:           rawchar "Route 21@"
 Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
 Route35Name:           rawchar "Route 35@"
@@ -106,8 +94,6 @@ Route37Name:           rawchar "Route 37@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
-Route45Name:           rawchar "Route 45@"
-Route46Name:           rawchar "Route 46@"
 DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
@@ -116,6 +102,4 @@ TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
-ScaryCaveName:         rawchar "Scary¯Cave@"
-UragaChannelName:      rawchar "Uraga¯Channel@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
