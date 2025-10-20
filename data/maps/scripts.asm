@@ -317,13 +317,6 @@ INCLUDE "maps/DragonsDenB1F.asm"
 INCLUDE "maps/DragonShrine.asm"
 
 
-SECTION "Victory Road Scripts", ROMX
-
-INCLUDE "maps/VictoryRoad1F.asm"
-INCLUDE "maps/VictoryRoad2F.asm"
-INCLUDE "maps/VictoryRoad3F.asm"
-
-
 SECTION "Tohjo Falls Scripts", ROMX
 
 INCLUDE "maps/TohjoFalls.asm"
@@ -351,18 +344,6 @@ INCLUDE "maps/MountMoonB2F.asm"
 SECTION "Diglett's Cave Scripts", ROMX
 
 INCLUDE "maps/DiglettsCave.asm"
-
-
-SECTION "Rock Tunnel Scripts", ROMX
-
-INCLUDE "maps/RockTunnel1F.asm"
-INCLUDE "maps/RockTunnel2F.asm"
-INCLUDE "maps/RockTunnelB1F.asm"
-
-
-SECTION "Saffron Scripts 2", ROMX
-
-INCLUDE "maps/Underground.asm"
 
 
 SECTION "Silver Cave Scripts", ROMX
