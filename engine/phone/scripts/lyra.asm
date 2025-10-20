@@ -102,7 +102,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .TinTower
 	dw .BurnedTower ; no calls
 	dw .Lighthouse
-	dw .Route40
 	dw .BattleTower
 	dw .WhirlIslands ; no calls
 	dw .Route42
@@ -144,7 +143,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .TinTower:
 .BurnedTower:
 .Lighthouse:
-.Route40:
 .BattleTower:
 .WhirlIslands:
 .Route42:

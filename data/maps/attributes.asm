@@ -42,8 +42,6 @@ ENDM
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
 	connection south, Route36, ROUTE_36, -12
 
-	map_attributes Route40, ROUTE_40, $35, 0
-
 	map_attributes Route42, ROUTE_42, $5, WEST | EAST
 	connection west, EcruteakCity, ECRUTEAK_CITY, -9
 	connection east, MahoganyTown, MAHOGANY_TOWN, 0
@@ -359,7 +357,6 @@ ENDM
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0
 	map_attributes BattleTowerElevator, BATTLE_TOWER_ELEVATOR, $0, 0
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $0, 0
-	map_attributes Route40BattleTowerGate, ROUTE_40_BATTLE_TOWER_GATE, $0, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $5, 0
 	map_attributes ElmsLab, ELMS_LAB, $0, 0
 	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $0, 0
