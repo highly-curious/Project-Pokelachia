@@ -86,9 +86,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .OlsteetonUni
 	dw .NewBarkTown
 	dw .SproutTower
-	dw .UnionCave ; no calls
-	dw .Route33
-	dw .AzaleaTown
+	dw .UnionCave ; no call
 	dw .SlowpokeWell ; no calls
 	dw .IlexForest
 	dw .RadioTower ; no calls
@@ -128,8 +126,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .NewBarkTown:
 .SproutTower:
 .UnionCave:
-.Route33:
-.AzaleaTown:
 .SlowpokeWell:
 .IlexForest:
 .RadioTower:

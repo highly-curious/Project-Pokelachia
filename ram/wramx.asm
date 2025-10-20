@@ -1056,7 +1056,6 @@ wFarfetchdPosition:: db
 
 ; map triggers
 wAlways0SceneID:: db
-wAzaleaTownSceneID:: db
 wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBellchimeTrailSceneID:: db
@@ -1155,7 +1154,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 100 ; unused
+	ds 101 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
