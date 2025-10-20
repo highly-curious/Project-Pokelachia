@@ -41,12 +41,9 @@ OlsteetonGymHouse_BlockData:
 OlsteetonFisherHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
-MahoganyRedGyaradosSpeechHouse_BlockData:
-LakeOfRageMagikarpHouse_BlockData:
 OlsteetonNameRater_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
-
-LakeOfRageHiddenPowerHouse_BlockData:
+	
 PlayersNeighborsHouse_BlockData:
 HollowportNeighbor_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
