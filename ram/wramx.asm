@@ -1060,7 +1060,6 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBrunosRoomSceneID:: db
 wColosseumSceneID:: db
-wElmsLabSceneID:: db
 wHallOfFameSceneID:: db
 wKarensRoomSceneID:: db
 wKogasRoomSceneID:: db
@@ -1119,7 +1118,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 136 ; unused
+	ds 137 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

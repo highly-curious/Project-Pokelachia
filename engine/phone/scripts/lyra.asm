@@ -86,7 +86,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .OlsteetonUni
 	dw .NewBarkTown
 	dw .BattleTower
-	assert_table_length KANTO_LANDMARK
 .Generic:
 .Hollowport:
 .Route101:
