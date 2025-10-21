@@ -1,7 +1,7 @@
 	tilecoll VOID, VOID, VOID, VOID ; 00
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 01
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 02
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 03
+	tilecoll WALL, WALL, WALL, WALL ; 01
+	tilecoll WALL, WALL, WALL, WALL ; 02
+	tilecoll WALL, WALL, WALL, TOWN_MAP ; 03
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 04
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 05
 	tilecoll FLOOR, FLOOR, FLOOR, WARP_CARPET_DOWN ; 06

@@ -8,8 +8,6 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
-
 	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
 	connection north, Route101, ROUTE_101, 2
 

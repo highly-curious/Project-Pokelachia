@@ -1060,7 +1060,6 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wColosseumSceneID:: db
 wHallOfFameSceneID:: db
-wNewBarkTownSceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
 wTradeCenterSceneID:: db

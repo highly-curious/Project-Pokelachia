@@ -13,7 +13,6 @@ Landmarks:
 	landmark  60,  68, OlsteetonName
 	landmark  60,  76, NationalForest1Name
 	landmark  68,  68, OlsteetonUniName
-	landmark  84, 76, NewBarkTownName
 	landmark  44,  44, BattleTowerName
 	landmark  20,  68, PokemonLeagueName
 	assert_table_length NUM_LANDMARKS
@@ -25,6 +24,5 @@ Route102Name:          rawchar "Route 102@"
 OlsteetonName: 		   rawchar "Olsteeton@"
 NationalForest1Name:   rawchar "Jolly Sods@"
 OlsteetonUniName: 	   rawchar "Bouffalant¯Academy@"
-NewBarkTownName:       rawchar "Brinesburg"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 BattleTowerName:       rawchar "Battle¯Town@"

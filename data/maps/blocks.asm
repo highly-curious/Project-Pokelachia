@@ -3,9 +3,6 @@ SECTION "Special Map Blockdata", ROMX
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-KantoPokeCenter2F_BlockData:
-	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
-
 OlsteetonPokeCenter_BlockData:
 	INCBIN "maps/OlsteetonPokeCenter.ablk.lz"
 
@@ -318,10 +315,6 @@ OlsteetonAbandonedMillOutside_BlockData:
 SECTION "OlsteetonAbandonedMill_BlockData", ROMX
 OlsteetonAbandonedMill_BlockData:
 	INCBIN "maps/OlsteetonAbandonedMill.ablk.lz"
-SECTION "NewBarkTown_BlockData", ROMX
-NewBarkTown_BlockData:
-	INCBIN "maps/NewBarkTown.ablk.lz"
-
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lz"

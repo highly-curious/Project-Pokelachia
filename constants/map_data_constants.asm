@@ -85,8 +85,6 @@ DEF NUM_FISHGROUPS EQU const_value
 ; SpawnPoints indexes (see data/maps/spawn_points.asm)
 	const_def
 	const SPAWN_HOME
-; johto
-	const SPAWN_NEW_BARK
 ; folkora
 	const SPAWN_HOLLOWPORT
 	const SPAWN_OLSTEETON
@@ -98,7 +96,6 @@ DEF SPAWN_N_A EQU -1
 ; Flypoints indexes (see data/maps/flypoints.asm)
 	const_def
 ; johto
-	const FLY_NEW_BARK
 ; folkora
 	; const FLY_UNI_CAMPUS
 	const FLY_HOLLOWPORT
