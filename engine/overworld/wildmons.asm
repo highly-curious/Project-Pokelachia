@@ -680,15 +680,15 @@ InitRoamMons:
 	ld [wRoamMon2Level], a
 
 ; raikou starting map
-	ld a, GROUP_HUMILAU_CITY
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_HUMILAU_CITY
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon1MapNumber], a
 
 ; entei starting map
-	ld a, GROUP_HUMILAU_CITY
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_HUMILAU_CITY
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon2MapNumber], a
 
 ; hp

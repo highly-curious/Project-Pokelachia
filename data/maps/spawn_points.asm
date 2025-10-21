@@ -12,8 +12,6 @@ SpawnPoints:
 	spawn HOLLOWPORT,				   7,  3
 	spawn OLSTEETON,				   7,  12
 
-	spawn NEW_BARK_TOWN,              15,  6
-
 	spawn N_A,                        -1, -1
 
 	assert_table_length NUM_SPAWNS + 1

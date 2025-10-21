@@ -84,7 +84,7 @@ HallOfFameEntranceTrigger:
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
 .SkipPhoneCall:
-	blackoutmod HUMILAU_CITY
+	blackoutmod HOLLOWPORT
 	halloffame
 	end
 
