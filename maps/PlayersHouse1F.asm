@@ -68,8 +68,8 @@ MotherTrigger2:
 MotherEventScript:
 	opentext
 	writetext MotherIntroText
-	promptbutton
-	special SpecialNameRival
+	; promptbutton
+	; special SpecialNameRival
 	writetext MotherIntroText2
 	waitbutton
 	closetext
@@ -164,11 +164,12 @@ MotherIntroText:
 
 	para "What was their"
 	line "name again?"
+	cont "....."
 	done	
 MotherIntroText2:
 	text "Oh, right!"
 
-	para "Anyway, <RIVAL>"
+	para "Anyway, Brooke"
 	line "said something"
 
 	para "about a professor"
