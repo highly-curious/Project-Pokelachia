@@ -34,7 +34,7 @@ NewBarkTown_MapScriptHeader:
 	const NEWBARKTOWN_TEACHER
 
 NewBarkTownFlyPoint:
-	setflag ENGINE_FLYPOINT_NEW_BARK
+	setflag ENGINE_FLYPOINT_HOLLOWPORT
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 

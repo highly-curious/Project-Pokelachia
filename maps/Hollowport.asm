@@ -13,8 +13,8 @@ Hollowport_MapScriptHeader:
 
 
 	def_coord_events
-	coord_event 13,  0, 0, Hollowport_ElderStopsYouTrigger1
-	coord_event 12,  0, 0, Hollowport_ElderStopsYouTrigger2
+	; coord_event 13,  0, 0, Hollowport_ElderStopsYouTrigger1
+	; coord_event 12,  0, 0, Hollowport_ElderStopsYouTrigger2
 	; coord_event  5,  6, 0, Hollowport_RivalIntroTrigger
 
 	def_bg_events
@@ -44,34 +44,34 @@ HollowportFlyPoint:
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 
-Hollowport_ElderStopsYouTrigger1:
-	playmusic MUSIC_MOM
-	turnobject HOLLOWPORT_ELDER, LEFT
-	showtext Text_WaitPlayer
-	turnobject PLAYER, RIGHT
-	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou1_NBT
-	showtext Text_WhatDoYouThinkYoureDoing
-	follow HOLLOWPORT_ELDER, PLAYER
-	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack1_NBT
-	stopfollow
-	showtext Text_ItsDangerousToGoAlone
-	special RestartMapMusic
-	end
+; Hollowport_ElderStopsYouTrigger1:
+; 	playmusic MUSIC_MOM
+; 	turnobject HOLLOWPORT_ELDER, LEFT
+; 	showtext Text_WaitPlayer
+; 	turnobject PLAYER, RIGHT
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou1_NBT
+; 	showtext Text_WhatDoYouThinkYoureDoing
+; 	follow HOLLOWPORT_ELDER, PLAYER
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack1_NBT
+; 	stopfollow
+; 	showtext Text_ItsDangerousToGoAlone
+; 	special RestartMapMusic
+; 	end
 
-Hollowport_ElderStopsYouTrigger2:
-	playmusic MUSIC_MOM
-	turnobject HOLLOWPORT_ELDER, LEFT
-	showtext Text_WaitPlayer
-	turnobject PLAYER, RIGHT
-	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou2_NBT
-	turnobject PLAYER, UP
-	showtext Text_WhatDoYouThinkYoureDoing
-	follow HOLLOWPORT_ELDER, PLAYER
-	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack2_NBT
-	stopfollow
-	showtext Text_ItsDangerousToGoAlone
-	special RestartMapMusic
-	end
+; Hollowport_ElderStopsYouTrigger2:
+; 	playmusic MUSIC_MOM
+; 	turnobject HOLLOWPORT_ELDER, LEFT
+; 	showtext Text_WaitPlayer
+; 	turnobject PLAYER, RIGHT
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou2_NBT
+; 	turnobject PLAYER, UP
+; 	showtext Text_WhatDoYouThinkYoureDoing
+; 	follow HOLLOWPORT_ELDER, PLAYER
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack2_NBT
+; 	stopfollow
+; 	showtext Text_ItsDangerousToGoAlone
+; 	special RestartMapMusic
+; 	end
 
 ; Hollowport_RivalIntroTrigger:
 ; 	appear HOLLOWPORT_RIVAL

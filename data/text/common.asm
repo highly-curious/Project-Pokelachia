@@ -3136,7 +3136,7 @@ SECTION "_InitialOptionsText", ROMX
 _InitialOptionsText::
 	text "Please choose how"
 	line "you want to play"
-	cont "Pokelachia."
+	cont "#mon Echoes."
 	prompt
 
 SECTION "_ElmText1", ROMX
@@ -3240,13 +3240,13 @@ if !DEF(DEBUG)
 	line "emulator has bugs"
 
 	para "that may crash"
-	line "Pokelachia."
+	line "#mon Echoes."
 
 	para "Please use a more"
 	line "accurate emulator,"
 
 	para "such as BGB, mGBA,"
-	line "or Gambatte."
+	line "or Sameboy."
 	prompt
 else
 	text "Emulator test"

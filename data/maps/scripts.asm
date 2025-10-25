@@ -124,12 +124,6 @@ INCLUDE "maps/OlsteetonUniDormEast3FRoom3.asm"
 INCLUDE "maps/OlsteetonUniDormEastElevator.asm"
 INCLUDE "maps/OlsteetonUniGymDept.asm"
 
-SECTION "New Bark Scripts", ROMX
-
-INCLUDE "maps/NewBarkTown.asm"
-
-SECTION "New Bark Scripts 2", ROMX
-
 
 SECTION "Indigo Plateau Scripts", ROMX
 

@@ -14,7 +14,6 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event  4,  1, BGEVENT_UP, PlayersHousePC
 	bg_event  5,  1, BGEVENT_READ, PlayersHouseRadio
 	bg_event  3,  1, BGEVENT_READ, PokemonJournalProfElmScript
-	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 
 	def_object_events
 	object_event  1,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE

@@ -84,7 +84,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Olsteeton
 	dw .NationalForest1
 	dw .OlsteetonUni
-	dw .NewBarkTown
 	dw .BattleTower
 .Generic:
 .Hollowport:
@@ -93,7 +92,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Olsteeton:
 .NationalForest1:
 .OlsteetonUni:
-.NewBarkTown:
 .BattleTower:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
