@@ -13,7 +13,6 @@ Route102_MapScriptHeader:
 
 
 	def_bg_events
-	bg_event 21, 11, BGEVENT_JUMPTEXT, Route102TrainerTips2Text
 	bg_event 23,  3, BGEVENT_JUMPTEXT, OlsteetonGateSignText
 	bg_event  4, 10, BGEVENT_JUMPTEXT, Route102SignText
 	bg_event  9, 13, BGEVENT_JUMPTEXT, Route102TrainerTips1Text
@@ -23,6 +22,7 @@ Route102_MapScriptHeader:
 	; bg_event 31, 11, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_36
 
 	def_object_events
+	object_event 14, 10, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSchoolgirlMolly, -1
 	fruittree_event 26, 14, FRUITTREE_ROUTE_36, RAWST_BERRY, PAL_NPC_TEAL
 	itemball_event 12,  9, GREAT_BALL, 1, EVENT_ROUTE_102_GREAT_BALL
 	itemball_event 25, 17, REPEL, 1, EVENT_ROUTE_102_REPEL
@@ -36,24 +36,25 @@ Route102_MapScriptHeader:
 
 
 
-; GenericTrainerSchoolgirlMolly:
-; 	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
+GenericTrainerSchoolgirlMolly:
+	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
 
-; 	text "I still have a"
-; 	line "lot to learn."
-; 	done
+	text "I still have a"
+	line "lot to learn."
+	done
 
 
 
-; SchoolgirlMollySeenText:
-; 	text "Mr.Earl taught me"
-; 	line "how to battle with"
-; 	cont "#mon!"
-; 	done
+SchoolgirlMollySeenText:
+	text "My mom taught me"
+	line "how to battle with"
+	cont "#mon!"
+	done
 
-; SchoolgirlMollyBeatenText:
-; 	text "My studying…"
-; 	done
+SchoolgirlMollyBeatenText:
+	text "Waahh, I'm"
+	line "sorry, mama!"
+	done
 
 
 Route102SignText:
@@ -81,30 +82,15 @@ Route102TrainerTips1Text:
 	para "pronounced as the"
 	line "#mon grow."
 	done
-
-Route102TrainerTips2Text:
-	text "Trainer Tips"
-
-	para "Use Dig to return"
-	line "to the entrance of"
-	cont "any place."
-
-	para "It is convenient"
-	line "for exploring"
-
-	para "caves and other"
-	line "landmarks."
-	done
-
 Route102AdvancedTips1Text:
-	text "Advanced Tips!"
+	text "Trainer Tips!"
 
-	para "You can pick from"
-	line "twenty different"
-	cont "textbox frames and"
+	para "Berries can be"
+	line "used for a"
+	cont "wide variety of"
 
-	para "eight different"
-	line "text typefaces in"
+	para "effect, and"
+	line "#mon love them!"
 	cont "the Options!"
 	done
 

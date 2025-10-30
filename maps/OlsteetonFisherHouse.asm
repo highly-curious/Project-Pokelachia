@@ -15,23 +15,23 @@ OlsteetonFisherHouse_MapScriptHeader:
 
 
 	def_object_events
-	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GreatRodGuru, -1
+	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, OldRodGuru, -1
 
-GreatRodGuru:
+OldRodGuru:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_GOOD_ROD
-	iftrue_jumpopenedtext HaveGreatRodText
-	writetext OfferGreatRodText
+	checkevent EVENT_GOT_OLD_ROD
+	iftrue_jumpopenedtext HaveOldRodText
+	writetext OfferOldRodText
 	yesorno
-	iffalse_jumpopenedtext DontWantGreatRodText
-	writetext GiveGreatRodText
+	iffalse_jumpopenedtext DontWantOldRodText
+	writetext GiveOldRodText
 	promptbutton
-	verbosegivekeyitem GOOD_ROD
-	writetext GaveGreatRodText
+	verbosegivekeyitem OLD_ROD
+	writetext GaveOldRodText
 	waitbutton
 	closetext
-	setevent EVENT_GOT_GOOD_ROD
+	setevent EVENT_GOT_OLD_ROD
 	end
 
 OlsteetonFisherRadio:
@@ -48,7 +48,7 @@ OlsteetonFisherRadio:
 	closetext
 	end
 
-OfferGreatRodText:
+OfferOldRodText:
 	text "Olsteeton is on"
 	line "the river!"
 
@@ -64,13 +64,13 @@ OfferGreatRodText:
 	cont "and fish?"
 	done
 
-GiveGreatRodText:
+GiveOldRodText:
 	text "Ah, hahah!"
 	line "We have ourselves"
 	cont "a new angler!"
 	done
 
-GaveGreatRodText:
+GaveOldRodText:
 	text "Fish aren't found"
 	line "in the river alone."
 
@@ -78,13 +78,13 @@ GaveGreatRodText:
 	line "there is water."
 	done
 
-DontWantGreatRodText:
+DontWantOldRodText:
 	text "Whaaat? You don't"
 	line "like to fish?!"
 	cont "Inconceivable!"
 	done
 
-HaveGreatRodText:
+HaveOldRodText:
 	text "How are things?"
 	line "Land the big one?"
 	done
@@ -108,7 +108,7 @@ OlsteetonFisherRadioText2:
 	text "Prof.PawPaw: OK,"
 	line "I'm gonna hear"
 
-	cont "it from Pawsum"
+	cont "it from Tidiposs"
 	line "here if I don't"
 	cont "end the show there"
 	done

@@ -32,27 +32,27 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, TEDDIURSA
-	wildmon 2, TEDDIURSA
+	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, TEDDIURSA
+	wildmon 3, ZUBAT
 	wildmon 4, TEDDIURSA
-	wildmon 4, TEDDIURSA
+	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA
 	; day
 	wildmon 2, TEDDIURSA
-	wildmon 2, TEDDIURSA
+	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, TEDDIURSA
+	wildmon 3, ZUBAT
 	wildmon 4, TEDDIURSA
-	wildmon 4, TEDDIURSA
+	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA
 	; nite
 	wildmon 2, TEDDIURSA
-	wildmon 2, TEDDIURSA
+	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, TEDDIURSA
+	wildmon 3, ZUBAT
 	wildmon 4, TEDDIURSA
-	wildmon 4, TEDDIURSA
+	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA
 	end_grass_wildmons
 
@@ -62,7 +62,7 @@
 	wildmon 2, SPEAROW
 	wildmon 3, MEOWTH
 	wildmon 3, SPEAROW
-	wildmon 4, MEOWTH
+	wildmon 4, LEDYBA
 	wildmon 5, MEOWTH
 	wildmon 6, SENTRET
 	; day
@@ -70,7 +70,7 @@
 	wildmon 2, SPEAROW
 	wildmon 3, MEOWTH
 	wildmon 3, SPEAROW
-	wildmon 4, MEOWTH
+	wildmon 4, LEDYBA
 	wildmon 5, MEOWTH
 	wildmon 6, SENTRET
 	; nite

@@ -1061,6 +1061,7 @@ wBattleTowerOutsideSceneID:: db
 wColosseumSceneID:: db
 wHallOfFameSceneID:: db
 wPlayersHouse1FSceneID:: db
+wPlayersHouse1FSisSceneID:: db
 wPokecenter2FSceneID:: db
 wTradeCenterSceneID:: db
 ;Folkora Map Triggers
