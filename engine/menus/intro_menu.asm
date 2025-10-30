@@ -371,7 +371,7 @@ Continue:
 	jr FinishContinueFunction
 
 .SpawnAfterE4:
-	ld a, SPAWN_NEW_BARK
+	ld a, SPAWN_HOLLOWPORT
 	ld [wDefaultSpawnpoint], a
 	call PostCreditsSpawn
 	jr FinishContinueFunction
@@ -625,10 +625,10 @@ if !DEF(DEBUG)
 	call FadeToWhite
 	call ClearTileMap
 
-	ld a, LOW(PILOSWINE)
+	ld a, LOW(SENTRET)
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
-	ld a, HIGH(PILOSWINE) << MON_EXTSPECIES_F
+	ld a, HIGH(SENTRET) << MON_EXTSPECIES_F
 	ld [wCurForm], a
 	ld [wTempMonForm], a
 	call GetBaseData

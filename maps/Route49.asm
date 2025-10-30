@@ -4,7 +4,6 @@ Route49_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  7,  5, VALENCIA_PORT, 1
 
 	def_coord_events
 

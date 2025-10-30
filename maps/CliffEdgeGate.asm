@@ -4,9 +4,7 @@ CliffEdgeGate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 17, 19, CIANWOOD_CITY, 8
-	warp_event  3, 19, ROUTE_47, 1
-
+	
 	def_coord_events
 
 	def_bg_events

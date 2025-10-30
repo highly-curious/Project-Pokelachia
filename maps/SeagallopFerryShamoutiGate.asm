@@ -6,7 +6,6 @@ SeagallopFerryShamoutiGate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  6,  0, BEAUTIFUL_BEACH, 1
 
 	def_coord_events
 
@@ -58,7 +57,6 @@ SeagallopFerryShamoutiGateSailorScript:
 
 .ToValencia:
 	scall SeagallopFerryShamoutiDepartureScript
-	warp VALENCIA_PORT, 11, 5
 	end
 
 .RefuseFerry

@@ -4,8 +4,6 @@ PowerPlant_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2, 17, ROUTE_10_NORTH, 2
-	warp_event  3, 17, ROUTE_10_NORTH, 2
 
 	def_coord_events
 	coord_event  5, 12, 1, PowerPlantGuardPhoneScript
@@ -86,7 +84,6 @@ PowerPlantManager:
 	closetext
 	setevent EVENT_MET_MANAGER_AT_POWER_PLANT
 	clearevent EVENT_CERULEAN_GYM_ROCKET
-	setmapscene CERULEAN_GYM, $1
 	setscene $1
 	end
 
@@ -99,7 +96,6 @@ PowerPlantManager:
 	setevent EVENT_ROUTE_24_ROCKET
 	setevent EVENT_RESTORED_POWER_TO_KANTO
 	clearevent EVENT_GOLDENROD_TRAIN_STATION_GENTLEMAN
-	setmapscene ROUTE_10_NORTH, $1
 	clearevent EVENT_LAWRENCE_ROUTE_10
 	writetext PowerPlantManagerTakeThisTMText
 	waitbutton

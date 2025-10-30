@@ -5,10 +5,8 @@ BattleTowerOutside_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  7, 13, ROUTE_40_BATTLE_TOWER_GATE, 3
-	warp_event  8, 13, ROUTE_40_BATTLE_TOWER_GATE, 4
-	warp_event  8,  7, BATTLE_TOWER_1F, 1 ; hole
-	warp_event  9,  7, BATTLE_TOWER_1F, 2 ; hole
+	warp_event  8,  9, BATTLE_TOWER_1F, 1 ; hole
+	warp_event  9,  9, BATTLE_TOWER_1F, 2 ; hole
 
 	def_coord_events
 	coord_event  7,  7, 1, BattleTowerOutsidePanUpTrigger1

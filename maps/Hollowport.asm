@@ -13,8 +13,8 @@ Hollowport_MapScriptHeader:
 
 
 	def_coord_events
-	coord_event 13,  0, 0, Hollowport_ElderStopsYouTrigger1
-	coord_event 12,  0, 0, Hollowport_ElderStopsYouTrigger2
+	; coord_event 13,  0, 0, Hollowport_ElderStopsYouTrigger1
+	; coord_event 12,  0, 0, Hollowport_ElderStopsYouTrigger2
 	; coord_event  5,  6, 0, Hollowport_RivalIntroTrigger
 
 	def_bg_events
@@ -44,34 +44,34 @@ HollowportFlyPoint:
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 
-Hollowport_ElderStopsYouTrigger1:
-	playmusic MUSIC_MOM
-	turnobject HOLLOWPORT_ELDER, LEFT
-	showtext Text_WaitPlayer
-	turnobject PLAYER, RIGHT
-	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou1_NBT
-	showtext Text_WhatDoYouThinkYoureDoing
-	follow HOLLOWPORT_ELDER, PLAYER
-	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack1_NBT
-	stopfollow
-	showtext Text_ItsDangerousToGoAlone
-	special RestartMapMusic
-	end
+; Hollowport_ElderStopsYouTrigger1:
+; 	playmusic MUSIC_MOM
+; 	turnobject HOLLOWPORT_ELDER, LEFT
+; 	showtext Text_Wait
+; 	turnobject PLAYER, RIGHT
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou1_NBT
+; 	showtext Text_WhatDoing
+; 	follow HOLLOWPORT_ELDER, PLAYER
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack1_NBT
+; 	stopfollow
+; 	showtext Text_DangerousToGoAlone
+; 	special RestartMapMusic
+; 	end
 
-Hollowport_ElderStopsYouTrigger2:
-	playmusic MUSIC_MOM
-	turnobject HOLLOWPORT_ELDER, LEFT
-	showtext Text_WaitPlayer
-	turnobject PLAYER, RIGHT
-	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou2_NBT
-	turnobject PLAYER, UP
-	showtext Text_WhatDoYouThinkYoureDoing
-	follow HOLLOWPORT_ELDER, PLAYER
-	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack2_NBT
-	stopfollow
-	showtext Text_ItsDangerousToGoAlone
-	special RestartMapMusic
-	end
+; Hollowport_ElderStopsYouTrigger2:
+; 	playmusic MUSIC_MOM
+; 	turnobject HOLLOWPORT_ELDER, LEFT
+; 	showtext Text_Wait
+; 	turnobject PLAYER, RIGHT
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou2_NBT
+; 	turnobject PLAYER, UP
+; 	showtext Text_WhatDoing
+; 	follow HOLLOWPORT_ELDER, PLAYER
+; 	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack2_NBT
+; 	stopfollow
+; 	showtext Text_DangerousToGoAlone
+; 	special RestartMapMusic
+; 	end
 
 ; Hollowport_RivalIntroTrigger:
 ; 	appear HOLLOWPORT_RIVAL
@@ -224,7 +224,7 @@ Text_Wait:
 
 Text_WhatDoing:
 	text "Now just what do"
-	line "you think"
+	line "ya think"
 	cont "you're doin?"
 	done
 
@@ -233,11 +233,13 @@ Text_DangerousToGoAlone:
 	line "go out without a"
 	cont "#mon!"
 
-	para "There are Wild #mon"
-	line "in the tall grass!"
+	para "There are wild"
+	line "#mon in the"
+	cont "tall grass!"
 
-	para "grass on the way"
-	line "to the next town."
+	para "Ya need yer"
+	line "own partner"
+	cont "#mon first!"
 	done
 
 Text_MonIsAdorable:
@@ -280,7 +282,7 @@ HollowportMurkrowText:
 	done
 
 Text_HollowportRival:
-	text "<RIVAL>: Oh,"
+	text "Brooke: Oh,"
 	line "hi, <PLAYER>!"
 
 	para "I came by your"
@@ -329,5 +331,5 @@ FieldLabSignText:
 	done
 
 RivalsHouseSignText:
-	text "<RIVAL>'s House"
+	text "Brooke's House"
 	done

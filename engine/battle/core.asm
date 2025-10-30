@@ -312,10 +312,7 @@ CheckOpponentForfeit:
 	ret
 
 DetermineMoveOrder:
-	ld a, [wBattlePlayerAction]
-	and a
-	jr nz, .player_first
-
+	; Switching and using an item are NO_MOVE, which has a priority of +10
 	call CompareMovePriority
 	jr z, .equal_priority
 	jr c, .player_first
@@ -6183,10 +6180,10 @@ CheckValidMagikarpLength:
 
 .CheckMagikarpArea:
 	ld a, [wMapGroup]
-	cp GROUP_LAKE_OF_RAGE
+	cp GROUP_OLSTEETON
 	jr nz, .okay
 	ld a, [wMapNumber]
-	cp MAP_LAKE_OF_RAGE
+	cp MAP_OLSTEETON
 	jr nz, .okay
 .LakeOfRageMagikarp
 ; 40% chance of not flooring

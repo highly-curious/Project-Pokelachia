@@ -68,7 +68,6 @@ Proton2Script:
 	turnobject PLAYER, RIGHT
 	showtext KurtLeaveSlowpokeWellText
 	setevent EVENT_CLEARED_SLOWPOKE_WELL
-	setmapscene ILEX_FOREST, $2
 	clearevent EVENT_ILEX_FOREST_APPRENTICE
 	clearevent EVENT_ILEX_FOREST_FARFETCHD
 	setevent EVENT_CHARCOAL_KILN_FARFETCH_D
@@ -81,7 +80,6 @@ Proton2Script:
 	special FadeOutPalettes
 	special HealParty
 	pause 15
-	warp KURTS_HOUSE, 3, 3
 	end
 
 GenericTrainerGruntM2:

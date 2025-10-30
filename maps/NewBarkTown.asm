@@ -5,11 +5,6 @@ NewBarkTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, NewBarkTownFlyPoint
 
 	def_warp_events
-	warp_event  6,  3, ELMS_LAB, 1
-	; warp_event 15,  5, PLAYERS_HOUSE_1F, 1
-	; warp_event  3, 11, PLAYERS_HOLLOWPORT_NEIGHBOR, 1
-	warp_event 11, 13, LYRAS_HOUSE_1F, 1
-	warp_event 10,  2, ELMS_HOUSE, 2
 
 	def_coord_events
 	coord_event  1,  8, 0, NewBarkTown_TeacherStopsYouTrigger1
@@ -39,7 +34,7 @@ NewBarkTown_MapScriptHeader:
 	const NEWBARKTOWN_TEACHER
 
 NewBarkTownFlyPoint:
-	setflag ENGINE_FLYPOINT_NEW_BARK
+	setflag ENGINE_FLYPOINT_HOLLOWPORT
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 
@@ -92,7 +87,6 @@ NewBarkTown_LyraIntroTrigger:
 	setscene $2
 	special FadeOutPalettes
 	pause 15
-	warpfacing UP, ELMS_LAB, 4, 11
 	end
 
 NewBarkTown_LyraFinalTrigger1:

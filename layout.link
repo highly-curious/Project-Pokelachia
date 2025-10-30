@@ -129,25 +129,9 @@ ROMX $26
 
 ROMX $27
 	"Special Map Blockdata"
-	"Pokemon Center Scripts 4"
 
 ROMX $28
 	"Phone Scripts"
-
-ROMX $29
-	"New Bark Scripts"
-
-ROMX $2A
-	"New Bark Scripts 2"
-
-ROMX $2B
-	"Pokemon Center Scripts 1"
-
-ROMX $2C
-	"Pokemon Center Scripts 2"
-
-ROMX $2D
-	"Pokemon Center Scripts 3"
 
 ROMX $2E
 	"bank2E"

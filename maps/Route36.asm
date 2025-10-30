@@ -5,8 +5,6 @@ Route36_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, Route36ArthurCallback
 
 	def_warp_events
-	warp_event 22,  8, ROUTE_36_NATIONAL_PARK_GATE, 3
-	warp_event 22,  9, ROUTE_36_NATIONAL_PARK_GATE, 4
 	warp_event 51, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 1
 	warp_event 52, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 2
 	warp_event 61,  8, ROUTE_36_VIOLET_GATE, 1
@@ -68,7 +66,6 @@ Route36SuicuneScript:
 	pause 10
 	setscene $0
 	clearevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
-	setmapscene CIANWOOD_CITY, $1
 	end
 
 SudowoodoScript:
@@ -200,11 +197,7 @@ TrainerSchoolboyAlan1:
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftruefwd .LoadFight3
 .Fight2:
-	checkflag ENGINE_FLYPOINT_BLACKTHORN
-	iftruefwd .LoadFight2
 .Fight1:
-	checkflag ENGINE_FLYPOINT_OLIVINE
-	iftruefwd .LoadFight1
 .LoadFight0:
 	loadtrainer SCHOOLBOY, ALAN1
 	startbattle

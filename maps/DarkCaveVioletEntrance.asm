@@ -4,9 +4,7 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  3, 15, ROUTE_31, 3
 	warp_event 17,  1, DARK_CAVE_BLACKTHORN_ENTRANCE, 2
-	warp_event 35, 33, ROUTE_46, 3
 
 	def_coord_events
 	coord_event  6,  2, 0, DarkCaveVioletEntranceFalknerTrigger
@@ -52,7 +50,6 @@ DarkCaveVioletEntranceFalknerTrigger:
 	disappear DARKCAVEVIOLETENTRANCE_FALKNER
 	pause 15
 	clearevent EVENT_VIOLET_GYM_FALKNER
-	setmapscene VIOLET_GYM, $1
 	setscene $1
 	end
 

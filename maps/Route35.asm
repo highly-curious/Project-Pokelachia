@@ -4,9 +4,6 @@ Route35_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 13, 33, ROUTE_35_GOLDENROD_GATE, 1
-	warp_event 14, 33, ROUTE_35_GOLDENROD_GATE, 2
-	warp_event  7,  5, ROUTE_35_NATIONAL_PARK_GATE, 3
 	warp_event 14, 16, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
@@ -172,11 +169,7 @@ TrainerBug_catcherArnie1:
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftruefwd .LoadFight3
 .Fight2:
-	checkflag ENGINE_FLYPOINT_BLACKTHORN
-	iftruefwd .LoadFight2
 .Fight1:
-	checkflag ENGINE_FLYPOINT_LAKE_OF_RAGE
-	iftruefwd .LoadFight1
 .LoadFight0:
 	loadtrainer BUG_CATCHER, ARNIE1
 	startbattle

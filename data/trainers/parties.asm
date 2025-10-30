@@ -4038,8 +4038,8 @@ SchoolgirlGroup:
 
 	def_trainer_class SCHOOLGIRL
 	def_trainer MOLLY, "Molly"
-	tr_mon 7, "Teddy", TEDDIURSA
-	tr_mon 6, PHANPY
+	tr_mon 3, "Teddy", TEDDIURSA
+	tr_mon 4, "Lady", LEDYBA
 	end_trainer
 
 	def_trainer ELIZA, "Eliza"

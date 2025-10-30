@@ -14,7 +14,7 @@
 	tilecoll WALL, WALL, BOOKSHELF, WALL ; 0d
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 0e
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 0f
-	tilecoll WALL, WALL, FLOOR, COUNTER ; 10
+	tilecoll WALL, WALL, WALL, COUNTER ; 10
 	tilecoll WALL, WALL, WALL, WALL ; 11
 	tilecoll WALL, WALL, WALL, FLOOR ; 12
 	tilecoll WALL, WALL, FLOOR, COUNTER ; 13
