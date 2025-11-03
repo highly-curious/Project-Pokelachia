@@ -314,9 +314,10 @@ PlayerHouse1FTVScript:
 	line "TV: An armor clad"
 
 	para "knight rides a"
-	line "Charizard into bat-"
+	line "Charizard into"
+	cont "battle..."
 
-	para "tle. I'd better go"
+	para "I'd better go"
 	line "before I get"
 	cont "sucked in!"
 	done
