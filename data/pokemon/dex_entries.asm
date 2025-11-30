@@ -3346,3 +3346,13 @@ UrsalunaBloodmoonPokedexEntry::
 	page "itself with mud"
 	next "that is as hard as"
 	next "iron.@"
+
+SECTION "SinisteaPokedexEntry", ROMX
+SinisteaPokedexEntry::
+	db "Iced Tea@"
+	db   "It is said that"
+	next "the Iced variant"
+	next "flavors itself"
+	page "with wild mint."
+	next "Still not recom-"
+	next "mended to drink.@"
