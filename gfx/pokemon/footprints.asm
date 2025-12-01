@@ -80,7 +80,8 @@ VictreebelFootprint::
 VoltorbFootprint::
 WeepinbellFootprint::
 WeezingFootprint::
-ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
+ZubatFootprint:: 
+SinisteaFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
 BulbasaurFootprint:: INCBIN "gfx/footprints/bulbasaur.1bpp.lz"
 IvysaurFootprint:: INCBIN "gfx/footprints/ivysaur.1bpp.lz"
@@ -297,4 +298,4 @@ SneaslerFootprint:: INCBIN "gfx/footprints/sneasler.1bpp.lz"
 FarigirafFootprint:: INCBIN "gfx/footprints/farigiraf.1bpp.lz"
 ClodsireFootprint:: INCBIN "gfx/footprints/clodsire.1bpp.lz"
 AnnihilapeFootprint:: INCBIN "gfx/footprints/annihilape.1bpp.lz"
-SinisteaFootprint:: INCBIN "gfx/footprints/sinistea.1bpp.lz"
+; SinisteaFootprint:: INCBIN "gfx/footprints/sinistea.1bpp.lz"

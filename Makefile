@@ -1,6 +1,6 @@
-NAME := pokelachia
+NAME := pokemon-echoes
 MODIFIERS :=
-VERSION := 0.1.9
+VERSION := 0.2.1
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc
