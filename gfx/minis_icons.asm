@@ -1816,3 +1816,8 @@ SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lz"
 UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lz"
+
+SECTION "Sinistea Mini Icon", ROMX
+SinisteaMini::       INCBIN "gfx/minis/sinistea.2bpp.lz"
+SinisteaMiniMask::   INCBIN "gfx/minis/sinistea_mask.1bpp.lz"
+SinisteaIcon::       INCBIN "gfx/icons/sinistea.2bpp.lz"

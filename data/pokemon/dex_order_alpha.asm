@@ -225,6 +225,7 @@ AlphabeticalPokedexOrder:
 	dp SENTRET
 	dp SHELLDER
 	dp SHUCKLE
+	dp SINISTEA
 	dp SIRFETCH_D
 	dp SKARMORY
 	dp SKIPLOOM

@@ -284,6 +284,7 @@ EvosAttacksPointersLateGen::
 	dw SneaslerEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw DudunsparceEvosAttacks
+	dw SinisteaEvosAttacks
 .IndirectEnd::
 	
 	evos_attacks Lotad
@@ -5085,6 +5086,21 @@ endc
 	learnset 45, CONFUSE_RAY ; Grudge
 	learnset 51, MEAN_LOOK
 	learnset 57, DESTINY_BOND
+
+	evos_attacks Sinistea
+	learnset 1, ASTONISH
+	learnset 1, ICICLE_SPEAR
+	learnset 1, DEFENSE_CURL; Withdraw
+	learnset 6, ICE_SHARD
+	learnset 12, MEGA_DRAIN
+	learnset 18, NASTY_PLOT
+	learnset 24, ICE_PUNCH
+	learnset 30, HEX
+	learnset 36, ICICLE_CRASH
+	learnset 42, ENDURE
+	learnset 48, SHADOW_BALL
+	learnset 54, NIGHT_SHADE
+	learnset 60, ICE_BEAM
 
 	; Also terminates previous mon's learnset
 EggEvosAttacks:

@@ -1234,3 +1234,7 @@ MunchlaxEggSpeciesMoves:
 
 NoEggSpeciesMoves:
 	db $ff
+
+SinisteaEggSpeciesMoves:
+	dp SINISTEA, PLAIN_FORM
+	db $ff
