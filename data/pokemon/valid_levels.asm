@@ -297,4 +297,5 @@ endc
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
 	db   1,  39 ; Sinistea
+	db	20, 100 ; Polteageist
 	assert_table_length NUM_SPECIES

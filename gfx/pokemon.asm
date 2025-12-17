@@ -1560,3 +1560,7 @@ TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.l
 SECTION "Sinistea Pics", ROMX
 SinisteaFrontpic: INCBIN "gfx/pokemon/sinistea/front.animated.2bpp.lz"
 SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lz"
+
+SECTION "Polteageist Pics", ROMX
+PolteageistFrontpic: INCBIN "gfx/pokemon/polteageist/front.animated.2bpp.lz"
+PolteageistBackpic:  INCBIN "gfx/pokemon/polteageist/back.2bpp.lz"

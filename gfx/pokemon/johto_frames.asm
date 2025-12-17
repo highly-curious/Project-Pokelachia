@@ -129,6 +129,7 @@ FarigirafFrames:  INCLUDE "gfx/pokemon/farigiraf/frames.asm"
 ClodsireFrames:   INCLUDE "gfx/pokemon/clodsire/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
 SinisteaFrames:   INCLUDE "gfx/pokemon/sinistea/frames.asm"
+PolteageistFrames: INCLUDE "gfx/pokemon/polteageist/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

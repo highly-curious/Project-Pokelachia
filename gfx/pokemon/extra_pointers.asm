@@ -292,6 +292,7 @@ AnimationExtraPointers:
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw SinisteaAnimationExtra
+	dw PolteageistAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

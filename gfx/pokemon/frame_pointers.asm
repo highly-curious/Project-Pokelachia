@@ -292,6 +292,7 @@ FramesPointers:
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw SinisteaFrames
+	dw PolteageistFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

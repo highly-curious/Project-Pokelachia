@@ -296,6 +296,7 @@ PokemonPicPointers::
 	pics Clodsire
 	pics Annihilape
 	pics Sinistea
+	pics Polteageist
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
