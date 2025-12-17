@@ -3356,3 +3356,13 @@ SinisteaPokedexEntry::
 	page "with wild mint."
 	next "Still not recom-"
 	next "mended to drink.@"
+
+SECTION "PolteageistPokedexEntry", ROMX
+PolteageistPokedexEntry::
+	db "Iced Tea@"
+	db 	 "Said to have a"
+	next "refreshing taste,"
+	next "yet many warn aga-"
+	page "inst from ghostly"
+	next "tales of frozen"
+	next "insides.@"

@@ -292,4 +292,5 @@ NewPokedexOrder:
 	dp MEW
 	dp CELEBI
 	dp SINISTEA
+	dp POLTEAGEIST
 	assert_table_length NUM_POKEMON

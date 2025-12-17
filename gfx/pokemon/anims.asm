@@ -240,6 +240,7 @@ FarigirafAnimation:  INCLUDE "gfx/pokemon/farigiraf/anim.asm"
 ClodsireAnimation:   INCLUDE "gfx/pokemon/clodsire/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
 SinisteaAnimation:   INCLUDE "gfx/pokemon/sinistea/anim.asm"
+PolteageisAnimation: INCLUDE "gfx/pokemon/polteageist/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

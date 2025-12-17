@@ -5928,6 +5928,7 @@ endc
 	learnset 53, OUTRAGE
 
 	evos_attacks Sinistea
+	evo_data EVOLVE_LEVEL, 25, POLTEAGEIST
 	learnset 1, ASTONISH
 	learnset 1, ICICLE_SPEAR
 	learnset 1, DEFENSE_CURL
@@ -5941,6 +5942,23 @@ endc
 	learnset 48, SHADOW_BALL
 	learnset 54, NIGHT_SHADE
 	learnset 60, ICE_BEAM
+
+	evos_attacks PolteageistEvosAttacks
+	learnset 1, ASTONISH
+	learnset 1, DEFENSE_CURL
+	learnset 1, MEGA_DRAIN
+	learnset 6, ABSORB
+	learnset 12, ICICLE_SPEAR
+	learnset 15, ICE_SHARD
+	learnset 18, PROTECT
+	learnset 24, SUCKER_PUNCH
+	learnset 30, HEX
+	learnset 36, ICICLE_CRASH
+	learnset 42, ENDURE
+	learnset 48, SHADOW_BALL
+	learnset 54, DESTINY_BOND
+	learnset 60, ICE_BEAM
+	learnset 66, CURSE
 
 
 	; Also terminates previous mon's learnset

@@ -293,4 +293,5 @@ PokemonNames::
 	rawchar "Clodsire@@"
 	rawchar "Annihilape"
 	rawchar "Sinistea@@"
+	rawchar "Polteagist"
 	assert_table_length NUM_SPECIES + 1

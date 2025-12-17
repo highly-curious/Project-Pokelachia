@@ -5,7 +5,7 @@
 	db 90 ; catch rate
 	db 62 ; base exp
 	db NO_ITEM, ENIGMA_BERRY ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for SINISTEA, LEVITATE, LEVITATE, CURSED_BODY
 	db GROWTH_MEDIUM_SLOW ; growth rate
