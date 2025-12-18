@@ -1024,7 +1024,7 @@ endc
 	learnset 53, NIGHT_SLASH ; Fissure → Night Slash
 
 	evos_attacks MeowthPlain
-	evo_data EVOLVE_LEVEL, 28, PERSIAN, PLAIN_FORM
+	; evo_data EVOLVE_LEVEL, 28, WAMPURR, PLAIN_FORM
 	learnset 1, SCRATCH
 	learnset 1, GROWL
 	learnset 6, BITE
@@ -1037,8 +1037,9 @@ endc
 	learnset 33, SLASH
 	learnset 38, NASTY_PLOT
 	learnset 41, THIEF ; Assurance → TM move
-	learnset 46, CHARM ; Captivate → egg move
+	learnset 46, CRUNCH
 	learnset 49, NIGHT_SLASH
+	learnset 55, DARK_PULSE
 
 	evos_attacks MeowthAlolan
 	evo_data EVOLVE_LEVEL, 28, PERSIAN, ALOLAN_FORM
