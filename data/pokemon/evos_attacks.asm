@@ -5943,7 +5943,7 @@ endc
 	learnset 54, NIGHT_SHADE
 	learnset 60, ICE_BEAM
 
-	evos_attacks PolteageistEvosAttacks
+	evos_attacks Polteageist
 	learnset 1, ASTONISH
 	learnset 1, DEFENSE_CURL
 	learnset 1, MEGA_DRAIN
