@@ -55,7 +55,7 @@ OverworldMonIconColors::
 	iconpal PURPLE, BLUE ; VENOMOTH
 	iconpal BROWN, GRAY ; DIGLETT
 	iconpal BROWN, GRAY ; DUGTRIO
-	iconpal BROWN, RED ; MEOWTH
+	iconpal GRAY, BLUE ; MEOWTH
 	iconpal BROWN, RED ; PERSIAN
 	iconpal BROWN, AZURE ; PSYDUCK
 	iconpal BLUE, AZURE ; GOLDUCK

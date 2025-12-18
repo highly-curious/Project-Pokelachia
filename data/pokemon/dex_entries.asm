@@ -515,12 +515,12 @@ DugtrioPlainPokedexEntry::
 SECTION "MeowthPlainPokedexEntry", ROMX
 MeowthPlainPokedexEntry::
 	db "Scratch Cat@"
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	db   "The Folkora form"
+	next "adapted to the"
+	next "rough conditions"
+	page "of the region by"
+	next "lurking in the"
+	next "shadows in wait.@"
 
 SECTION "PersianPlainPokedexEntry", ROMX
 PersianPlainPokedexEntry::
