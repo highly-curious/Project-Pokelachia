@@ -1242,3 +1242,11 @@ SinisteaEggSpeciesMoves:
 PolteageistEggSpeciesMoves:
 	dp POLTEAGEIST, PLAIN_FORM
 	db $ff 
+
+DebriteEggSpeciesMoves:
+	dp DEBRITE, PLAIN_FORM
+	db $ff
+
+CastorchEggSpeciesMoves:
+	dp CASTORCH, PLAIN_FORM
+	db $ff

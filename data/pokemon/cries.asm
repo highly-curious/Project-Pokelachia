@@ -299,4 +299,6 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; Sinistea
 	mon_cry CRY_ODDISH,		 $05f,  $0c0 ; Polteageist
+	mon_cry CRY_METAPOD,     $080,  $0e0 ; Debrite
+	mon_cry CRY_METAPOD		 $020,  $140 ; Castorch
 	assert_table_length NUM_SPECIES

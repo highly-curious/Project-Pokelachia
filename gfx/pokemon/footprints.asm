@@ -82,7 +82,9 @@ WeepinbellFootprint::
 WeezingFootprint::
 ZubatFootprint:: 
 SinisteaFootprint:: 
-PolteageistFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
+PolteageistFootprint::
+DebriteFootprint::
+CastorchFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
 BulbasaurFootprint:: INCBIN "gfx/footprints/bulbasaur.1bpp.lz"
 IvysaurFootprint:: INCBIN "gfx/footprints/ivysaur.1bpp.lz"

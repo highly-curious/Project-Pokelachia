@@ -1826,3 +1826,13 @@ SECTION "Polteageist Mini Icon", ROMX
 PolteageistMini::       INCBIN "gfx/minis/polteageist.2bpp.lz"
 PolteageistMiniMask::   INCBIN "gfx/minis/polteageist_mask.1bpp.lz"
 PolteageistIcon::       INCBIN "gfx/icons/polteageist.2bpp.lz"
+
+SECTION "Debrite Mini Icon", ROMX
+DebriteMini::       INCBIN "gfx/minis/debrite.2bpp.lz"
+DebriteMiniMask::   INCBIN "gfx/minis/debrite_mask.1bpp.lz"
+DebriteIcon::       INCBIN "gfx/icons/debrite.2bpp.lz"
+
+SECTION "Castorch Mini Icon", ROMX
+CastorchMini::      INCBIN "gfx/minis/castorch.2bpp.lz"
+CastorchMiniMask::  INCBIN "gfx/minis/castorch_mask.1bpp.lz"
+CastorchIcon::      INCBIN "gfx/icons/castorch.2bpp.lz"
