@@ -3366,3 +3366,23 @@ PolteageistPokedexEntry::
 	page "inst from ghostly"
 	next "tales of frozen"
 	next "insides.@"
+
+SECTION "DebritePokedexEntry", ROMX
+DebritePokedexEntry::
+	db "Lost Spark@"
+	db	 "It is known to"
+	next "inhabit metal"
+	next "scraps it finds in"
+	page "the trash and"
+	next "junkyards, moving"
+	next "along as it grows.@"
+
+SECTION "CastorchPokedexEntry", ROMX
+CastorchPokedexEntry::
+	db "Forge@"
+	db   "The "Forge Form""
+	next "tends to horde"
+	next "tools it finds"
+	page "or makes, attach-"
+	next "ing them to it's"
+	next "chains underneath.@"

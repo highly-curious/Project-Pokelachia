@@ -293,6 +293,8 @@ EggSpeciesMovesPointers::
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SinisteaEggSpeciesMoves          ; Sinistea
 	dw PolteageistEggSpeciesMoves		; Polteageist
+	dw DebriteEggSpeciesMoves			; Debrite
+	dw CastorchEggSpeciesMoves			; Castorch
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

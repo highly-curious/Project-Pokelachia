@@ -1564,3 +1564,11 @@ SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lz"
 SECTION "Polteageist Pics", ROMX
 PolteageistFrontpic: INCBIN "gfx/pokemon/polteageist/front.animated.2bpp.lz"
 PolteageistBackpic:  INCBIN "gfx/pokemon/polteageist/back.2bpp.lz"
+
+SECTION "Debrite Pics", ROMX
+DebriteFrontpic:    INCBIN "gfx/pokemon/debrite/front.animated.1bpp.lz"
+DebriteBackpic:     INCBIN "gfx/pokemon/debrite/back.2bpp.lz"
+
+SECTION "Castorch Pics", ROMX
+CastorchFrontpic:       INCBIN "gfx/pokemon/castorch/front.animated.1bpp.lz"
+CastorchBackpic:        INCBIN "gfx/pokemon/castorch/back.2bpp.lz"
