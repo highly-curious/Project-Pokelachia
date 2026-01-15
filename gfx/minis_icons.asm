@@ -1826,3 +1826,8 @@ SECTION "Polteageist Mini Icon", ROMX
 PolteageistMini::       INCBIN "gfx/minis/polteagiest.2bpp.lz"
 PolteageistMiniMask::   INCBIN "gfx/minis/polteageist_mask.1bpp.lz"
 PolteageistIcon::       INCBIN "gfx/icons/polteageist.2bpp.lz"
+
+SECTION "Cupico Mini Icon", ROMX
+CupicoMini::       INCBIN "gfx/minis/Cupico.2bpp.lz"
+CupicoMiniMask::   INCBIN "gfx/minis/Cupico_mask.1bpp.lz"
+CupicoIcon::       INCBIN "gfx/icons/Cupico.2bpp.lz"

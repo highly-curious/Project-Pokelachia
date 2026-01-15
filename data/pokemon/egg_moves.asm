@@ -1242,3 +1242,7 @@ SinisteaEggSpeciesMoves:
 PolteageistEggSpeciesMoves:
 	dp POLTEAGEIST, PLAIN_FORM
 	db $ff 
+
+CupicoEggSpeciesMoves:
+	dp Cupico, PLAIN_FORM
+	db $ff 

@@ -286,6 +286,7 @@ EvosAttacksPointersLateGen::
 	dw DudunsparceEvosAttacks
 	dw SinisteaEvosAttacks
 	dw PolteageistEvosAttacks
+	dw CupicoEvosAttacks
 .IndirectEnd::
 	
 	evos_attacks Lotad

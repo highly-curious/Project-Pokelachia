@@ -297,6 +297,7 @@ PokemonPicPointers::
 	pics Annihilape
 	pics Sinistea
 	pics Polteageist
+	pics Cupico
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

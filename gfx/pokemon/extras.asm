@@ -241,7 +241,7 @@ ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 SinisteaAnimationExtra:   INCLUDE "gfx/pokemon/sinistea/anim_idle.asm"
 PolteageistAnimationExtra: INCLUDE "gfx/pokemon/polteageist/anim_idle.asm"
-
+CupicoAnimationExtra: INCLUDE "gfx/pokemon/cupico/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

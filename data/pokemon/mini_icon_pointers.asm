@@ -297,6 +297,7 @@ MiniIconPointers:
 	mini_icon Annihilape
 	mini_icon Sinistea
 	mini_icon Polteageist
+	mini_icon Cupico
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

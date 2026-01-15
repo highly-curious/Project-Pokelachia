@@ -130,6 +130,7 @@ ClodsireFrames:   INCLUDE "gfx/pokemon/clodsire/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
 SinisteaFrames:   INCLUDE "gfx/pokemon/sinistea/frames.asm"
 PolteageistFrames: INCLUDE "gfx/pokemon/polteageist/frames.asm"
+CupicoFrames:     INCLUDE "gfx/pokemon/cupico/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -293,4 +293,5 @@ NewPokedexOrder:
 	dp CELEBI
 	dp SINISTEA
 	dp POLTEAGEIST
+	dp CUPICO
 	assert_table_length NUM_POKEMON

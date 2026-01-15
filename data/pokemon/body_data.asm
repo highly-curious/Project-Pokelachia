@@ -300,6 +300,7 @@ PokemonBodyData:
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   3,   22, HEAD,         BROWN  ; SINISTEA
 	body_data   1,   11, HEAD, 		   BROWN  ; POLTEAGEIST
+	body_data   7,   69, BIPEDAL,      GREEN  ; CUPICO
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

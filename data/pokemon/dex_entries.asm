@@ -3366,3 +3366,13 @@ PolteageistPokedexEntry::
 	page "inst from ghostly"
 	next "tales of frozen"
 	next "insides.@"
+	
+SECTION "CupicoPokedexEntry", ROMX
+CupicoPokedexEntry::
+	db "Pinecone@"
+	db   "It hides itself"
+	next "using the scales"
+	next "on its head."
+	page "Found primarily in"
+	next "the tree tops of"
+	next "pine forests.@"

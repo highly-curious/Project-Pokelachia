@@ -293,6 +293,7 @@ BitmasksPointers:
 	dw AnnihilapeBitmasks
 	dw SinisteaBitmasks
 	dw PolteageistBitmasks
+	dw CupicoBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

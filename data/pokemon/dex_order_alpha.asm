@@ -41,6 +41,7 @@ AlphabeticalPokedexOrder:
 	dp CROBAT
 	dp CROCONAW
 	dp CUBONE
+	dp CUPICO
 	dp CURSOLA
 	dp CYNDAQUIL
 	dp DELIBIRD

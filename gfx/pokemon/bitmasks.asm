@@ -241,6 +241,7 @@ ClodsireBitmasks:   INCLUDE "gfx/pokemon/clodsire/bitmask.asm"
 AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
 SinisteaBitmasks:   INCLUDE "gfx/pokemon/sinistea/bitmask.asm"
 PolteageistBitmasks: INCLUDE "gfx/pokemon/polteageist/bitmask.asm"
+CupicoBitmasks:     INCLUDE "gfx/pokemon/cupico/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

@@ -1564,3 +1564,7 @@ SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lz"
 SECTION "Polteageist Pics", ROMX
 PolteageistFrontpic: INCBIN "gfx/pokemon/polteageist/front.animated.2bpp.lz"
 PolteageistBackpic:  INCBIN "gfx/pokemon/polteageist/back.2bpp.lz"
+
+SECTION "Cupico Pics", ROMX
+CupicoFrontpic: INCBIN "gfx/pokemon/Cupico/front.animated.2bpp.lz"
+CupicoBackpic:  INCBIN "gfx/pokemon/Cupico/back.2bpp.lz"
