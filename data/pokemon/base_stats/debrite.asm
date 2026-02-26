@@ -5,7 +5,7 @@
 	db 190 ; catch rate
 	db 64 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_UNKNOWN, HATCH_MEDIUIM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for DEBRITE, FLAME_BODY, FLAME_BODY, PICKPOCKET
 	db GROWTH_MEDIUM_FAST ; growth rate

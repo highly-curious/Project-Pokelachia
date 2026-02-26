@@ -3380,7 +3380,7 @@ DebritePokedexEntry::
 SECTION "CastorchPokedexEntry", ROMX
 CastorchPokedexEntry::
 	db "Forge@"
-	db   "The "Forge Form""
+	db   "The 'Forge Form'"
 	next "tends to horde"
 	next "tools it finds"
 	page "or makes, attach-"

@@ -5961,8 +5961,8 @@ endc
 	learnset 60, ICE_BEAM
 	learnset 66, CURSE
 
-	evos_attacks DebriteEvosAttacks
-	evo_data EVOLVE_LEVEL 30, CASTORCH; would like to later change to place or item
+	evos_attacks Debrite
+	evo_data EVOLVE_LEVEL, 30, CASTORCH; would like to later change to place or item
 	learnset 1, LEER
 	learnset 1, DEFENSE_CURL
 	learnset 4, EMBER
@@ -5973,10 +5973,10 @@ endc
 	learnset 36, BARRIER
 	learnset 40, CRUNCH
 	learnset 52, FLASH_CANNON
-	learnset 60, FLAME_WHEEL
+	learnset 60, FIRE_BLAST
 
 
-	evos_attacks CastorchEvosAttacks
+	evos_attacks Castorch
 	learnset 1, DEFENSE_CURL
 	learnset 1, EMBER
 	learnset 1, METAL_CLAW
@@ -5985,12 +5985,11 @@ endc
 	learnset 12, SCREECH
 	learnset 21, BARRIER
 	learnset 25, FLASH_CANNON
-	learnset 30, HEAVY_SLAM
+	learnset 30, GYRO_BALL
 	learnset 36, CRUNCH
 	learnset 40, BODY_SLAM
-	learnset 52, FLAME_WHEEL
-	learnset 60, FLAMETHROWER
-	learnset 66, OVERHEAT
+	learnset 52, FLAMETHROWER
+	learnset 60, FIRE_BLAST
 
 
 	; Also terminates previous mon's learnset
