@@ -37,7 +37,7 @@ DugtrioFootprint::
 DunsparceFootprint::
 EkansFootprint::
 ElectrodeFootprint::
-ExeggcuteFootprint::
+CottoneeFootprint::
 ForretressFootprint::
 GastlyFootprint::
 GeodudeFootprint::

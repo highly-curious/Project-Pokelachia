@@ -105,7 +105,7 @@ PokemonPicPointers::
 	pics Crawdaunt
 	pics VoltorbPlain
 	pics ElectrodePlain
-	pics Exeggcute
+	pics Cottonee
 	pics ExeggutorPlain
 	pics Cubone
 	pics MarowakPlain

@@ -101,7 +101,7 @@ AnimationPointers:
 	dw CrawdauntAnimation
 	dw VoltorbPlainAnimation
 	dw ElectrodePlainAnimation
-	dw ExeggcuteAnimation
+	dw CottoneeAnimation
 	dw ExeggutorPlainAnimation
 	dw CuboneAnimation
 	dw MarowakPlainAnimation

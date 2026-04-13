@@ -102,7 +102,7 @@ PokemonNames::
 	rawchar "Crawdaunt@@@"
 	rawchar "Voltorb@@@"
 	rawchar "Electrode@"
-	rawchar "Exeggcute@"
+	rawchar "Cottonee@"
 	rawchar "Exeggutor@"
 	rawchar "Cubone@@@@"
 	rawchar "Marowak@@@"

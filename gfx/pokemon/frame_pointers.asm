@@ -101,7 +101,7 @@ FramesPointers:
 	dw CrawdauntFrames
 	dw VoltorbPlainFrames
 	dw ElectrodePlainFrames
-	dw ExeggcuteFrames
+	dw CottoneeFrames
 	dw ExeggutorPlainFrames
 	dw CuboneFrames
 	dw MarowakPlainFrames

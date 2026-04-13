@@ -512,10 +512,10 @@ ElectrodeMini::     INCBIN "gfx/minis/electrode.2bpp.lz"
 ElectrodeMiniMask:: INCBIN "gfx/minis/electrode_mask.1bpp.lz"
 ElectrodeIcon::     INCBIN "gfx/icons/electrode.2bpp.lz"
 
-SECTION "Exeggcute Mini Icon", ROMX
-ExeggcuteMini::     INCBIN "gfx/minis/exeggcute.2bpp.lz"
-ExeggcuteMiniMask:: INCBIN "gfx/minis/exeggcute_mask.1bpp.lz"
-ExeggcuteIcon::     INCBIN "gfx/icons/exeggcute.2bpp.lz"
+SECTION "Cottonee Mini Icon", ROMX
+CottoneeMini::     INCBIN "gfx/minis/cottonee.2bpp.lz"
+CottoneeMiniMask:: INCBIN "gfx/minis/cottonee_mask.1bpp.lz"
+CottoneeIcon::     INCBIN "gfx/icons/cottonee.2bpp.lz"
 
 SECTION "Exeggutor Mini Icon", ROMX
 ExeggutorMini::     INCBIN "gfx/minis/exeggutor.2bpp.lz"

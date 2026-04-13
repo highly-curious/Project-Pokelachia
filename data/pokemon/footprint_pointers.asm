@@ -101,7 +101,7 @@ FootprintPointers::
 	dw CrawdauntFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
-	dw ExeggcuteFootprint
+	dw CottoneeFootprint
 	dw ExeggutorFootprint
 	dw CuboneFootprint
 	dw MarowakFootprint

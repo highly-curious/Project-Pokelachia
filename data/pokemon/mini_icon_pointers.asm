@@ -105,7 +105,7 @@ MiniIconPointers:
 	mini_icon Crawdaunt
 	mini_icon Voltorb
 	mini_icon Electrode
-	mini_icon Exeggcute
+	mini_icon Cottonee
 	mini_icon Exeggutor
 	mini_icon Cubone
 	mini_icon Marowak

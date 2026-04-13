@@ -420,18 +420,12 @@ endc
 	def_trainer 2, "Clair"
 	tr_mon 72, GYARADOS @ BRIGHTPOWDER, FEMALE
 		tr_moves DRAGON_DANCE, WATERFALL, FLY, EARTHQUAKE
-	tr_mon 74, EXEGGUTOR @ LUM_BERRY, FEMALE | ALOLAN_FORM
-		tr_extra HARVEST
-		tr_moves REST, SLEEP_POWDER, GIGA_DRAIN, DRAGON_PULSE
 	tr_mon 73, DRAGONITE @ LEFTOVERS, FEMALE
 		tr_moves OUTRAGE, EXTREMESPEED, FIRE_PUNCH, EARTHQUAKE
-if DEF(FAITHFUL)
 	tr_mon 73, DRAGONITE @ DRAGON_FANG, FEMALE
 		tr_moves DRAGON_DANCE, DRAGON_CLAW, WATERFALL, GIGA_IMPACT
-else
 	tr_mon 73, AMPHAROS @ DRAGON_FANG, FEMALE
 		tr_moves THUNDER_WAVE, CONFUSE_RAY, THUNDERBOLT, DRAGON_PULSE
-endc
 	tr_mon 74, DRAGONAIR @ EVIOLITE, FEMALE
 		tr_moves DRAGON_DANCE, EXTREMESPEED, OUTRAGE, AQUA_TAIL
 	tr_mon 75, KINGDRA @ CHESTO_BERRY, FEMALE
@@ -451,7 +445,7 @@ WillGroup:
 	tr_mon 49, JYNX @ BRIGHTPOWDER
 		tr_evs 144 SAt, 144 Spe
 		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
-	tr_mon 50, EXEGGUTOR @ MIRACLE_SEED
+	tr_mon 50, WHIMSICOTT @ MIRACLE_SEED
 		tr_evs 144 HP, 144 SAt
 		tr_moves REFLECT, LEECH_SEED, SEED_BOMB, PSYCHIC_M
 	tr_mon 50, ALAKAZAM @ LUM_BERRY
@@ -470,7 +464,7 @@ WillGroup:
 		tr_moves SHADOW_BALL, MEGAHORN, EARTHQUAKE, PSYCHIC_M
 	tr_mon 68, JYNX @ BRIGHTPOWDER
 		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
-	tr_mon 68, EXEGGUTOR @ MIRACLE_SEED
+	tr_mon 68, WHIMSICOTT @ MIRACLE_SEED
 		tr_moves REFLECT, GIGA_DRAIN, SLEEP_POWDER, PSYCHIC_M
 	tr_mon 69, ALAKAZAM @ LUM_BERRY
 		tr_moves HP_FIGHTING, RECOVER, SHADOW_BALL, PSYCHIC_M
@@ -643,9 +637,6 @@ endc
 	tr_mon 75, GYARADOS @ LIFE_ORB, MALE
 		tr_extra SPE_UP_SATK_DOWN
 		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 77, EXEGGUTOR @ LUM_BERRY, MALE | ALOLAN_FORM
-		tr_extra HARVEST, SATK_UP_ATK_DOWN
-		tr_moves GIGA_DRAIN, DRAGON_PULSE, FLAMETHROWER, SLUDGE_BOMB
 	tr_mon 77, KINGDRA @ CHOICE_SPECS
 		tr_extra SATK_UP_ATK_DOWN
 		tr_moves HYDRO_PUMP, SCALD, ICE_BEAM, DRAGON_PULSE
@@ -655,6 +646,9 @@ endc
 	tr_mon 75, PYROBOROS @ LEFTOVERS, MALE
 		tr_extra DROUGHT, SATK_UP_ATK_DOWN
 		tr_moves FIRE_BLAST, SOLAR_BEAM, FOCUS_BLAST, AIR_SLASH
+	tr_mon 80, DRAGONITE @ WEAK_POLICY, MALE
+		tr_extra MULTISCALE, ATK_UP_SATK_DOWN, SHINY
+		tr_moves DRAGON_DANCE, EXTREMESPEED, OUTRAGE, IRON_HEAD
 	tr_mon 80, DRAGONITE @ WEAK_POLICY, MALE
 		tr_extra MULTISCALE, ATK_UP_SATK_DOWN, SHINY
 		tr_moves DRAGON_DANCE, EXTREMESPEED, OUTRAGE, IRON_HEAD
@@ -967,7 +961,7 @@ BlueGroup:
 
 	def_trainer_class BLUE
 	def_trainer 1, "Blue"
-	tr_mon 68, EXEGGUTOR @ ROOM_SERVICE
+	tr_mon 68, WHIMSICOTT @ ROOM_SERVICE
 		tr_moves PSYCHIC_M, LEECH_SEED, TRICK_ROOM, GIGA_DRAIN
 	tr_mon 69, UMBREON @ LEFTOVERS
 		tr_moves CONFUSE_RAY, TOXIC, FEINT_ATTACK, PROTECT
@@ -992,7 +986,7 @@ endc
 		tr_moves CROSS_CHOP, EARTHQUAKE, STONE_EDGE, THUNDERPUNCH
 	tr_mon 74, KABUTOPS @ HARD_STONE
 		tr_moves SLASH, SURF, STONE_EDGE, GIGA_DRAIN
-	tr_mon 74, EXEGGUTOR @ MIRACLE_SEED
+	tr_mon 74, WHIMSICOTT @ MIRACLE_SEED
 		tr_moves PSYCHIC_M, LEECH_SEED, SEED_BOMB, GIGA_DRAIN
 	tr_mon 74, ARCANINE @ CHARCOAL
 		tr_moves ROAR, OUTRAGE, FLARE_BLITZ, EXTREMESPEED
@@ -2051,7 +2045,7 @@ endc
 	end_trainer
 
 	def_trainer TANYA, "Tanya"
-	tr_mon 61, EXEGGUTOR
+	tr_mon 61, WHIMSICOTT
 	end_trainer
 
 	def_trainer LILY, "Lily"
@@ -3578,7 +3572,7 @@ BeautyGroup:
 
 	def_trainer JULIA, "Julia"
 	tr_mon 56, PARAS
-	tr_mon 56, EXEGGCUTE
+	tr_mon 56, COTTONEE
 	tr_mon 59, PARASECT
 	end_trainer
 
@@ -3996,7 +3990,7 @@ SchoolboyGroup:
 
 	def_trainer NATE, "Nate"
 	tr_mon 46, LEDIAN
-	tr_mon 48, EXEGGUTOR
+	tr_mon 48, WHIMSICOTT
 	end_trainer
 
 	def_trainer RICKY, "Ricky"
@@ -4076,9 +4070,9 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer HERMAN, "Herman"
-	tr_mon 53, EXEGGCUTE
-	tr_mon 53, EXEGGCUTE
-	tr_mon 55, EXEGGUTOR
+	tr_mon 53, COTTONEE
+	tr_mon 53, COTTONEE
+	tr_mon 55, WHIMSICOTT
 	end_trainer
 
 	def_trainer FIDEL, "Fidel"
@@ -4117,14 +4111,14 @@ PsychicGroup:
 
 	def_trainer GILBERT, "Gilbert"
 	tr_mon 38, STARMIE
-	tr_mon 36, EXEGGCUTE
+	tr_mon 36, COTTONEE
 	tr_mon 40, GIRAFARIG
 	end_trainer
 
 	def_trainer JARED, "Jared"
 	tr_mon 53, MR__MIME
-	tr_mon 55, EXEGGCUTE
-	tr_mon 55, EXEGGCUTE
+	tr_mon 55, COTTONEE
+	tr_mon 55, COTTONEE
 	end_trainer
 
 	def_trainer RODNEY, "Rodney"
@@ -6091,7 +6085,7 @@ CooltrainerMGroup:
 		tr_moves THUNDERBOLT, SUPERSONIC, SWIFT, SCREECH
 	tr_mon 36, QUAGSIRE
 		tr_moves WATER_GUN, HEADBUTT, AMNESIA, EARTHQUAKE
-	tr_mon 36, EXEGGCUTE
+	tr_mon 36, COTTONEE
 		tr_moves LEECH_SEED, CONFUSION, SLEEP_POWDER, SOLAR_BEAM
 	end_trainer
 
@@ -7584,8 +7578,6 @@ KukuiGroup:
 		tr_evs 236 Def, 252 SDf
 	tr_mon 65, RATICATE, MALE | ALOLAN_FORM
 		tr_evs 236 Atk, 252 Spe
-	tr_mon 68, EXEGGUTOR, MALE | ALOLAN_FORM
-		tr_evs 236 SAt, 252 Spe
 	end_trainer
 
 	def_trainer 2, "Kukui"
@@ -7594,7 +7586,6 @@ KukuiGroup:
 	tr_mon 73, MAGNEZONE, MALE
 	tr_mon 73, SNORLAX, MALE
 	tr_mon 72, MUK, MALE | ALOLAN_FORM
-	tr_mon 75, EXEGGUTOR, MALE | ALOLAN_FORM
 	end_trainer
 
 

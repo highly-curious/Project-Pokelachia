@@ -102,7 +102,7 @@ PokedexDataPointerTable:
 	dba CrawdauntPokedexEntry
 	dba VoltorbPokedexEntry
 	dba ElectrodePokedexEntry
-	dba ExeggcutePokedexEntry
+	dba CottoneePokedexEntry
 	dba ExeggutorPlainPokedexEntry
 	dba CubonePokedexEntry
 	dba MarowakPlainPokedexEntry

@@ -304,9 +304,9 @@ SECTION "Crawdaunt Pics", ROMX
 CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
 CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
 
-SECTION "Exeggcute Pics", ROMX
-ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lz"
-ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
+SECTION "Cottonee Pics", ROMX
+CottoneeFrontpic: INCBIN "gfx/pokemon/cottonee/front.animated.2bpp.lz"
+CottoneeBackpic:  INCBIN "gfx/pokemon/cottonee/back.2bpp.lz"
 
 SECTION "Cubone Pics", ROMX
 CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
