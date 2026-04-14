@@ -102,7 +102,7 @@ FramesPointers:
 	dw VoltorbPlainFrames
 	dw ElectrodePlainFrames
 	dw CottoneeFrames
-	dw ExeggutorPlainFrames
+	dw WhimsicottFrames
 	dw CuboneFrames
 	dw MarowakPlainFrames
 	dw HitmonleeFrames
@@ -382,7 +382,6 @@ FramesPointers:
 	dw GolemAlolanFrames
 	dw GrimerAlolanFrames
 	dw MukAlolanFrames
-	dw ExeggutorAlolanFrames
 	dw MarowakAlolanFrames
 
 	dw MeowthGalarianFrames

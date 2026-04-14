@@ -103,7 +103,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  29 ; Voltorb
 	db  30, 100 ; Electrode
 	db   1,  29 ; Cottonee
-	db  30, 100 ; Exeggutor
+	db  30, 100 ; Whimsicott
 	db   1,  27 ; Cubone
 	db  28, 100 ; Marowak
 	db  20, 100 ; Hitmonlee

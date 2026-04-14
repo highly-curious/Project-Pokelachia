@@ -370,8 +370,7 @@ GrimerAlolanBitmasks: INCLUDE "gfx/pokemon/grimer_alolan/bitmask.asm"
 MukPlainBitmasks:  INCLUDE "gfx/pokemon/muk_plain/bitmask.asm"
 MukAlolanBitmasks: INCLUDE "gfx/pokemon/muk_alolan/bitmask.asm"
 
-ExeggutorPlainBitmasks:  INCLUDE "gfx/pokemon/exeggutor_plain/bitmask.asm"
-ExeggutorAlolanBitmasks: INCLUDE "gfx/pokemon/exeggutor_alolan/bitmask.asm"
+WhimsicottBitmasks:  INCLUDE "gfx/pokemon/whimsicott/bitmask.asm"
 
 MarowakPlainBitmasks:  INCLUDE "gfx/pokemon/marowak_plain/bitmask.asm"
 MarowakAlolanBitmasks: INCLUDE "gfx/pokemon/marowak_alolan/bitmask.asm"

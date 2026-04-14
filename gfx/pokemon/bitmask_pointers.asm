@@ -102,7 +102,7 @@ BitmasksPointers:
 	dw VoltorbPlainBitmasks
 	dw ElectrodePlainBitmasks
 	dw CottoneeBitmasks
-	dw ExeggutorPlainBitmasks
+	dw WhimsicottBitmasks
 	dw CuboneBitmasks
 	dw MarowakPlainBitmasks
 	dw HitmonleeBitmasks
@@ -382,7 +382,6 @@ BitmasksPointers:
 	dw GolemAlolanBitmasks
 	dw GrimerAlolanBitmasks
 	dw MukAlolanBitmasks
-	dw ExeggutorAlolanBitmasks
 	dw MarowakAlolanBitmasks
 
 	dw MeowthGalarianBitmasks

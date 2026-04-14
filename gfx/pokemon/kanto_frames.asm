@@ -203,8 +203,7 @@ GrimerAlolanFrames: INCLUDE "gfx/pokemon/grimer_alolan/frames.asm"
 MukPlainFrames:  INCLUDE "gfx/pokemon/muk_plain/frames.asm"
 MukAlolanFrames: INCLUDE "gfx/pokemon/muk_alolan/frames.asm"
 
-ExeggutorPlainFrames:  INCLUDE "gfx/pokemon/exeggutor_plain/frames.asm"
-ExeggutorAlolanFrames: INCLUDE "gfx/pokemon/exeggutor_alolan/frames.asm"
+WhimsicottFrames:  INCLUDE "gfx/pokemon/whimsicott/frames.asm"
 
 MarowakPlainFrames:  INCLUDE "gfx/pokemon/marowak_plain/frames.asm"
 MarowakAlolanFrames: INCLUDE "gfx/pokemon/marowak_alolan/frames.asm"

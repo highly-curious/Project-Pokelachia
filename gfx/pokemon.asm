@@ -1327,13 +1327,9 @@ SECTION "RaichuAlolan Pics", ROMX
 RaichuAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lz"
 RaichuAlolanBackpic:  INCBIN "gfx/pokemon/raichu_alolan/back.2bpp.lz"
 
-SECTION "ExeggutorPlain Pics", ROMX
-ExeggutorPlainFrontpic: INCBIN "gfx/pokemon/exeggutor_plain/front.animated.2bpp.lz"
-ExeggutorPlainBackpic:  INCBIN "gfx/pokemon/exeggutor_plain/back.2bpp.lz"
-
-SECTION "ExeggutorAlolan Pics", ROMX
-ExeggutorAlolanFrontpic: INCBIN "gfx/pokemon/exeggutor_alolan/front.animated.2bpp.lz"
-ExeggutorAlolanBackpic:  INCBIN "gfx/pokemon/exeggutor_alolan/back.2bpp.lz"
+SECTION "Whimsicott Pics", ROMX
+WhimsicottFrontpic: INCBIN "gfx/pokemon/whimsicott/front.animated.2bpp.lz"
+WhimsicottBackpic:  INCBIN "gfx/pokemon/whimsicott/back.2bpp.lz"
 
 SECTION "MarowakPlain Pics", ROMX
 MarowakPlainFrontpic: INCBIN "gfx/pokemon/marowak_plain/front.animated.2bpp.lz"

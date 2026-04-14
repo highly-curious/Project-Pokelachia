@@ -97,12 +97,12 @@ EggSpeciesMovesPointers::
 	dw OnixEggSpeciesMoves              ; Onix
 	dw DrowzeeEggSpeciesMoves           ; Drowzee
 	dw DrowzeeEggSpeciesMoves           ; Hypno
-	dw CorphishEggSpeciesMoves            ; Corphish
-	dw CorphishEggSpeciesMoves            ; Crawdaunt
+	dw CorphishEggSpeciesMoves          ; Corphish
+	dw CorphishEggSpeciesMoves          ; Crawdaunt
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
 	dw VoltorbPlainEggSpeciesMoves      ; Electrode
-	dw CottoneeEggSpeciesMoves         ; Cottonee
-	dw CottoneeEggSpeciesMoves         ; Exeggutor
+	dw CottoneeEggSpeciesMoves          ; Cottonee
+	dw CottoneeEggSpeciesMoves          ; Whimsicott
 	dw CuboneEggSpeciesMoves            ; Cubone
 	dw CuboneEggSpeciesMoves            ; Marowak
 	dw TyrogueEggSpeciesMoves           ; Hitmonlee
@@ -120,7 +120,7 @@ EggSpeciesMovesPointers::
 	dw GoldeenEggSpeciesMoves           ; Goldeen
 	dw GoldeenEggSpeciesMoves           ; Seaking
 	dw StaryuEggSpeciesMoves            ; Staryu
-	dw StaryuEggSpeciesMoves           ; Starmie
+	dw StaryuEggSpeciesMoves            ; Starmie
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime
 	dw ScytherEggSpeciesMoves           ; Scyther
 	dw SmoochumEggSpeciesMoves          ; Jynx
@@ -319,7 +319,6 @@ EggSpeciesMovesPointers::
 	dw GeodudeAlolanEggSpeciesMoves     ; Golem (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Grimer (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Muk (Alolan Form)
-	dw CottoneeEggSpeciesMoves         ; Exeggutor (Alolan Form)
 	dw CuboneEggSpeciesMoves            ; Marowak (Alolan Form)
 
 	dw MeowthGalarianEggSpeciesMoves    ; Meowth (Galarian Form)

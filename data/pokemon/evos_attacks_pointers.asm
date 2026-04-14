@@ -106,7 +106,7 @@ EvosAttacksPointers::
 	dw VoltorbPlainEvosAttacks
 	dw ElectrodePlainEvosAttacks
 	dw CottoneeEvosAttacks
-	dw ExeggutorPlainEvosAttacks
+	dw WhimsicottEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakPlainEvosAttacks
 	dw HitmonleeEvosAttacks
@@ -323,7 +323,6 @@ EvosAttacksPointers::
 	dw GolemAlolanEvosAttacks
 	dw GrimerAlolanEvosAttacks
 	dw MukAlolanEvosAttacks
-	dw ExeggutorAlolanEvosAttacks
 	dw MarowakAlolanEvosAttacks
 
 	dw MeowthGalarianEvosAttacks

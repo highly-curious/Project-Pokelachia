@@ -103,7 +103,7 @@ PokedexDataPointerTable:
 	dba VoltorbPokedexEntry
 	dba ElectrodePokedexEntry
 	dba CottoneePokedexEntry
-	dba ExeggutorPlainPokedexEntry
+	dba WhimsicottPokedexEntry
 	dba CubonePokedexEntry
 	dba MarowakPlainPokedexEntry
 	dba HitmonleePokedexEntry
@@ -320,7 +320,6 @@ PokedexDataPointerTable:
 	dba GolemAlolanPokedexEntry
 	dba GrimerAlolanPokedexEntry
 	dba MukAlolanPokedexEntry
-	dba ExeggutorAlolanPokedexEntry
 	dba MarowakAlolanPokedexEntry
 
 	dba MeowthGalarianPokedexEntry

@@ -108,7 +108,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; Voltorb
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; Electrode
 	mon_cry CRY_DIGLETT,     $000,  $100 ; Cottonee
-	mon_cry CRY_DROWZEE,     $000,  $100 ; Exeggutor
+	mon_cry CRY_DROWZEE,     $000,  $100 ; Whimsicott
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; Cubone
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; Marowak
 	mon_cry CRY_GOLEM,       $080,  $140 ; Hitmonlee

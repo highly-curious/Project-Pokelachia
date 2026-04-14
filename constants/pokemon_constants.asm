@@ -461,7 +461,6 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 16c golem
 	const_skip ; 16d grimer
 	const_skip ; 16e muk
-	const_skip ; 16f exeggutor
 	const_skip ; 170 marowak
 
 ; galarian forms

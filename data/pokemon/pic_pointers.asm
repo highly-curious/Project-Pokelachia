@@ -106,7 +106,7 @@ PokemonPicPointers::
 	pics VoltorbPlain
 	pics ElectrodePlain
 	pics Cottonee
-	pics ExeggutorPlain
+	pics Whimsicott
 	pics Cubone
 	pics MarowakPlain
 	pics Hitmonlee
@@ -386,7 +386,6 @@ PokemonPicPointers::
 	pics GolemAlolan
 	pics GrimerAlolan
 	pics MukAlolan
-	pics ExeggutorAlolan
 	pics MarowakAlolan
 
 	pics MeowthGalarian

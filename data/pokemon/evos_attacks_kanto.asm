@@ -52,7 +52,7 @@ EvosAttacksPointersKanto::
 	dw GengarEvosAttacks
 	dw OnixEvosAttacks
 	dw CottoneeEvosAttacks
-	dw ExeggutorPlainEvosAttacks
+	dw WhimsicottEvosAttacks
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks

@@ -102,7 +102,7 @@ AnimationPointers:
 	dw VoltorbPlainAnimation
 	dw ElectrodePlainAnimation
 	dw CottoneeAnimation
-	dw ExeggutorPlainAnimation
+	dw WhimsicottAnimation
 	dw CuboneAnimation
 	dw MarowakPlainAnimation
 	dw HitmonleeAnimation
@@ -382,7 +382,6 @@ AnimationPointers:
 	dw GolemAlolanAnimation
 	dw GrimerAlolanAnimation
 	dw MukAlolanAnimation
-	dw ExeggutorAlolanAnimation
 	dw MarowakAlolanAnimation
 
 	dw MeowthGalarianAnimation

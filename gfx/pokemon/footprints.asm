@@ -38,6 +38,7 @@ DunsparceFootprint::
 EkansFootprint::
 ElectrodeFootprint::
 CottoneeFootprint::
+WhimsicottFootprint::
 ForretressFootprint::
 GastlyFootprint::
 GeodudeFootprint::
@@ -158,7 +159,6 @@ DrowzeeFootprint:: INCBIN "gfx/footprints/drowzee.1bpp.lz"
 HypnoFootprint:: INCBIN "gfx/footprints/hypno.1bpp.lz"
 CorphishFootprint:: INCBIN "gfx/footprints/corphish.1bpp.lz"
 CrawdauntFootprint:: INCBIN "gfx/footprints/crawdaunt.1bpp.lz"
-ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lz"
 CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lz"
 MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lz"
 HitmonleeFootprint:: INCBIN "gfx/footprints/hitmonlee.1bpp.lz"
