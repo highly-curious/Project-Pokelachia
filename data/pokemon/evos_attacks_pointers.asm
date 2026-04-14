@@ -105,7 +105,7 @@ EvosAttacksPointers::
 	dw CrawdauntEvosAttacks
 	dw VoltorbPlainEvosAttacks
 	dw ElectrodePlainEvosAttacks
-	dw CottoneeEvosAttacks
+	dw ExeggcuteEvosAttacks
 	dw ExeggutorPlainEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakPlainEvosAttacks

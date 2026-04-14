@@ -435,7 +435,7 @@ ElmPhoneEvoText_Magneton:
 	cont "Cave have that."
 	prompt
 
-ElmPhoneEvoText_Cottonee:
+ElmPhoneEvoText_Exeggcute:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

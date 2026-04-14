@@ -116,7 +116,7 @@ Natu/Xatu: Baton Pass
 
 Prism tutor:
 Chansey: Haze
-Cottonee/Exeggutor: Confuse Ray
+Exeggcute/Exeggutor: Confuse Ray
 Marill/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen
 Tidiposs/Scourposs: Recover

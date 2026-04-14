@@ -101,8 +101,8 @@ EggSpeciesMovesPointers::
 	dw CorphishEggSpeciesMoves            ; Crawdaunt
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
 	dw VoltorbPlainEggSpeciesMoves      ; Electrode
-	dw CottoneeEggSpeciesMoves         ; Cottonee
-	dw CottoneeEggSpeciesMoves         ; Exeggutor
+	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
+	dw ExeggcuteEggSpeciesMoves         ; Exeggutor
 	dw CuboneEggSpeciesMoves            ; Cubone
 	dw CuboneEggSpeciesMoves            ; Marowak
 	dw TyrogueEggSpeciesMoves           ; Hitmonlee
@@ -319,7 +319,7 @@ EggSpeciesMovesPointers::
 	dw GeodudeAlolanEggSpeciesMoves     ; Golem (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Grimer (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Muk (Alolan Form)
-	dw CottoneeEggSpeciesMoves         ; Exeggutor (Alolan Form)
+	dw ExeggcuteEggSpeciesMoves         ; Exeggutor (Alolan Form)
 	dw CuboneEggSpeciesMoves            ; Marowak (Alolan Form)
 
 	dw MeowthGalarianEggSpeciesMoves    ; Meowth (Galarian Form)

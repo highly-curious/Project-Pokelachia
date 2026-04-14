@@ -1517,25 +1517,25 @@
 	; ; morn
 	; wildmon 55, DODUO
 	; wildmon 58, DODRIO
-	; wildmon 55, COTTONEE
+	; wildmon 55, EXEGGCUTE
 	; wildmon 59, TAUROS
-	; wildmon 59, WHIMSICOTT
+	; wildmon 59, EXEGGUTOR
 	; wildmon 60, TANGELA
 	; wildmon 50, SCYTHER
 	; ; day
 	; wildmon 55, DODUO
 	; wildmon 58, DODRIO
-	; wildmon 55, COTTONEE
+	; wildmon 55, EXEGGCUTE
 	; wildmon 59, TAUROS
-	; wildmon 59, WHIMSICOTT
+	; wildmon 59, EXEGGUTOR
 	; wildmon 60, TANGELA
 	; wildmon 50, SCYTHER
 	; ; nite
 	; wildmon 55, DODUO
 	; wildmon 58, DODRIO
-	; wildmon 55, COTTONEE
+	; wildmon 55, EXEGGCUTE
 	; wildmon 59, TAUROS
-	; wildmon 59, WHIMSICOTT
+	; wildmon 59, EXEGGUTOR
 	; wildmon 60, TANGELA
 	; wildmon 50, SCYTHER
 	; end_grass_wildmons
