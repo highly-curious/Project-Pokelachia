@@ -7,7 +7,7 @@
 	db NO_ITEM, ENIGMA_BERRY ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for POLTEAGEIST, LEVITATE, LEVITATE, CURSED_BODY
+	abilities_for POLTEGEIST, LEVITATE, LEVITATE, CURSED_BODY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_MINERAL ; egg groups
 

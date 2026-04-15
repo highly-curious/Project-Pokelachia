@@ -196,7 +196,7 @@ AlphabeticalPokedexOrder:
 	dp POLIWAG
 	dp POLIWHIRL
 	dp POLIWRATH
-	dp POLTEAGEIST
+	dp POLTEGEIST
 	dp PONYTA
 	dp PORYGON
 	dp PORYGON_Z

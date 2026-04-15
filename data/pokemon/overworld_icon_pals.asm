@@ -296,7 +296,7 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
 	iconpal BROWN, GREEN ; SINISTEA
-	iconpal BROWN, GREEN ; POLTEAGEIST
+	iconpal BROWN, GREEN ; POLTEGEIST
 	iconpal YELLOW, GRAY ; DEBRITE
 	iconpal ORANGE, BLACK ; CASTORCH 
 	assert_table_length NUM_SPECIES

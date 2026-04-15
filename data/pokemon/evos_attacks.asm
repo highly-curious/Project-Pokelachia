@@ -5919,7 +5919,7 @@ endc
 	learnset 53, OUTRAGE
 
 	evos_attacks Sinistea
-	evo_data EVOLVE_LEVEL, 25, POLTEAGEIST
+	evo_data EVOLVE_LEVEL, 25, POLTEGEIST
 	learnset 1, ASTONISH
 	learnset 1, ICICLE_SPEAR
 	learnset 1, DEFENSE_CURL
@@ -5934,7 +5934,7 @@ endc
 	learnset 54, NIGHT_SHADE
 	learnset 60, ICE_BEAM
 
-	evos_attacks Polteageist
+	evos_attacks Poltegeist
 	learnset 1, ASTONISH
 	learnset 1, DEFENSE_CURL
 	learnset 1, MEGA_DRAIN

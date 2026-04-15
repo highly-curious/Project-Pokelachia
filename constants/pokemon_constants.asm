@@ -316,7 +316,7 @@
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
 	const SINISTEA   ; 124
-	const POLTEAGEIST ; 125
+	const POLTEGEIST ; 125
 	const DEBRITE	 ; 126
 	const CASTORCH	 ; 127
 DEF NUM_SPECIES EQU const_value - 1 ; 123
@@ -395,9 +395,6 @@ DEF NUM_ARBOK EQU ext_const_value - 1
 	ext_const_def 2
 	ext_const PIKACHU_FLY_FORM    ; 143 (2)
 	ext_const PIKACHU_SURF_FORM   ; 144 (3)
-	ext_const PIKACHU_RED_FORM    ; 145 (4)
-	ext_const PIKACHU_YELLOW_FORM ; 146 (5)
-	ext_const PIKACHU_SPARK_FORM  ; 147 (6)
 DEF NUM_PIKACHU EQU ext_const_value - 1
 
 ; pichu

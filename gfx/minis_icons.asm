@@ -1822,10 +1822,10 @@ SinisteaMini::       INCBIN "gfx/minis/sinistea.2bpp.lz"
 SinisteaMiniMask::   INCBIN "gfx/minis/sinistea_mask.1bpp.lz"
 SinisteaIcon::       INCBIN "gfx/icons/sinistea.2bpp.lz"
 
-SECTION "Polteageist Mini Icon", ROMX
-PolteageistMini::       INCBIN "gfx/minis/polteageist.2bpp.lz"
-PolteageistMiniMask::   INCBIN "gfx/minis/polteageist_mask.1bpp.lz"
-PolteageistIcon::       INCBIN "gfx/icons/polteageist.2bpp.lz"
+SECTION "Poltegeist Mini Icon", ROMX
+PoltegeistMini::       INCBIN "gfx/minis/poltegeist.2bpp.lz"
+PoltegeistMiniMask::   INCBIN "gfx/minis/poltegeist_mask.1bpp.lz"
+PoltegeistIcon::       INCBIN "gfx/icons/poltegeist.2bpp.lz"
 
 SECTION "Debrite Mini Icon", ROMX
 DebriteMini::       INCBIN "gfx/minis/debrite.2bpp.lz"

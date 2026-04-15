@@ -240,7 +240,7 @@ FarigirafAnimationExtra:  INCLUDE "gfx/pokemon/farigiraf/anim_idle.asm"
 ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 SinisteaAnimationExtra:   INCLUDE "gfx/pokemon/sinistea/anim_idle.asm"
-PolteageistAnimationExtra: INCLUDE "gfx/pokemon/polteageist/anim_idle.asm"
+PoltegeistAnimationExtra: INCLUDE "gfx/pokemon/poltegeist/anim_idle.asm"
 DebriteAnimationExtra:    INCLUDE "gfx/pokemon/debrite/anim_idle.asm"
 CastorchAnimationExtra:   INCLUDE "gfx/pokemon/castorch/anim_idle.asm"
 
@@ -282,8 +282,6 @@ PikachuSparkAnimationExtra:
 PikachuPlainAnimationExtra:  INCLUDE "gfx/pokemon/pikachu_plain/anim_idle.asm"
 PikachuFlyAnimationExtra:    INCLUDE "gfx/pokemon/pikachu_fly/anim_idle.asm"
 PikachuSurfAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_surf/anim_idle.asm"
-PikachuPikaAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_pika/anim_idle.asm"
-PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
 
 ArbokJohtoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_johto/anim_idle.asm"
 ArbokKantoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_kanto/anim_idle.asm"

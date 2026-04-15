@@ -285,7 +285,7 @@ EvosAttacksPointersLateGen::
 	dw AnnihilapeEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw SinisteaEvosAttacks
-	dw PolteageistEvosAttacks
+	dw PoltegeistEvosAttacks
 	dw DebriteEvosAttacks
 	dw CastorchEvosAttacks
 .IndirectEnd::
@@ -5091,7 +5091,7 @@ endc
 	learnset 57, DESTINY_BOND
 
 	evos_attacks Sinistea
-	evo_data EVOLVE_LEVEL, 25, POLTEAGEIST
+	evo_data EVOLVE_LEVEL, 25, POLTEGEIST
 	learnset 1, ASTONISH
 	learnset 1, ICICLE_SPEAR
 	learnset 1, DEFENSE_CURL; Withdraw
@@ -5106,7 +5106,7 @@ endc
 	learnset 54, NIGHT_SHADE
 	learnset 60, ICE_BEAM
 
-	evos_attacks PolteageistEvosAttacks
+	evos_attacks PoltegeistEvosAttacks
 	learnset 1, ASTONISH
 	learnset 1, DEFENSE_CURL
 	learnset 1, MEGA_DRAIN
