@@ -108,8 +108,8 @@ PokemonBodyData:
 	body_data  13,  600, INSECTOID,    RED    ; CRAWDAUNT
 	body_data   5,  104, HEAD,         RED    ; VOLTORB
 	body_data  12,  666, HEAD,         RED    ; ELECTRODE
-	body_data   4,   25, MULTIBODY,    PINK   ; COTTONEE
-	body_data  20, 1200, HEAD_LEGS,    YELLOW ; WHIMSICOTT
+	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
+	body_data  20, 1200, HEAD_LEGS,    YELLOW ; EXEGGUTOR
 	body_data   4,   65, BIPEDAL_TAIL, BROWN  ; CUBONE
 	body_data  10,  450, BIPEDAL_TAIL, BROWN  ; MAROWAK
 	body_data  15,  498, BIPEDAL,      BROWN  ; HITMONLEE
@@ -299,7 +299,7 @@ PokemonBodyData:
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   3,   22, HEAD,         BROWN  ; SINISTEA
-	body_data   1,   11, HEAD, 		   BROWN  ; POLTEAGEIST
+	body_data   1,   11, HEAD, 		   BROWN  ; POLTEGEIST
 	body_data	3,	 10, HEAD,		   YELLOW ; DEBRITE
 	body_data  12, 1200, HEAD_ARMS,	   YELLOW ; CASTORCH
 	assert_table_length NUM_SPECIES
@@ -326,6 +326,7 @@ PokemonBodyData:
 	body_data  17, 3160, BIPEDAL,      GRAY   ; GOLEM (ALOLAN_FORM)
 	body_data   7,  420, HEAD_ARMS,    GREEN  ; GRIMER (ALOLAN_FORM)
 	body_data  10,  520, HEAD_ARMS,    GREEN  ; MUK (ALOLAN_FORM)
+	body_data 109, 4156, HEAD_LEGS,    YELLOW ; EXEGGUTOR (ALOLAN_FORM)
 	body_data  10,  340, BIPEDAL_TAIL, PURPLE ; MAROWAK (ALOLAN_FORM)
 
 	body_data   4,   75, BIPEDAL_TAIL, BROWN  ; MEOWTH (GALARIAN_FORM)

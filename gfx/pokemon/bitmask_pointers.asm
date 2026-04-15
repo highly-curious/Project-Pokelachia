@@ -292,7 +292,7 @@ BitmasksPointers:
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
 	dw SinisteaBitmasks
-	dw PolteageistBitmasks
+	dw PoltegeistBitmasks
 	dw DebriteBitmasks
 	dw CastorchBitmasks
 	assert_table_length NUM_SPECIES
@@ -332,9 +332,6 @@ BitmasksPointers:
 
 	dw PikachuFlyBitmasks
 	dw PikachuSurfBitmasks
-	dw PikachuPikaBitmasks
-	dw PikachuChuchuBitmasks
-	dw PikachuSparkBitmasks
 
 	dw PichuSpikyBitmasks
 

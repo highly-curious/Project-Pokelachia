@@ -292,7 +292,7 @@ FramesPointers:
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw SinisteaFrames
-	dw PolteageistFrames
+	dw PoltegeistFrames
 	dw DebriteFrames
 	dw CastorchFrames
 	assert_table_length NUM_SPECIES
@@ -332,9 +332,6 @@ FramesPointers:
 
 	dw PikachuFlyFrames
 	dw PikachuSurfFrames
-	dw PikachuPikaFrames
-	dw PikachuChuchuFrames
-	dw PikachuSparkFrames
 
 	dw PichuSpikyFrames
 

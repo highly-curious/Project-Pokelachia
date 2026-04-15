@@ -304,9 +304,9 @@ SECTION "Crawdaunt Pics", ROMX
 CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
 CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
 
-SECTION "Cottonee Pics", ROMX
-CottoneeFrontpic: INCBIN "gfx/pokemon/cottonee/front.animated.2bpp.lz"
-CottoneeBackpic:  INCBIN "gfx/pokemon/cottonee/back.2bpp.lz"
+SECTION "Exeggcute Pics", ROMX
+ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lz"
+ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
 
 SECTION "Cubone Pics", ROMX
 CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
@@ -1062,20 +1062,12 @@ UnownQuestionBackpic:  INCBIN "gfx/pokemon/unown_question/back.2bpp.lz"
 SECTION "Pikachu Pics", ROMX
 PikachuPlainFrontpic: INCBIN "gfx/pokemon/pikachu_plain/front.animated.2bpp.lz"
 PikachuSurfFrontpic:  INCBIN "gfx/pokemon/pikachu_surf/front.animated.2bpp.lz"
-PikachuPikaFrontpic:  INCBIN "gfx/pokemon/pikachu_pika/front.animated.2bpp.lz"
-PikachuSparkFrontpic: INCBIN "gfx/pokemon/pikachu_spark/front.animated.2bpp.lz"
 PikachuPlainBackpic:
-PikachuSurfBackpic:
-PikachuPikaBackpic:
-PikachuSparkBackpic:  INCBIN "gfx/pokemon/pikachu_plain/back.2bpp.lz"
+PikachuSurfBackpic:  INCBIN "gfx/pokemon/pikachu_plain/back.2bpp.lz"
 
 SECTION "PikachuFly Pics", ROMX
 PikachuFlyFrontpic: INCBIN "gfx/pokemon/pikachu_fly/front.animated.2bpp.lz"
 PikachuFlyBackpic:  INCBIN "gfx/pokemon/pikachu_fly/back.2bpp.lz"
-
-SECTION "PikachuChuchu Pics", ROMX
-PikachuChuchuFrontpic: INCBIN "gfx/pokemon/pikachu_chuchu/front.animated.2bpp.lz"
-PikachuChuchuBackpic:  INCBIN "gfx/pokemon/pikachu_chuchu/back.2bpp.lz"
 
 SECTION "PichuPlain Pics", ROMX
 PichuPlainFrontpic: INCBIN "gfx/pokemon/pichu_plain/front.animated.2bpp.lz"
@@ -1557,9 +1549,9 @@ SECTION "Sinistea Pics", ROMX
 SinisteaFrontpic: INCBIN "gfx/pokemon/sinistea/front.animated.2bpp.lz"
 SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lz"
 
-SECTION "Polteageist Pics", ROMX
-PolteageistFrontpic: INCBIN "gfx/pokemon/polteageist/front.animated.2bpp.lz"
-PolteageistBackpic:  INCBIN "gfx/pokemon/polteageist/back.2bpp.lz"
+SECTION "Poltegeist Pics", ROMX
+PoltegeistFrontpic: INCBIN "gfx/pokemon/poltegeist/front.animated.2bpp.lz"
+PoltegeistBackpic:  INCBIN "gfx/pokemon/poltegeist/back.2bpp.lz"
 
 SECTION "Debrite Pics", ROMX
 DebriteFrontpic:    INCBIN "gfx/pokemon/debrite/front.animated.2bpp.lz"

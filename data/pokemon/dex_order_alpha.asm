@@ -66,8 +66,8 @@ AlphabeticalPokedexOrder:
 	dp ELEKID
 	dp ENTEI
 	dp ESPEON
-	dp COTTONEE
-	dp WHIMSICOTT
+	dp EXEGGCUTE
+	dp EXEGGUTOR
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp CUARDHART
@@ -196,7 +196,7 @@ AlphabeticalPokedexOrder:
 	dp POLIWAG
 	dp POLIWHIRL
 	dp POLIWRATH
-	dp POLTEAGEIST
+	dp POLTEGEIST
 	dp PONYTA
 	dp PORYGON
 	dp PORYGON_Z

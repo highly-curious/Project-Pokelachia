@@ -86,7 +86,7 @@ ZubatFootprint::
 SizzooFootprint::
 PyroborosFootprint::
 SinisteaFootprint:: 
-PolteageistFootprint::
+PoltegeistFootprint::
 DebriteFootprint::
 CastorchFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lz"

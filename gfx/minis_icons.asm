@@ -512,10 +512,10 @@ ElectrodeMini::     INCBIN "gfx/minis/electrode.2bpp.lz"
 ElectrodeMiniMask:: INCBIN "gfx/minis/electrode_mask.1bpp.lz"
 ElectrodeIcon::     INCBIN "gfx/icons/electrode.2bpp.lz"
 
-SECTION "Cottonee Mini Icon", ROMX
-CottoneeMini::     INCBIN "gfx/minis/cottonee.2bpp.lz"
-CottoneeMiniMask:: INCBIN "gfx/minis/cottonee_mask.1bpp.lz"
-CottoneeIcon::     INCBIN "gfx/icons/cottonee.2bpp.lz"
+SECTION "Exeggcute Mini Icon", ROMX
+ExeggcuteMini::     INCBIN "gfx/minis/exeggcute.2bpp.lz"
+ExeggcuteMiniMask:: INCBIN "gfx/minis/exeggcute_mask.1bpp.lz"
+ExeggcuteIcon::     INCBIN "gfx/icons/exeggcute.2bpp.lz"
 
 SECTION "Whimsicott Mini Icon", ROMX
 WhimsicottMini::     INCBIN "gfx/minis/whimsicott.2bpp.lz"
@@ -1817,10 +1817,10 @@ SinisteaMini::       INCBIN "gfx/minis/sinistea.2bpp.lz"
 SinisteaMiniMask::   INCBIN "gfx/minis/sinistea_mask.1bpp.lz"
 SinisteaIcon::       INCBIN "gfx/icons/sinistea.2bpp.lz"
 
-SECTION "Polteageist Mini Icon", ROMX
-PolteageistMini::       INCBIN "gfx/minis/polteageist.2bpp.lz"
-PolteageistMiniMask::   INCBIN "gfx/minis/polteageist_mask.1bpp.lz"
-PolteageistIcon::       INCBIN "gfx/icons/polteageist.2bpp.lz"
+SECTION "Poltegeist Mini Icon", ROMX
+PoltegeistMini::       INCBIN "gfx/minis/poltegeist.2bpp.lz"
+PoltegeistMiniMask::   INCBIN "gfx/minis/poltegeist_mask.1bpp.lz"
+PoltegeistIcon::       INCBIN "gfx/icons/poltegeist.2bpp.lz"
 
 SECTION "Debrite Mini Icon", ROMX
 DebriteMini::       INCBIN "gfx/minis/debrite.2bpp.lz"

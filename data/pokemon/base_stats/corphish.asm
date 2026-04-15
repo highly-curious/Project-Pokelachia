@@ -1,5 +1,5 @@
-	bst 310,  45,  80,  65,  50,  35,  35
-	;   bst   hp  atk  def  sat  sdf  spe
+	db  45,  80,  65,  50,  35,  35 ; bst 310 
+	;   hp  atk  def  sat  sdf  spe
 
 	db WATER, WATER  ; type
 	db 205  ; catch rate
@@ -26,12 +26,11 @@
 		 FALSE_SWIPE,  SCALD,        \ ;11
 		 X_SCISSOR,    \ ;12
 		 WATER_PULSE,  \ ;13
-	     PAYBACK,      SWAGGER,      \ ;14
+	    SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
 		 CUT,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
 		 AQUA_TAIL,    \ ;T2
 		 ICY_WIND,     \ ;T3
-		 ANCIENTPOWER, \ ;T5
-		 KNOCK_OFF,    \ ;T6
-		 DOUBLE_EDGE ;T7
+		 KNOCK_OFF,    \ ;T5
+		 DOUBLE_EDGE ;T6
 	 ; end

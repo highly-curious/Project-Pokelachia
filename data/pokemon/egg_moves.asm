@@ -520,8 +520,8 @@ VoltorbHisuianEggSpeciesMoves:
 	dp VOLTORB, HISUIAN_FORM
 	db $ff
 
-CottoneeEggSpeciesMoves:
-	dp COTTONEE, PLAIN_FORM
+ExeggcuteEggSpeciesMoves:
+	dp EXEGGCUTE, PLAIN_FORM
 	db MEGA_DRAIN
 	db HEALINGLIGHT
 	db ANCIENTPOWER
@@ -1239,8 +1239,8 @@ SinisteaEggSpeciesMoves:
 	dp SINISTEA, PLAIN_FORM
 	db $ff
 
-PolteageistEggSpeciesMoves:
-	dp POLTEAGEIST, PLAIN_FORM
+PoltegeistEggSpeciesMoves:
+	dp POLTEGEIST, PLAIN_FORM
 	db $ff 
 
 DebriteEggSpeciesMoves:

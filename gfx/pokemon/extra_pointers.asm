@@ -292,7 +292,7 @@ AnimationExtraPointers:
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw SinisteaAnimationExtra
-	dw PolteageistAnimationExtra
+	dw PoltegeistAnimationExtra
 	dw DebriteAnimationExtra
 	dw CastorchAnimationExtra
 	assert_table_length NUM_SPECIES
@@ -332,9 +332,6 @@ AnimationExtraPointers:
 
 	dw PikachuFlyAnimationExtra
 	dw PikachuSurfAnimationExtra
-	dw PikachuPikaAnimationExtra
-	dw PikachuChuchuAnimationExtra
-	dw PikachuSparkAnimationExtra
 
 	dw PichuSpikyAnimationExtra
 

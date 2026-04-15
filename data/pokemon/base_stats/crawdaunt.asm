@@ -1,5 +1,5 @@
-	bst 470,  65, 120,  85,  90,  55,  55
-	;   bst   hp  atk  def  sat  sdf  spe
+	db  65, 120,  85,  90,  55,  55 ; bst 470
+	;   hp  atk  def  sat  sdf  spe
 
 	db WATER, DARK  ; type
 	db 155  ; catch rate
@@ -26,12 +26,11 @@
 		 FALSE_SWIPE,  SCALD,        \ ;11
 		 X_SCISSOR,    DARK_PULSE,   \ ;12
 		 WATER_PULSE,  \ ;13
-	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
 		 CUT,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
 		 AQUA_TAIL,    \ ;T2
 		 ICY_WIND,     \ ;T3
-		 ANCIENTPOWER, \ ;T5
-		 KNOCK_OFF,    \ ;T6
-		 DOUBLE_EDGE ;T7
+		 KNOCK_OFF,    \ ;T5
+		 DOUBLE_EDGE ;T6
 	 ; end

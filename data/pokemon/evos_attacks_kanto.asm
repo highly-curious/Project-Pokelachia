@@ -912,8 +912,9 @@ EvosAttacksPointersKanto::
 	learnset 49, DOUBLE_EDGE
 	learnset 52, EARTHQUAKE ; Sandstorm → TM move
 
-	evos_attacks Cottonee
-	evo_data EVOLVE_ITEM, LEAF_STONE, WHIMSICOTT, PLAIN_FORM
+	evos_attacks Exeggcute
+	evo_data EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR, PLAIN_FORM
+	evo_data EVOLVE_ITEM, ODD_SOUVENIR, EXEGGUTOR, ALOLAN_FORM
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 7, REFLECT
@@ -929,7 +930,7 @@ EvosAttacksPointersKanto::
 	learnset 47, EXTRASENSORY
 	learnset 50, PSYCHIC_M ; Bestow → TM move
 
-	evos_attacks Whimsicott
+	evos_attacks ExeggutorPlain
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 1, CONFUSION

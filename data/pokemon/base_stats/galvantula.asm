@@ -1,5 +1,5 @@
-	bst 472,  70,  77,  60,  97,  60, 108
-	;   bst   hp  atk  def  sat  sdf  spe
+	db  70,  77,  60,  97,  60, 108 ; bst 475
+	;   hp  atk  def  sat  sdf  spe
 
 	db BUG, ELECTRIC  ; type
 	db 75  ; catch rate
@@ -29,7 +29,5 @@
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
 		 CUT,          \ ;HM
 		 GIGA_DRAIN,   \ ;T1
-		 THUNDER_FANG, SHOCK_WAVE,   \ ;T2
-		 SIGNAL_BEAM,  \ ;T3
 		 SUCKER_PUNCH ;T6
 	 ; end

@@ -95,7 +95,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveSlowpokePlain
 	dw .EvolveSlowpokeGalarian
 	dw .EvolveMagneton
-	dw .EvolveCottonee
+	dw .EvolveExeggcute
 	dw .EvolveKoffing
 	dw .EvolveCubone
 	dw .EvolveScyther
@@ -182,8 +182,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveMagneton:
 	farwritetext ElmPhoneEvoText_Magneton
 	end
-.EvolveCottonee:
-	farwritetext ElmPhoneEvoText_Cottonee
+.EvolveExeggcute:
+	farwritetext ElmPhoneEvoText_Exeggcute
 	end
 .EvolveKoffing:
 	farwritetext ElmPhoneEvoText_Koffing
