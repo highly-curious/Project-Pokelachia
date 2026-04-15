@@ -1022,8 +1022,8 @@ ExeggcutePokedexEntry::
 	next "six will make them"
 	next "rejoin instantly.@"
 
-SECTION "ExeggutorPlainPokedexEntry", ROMX
-ExeggutorPlainPokedexEntry::
+SECTION "WhimsicottPokedexEntry", ROMX
+WhimsicottPokedexEntry::
 	db "Coconut@"
 	db   "Living in a good"
 	next "environment makes"
@@ -3030,16 +3030,6 @@ MukAlolanPokedexEntry::
 	page "more it feasts on"
 	next "its favorite"
 	next "dish--trash.@"
-
-SECTION "ExeggutorAlolanPokedexEntry", ROMX
-ExeggutorAlolanPokedexEntry::
-	db "Coconut@"
-	db   "It swings its long"
-	next "neck like a whip"
-	next "and smacks its"
-	page "opponents. This"
-	next "makes Exeggutor"
-	next "itself dizzy, too.@"
 
 SECTION "MarowakAlolanPokedexEntry", ROMX
 MarowakAlolanPokedexEntry::

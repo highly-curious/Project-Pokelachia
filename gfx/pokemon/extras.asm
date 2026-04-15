@@ -368,8 +368,7 @@ GrimerAlolanAnimationExtra: INCLUDE "gfx/pokemon/grimer_alolan/anim_idle.asm"
 MukPlainAnimationExtra:  INCLUDE "gfx/pokemon/muk_plain/anim_idle.asm"
 MukAlolanAnimationExtra: INCLUDE "gfx/pokemon/muk_alolan/anim_idle.asm"
 
-ExeggutorPlainAnimationExtra:  INCLUDE "gfx/pokemon/exeggutor_plain/anim_idle.asm"
-ExeggutorAlolanAnimationExtra: INCLUDE "gfx/pokemon/exeggutor_alolan/anim_idle.asm"
+WhimsicottAnimationExtra:  INCLUDE "gfx/pokemon/whimsicott/anim_idle.asm"
 
 MarowakPlainAnimationExtra:  INCLUDE "gfx/pokemon/marowak_plain/anim_idle.asm"
 MarowakAlolanAnimationExtra: INCLUDE "gfx/pokemon/marowak_alolan/anim_idle.asm"

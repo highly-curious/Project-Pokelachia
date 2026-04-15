@@ -517,10 +517,10 @@ ExeggcuteMini::     INCBIN "gfx/minis/exeggcute.2bpp.lz"
 ExeggcuteMiniMask:: INCBIN "gfx/minis/exeggcute_mask.1bpp.lz"
 ExeggcuteIcon::     INCBIN "gfx/icons/exeggcute.2bpp.lz"
 
-SECTION "Exeggutor Mini Icon", ROMX
-ExeggutorMini::     INCBIN "gfx/minis/exeggutor.2bpp.lz"
-ExeggutorMiniMask:: INCBIN "gfx/minis/exeggutor_mask.1bpp.lz"
-ExeggutorIcon::     INCBIN "gfx/icons/exeggutor.2bpp.lz"
+SECTION "Whimsicott Mini Icon", ROMX
+WhimsicottMini::     INCBIN "gfx/minis/whimsicott.2bpp.lz"
+WhimsicottMiniMask:: INCBIN "gfx/minis/whimsicott_mask.1bpp.lz"
+WhimsicottIcon::     INCBIN "gfx/icons/whimsicott.2bpp.lz"
 
 SECTION "Cubone Mini Icon", ROMX
 CuboneMini::     INCBIN "gfx/minis/cubone.2bpp.lz"
@@ -1681,11 +1681,6 @@ SECTION "MukAlolan Mini Icon", ROMX
 MukAlolanMini::     INCBIN "gfx/minis/muk_alolan.2bpp.lz"
 MukAlolanMiniMask:: INCBIN "gfx/minis/muk_alolan_mask.1bpp.lz"
 MukAlolanIcon::     INCBIN "gfx/icons/muk_alolan.2bpp.lz"
-
-SECTION "ExeggutorAlolan Mini Icon", ROMX
-ExeggutorAlolanMini::     INCBIN "gfx/minis/exeggutor_alolan.2bpp.lz"
-ExeggutorAlolanMiniMask:: INCBIN "gfx/minis/exeggutor_alolan_mask.1bpp.lz"
-ExeggutorAlolanIcon::     INCBIN "gfx/icons/exeggutor_alolan.2bpp.lz"
 
 SECTION "MarowakAlolan Mini Icon", ROMX
 MarowakAlolanMini::     INCBIN "gfx/minis/marowak_alolan.2bpp.lz"

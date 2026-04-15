@@ -51,8 +51,8 @@ EvosAttacksPointersKanto::
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
 	dw OnixEvosAttacks
-	dw ExeggcuteEvosAttacks
-	dw ExeggutorPlainEvosAttacks
+	dw CottoneeEvosAttacks
+	dw WhimsicottEvosAttacks
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks

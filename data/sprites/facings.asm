@@ -397,37 +397,6 @@ FacingSailboatBottom:
 	db 24, 16, 0, $82
 	db 24, 24, 0, $83
 
-FacingAlolanExeggutor0:
-FacingAlolanExeggutor2:
-	db 7 ; #
-	db  0,  0, NEXT_PALETTE, $00
-	db  0,  8, NEXT_PALETTE, $01
-	db  8,  0, NEXT_PALETTE, $02
-	db  8,  8, NEXT_PALETTE, $03
-	db -8,  0, 0, $0c
-	db -8,  8, 0, $0d
-	db  0,  8, 0, $0e
-
-FacingAlolanExeggutor1:
-	db 7 ; #
-	db  0,  0, NEXT_PALETTE, $04
-	db  0,  8, NEXT_PALETTE, $05
-	db  8,  0, NEXT_PALETTE, $06
-	db  8,  8, NEXT_PALETTE, $07
-	db -8,  0, 0, $0c
-	db -8,  8, 0, $0d
-	db  0,  8, 0, $80
-
-FacingAlolanExeggutor3:
-	db 7 ; #
-	db  0,  0, NEXT_PALETTE, $08
-	db  0,  8, NEXT_PALETTE, $09
-	db  8,  0, NEXT_PALETTE, $0a
-	db  8,  8, NEXT_PALETTE, $0b
-	db -8,  0, OAM_XFLIP, $0d
-	db -8,  8, OAM_XFLIP, $0c
-	db  0,  8, 0, $80
-
 FacingTinyWindows0:
 	db 2 ; #
 	db 12,  8, 0, $85

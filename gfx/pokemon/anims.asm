@@ -367,8 +367,7 @@ GrimerAlolanAnimation: INCLUDE "gfx/pokemon/grimer_alolan/anim.asm"
 MukPlainAnimation:  INCLUDE "gfx/pokemon/muk_plain/anim.asm"
 MukAlolanAnimation: INCLUDE "gfx/pokemon/muk_alolan/anim.asm"
 
-ExeggutorPlainAnimation:  INCLUDE "gfx/pokemon/exeggutor_plain/anim.asm"
-ExeggutorAlolanAnimation: INCLUDE "gfx/pokemon/exeggutor_alolan/anim.asm"
+WhimsicottAnimation:  INCLUDE "gfx/pokemon/whimsicott/anim.asm"
 
 MarowakPlainAnimation:  INCLUDE "gfx/pokemon/marowak_plain/anim.asm"
 MarowakAlolanAnimation: INCLUDE "gfx/pokemon/marowak_alolan/anim.asm"

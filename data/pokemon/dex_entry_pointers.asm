@@ -102,8 +102,8 @@ PokedexDataPointerTable:
 	dba CrawdauntPokedexEntry
 	dba VoltorbPokedexEntry
 	dba ElectrodePokedexEntry
-	dba ExeggcutePokedexEntry
-	dba ExeggutorPlainPokedexEntry
+	dba CottoneePokedexEntry
+	dba WhimsicottPokedexEntry
 	dba CubonePokedexEntry
 	dba MarowakPlainPokedexEntry
 	dba HitmonleePokedexEntry
@@ -320,7 +320,6 @@ PokedexDataPointerTable:
 	dba GolemAlolanPokedexEntry
 	dba GrimerAlolanPokedexEntry
 	dba MukAlolanPokedexEntry
-	dba ExeggutorAlolanPokedexEntry
 	dba MarowakAlolanPokedexEntry
 
 	dba MeowthGalarianPokedexEntry

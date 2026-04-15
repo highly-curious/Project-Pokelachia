@@ -105,8 +105,8 @@ MiniIconPointers:
 	mini_icon Crawdaunt
 	mini_icon Voltorb
 	mini_icon Electrode
-	mini_icon Exeggcute
-	mini_icon Exeggutor
+	mini_icon Cottonee
+	mini_icon Whimsicott
 	mini_icon Cubone
 	mini_icon Marowak
 	mini_icon Hitmonlee
@@ -367,7 +367,6 @@ endr
 	mini_icon GolemAlolan
 	mini_icon GrimerAlolan
 	mini_icon MukAlolan
-	mini_icon ExeggutorAlolan
 	mini_icon MarowakAlolan
 
 	mini_icon MeowthGalarian
