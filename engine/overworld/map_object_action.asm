@@ -28,8 +28,6 @@ ObjectActionPairPointers:
 	dw SetFacingRun,                   SetFacingCurrent           ; OBJECT_ACTION_RUN
 	dw SetFacingSailboatTop,           SetFacingSailboatTop       ; OBJECT_ACTION_SAILBOAT_TOP
 	dw SetFacingSailboatBottom,        SetFacingSailboatBottom    ; OBJECT_ACTION_SAILBOAT_BOTTOM
-	dw SetFacingAlolanExeggutor,       SetFacingAlolanExeggutor   ; OBJECT_ACTION_ALOLAN_EXEGGUTOR
-	dw SetFacingShakeExeggutor,        SetFacingAlolanExeggutor   ; OBJECT_ACTION_SHAKE_EXEGGUTOR
 	dw SetFacingTinyWindows,           SetFacingTinyWindows       ; OBJECT_ACTION_TINY_WINDOWS
 	dw SetFacingMicrophone,            SetFacingMicrophone        ; OBJECT_ACTION_MICROPHONE
 	assert_table_length NUM_OBJECT_ACTIONS
@@ -64,10 +62,6 @@ SetFacingSailboatTop:
 
 SetFacingSailboatBottom:
 	ld a, FACING_SAILBOAT_BOTTOM
-	jr SetFixedFacing
-
-SetFacingAlolanExeggutor:
-	ld a, FACING_ALOLAN_EXEGGUTOR_0
 	jr SetFixedFacing
 
 SetFacingMicrophone:
@@ -262,13 +256,6 @@ SetFacingBigGyarados:
 	jmp nz, SetFixedFacing
 SetFacingFreezeBigGyarados:
 	ld a, FACING_BIG_GYARADOS_1
-	jmp SetFixedFacing
-
-SetFacingShakeExeggutor:
-	call _GetNextStepFrame
-	and %110000
-	swap a
-	add FACING_ALOLAN_EXEGGUTOR_0
 	jmp SetFixedFacing
 
 SetFacingWeirdTree:

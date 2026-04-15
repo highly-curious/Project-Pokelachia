@@ -319,7 +319,6 @@ FootprintPointers::
 	dw GolemFootprint
 	dw GrimerFootprint
 	dw MukFootprint
-	dw WhimsicottFootprint
 	dw MarowakFootprint
 
 	dw MeowthFootprint

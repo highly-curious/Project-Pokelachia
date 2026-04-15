@@ -39,7 +39,7 @@ SetCurrentWeather::
 .skip_cooldown
 	ld a, b
 	ld [wCurWeather], a
-	farcall LoadWeatherPal
+	call LoadWeatherPal
 	call LoadWeatherGraphics
 	xor a
 	ld [wOverworldWeatherCooldown], a
