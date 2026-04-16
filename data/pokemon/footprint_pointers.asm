@@ -73,9 +73,9 @@ FootprintPointers::
 	dw VictreebelFootprint
 	dw TentacoolFootprint
 	dw TentacruelFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
+	dw RoggenrolaFootprint
+	dw BoldoreFootprint
+	dw GigalithFootprint
 	dw PonytaFootprint
 	dw RapidashFootprint
 	dw SlowpokeFootprint
@@ -314,9 +314,6 @@ FootprintPointers::
 	dw DugtrioFootprint
 	dw MeowthFootprint
 	dw PersianFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
 	dw GrimerFootprint
 	dw MukFootprint
 	dw MarowakFootprint

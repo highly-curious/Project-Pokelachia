@@ -13,8 +13,8 @@ SpriteAnimOAMData:
 	spriteanimoam $00, .OAMData_TextEntryCursorBig     ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR_BIG
 	spriteanimoam $00, .OAMData_TextEntryCursorBlue    ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR_BLUE
 	spriteanimoam $00, .OAMData_TextEntryCursorBlueBig ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR_BLUE_BIG
-	spriteanimoam $00, .OAMData_SlotsGolem             ; SPRITE_ANIM_OAMSET_SLOTS_GOLEM_1
-	spriteanimoam $08, .OAMData_SlotsGolem             ; SPRITE_ANIM_OAMSET_SLOTS_GOLEM_2
+	spriteanimoam $00, .OAMData_SlotsGigalith             ; SPRITE_ANIM_OAMSET_SLOTS_GIGALITH_1
+	spriteanimoam $08, .OAMData_SlotsGigalith             ; SPRITE_ANIM_OAMSET_SLOTS_GIGALITH_2
 	spriteanimoam $10, .OAMData_SlotsChansey1          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_1
 	spriteanimoam $10, .OAMData_SlotsChansey2          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_2
 	spriteanimoam $10, .OAMData_SlotsChansey3          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_3
@@ -278,7 +278,7 @@ SpriteAnimOAMData:
 	dsprite  0,  0,  3,  0, $01, $1 | OAM_YFLIP
 	dsprite  0,  0,  4,  0, $00, $1 | OAM_XFLIP | OAM_YFLIP
 
-.OAMData_SlotsGolem:
+.OAMData_SlotsGigalith:
 	db 6
 	dsprite -2,  4, -2,  4, $00, $5
 	dsprite -2,  4, -1,  4, $02, $5

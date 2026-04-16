@@ -664,7 +664,7 @@ BrockGroup:
 
 	def_trainer_class BROCK
 	def_trainer 1, "Brock"
-	tr_mon 64, GOLEM
+	tr_mon 64, GIGALITH
 		tr_evs 252 HP, 196 Atk
 		tr_moves DEFENSE_CURL, ROLLOUT, ROCK_SLIDE, EARTHQUAKE
 	tr_mon 63, RHYDON @ EVIOLITE
@@ -695,7 +695,7 @@ BrockGroup:
 		tr_moves SLASH, SURF, ENDURE, GIGA_DRAIN
 	tr_mon 73, AERODACTYL @ QUICK_CLAW
 		tr_moves STONE_EDGE, EARTHQUAKE, AERIAL_ACE, CRUNCH
-	tr_mon 75, GOLEM @ LEFTOVERS
+	tr_mon 75, GIGALITH @ LEFTOVERS
 		tr_moves EXPLOSION, BODY_SLAM, STONE_EDGE, EARTHQUAKE
 	end_trainer
 
@@ -1088,7 +1088,7 @@ Rival1Group:
 	tr_mon 16, ZUBAT
 		tr_evs 72 Spe
 		tr_moves SUPERSONIC, ASTONISH, BITE, GUST ; default for level
-	tr_mon 15, GEODUDE
+	tr_mon 15, ROGGENROLA
 		tr_evs 72 HP
 		tr_moves MUD_SLAP, RAPID_SPIN, ROLLOUT, MAGNITUDE ; default for level
 	tr_mon 18, BAYLEEF @ ORAN_BERRY
@@ -1101,7 +1101,7 @@ Rival1Group:
 		tr_evs 72 Spe
 	tr_mon 16, ZUBAT
 		tr_evs 72 Spe
-	tr_mon 15, GEODUDE
+	tr_mon 15, ROGGENROLA
 		tr_evs 72 HP
 	tr_mon 18, QUILAVA @ ORAN_BERRY
 		tr_evs 72 SAt
@@ -1112,7 +1112,7 @@ Rival1Group:
 		tr_evs 72 Spe
 	tr_mon 16, ZUBAT
 		tr_evs 72 Spe
-	tr_mon 15, GEODUDE
+	tr_mon 15, ROGGENROLA
 		tr_evs 72 HP
 	tr_mon 18, CROCONAW @ ORAN_BERRY
 		tr_evs 72 Spe
@@ -1787,28 +1787,28 @@ CamperGroup:
 	end_trainer
 
 	def_trainer TODD2, "Todd"
-	tr_mon 17, GEODUDE
-	tr_mon 17, GEODUDE
+	tr_mon 17, ROGGENROLA
+	tr_mon 17, ROGGENROLA
 	tr_mon 23, PSYDUCK
 	end_trainer
 
 	def_trainer TODD3, "Todd"
-	tr_mon 23, GEODUDE
-	tr_mon 23, GEODUDE
+	tr_mon 23, ROGGENROLA
+	tr_mon 23, ROGGENROLA
 	tr_mon 26, PSYDUCK
 	end_trainer
 
 	def_trainer TODD4, "Todd"
-	tr_mon 30, GRAVELER
-	tr_mon 30, GRAVELER
+	tr_mon 30, BOLDORE
+	tr_mon 30, BOLDORE
 	tr_mon 30, SLUGMA
 	tr_mon 32, PSYDUCK
 	end_trainer
 
 	def_trainer TODD5, "Todd"
-	tr_mon 34, GRAVELER
+	tr_mon 34, BOLDORE
 		tr_moves MUD_SLAP, BULLDOZE, SANDSTORM, ROCK_SLIDE
-	tr_mon 34, GRAVELER
+	tr_mon 34, BOLDORE
 		tr_moves DEFENSE_CURL, ROLLOUT, MAGNITUDE, ROCK_SLIDE
 	tr_mon 36, MAGCARGO
 		tr_moves ROCK_THROW, DEFENSE_CURL, CALM_MIND, FLAMETHROWER
@@ -1850,8 +1850,8 @@ CamperGroup:
 	end_trainer
 
 	def_trainer JOHN, "John"
-	tr_mon 33, GRAVELER
-	tr_mon 36, GRAVELER
+	tr_mon 33, BOLDORE
+	tr_mon 36, BOLDORE
 	tr_mon 40, GOLBAT
 	tr_mon 42, GOLDUCK
 	end_trainer
@@ -2563,31 +2563,31 @@ HikerGroup:
 
 	def_trainer_class HIKER
 	def_trainer ANTHONY1, "Anthony"
-	tr_mon 12, GEODUDE
+	tr_mon 12, ROGGENROLA
 	tr_mon 12, MACHOP
 	end_trainer
 
 	def_trainer ANTHONY2, "Anthony"
-	tr_mon 16, GEODUDE
+	tr_mon 16, ROGGENROLA
 	tr_mon 18, MACHOKE
 	end_trainer
 
 	def_trainer ANTHONY3, "Anthony"
-	tr_mon 25, GRAVELER
-	tr_mon 27, GRAVELER
+	tr_mon 25, BOLDORE
+	tr_mon 27, BOLDORE
 	tr_mon 29, MACHOKE
 	end_trainer
 
 	def_trainer ANTHONY4, "Anthony"
-	tr_mon 30, GRAVELER
-	tr_mon 30, GRAVELER
+	tr_mon 30, BOLDORE
+	tr_mon 30, BOLDORE
 	tr_mon 32, MACHOKE
 	end_trainer
 
 	def_trainer ANTHONY5, "Anthony"
-	tr_mon 34, GRAVELER
+	tr_mon 34, BOLDORE
 		tr_moves MAGNITUDE, MUD_SLAP, SANDSTORM, ROCK_SLIDE
-	tr_mon 36, GOLEM
+	tr_mon 36, GIGALITH
 		tr_moves BULLDOZE, EXPLOSION, DEFENSE_CURL, ROLLOUT
 	tr_mon 34, MACHAMP
 		tr_moves KARATE_CHOP, BULLET_PUNCH, HEADBUTT, DIG
@@ -2612,19 +2612,19 @@ HikerGroup:
 	end_trainer
 
 	def_trainer RUSSELL, "Russell"
-	tr_mon 6, GEODUDE
-	tr_mon 8, GEODUDE
-	tr_mon 10, GEODUDE
+	tr_mon 6, ROGGENROLA
+	tr_mon 8, ROGGENROLA
+	tr_mon 10, ROGGENROLA
 	end_trainer
 
 	def_trainer PHILLIP, "Phillip"
-	tr_mon 23, GEODUDE
-	tr_mon 23, GEODUDE
-	tr_mon 25, GRAVELER
+	tr_mon 23, ROGGENROLA
+	tr_mon 23, ROGGENROLA
+	tr_mon 25, BOLDORE
 	end_trainer
 
 	def_trainer LEONARD, "Leonard"
-	tr_mon 23, GEODUDE
+	tr_mon 23, ROGGENROLA
 	tr_mon 25, MACHOP
 	end_trainer
 
@@ -2635,15 +2635,15 @@ HikerGroup:
 	end_trainer
 
 	def_trainer ERIK, "Erik"
-	tr_mon 35, GRAVELER
+	tr_mon 35, BOLDORE
 	tr_mon 37, DONPHAN
 	tr_mon 37, GLIGAR
 	end_trainer
 
 	def_trainer MICHAEL, "Michael"
-	tr_mon 35, GEODUDE
-	tr_mon 35, GRAVELER
-	tr_mon 35, GOLEM
+	tr_mon 35, ROGGENROLA
+	tr_mon 35, BOLDORE
+	tr_mon 35, GIGALITH
 	end_trainer
 
 	def_trainer TIMOTHY, "Timothy"
@@ -2652,21 +2652,21 @@ HikerGroup:
 	end_trainer
 
 	def_trainer BAILEY, "Bailey"
-	tr_mon 15, GEODUDE
-	tr_mon 15, GEODUDE
-	tr_mon 15, GEODUDE
+	tr_mon 15, ROGGENROLA
+	tr_mon 15, ROGGENROLA
+	tr_mon 15, ROGGENROLA
 	tr_mon 17, LARVITAR
 	end_trainer
 
 	def_trainer TIM, "Eoin" ; MISMATCH
 	tr_mon 50, DIGLETT
-	tr_mon 52, GRAVELER
+	tr_mon 52, BOLDORE
 	tr_mon 54, DUGTRIO
 	end_trainer
 
 	def_trainer NOLAND, "Noland"
 	tr_mon 45, DUGTRIO
-	tr_mon 47, GOLEM
+	tr_mon 47, GIGALITH
 	end_trainer
 
 	def_trainer SIDNEY, "Clarke" ; MISMATCH
@@ -2676,9 +2676,9 @@ HikerGroup:
 
 	def_trainer KENNY, "Kenny"
 	tr_mon 54, SANDSLASH
-	tr_mon 56, GRAVELER
-	tr_mon 58, GOLEM
-	tr_mon 56, GRAVELER
+	tr_mon 56, BOLDORE
+	tr_mon 58, GIGALITH
+	tr_mon 56, BOLDORE
 	end_trainer
 
 	def_trainer JIM, "Jim"
@@ -2690,7 +2690,7 @@ HikerGroup:
 	end_trainer
 
 	def_trainer EDWIN, "Edwin"
-	tr_mon 62, GOLEM
+	tr_mon 62, GIGALITH
 	end_trainer
 
 	def_trainer DEVIN, "Devin"
@@ -2702,7 +2702,7 @@ HikerGroup:
 	def_trainer SEAMUS, "Seamus"
 	tr_mon 56, DUDUNSPARCE
 	tr_mon 53, ONIX
-	tr_mon 54, GOLEM
+	tr_mon 54, GIGALITH
 	tr_mon 53, ONIX
 	end_trainer
 
@@ -2727,11 +2727,11 @@ HikerGroup:
 	def_trainer DENT, "Dent"
 	tr_mon 58, ONIX
 	tr_mon 59, STEELIX
-	tr_mon 59, GOLEM
+	tr_mon 59, GIGALITH
 	end_trainer
 
 	def_trainer BRUCE, "Bruce"
-	tr_mon 57, GRAVELER
+	tr_mon 57, BOLDORE
 	tr_mon 62, RHYDON
 	tr_mon 63, CLEFAIRY
 	end_trainer
@@ -2748,8 +2748,8 @@ HikerGroup:
 	end_trainer
 
 	def_trainer GRADY, "Grady"
-	tr_mon LEVEL_FROM_BADGES + 4, GRAVELER
-	tr_mon LEVEL_FROM_BADGES + 4, GRAVELER
+	tr_mon LEVEL_FROM_BADGES + 4, BOLDORE
+	tr_mon LEVEL_FROM_BADGES + 4, BOLDORE
 	tr_mon LEVEL_FROM_BADGES + 5, SANDSLASH
 	end_trainer
 
@@ -2760,7 +2760,7 @@ HikerGroup:
 	def_trainer DERRICK, "Derrick"
 	tr_mon 53, CLODSIRE
 	tr_mon 53, DUGTRIO
-	tr_mon 55, GOLEM
+	tr_mon 55, GIGALITH
 	end_trainer
 
 	def_trainer FLOYD, "Floyd"
@@ -4577,7 +4577,7 @@ endc
 
 	def_trainer TOBIN, "Tobin"
 	tr_mon 53, MAGMAR
-	tr_mon 54, GOLEM
+	tr_mon 54, GIGALITH
 	tr_mon 55, MACHOKE
 	end_trainer
 
@@ -5403,7 +5403,7 @@ BlackbeltGroup:
 
 	def_trainer ANDER, "Ander"
 	tr_mon 61, PRIMEAPE
-	tr_mon 57, GRAVELER
+	tr_mon 57, BOLDORE
 	tr_mon 62, MACHOKE
 	end_trainer
 
@@ -5575,11 +5575,9 @@ EngineerGroup:
 	end_trainer
 
 	def_trainer GRADEN, "Graden"
-	tr_mon LEVEL_FROM_BADGES + 2, GEODUDE, MALE | ALOLAN_FORM
-		tr_extra GALVANIZE
+	tr_mon LEVEL_FROM_BADGES + 2, ROGGENROLA, MALE
 		tr_moves EXPLOSION
-	tr_mon LEVEL_FROM_BADGES + 2, GEODUDE, MALE | ALOLAN_FORM
-		tr_extra GALVANIZE
+	tr_mon LEVEL_FROM_BADGES + 2, ROGGENROLA, MALE
 		tr_moves EXPLOSION
 	tr_mon LEVEL_FROM_BADGES + 3, ELEKID, MALE
 		tr_extra STATIC
@@ -6142,7 +6140,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer FINCH, "Finch"
-	tr_mon LEVEL_FROM_BADGES + 4, GEODUDE @ AIR_BALLOON, MALE
+	tr_mon LEVEL_FROM_BADGES + 4, ROGGENROLA @ AIR_BALLOON, MALE
 		tr_extra STURDY, DEF_UP_SPE_DOWN
 		tr_dvs 13 All
 		tr_evs 12 HP
@@ -6192,7 +6190,7 @@ CooltrainerMGroup:
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 62, VENOMOTH @ BLACK_SLUDGE
 		tr_evs 192 SAt, 192 Spe
-	tr_mon 62, GOLEM @ ROCKY_HELMET
+	tr_mon 62, GIGALITH @ ROCKY_HELMET
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 62, PINSIR @ KINGS_ROCK
 		tr_evs 192 Atk, 192 Spe
@@ -7216,7 +7214,7 @@ BuckGroup:
 	def_trainer_class BUCK
 	def_trainer 1, "Buck"
 	tr_mon 65, UMBREON
-	tr_mon 64, GOLEM
+	tr_mon 64, GIGALITH
 	tr_mon 62, POLIWRATH
 	tr_mon 63, FORRETRESS
 	tr_mon 62, SKARMORY
@@ -7224,7 +7222,7 @@ BuckGroup:
 	end_trainer
 
 	def_trainer 2, "Buck"
-	tr_mon 75, GOLEM
+	tr_mon 75, GIGALITH
 	tr_mon 72, POLIWRATH
 	tr_mon 73, FORRETRESS
 	tr_mon 72, SKARMORY
@@ -7693,7 +7691,7 @@ YellowGroup:
 		tr_extra TANGLED_FEET, SPE_UP_DEF_DOWN
 		tr_evs 240 Spe
 		tr_moves SWORDS_DANCE, ACROBATICS, RETURN, MUD_SLAP
-	tr_mon LEVEL_FROM_BADGES + 5, "Gravvy", GRAVELER @ EVIOLITE, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 5, "Gravvy", BOLDORE @ EVIOLITE, FEMALE
 		tr_extra STURDY, ATK_UP_SATK_DOWN
 		tr_evs 240 HP
 		tr_moves ROLLOUT, DEFENSE_CURL, EARTHQUAKE, ROCK_BLAST
@@ -7720,7 +7718,7 @@ YellowGroup:
 	tr_mon 74, "Dody", DODRIO @ SHARP_BEAK, FEMALE
 		tr_extra TANGLED_FEET, SPE_UP_DEF_DOWN
 		tr_moves DRILL_PECK, TRI_ATTACK, DOUBLE_TEAM, PURSUIT
-	tr_mon 73, "Gravvy", GOLEM @ MUSCLE_BAND, FEMALE
+	tr_mon 73, "Gravvy", GIGALITH @ MUSCLE_BAND, FEMALE
 		tr_extra STURDY, ATK_UP_SATK_DOWN
 		tr_moves ROLLOUT, DEFENSE_CURL, EARTHQUAKE, STONE_EDGE
 	tr_mon 75, "Chuchu", PIKACHU @ LIGHT_BALL, FEMALE | PIKACHU_FLY_FORM

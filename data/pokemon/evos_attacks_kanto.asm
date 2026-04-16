@@ -34,9 +34,9 @@ EvosAttacksPointersKanto::
 	dw PoliwagEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
-	dw GeodudePlainEvosAttacks
-	dw GravelerPlainEvosAttacks
-	dw GolemPlainEvosAttacks
+	dw RoggenrolaEvosAttacks
+	dw BoldoreEvosAttacks
+	dw GigalithEvosAttacks
 	dw PonytaPlainEvosAttacks
 	dw RapidashPlainEvosAttacks
 	dw SlowpokePlainEvosAttacks
@@ -585,8 +585,8 @@ EvosAttacksPointersKanto::
 	learnset 32, DYNAMICPUNCH
 	learnset 43, EARTH_POWER ; Mind Reader → Poliwhirl move
 
-	evos_attacks GeodudePlain
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, PLAIN_FORM
+	evos_attacks Roggenrola
+	evo_data EVOLVE_LEVEL, 25, BOLDORE, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -604,8 +604,8 @@ EvosAttacksPointersKanto::
 	learnset 40, DOUBLE_EDGE
 	learnset 42, STONE_EDGE
 
-	evos_attacks GravelerPlain
-	evo_data EVOLVE_TRADE, LINKING_CORD, GOLEM, PLAIN_FORM
+	evos_attacks Boldore
+	evo_data EVOLVE_TRADE, LINKING_CORD, GIGALITH, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -623,7 +623,7 @@ EvosAttacksPointersKanto::
 	learnset 50, DOUBLE_EDGE
 	learnset 54, STONE_EDGE
 
-	evos_attacks GolemPlain
+	evos_attacks Gigalith
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move

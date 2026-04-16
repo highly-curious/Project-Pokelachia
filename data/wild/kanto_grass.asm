@@ -32,26 +32,26 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, SANDSLASH
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; ; day
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, SANDSLASH
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; ; nite
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, CLEFAIRY
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; end_grass_wildmons
@@ -60,26 +60,26 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, SANDSLASH
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; ; day
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, SANDSLASH
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; ; nite
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, CLEFAIRY
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; end_grass_wildmons
@@ -88,26 +88,26 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, SANDSLASH
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; ; day
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, SANDSLASH
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; ; nite
 	; wildmon 55, GOLBAT
-	; wildmon 56, GRAVELER
+	; wildmon 56, BOLDORE
 	; wildmon 56, CLEFAIRY
 	; wildmon 56, PARASECT
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 58, CLEFAIRY
 	; wildmon 60, CLEFABLE
 	; end_grass_wildmons
@@ -116,24 +116,24 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 49, MAROWAK
-	; wildmon 50, GRAVELER
-	; wildmon 51, GRAVELER
+	; wildmon 50, BOLDORE
+	; wildmon 51, BOLDORE
 	; wildmon 51, ONIX
 	; wildmon 51, GOLBAT
 	; wildmon 54, MACHOKE
 	; wildmon 51, MAROWAK
 	; ; day
 	; wildmon 49, MAROWAK
-	; wildmon 50, GRAVELER
-	; wildmon 51, GRAVELER
+	; wildmon 50, BOLDORE
+	; wildmon 51, BOLDORE
 	; wildmon 51, ONIX
 	; wildmon 51, GOLBAT
 	; wildmon 54, MACHOKE
 	; wildmon 51, MAROWAK
 	; ; nite
 	; wildmon 49, MAROWAK
-	; wildmon 50, GRAVELER
-	; wildmon 51, GRAVELER
+	; wildmon 50, BOLDORE
+	; wildmon 51, BOLDORE
 	; wildmon 51, ONIX
 	; wildmon 54, HAUNTER
 	; wildmon 51, GOLBAT
@@ -144,27 +144,27 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 50, MAROWAK
-	; wildmon 51, GRAVELER
+	; wildmon 51, BOLDORE
 	; wildmon 52, ONIX
 	; wildmon 52, GOLBAT
 	; wildmon 55, MACHOKE
-	; wildmon 52, GRAVELER
+	; wildmon 52, BOLDORE
 	; wildmon 52, STEELIX
 	; ; day
 	; wildmon 50, MAROWAK
-	; wildmon 51, GRAVELER
+	; wildmon 51, BOLDORE
 	; wildmon 52, ONIX
 	; wildmon 52, GOLBAT
 	; wildmon 55, MACHOKE
-	; wildmon 52, GRAVELER
+	; wildmon 52, BOLDORE
 	; wildmon 52, STEELIX
 	; ; nite
 	; wildmon 50, MAROWAK
-	; wildmon 51, GRAVELER
+	; wildmon 51, BOLDORE
 	; wildmon 52, ONIX
 	; wildmon 52, HAUNTER
 	; wildmon 55, GOLBAT
-	; wildmon 52, GRAVELER
+	; wildmon 52, BOLDORE
 	; wildmon 52, STEELIX
 	; end_grass_wildmons
 
@@ -172,24 +172,24 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 52, MAROWAK
-	; wildmon 54, GRAVELER
+	; wildmon 54, BOLDORE
 	; wildmon 52, GOLBAT
 	; wildmon 54, MACHOKE
-	; wildmon 55, GRAVELER
+	; wildmon 55, BOLDORE
 	; wildmon 55, KANGASKHAN
 	; wildmon 56, KANGASKHAN
 	; ; day
 	; wildmon 52, MAROWAK
-	; wildmon 54, GRAVELER
+	; wildmon 54, BOLDORE
 	; wildmon 52, GOLBAT
 	; wildmon 54, MACHOKE
-	; wildmon 55, GRAVELER
+	; wildmon 55, BOLDORE
 	; wildmon 55, KANGASKHAN
 	; wildmon 56, KANGASKHAN
 	; ; nite
 	; wildmon 52, GOLBAT
-	; wildmon 54, GRAVELER
-	; wildmon 52, GRAVELER
+	; wildmon 54, BOLDORE
+	; wildmon 52, BOLDORE
 	; wildmon 54, MACHOKE
 	; wildmon 55, GOLBAT
 	; wildmon 55, HAUNTER
@@ -199,7 +199,7 @@
 	; def_grass_wildmons VICTORY_ROAD_1F
 	; db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 43, GRAVELER
+	; wildmon 43, BOLDORE
 	; wildmon 42, RHYHORN
 	; wildmon 41, ONIX
 	; wildmon 42, GOLBAT
@@ -207,7 +207,7 @@
 	; wildmon 46, RHYDON
 	; wildmon 45, STEELIX
 	; ; day
-	; wildmon 43, GRAVELER
+	; wildmon 43, BOLDORE
 	; wildmon 42, RHYHORN
 	; wildmon 41, ONIX
 	; wildmon 42, GOLBAT
@@ -216,9 +216,9 @@
 	; wildmon 45, STEELIX
 	; ; nite
 	; wildmon 43, GOLBAT
-	; wildmon 42, GRAVELER
+	; wildmon 42, BOLDORE
 	; wildmon 41, ONIX
-	; wildmon 42, GRAVELER
+	; wildmon 42, BOLDORE
 	; wildmon 44, HAUNTER
 	; wildmon 46, STEELIX
 	; wildmon 45, RHYDON
@@ -227,7 +227,7 @@
 	; def_grass_wildmons VICTORY_ROAD_2F
 	; db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 46, GRAVELER
+	; wildmon 46, BOLDORE
 	; wildmon 45, RHYHORN
 	; wildmon 44, ONIX
 	; wildmon 45, GOLBAT
@@ -235,7 +235,7 @@
 	; wildmon 49, RHYDON
 	; wildmon 48, STEELIX
 	; ; day
-	; wildmon 46, GRAVELER
+	; wildmon 46, BOLDORE
 	; wildmon 45, RHYHORN
 	; wildmon 44, ONIX
 	; wildmon 45, GOLBAT
@@ -244,9 +244,9 @@
 	; wildmon 48, STEELIX
 	; ; nite
 	; wildmon 46, GOLBAT
-	; wildmon 45, GRAVELER
+	; wildmon 45, BOLDORE
 	; wildmon 44, ONIX
-	; wildmon 45, GRAVELER
+	; wildmon 45, BOLDORE
 	; wildmon 47, HAUNTER
 	; wildmon 49, STEELIX
 	; wildmon 48, RHYDON
@@ -255,7 +255,7 @@
 	; def_grass_wildmons VICTORY_ROAD_3F
 	; db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 48, GRAVELER
+	; wildmon 48, BOLDORE
 	; wildmon 47, RHYHORN
 	; wildmon 46, ONIX
 	; wildmon 47, GOLBAT
@@ -263,7 +263,7 @@
 	; wildmon 51, RHYDON
 	; wildmon 50, STEELIX
 	; ; day
-	; wildmon 48, GRAVELER
+	; wildmon 48, BOLDORE
 	; wildmon 47, RHYHORN
 	; wildmon 46, ONIX
 	; wildmon 47, GOLBAT
@@ -272,9 +272,9 @@
 	; wildmon 50, STEELIX
 	; ; nite
 	; wildmon 48, GOLBAT
-	; wildmon 47, GRAVELER
+	; wildmon 47, BOLDORE
 	; wildmon 46, ONIX
-	; wildmon 47, GRAVELER
+	; wildmon 47, BOLDORE
 	; wildmon 48, HAUNTER
 	; wildmon 51, STEELIX
 	; wildmon 50, RHYDON
@@ -1266,7 +1266,7 @@
 	; wildmon 69, PARASECT
 	; wildmon 69, MAGNEZONE
 	; wildmon 70, MACHAMP
-	; wildmon 71, GOLEM
+	; wildmon 71, GIGALITH
 	; wildmon 72, ALAKAZAM
 	; wildmon 71, RAICHU
 	; wildmon 74, DITTO
@@ -1274,7 +1274,7 @@
 	; wildmon 69, PARASECT
 	; wildmon 69, MAGNEZONE
 	; wildmon 70, MACHAMP
-	; wildmon 71, GOLEM
+	; wildmon 71, GIGALITH
 	; wildmon 72, ALAKAZAM
 	; wildmon 71, RAICHU
 	; wildmon 74, DITTO
@@ -1282,7 +1282,7 @@
 	; wildmon 69, PARASECT
 	; wildmon 69, MAGNEZONE
 	; wildmon 70, MACHAMP
-	; wildmon 71, GOLEM
+	; wildmon 71, GIGALITH
 	; wildmon 72, GENGAR
 	; wildmon 71, RAICHU
 	; wildmon 74, DITTO
@@ -1291,24 +1291,24 @@
 	; def_grass_wildmons DIM_CAVE_1F
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 49, GRAVELER, ALOLAN_FORM
+	; wildmon 49, BOLDORE
 	; wildmon 50, GOLBAT
 	; wildmon 50, MAGNETON
 	; wildmon 51, ELECTABUZZ
-	; wildmon 51, GRAVELER, ALOLAN_FORM
+	; wildmon 51, BOLDORE
 	; wildmon 54, DUNSPARCE
 	; wildmon 51, STEELIX
 	; ; day
-	; wildmon 49, GRAVELER, ALOLAN_FORM
+	; wildmon 49, BOLDORE
 	; wildmon 50, GOLBAT
 	; wildmon 50, MAGNETON
 	; wildmon 51, ELECTABUZZ
-	; wildmon 51, GRAVELER, ALOLAN_FORM
+	; wildmon 51, BOLDORE
 	; wildmon 54, DUNSPARCE
 	; wildmon 51, STEELIX
 	; ; nite
 	; wildmon 49, GOLBAT
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 50, MAGNETON
 	; wildmon 51, HAUNTER
 	; wildmon 51, GOLBAT
@@ -1320,23 +1320,23 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 51, GOLBAT
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 52, MAGNETON
 	; wildmon 52, ELECTABUZZ
 	; wildmon 51, DUNSPARCE
-	; wildmon 55, GRAVELER, ALOLAN_FORM
+	; wildmon 55, BOLDORE
 	; wildmon 52, STEELIX
 	; ; day
 	; wildmon 51, GOLBAT
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 52, MAGNETON
 	; wildmon 52, ELECTABUZZ
 	; wildmon 51, DUNSPARCE
-	; wildmon 55, GRAVELER, ALOLAN_FORM
+	; wildmon 55, BOLDORE
 	; wildmon 52, STEELIX
 	; ; nite
 	; wildmon 51, GOLBAT
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 52, GOLBAT
 	; wildmon 52, HAUNTER
 	; wildmon 51, DUNSPARCE
@@ -1347,24 +1347,24 @@
 	; def_grass_wildmons DIM_CAVE_3F
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 52, GRAVELER, ALOLAN_FORM
+	; wildmon 52, BOLDORE
 	; wildmon 54, GOLBAT
 	; wildmon 52, MAGNETON
 	; wildmon 54, ONIX
 	; wildmon 55, DUNSPARCE
-	; wildmon 56, GRAVELER, ALOLAN_FORM
+	; wildmon 56, BOLDORE
 	; wildmon 56, STEELIX
 	; ; day
-	; wildmon 52, GRAVELER, ALOLAN_FORM
+	; wildmon 52, BOLDORE
 	; wildmon 54, GOLBAT
 	; wildmon 52, MAGNETON
 	; wildmon 54, ONIX
 	; wildmon 55, DUNSPARCE
-	; wildmon 56, GRAVELER, ALOLAN_FORM
+	; wildmon 56, BOLDORE
 	; wildmon 56, STEELIX
 	; ; nite
 	; wildmon 52, GOLBAT
-	; wildmon 54, GRAVELER, ALOLAN_FORM
+	; wildmon 54, BOLDORE
 	; wildmon 52, GOLBAT
 	; wildmon 54, DUNSPARCE
 	; wildmon 55, HAUNTER
@@ -1376,24 +1376,24 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 51, GOLBAT
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 52, MAGNETON
 	; wildmon 52, ELECTABUZZ
-	; wildmon 51, GRAVELER, ALOLAN_FORM
+	; wildmon 51, BOLDORE
 	; wildmon 55, ELECTRODE
 	; wildmon 52, DUNSPARCE
 	; ; day
 	; wildmon 51, GOLBAT
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 52, MAGNETON
 	; wildmon 52, ELECTABUZZ
-	; wildmon 51, GRAVELER, ALOLAN_FORM
+	; wildmon 51, BOLDORE
 	; wildmon 55, ELECTRODE
 	; wildmon 52, DUNSPARCE
 	; ; nite
 	; wildmon 51, SNEASEL, HISUIAN_FORM
 	; wildmon 50, GOLBAT
-	; wildmon 52, GRAVELER, ALOLAN_FORM
+	; wildmon 52, BOLDORE
 	; wildmon 52, HAUNTER
 	; wildmon 51, DUNSPARCE
 	; wildmon 55, GOLBAT
@@ -1403,25 +1403,25 @@
 	; def_grass_wildmons DIM_CAVE_5F
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 49, GRAVELER, ALOLAN_FORM
+	; wildmon 49, BOLDORE
 	; wildmon 50, SNEASEL, HISUIAN_FORM
 	; wildmon 50, GOLBAT
 	; wildmon 51, MAGNETON
 	; wildmon 51, ELECTRODE
-	; wildmon 54, GRAVELER, ALOLAN_FORM
+	; wildmon 54, BOLDORE
 	; wildmon 51, DUNSPARCE
 	; ; day
-	; wildmon 49, GRAVELER, ALOLAN_FORM
+	; wildmon 49, BOLDORE
 	; wildmon 50, SNEASEL, HISUIAN_FORM
 	; wildmon 50, GOLBAT
 	; wildmon 51, MAGNETON
 	; wildmon 51, ELECTRODE
-	; wildmon 54, GRAVELER, ALOLAN_FORM
+	; wildmon 54, BOLDORE
 	; wildmon 51, DUNSPARCE
 	; ; nite
 	; wildmon 49, GOLBAT
 	; wildmon 50, SNEASEL, HISUIAN_FORM
-	; wildmon 50, GRAVELER, ALOLAN_FORM
+	; wildmon 50, BOLDORE
 	; wildmon 51, HAUNTER
 	; wildmon 51, GOLBAT
 	; wildmon 54, HAUNTER
@@ -1908,7 +1908,7 @@
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
 	; wildmon 56, KOFFING
-	; wildmon 58, GRAVELER
+	; wildmon 58, BOLDORE
 	; wildmon 57, SLUGMA
 	; wildmon 59, MAGCARGO
 	; wildmon 60, DIGLETT, ALOLAN_FORM
@@ -1916,7 +1916,7 @@
 	; wildmon 62, MAGMAR
 	; ; day
 	; wildmon 56, KOFFING
-	; wildmon 58, GRAVELER
+	; wildmon 58, BOLDORE
 	; wildmon 57, SLUGMA
 	; wildmon 59, MAGCARGO
 	; wildmon 60, DIGLETT, ALOLAN_FORM
@@ -1925,7 +1925,7 @@
 	; ; nite
 	; wildmon 56, KOFFING
 	; wildmon 58, GASTLY
-	; wildmon 57, GRAVELER
+	; wildmon 57, BOLDORE
 	; wildmon 59, SLUGMA
 	; wildmon 60, MAGCARGO
 	; wildmon 61, DIGLETT, ALOLAN_FORM
@@ -1935,7 +1935,7 @@
 	; def_grass_wildmons CINNABAR_VOLCANO_B1F
 	; db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; ; morn
-	; wildmon 58, GRAVELER
+	; wildmon 58, BOLDORE
 	; wildmon 60, WEEZING
 	; wildmon 59, MAGCARGO
 	; wildmon 61, DIGLETT, ALOLAN_FORM
@@ -1943,7 +1943,7 @@
 	; wildmon 63, STEELIX
 	; wildmon 64, STEELIX
 	; ; day
-	; wildmon 58, GRAVELER
+	; wildmon 58, BOLDORE
 	; wildmon 60, WEEZING
 	; wildmon 59, MAGCARGO
 	; wildmon 61, DIGLETT, ALOLAN_FORM
@@ -1952,7 +1952,7 @@
 	; wildmon 64, STEELIX
 	; ; nite
 	; wildmon 58, HAUNTER
-	; wildmon 60, GRAVELER
+	; wildmon 60, BOLDORE
 	; wildmon 59, WEEZING
 	; wildmon 61, MAGCARGO
 	; wildmon 62, DIGLETT, ALOLAN_FORM

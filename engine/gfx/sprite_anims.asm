@@ -14,7 +14,7 @@ DoAnimFrame:
 	dw AnimSeq_NamingScreenCursor ; SPRITE_ANIM_SEQ_NAMING_SCREEN_CURSOR
 	dw AnimSeq_MailCursor         ; SPRITE_ANIM_SEQ_COMPOSE_MAIL_CURSOR
 	dw AnimSeq_GameFreakLogo      ; SPRITE_ANIM_SEQ_GAMEFREAK_LOGO
-	dw AnimSeq_SlotsGolem         ; SPRITE_ANIM_SEQ_SLOTS_GOLEM
+	dw AnimSeq_SlotsGigalith         ; SPRITE_ANIM_SEQ_SLOTS_GIGALITH
 	dw AnimSeq_SlotsChansey       ; SPRITE_ANIM_SEQ_SLOTS_CHANSEY
 	dw AnimSeq_SlotsChanseyEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
 	;dw AnimSeq_MemoryGameCursor   ; SPRITE_ANIM_SEQ_MEMORY_GAME_CURSOR
@@ -120,8 +120,8 @@ AnimSeq_MailCursor:
 AnimSeq_GameFreakLogo:
 	farjp GameFreakLogoJumper
 
-AnimSeq_SlotsGolem:
-	farjp SlotMachine_AnimateGolem
+AnimSeq_SlotsGigalith:
+	farjp SlotMachine_AnimateGigalith
 
 AnimSeq_SlotsChansey:
 	farcall Slots_AnimateChansey

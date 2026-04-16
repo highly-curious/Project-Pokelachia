@@ -58,6 +58,9 @@ WeepinbellFrames: INCLUDE "gfx/pokemon/weepinbell/frames.asm"
 VictreebelFrames: INCLUDE "gfx/pokemon/victreebel/frames.asm"
 TentacoolFrames:  INCLUDE "gfx/pokemon/tentacool/frames.asm"
 TentacruelFrames: INCLUDE "gfx/pokemon/tentacruel/frames.asm"
+RoggenrolaFrames: INCLUDE "gfx/pokemon/roggenrola/frames.asm"
+BoldoreFrames:    INCLUDE "gfx/pokemon/boldore/frames.asm"
+GigalithFrames:   INCLUDE "gfx/pokemon/gigalith/frames.asm"
 MagnemiteFrames:  INCLUDE "gfx/pokemon/magnemite/frames.asm"
 MagnetonFrames:   INCLUDE "gfx/pokemon/magneton/frames.asm"
 DoduoFrames:      INCLUDE "gfx/pokemon/doduo/frames.asm"
@@ -184,15 +187,6 @@ MeowthGalarianFrames: INCLUDE "gfx/pokemon/meowth_galarian/frames.asm"
 
 PersianPlainFrames:  INCLUDE "gfx/pokemon/persian_plain/frames.asm"
 PersianAlolanFrames: INCLUDE "gfx/pokemon/persian_alolan/frames.asm"
-
-GeodudePlainFrames:  INCLUDE "gfx/pokemon/geodude_plain/frames.asm"
-GeodudeAlolanFrames: INCLUDE "gfx/pokemon/geodude_alolan/frames.asm"
-
-GravelerPlainFrames:  INCLUDE "gfx/pokemon/graveler_plain/frames.asm"
-GravelerAlolanFrames: INCLUDE "gfx/pokemon/graveler_alolan/frames.asm"
-
-GolemPlainFrames:  INCLUDE "gfx/pokemon/golem_plain/frames.asm"
-GolemAlolanFrames: INCLUDE "gfx/pokemon/golem_alolan/frames.asm"
 
 GrimerPlainFrames:  INCLUDE "gfx/pokemon/grimer_plain/frames.asm"
 GrimerAlolanFrames: INCLUDE "gfx/pokemon/grimer_alolan/frames.asm"

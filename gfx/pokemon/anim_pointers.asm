@@ -73,9 +73,9 @@ AnimationPointers:
 	dw VictreebelAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation
-	dw GeodudePlainAnimation
-	dw GravelerPlainAnimation
-	dw GolemPlainAnimation
+	dw RoggenrolaAnimation
+	dw BoldoreAnimation
+	dw GigalithAnimation
 	dw PonytaPlainAnimation
 	dw RapidashPlainAnimation
 	dw SlowpokePlainAnimation
@@ -374,9 +374,6 @@ AnimationPointers:
 	dw DugtrioAlolanAnimation
 	dw MeowthAlolanAnimation
 	dw PersianAlolanAnimation
-	dw GeodudeAlolanAnimation
-	dw GravelerAlolanAnimation
-	dw GolemAlolanAnimation
 	dw GrimerAlolanAnimation
 	dw MukAlolanAnimation
 	dw MarowakAlolanAnimation

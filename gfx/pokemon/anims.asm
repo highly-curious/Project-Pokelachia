@@ -56,6 +56,9 @@ WeepinbellAnimation: INCLUDE "gfx/pokemon/weepinbell/anim.asm"
 VictreebelAnimation: INCLUDE "gfx/pokemon/victreebel/anim.asm"
 TentacoolAnimation:  INCLUDE "gfx/pokemon/tentacool/anim.asm"
 TentacruelAnimation: INCLUDE "gfx/pokemon/tentacruel/anim.asm"
+RoggenrolaAnimation: INCLUDE "gfx/pokemon/roggenrola/anim.asm"
+BoldoreAnimation:    INCLUDE "gfx/pokemon/boldore/anim.asm"
+GigalithAnimation:   INCLUDE "gfx/pokemon/gigalith/anim.asm"
 MagnemiteAnimation:  INCLUDE "gfx/pokemon/magnemite/anim.asm"
 MagnetonAnimation:   INCLUDE "gfx/pokemon/magneton/anim.asm"
 DoduoAnimation:      INCLUDE "gfx/pokemon/doduo/anim.asm"
@@ -351,15 +354,6 @@ MeowthGalarianAnimation: INCLUDE "gfx/pokemon/meowth_galarian/anim.asm"
 
 PersianPlainAnimation:  INCLUDE "gfx/pokemon/persian_plain/anim.asm"
 PersianAlolanAnimation: INCLUDE "gfx/pokemon/persian_alolan/anim.asm"
-
-GeodudePlainAnimation:  INCLUDE "gfx/pokemon/geodude_plain/anim.asm"
-GeodudeAlolanAnimation: INCLUDE "gfx/pokemon/geodude_alolan/anim.asm"
-
-GravelerPlainAnimation:  INCLUDE "gfx/pokemon/graveler_plain/anim.asm"
-GravelerAlolanAnimation: INCLUDE "gfx/pokemon/graveler_alolan/anim.asm"
-
-GolemPlainAnimation:  INCLUDE "gfx/pokemon/golem_plain/anim.asm"
-GolemAlolanAnimation: INCLUDE "gfx/pokemon/golem_alolan/anim.asm"
 
 GrimerPlainAnimation:  INCLUDE "gfx/pokemon/grimer_plain/anim.asm"
 GrimerAlolanAnimation: INCLUDE "gfx/pokemon/grimer_alolan/anim.asm"

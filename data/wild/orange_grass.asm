@@ -116,7 +116,7 @@
 ; 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 ; 	; morn
 ; 	wildmon LEVEL_FROM_BADGES - 1, RHYHORN
-; 	wildmon LEVEL_FROM_BADGES - 1, GRAVELER
+; 	wildmon LEVEL_FROM_BADGES - 1, BOLDORE
 ; 	wildmon LEVEL_FROM_BADGES + 1, MEOWTH, GALARIAN_FORM
 ; 	wildmon LEVEL_FROM_BADGES + 3, GOLBAT
 ; 	wildmon LEVEL_FROM_BADGES + 2, GOLBAT
@@ -124,7 +124,7 @@
 ; 	wildmon LEVEL_FROM_BADGES + 2, PERRSERKER
 ; 	; day
 ; 	wildmon LEVEL_FROM_BADGES - 1, RHYHORN
-; 	wildmon LEVEL_FROM_BADGES - 1, GRAVELER
+; 	wildmon LEVEL_FROM_BADGES - 1, BOLDORE
 ; 	wildmon LEVEL_FROM_BADGES + 1, MEOWTH, GALARIAN_FORM
 ; 	wildmon LEVEL_FROM_BADGES + 3, GOLBAT
 ; 	wildmon LEVEL_FROM_BADGES + 2, GOLBAT
@@ -132,7 +132,7 @@
 ; 	wildmon LEVEL_FROM_BADGES + 2, PERRSERKER
 ; 	; nite
 ; 	wildmon LEVEL_FROM_BADGES + 2, GOLBAT
-; 	wildmon LEVEL_FROM_BADGES - 1, GRAVELER
+; 	wildmon LEVEL_FROM_BADGES - 1, BOLDORE
 ; 	wildmon LEVEL_FROM_BADGES + 1, MEOWTH, GALARIAN_FORM
 ; 	wildmon LEVEL_FROM_BADGES - 1, RHYHORN
 ; 	wildmon LEVEL_FROM_BADGES + 0, RHYHORN
