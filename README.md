@@ -1,5 +1,4 @@
-# Pokémon Project Pokélachia
-(working title)
+# Pokémon Echoes
 
 This project is a custom Pokémon game based on [Polished Crystal](https://github.com/Rangi42/polishedcrystal/) which is based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal). Both projects are incredible, and their efforts have paved the way for new developers like our team to be able to begin our journey of Pokédevelopment. 
 
