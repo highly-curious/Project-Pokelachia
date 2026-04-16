@@ -567,10 +567,10 @@ RhydonMini::     INCBIN "gfx/minis/rhydon.2bpp.lz"
 RhydonMiniMask:: INCBIN "gfx/minis/rhydon_mask.1bpp.lz"
 RhydonIcon::     INCBIN "gfx/icons/rhydon.2bpp.lz"
 
-SECTION "Chansey Mini Icon", ROMX
-ChanseyMini::     INCBIN "gfx/minis/chansey.2bpp.lz"
-ChanseyMiniMask:: INCBIN "gfx/minis/chansey_mask.1bpp.lz"
-ChanseyIcon::     INCBIN "gfx/icons/chansey.2bpp.lz"
+SECTION "Fluttrfawn Mini Icon", ROMX
+FluttrfawnMini::     INCBIN "gfx/minis/fluttrfawn.2bpp.lz"
+FluttrfawnMiniMask:: INCBIN "gfx/minis/fluttrfawn_mask.1bpp.lz"
+FluttrfawnIcon::     INCBIN "gfx/icons/fluttrfawn.2bpp.lz"
 
 SECTION "Tangela Mini Icon", ROMX
 TangelaMini::     INCBIN "gfx/minis/tangela.2bpp.lz"
@@ -1212,10 +1212,10 @@ MiltankMini::     INCBIN "gfx/minis/miltank.2bpp.lz"
 MiltankMiniMask:: INCBIN "gfx/minis/miltank_mask.1bpp.lz"
 MiltankIcon::     INCBIN "gfx/icons/miltank.2bpp.lz"
 
-SECTION "Blissey Mini Icon", ROMX
-BlisseyMini::     INCBIN "gfx/minis/blissey.2bpp.lz"
-BlisseyMiniMask:: INCBIN "gfx/minis/blissey_mask.1bpp.lz"
-BlisseyIcon::     INCBIN "gfx/icons/blissey.2bpp.lz"
+SECTION "Etheredeer Mini Icon", ROMX
+EtheredeerMini::     INCBIN "gfx/minis/etheredeer.2bpp.lz"
+EtheredeerMiniMask:: INCBIN "gfx/minis/etheredeer_mask.1bpp.lz"
+EtheredeerIcon::     INCBIN "gfx/icons/etheredeer.2bpp.lz"
 
 SECTION "Raikou Mini Icon", ROMX
 RaikouMini::     INCBIN "gfx/minis/raikou.2bpp.lz"
@@ -1302,10 +1302,10 @@ MimeJrMini::     INCBIN "gfx/minis/mime_jr_.2bpp.lz"
 MimeJrMiniMask:: INCBIN "gfx/minis/mime_jr__mask.1bpp.lz"
 MimeJrIcon::     INCBIN "gfx/icons/mime_jr_.2bpp.lz"
 
-SECTION "Happiny Mini Icon", ROMX
-HappinyMini::     INCBIN "gfx/minis/happiny.2bpp.lz"
-HappinyMiniMask:: INCBIN "gfx/minis/happiny_mask.1bpp.lz"
-HappinyIcon::     INCBIN "gfx/icons/happiny.2bpp.lz"
+SECTION "Nofawts Mini Icon", ROMX
+NofawtsMini::     INCBIN "gfx/minis/nofawts.2bpp.lz"
+NofawtsMiniMask:: INCBIN "gfx/minis/nofawts_mask.1bpp.lz"
+NofawtsIcon::     INCBIN "gfx/icons/nofawts.2bpp.lz"
 
 SECTION "Munchlax Mini Icon", ROMX
 MunchlaxMini::     INCBIN "gfx/minis/munchlax.2bpp.lz"

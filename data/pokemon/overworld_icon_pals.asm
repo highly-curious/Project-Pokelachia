@@ -245,7 +245,7 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
 	iconpal PINK, AZURE ; MILTANK
-	iconpal PINK, RED ; BLISSEY
+	iconpal PINK, RED ; ETHEREDEER
 	iconpal BROWN, RED ; RAIKOU
 	iconpal RED, BROWN ; ENTEI
 	iconpal BLUE, WHITE ; SUICUNE
@@ -264,7 +264,7 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
 	iconpal BLUE, GREEN ; MIME_JR_
-	iconpal RED, PINK ; HAPPINY
+	iconpal RED, PINK ; NOFAWTS
 	iconpal TEAL, BLUE ; MUNCHLAX
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE

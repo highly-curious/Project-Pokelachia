@@ -34,7 +34,7 @@
 	wildmon 2, TEDDIURSA
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, ZUBAT
+	wildmon 3, ROGGENROLA
 	wildmon 4, TEDDIURSA
 	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA
@@ -42,15 +42,15 @@
 	wildmon 2, TEDDIURSA
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, ZUBAT
+	wildmon 3, ROGGENROLA
 	wildmon 4, TEDDIURSA
-	wildmon 4, ZUBAT
+	wildmon 4, ROGGENROLA
 	wildmon 5, TEDDIURSA
 	; nite
 	wildmon 2, TEDDIURSA
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, ZUBAT
+	wildmon 3, ROGGENROLA
 	wildmon 4, TEDDIURSA
 	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA
@@ -115,17 +115,17 @@
 	wildmon 2, CATERPIE
 	wildmon 2, CRIBNAL
 	wildmon 3, CATERPIE
-	wildmon 3, STANTLER
-	wildmon 4, STANTLER
-	wildmon 5, CUPICO
+	wildmon 3, COTTONEE
+	wildmon 4, CRIBNAL
+	wildmon 5, NOFAWTS
 	wildmon 6, STANTLER
 	; day
 	wildmon 2, WEEDLE
 	wildmon 2, CRIBNAL
-	wildmon 3, WEEDLE
+	wildmon 3, NOFAWTS
 	wildmon 3, STANTLER
-	wildmon 4, LEDYBA
-	wildmon 5, CUPICO
+	wildmon 4, COTTONEE
+	wildmon 5, NOFAWTS
 	wildmon 6, TIDIPOSS
 	; nite
 	wildmon 3, HOOTHOOT

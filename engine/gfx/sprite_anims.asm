@@ -15,8 +15,8 @@ DoAnimFrame:
 	dw AnimSeq_MailCursor         ; SPRITE_ANIM_SEQ_COMPOSE_MAIL_CURSOR
 	dw AnimSeq_GameFreakLogo      ; SPRITE_ANIM_SEQ_GAMEFREAK_LOGO
 	dw AnimSeq_SlotsGigalith         ; SPRITE_ANIM_SEQ_SLOTS_GIGALITH
-	dw AnimSeq_SlotsChansey       ; SPRITE_ANIM_SEQ_SLOTS_CHANSEY
-	dw AnimSeq_SlotsChanseyEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
+	dw AnimSeq_SlotsFluttrfawn       ; SPRITE_ANIM_SEQ_SLOTS_CHANSEY
+	dw AnimSeq_SlotsFluttrfawnEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
 	;dw AnimSeq_MemoryGameCursor   ; SPRITE_ANIM_SEQ_MEMORY_GAME_CURSOR
 	dw AnimSeq_PokegearArrow      ; SPRITE_ANIM_SEQ_POKEGEAR_MODE_ARROW
 	dw AnimSeq_TradePokeBall      ; SPRITE_ANIM_SEQ_TRADE_POKE_BALL
@@ -123,8 +123,8 @@ AnimSeq_GameFreakLogo:
 AnimSeq_SlotsGigalith:
 	farjp SlotMachine_AnimateGigalith
 
-AnimSeq_SlotsChansey:
-	farcall Slots_AnimateChansey
+AnimSeq_SlotsFluttrfawn:
+	farcall Slots_AnimateFluttrfawn
 	ld hl, wSlotsDelay
 	ld a, [hl]
 	cp 2
@@ -133,7 +133,7 @@ AnimSeq_SlotsChansey:
 	ld a, SPRITE_ANIM_FRAMESET_SLOTS_CHANSEY_2
 	jmp _ReinitSpriteAnimFrame
 
-AnimSeq_SlotsChanseyEgg:
+AnimSeq_SlotsFluttrfawnEgg:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

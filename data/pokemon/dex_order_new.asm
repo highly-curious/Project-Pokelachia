@@ -263,9 +263,9 @@ NewPokedexOrder:
 	dp PORYGON
 	dp PORYGON2
 	dp PORYGON_Z
-	dp HAPPINY
+	dp NOFAWTS
 	dp CHANSEY
-	dp BLISSEY
+	dp ETHEREDEER
 	dp LAPRAS
 	dp OMANYTE
 	dp OMASTAR

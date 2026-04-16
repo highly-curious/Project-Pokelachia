@@ -322,7 +322,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question2MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Blissey@"
+	db "Etheredeer@"
 	db "Qwilfish@"
 	db "Slowking@"
 	db "Venomoth@"

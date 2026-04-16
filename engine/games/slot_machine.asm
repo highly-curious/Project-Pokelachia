@@ -692,8 +692,8 @@ ReelActionJumptable:
 	dw ReelAction_InitGigalith                   ; 12
 	dw ReelAction_WaitGigalith                   ; 13
 	dw ReelAction_EndGigalith                    ; 14
-	dw Slots_InitChansey                      ; 15
-	dw ReelAction_WaitChansey                 ; 16
+	dw Slots_InitFluttrfawn                      ; 15
+	dw ReelAction_WaitFluttrfawn                 ; 16
 	dw ReelAction_WaitEgg                     ; 17
 	dw ReelAction_DropReel                    ; 18
 
@@ -933,7 +933,7 @@ ReelAction_EndGigalith:
 	ld [hl], $0
 	ret
 
-Slots_InitChansey:
+Slots_InitFluttrfawn:
 	call Slots_CheckMatchedAllThreeReels
 	ret c
 	ld a, SFX_STOP_SLOT
@@ -954,7 +954,7 @@ Slots_InitChansey:
 	ld [wSlotsDelay], a
 	ret
 
-ReelAction_WaitChansey:
+ReelAction_WaitFluttrfawn:
 	ld a, [wSlotsDelay]
 	and a
 	ret z
@@ -1748,7 +1748,7 @@ SlotMachine_AnimateGigalith:
 	ldh [hSCY], a
 	ret
 
-Slots_AnimateChansey:
+Slots_AnimateFluttrfawn:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

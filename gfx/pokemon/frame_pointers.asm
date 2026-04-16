@@ -112,7 +112,7 @@ FramesPointers:
 	dw WeezingPlainFrames
 	dw RhyhornFrames
 	dw RhydonFrames
-	dw ChanseyFrames
+	dw FluttrfawnFrames
 	dw TangelaFrames
 	dw KangaskhanFrames
 	dw HorseaFrames
@@ -241,7 +241,7 @@ FramesPointers:
 	dw ElekidFrames
 	dw MagbyFrames
 	dw MiltankFrames
-	dw BlisseyFrames
+	dw EtheredeerFrames
 	dw RaikouFrames
 	dw EnteiFrames
 	dw SuicuneFrames
@@ -260,7 +260,7 @@ FramesPointers:
 	dw HonchkrowFrames
 	dw BonslyFrames
 	dw MimeJrFrames
-	dw HappinyFrames
+	dw NofawtsFrames
 	dw MunchlaxFrames
 	dw MantykeFrames
 	dw WeavileFrames

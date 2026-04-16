@@ -135,7 +135,7 @@ There's only room for 255 moves, including Struggle. I wanted to fit in as many 
 * "**Healing Light**" = Morning Sun + Moonlight + Synthesis
 * "**Fresh Snack**" = Softboiled + Milk Drink
 
-Their animations in battle still depend on the Pokémon using them, e.g. Chansey's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for Gluttle, and of Harden for Roggenrola.
+Their animations in battle still depend on the Pokémon using them, e.g. Fluttrfawn's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for Gluttle, and of Harden for Roggenrola.
 
 [Here's a table](https://cdn.discordapp.com/attachments/332698009060114434/754778965410971729/moves.png) of all the moves available in the 3.0.0 beta.
 
@@ -180,7 +180,7 @@ Their animations in battle still depend on the Pokémon using them, e.g. Chansey
 * Dubious Disc is in Celadon City.
 * King's Rock is in Slowpoke Well, or held by some wild Slowpoke family and Poliwhirl/Poliwrath/Politoed.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Magnemite family and Steelix.
-* Hard Stone is given by Arthur on Route 36 on Thursdays, found by breaking rocks via Brick Break (Rock Smash in faithful) or held by some wild Happiny, Kantonian Corsola and Onix.
+* Hard Stone is given by Arthur on Route 36 on Thursdays, found by breaking rocks via Brick Break (Rock Smash in faithful) or held by some wild Nofawts, Kantonian Corsola and Onix.
 * Dragon Scale is in Mt. Mortar, or held by some wild Horsea family and Dratini family.
 * Dusk Stones are in Cerulean Cave, Dark Cave, Dim Cave, Mt. Moon, Quiet Cave, Scary Cave or Union Cave. Bill's grandpa also gives you one, and you can win one in Bug-Catching Contest in the evening.
 * Shiny Stones are in Cherrygrove Bay, Mt. Moon or National Park. Bill's grandpa also gives you one, and you can win one in Bug-Catching Contest in the morning.

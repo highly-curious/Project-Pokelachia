@@ -14,8 +14,8 @@ SpriteAnimFrameData:
 	dw .Frameset_TextEntryCursorBlueBig
 	dw .Frameset_GameFreakLogo
 	dw .Frameset_SlotsGigalith
-	dw .Frameset_SlotsChansey
-	dw .Frameset_SlotsChansey2
+	dw .Frameset_SlotsFluttrfawn
+	dw .Frameset_SlotsFluttrfawn2
 	dw .Frameset_SlotsEgg
 	dw .Frameset_RedWalk
 	dw .Frameset_StillCursor
@@ -166,14 +166,14 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_GIGALITH_2,  7, B_OAM_XFLIP
 	oamrestart
 
-.Frameset_SlotsChansey:
+.Frameset_SlotsFluttrfawn:
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_1,  7
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_2,  7
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_1,  7
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_3,  7
 	oamrestart
 
-.Frameset_SlotsChansey2:
+.Frameset_SlotsFluttrfawn2:
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_1,  7
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_4,  7
 	oamframe SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_5,  7

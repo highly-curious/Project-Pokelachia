@@ -36,7 +36,7 @@ The total number of unique Pokémon has risen to 390 (including Red Gyarados, Sp
 
 _Availability:_
 - Reincluded post-3.0.0-beta: Cribnal, Cuardhart, Aipom, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, Lickitung, Stantler, Shuckle, Cleffa, Igglybuff, Smoochum, Deliberd.
-- Added in v3.1.1: Ambipom, Lickilicky, Wyrdeer, Farigiraf, Paldean Wooper, Clodsire, Annihilape, Hisuian Growlithe, Hisuian Arcanine, Galarian Corsola, Cursola, Dudunsparce, Bonsley, Hisuian Voltorb, Hisuian Electrode, Galarian Farfetch'd, Sirfetch'd, Happiny, Kleavor, Mantyke, Galarian Meowth, Perrserker, Mime Jr., Galarian Mr. Mime, Mr. Rime, Hisuian Qwilfish, Overqwil, Hisuian Sneasel, Sneasler, Paldean Tauros (Plain, Fire, and Water), Ursaluna (Plain), Wynaut, Hisuian Typhlosian, Galarian Articuno, Galarian Zapdos, and Galarian Moltres. (The three legendary birds are still unavailable.)
+- Added in v3.1.1: Ambipom, Lickilicky, Wyrdeer, Farigiraf, Paldean Wooper, Clodsire, Annihilape, Hisuian Growlithe, Hisuian Arcanine, Galarian Corsola, Cursola, Dudunsparce, Bonsley, Hisuian Voltorb, Hisuian Electrode, Galarian Farfetch'd, Sirfetch'd, Nofawts, Kleavor, Mantyke, Galarian Meowth, Perrserker, Mime Jr., Galarian Mr. Mime, Mr. Rime, Hisuian Qwilfish, Overqwil, Hisuian Sneasel, Sneasler, Paldean Tauros (Plain, Fire, and Water), Ursaluna (Plain), Wynaut, Hisuian Typhlosian, Galarian Articuno, Galarian Zapdos, and Galarian Moltres. (The three legendary birds are still unavailable.)
 - All Magikarp Jump forms are now included.
 
 _Evolution Methods:_
