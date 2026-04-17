@@ -69,9 +69,9 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; ABRA
 	iconpal BROWN, RED ; KADABRA
 	iconpal BROWN, RED ; ALAKAZAM
-	iconpal GRAY, GREEN ; MACHOP
-	iconpal GRAY, GREEN ; MACHOKE
-	iconpal GRAY, GREEN ; MACHAMP
+	iconpal GRAY, GREEN ; TIMBURR
+	iconpal GRAY, GREEN ; GURDURR
+	iconpal GRAY, GREEN ; CONKELDURR
 	iconpal GREEN, BROWN ; BELLSPROUT
 	iconpal GREEN, BROWN ; WEEPINBELL
 	iconpal GREEN, BROWN ; VICTREEBEL

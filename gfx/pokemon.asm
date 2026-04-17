@@ -208,17 +208,17 @@ SECTION "Alakazam Pics", ROMX
 AlakazamFrontpic: INCBIN "gfx/pokemon/alakazam/front.animated.2bpp.lz"
 AlakazamBackpic:  INCBIN "gfx/pokemon/alakazam/back.2bpp.lz"
 
-SECTION "Machop Pics", ROMX
-MachopFrontpic: INCBIN "gfx/pokemon/machop/front.animated.2bpp.lz"
-MachopBackpic:  INCBIN "gfx/pokemon/machop/back.2bpp.lz"
+SECTION "Timburr Pics", ROMX
+TimburrFrontpic: INCBIN "gfx/pokemon/timburr/front.animated.2bpp.lz"
+TimburrBackpic:  INCBIN "gfx/pokemon/timburr/back.2bpp.lz"
 
-SECTION "Machoke Pics", ROMX
-MachokeFrontpic: INCBIN "gfx/pokemon/machoke/front.animated.2bpp.lz"
-MachokeBackpic:  INCBIN "gfx/pokemon/machoke/back.2bpp.lz"
+SECTION "Gurdurr Pics", ROMX
+GurdurrFrontpic: INCBIN "gfx/pokemon/gurdurr/front.animated.2bpp.lz"
+GurdurrBackpic:  INCBIN "gfx/pokemon/gurdurr/back.2bpp.lz"
 
-SECTION "Machamp Pics", ROMX
-MachampFrontpic: INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
-MachampBackpic:  INCBIN "gfx/pokemon/machamp/back.2bpp.lz"
+SECTION "Conkeldurr Pics", ROMX
+ConkeldurrFrontpic: INCBIN "gfx/pokemon/conkeldurr/front.animated.2bpp.lz"
+ConkeldurrBackpic:  INCBIN "gfx/pokemon/conkeldurr/back.2bpp.lz"
 
 SECTION "Bellsprout Pics", ROMX
 BellsproutFrontpic: INCBIN "gfx/pokemon/bellsprout/front.animated.2bpp.lz"

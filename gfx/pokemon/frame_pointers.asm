@@ -65,9 +65,9 @@ FramesPointers:
 	dw AbraFrames
 	dw KadabraFrames
 	dw AlakazamFrames
-	dw MachopFrames
-	dw MachokeFrames
-	dw MachampFrames
+	dw TimburrFrames
+	dw GurdurrFrames
+	dw ConkeldurrFrames
 	dw BellsproutFrames
 	dw WeepinbellFrames
 	dw VictreebelFrames

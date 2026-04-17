@@ -332,20 +332,20 @@ AlakazamMini::     INCBIN "gfx/minis/alakazam.2bpp.lz"
 AlakazamMiniMask:: INCBIN "gfx/minis/alakazam_mask.1bpp.lz"
 AlakazamIcon::     INCBIN "gfx/icons/alakazam.2bpp.lz"
 
-SECTION "Machop Mini Icon", ROMX
-MachopMini::     INCBIN "gfx/minis/machop.2bpp.lz"
-MachopMiniMask:: INCBIN "gfx/minis/machop_mask.1bpp.lz"
-MachopIcon::     INCBIN "gfx/icons/machop.2bpp.lz"
+SECTION "Timburr Mini Icon", ROMX
+TimburrMini::     INCBIN "gfx/minis/timburr.2bpp.lz"
+TimburrMiniMask:: INCBIN "gfx/minis/timburr_mask.1bpp.lz"
+TimburrIcon::     INCBIN "gfx/icons/timburr.2bpp.lz"
 
-SECTION "Machoke Mini Icon", ROMX
-MachokeMini::     INCBIN "gfx/minis/machoke.2bpp.lz"
-MachokeMiniMask:: INCBIN "gfx/minis/machoke_mask.1bpp.lz"
-MachokeIcon::     INCBIN "gfx/icons/machoke.2bpp.lz"
+SECTION "Gurdurr Mini Icon", ROMX
+GurdurrMini::     INCBIN "gfx/minis/gurdurr.2bpp.lz"
+GurdurrMiniMask:: INCBIN "gfx/minis/gurdurr_mask.1bpp.lz"
+GurdurrIcon::     INCBIN "gfx/icons/gurdurr.2bpp.lz"
 
-SECTION "Machamp Mini Icon", ROMX
-MachampMini::     INCBIN "gfx/minis/machamp.2bpp.lz"
-MachampMiniMask:: INCBIN "gfx/minis/machamp_mask.1bpp.lz"
-MachampIcon::     INCBIN "gfx/icons/machamp.2bpp.lz"
+SECTION "Conkeldurr Mini Icon", ROMX
+ConkeldurrMini::     INCBIN "gfx/minis/conkeldurr.2bpp.lz"
+ConkeldurrMiniMask:: INCBIN "gfx/minis/conkeldurr_mask.1bpp.lz"
+ConkeldurrIcon::     INCBIN "gfx/icons/conkeldurr.2bpp.lz"
 
 SECTION "Bellsprout Mini Icon", ROMX
 BellsproutMini::     INCBIN "gfx/minis/bellsprout.2bpp.lz"
