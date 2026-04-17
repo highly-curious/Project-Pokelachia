@@ -346,8 +346,13 @@ TentacoolEggSpeciesMoves:
 	db KNOCK_OFF
 	db $ff
 
-RoggenrolaEggSpeciesMoves:
-	dp ROGGENROLA, PLAIN_FORM
+GeodudePlainEggSpeciesMoves:
+	dp GEODUDE, PLAIN_FORM
+	db ROCK_SLIDE
+	db $ff
+
+GeodudeAlolanEggSpeciesMoves:
+	dp GEODUDE, ALOLAN_FORM
 	db ROCK_SLIDE
 	db $ff
 

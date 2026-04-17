@@ -461,7 +461,7 @@ Slots_StopReel3:
 	cp 120
 	jr nc, .slow_advance
 	cp 60
-	jr nc, .gigalith
+	jr nc, .golem
 	ld a, $15
 	ret
 
@@ -471,7 +471,7 @@ Slots_StopReel3:
 	jr nc, .stop
 	cp 80
 	jr nc, .slow_advance
-.gigalith
+.golem
 	ld a, $12
 	ret
 
@@ -689,11 +689,11 @@ ReelActionJumptable:
 	dw ReelAction_WaitDropReel                ; 0f
 	dw ReelAction_StartSlowAdvanceReel3       ; 10
 	dw ReelAction_WaitSlowAdvanceReel3        ; 11
-	dw ReelAction_InitGigalith                   ; 12
-	dw ReelAction_WaitGigalith                   ; 13
-	dw ReelAction_EndGigalith                    ; 14
-	dw Slots_InitFluttrfawn                      ; 15
-	dw ReelAction_WaitFluttrfawn                 ; 16
+	dw ReelAction_InitGolem                   ; 12
+	dw ReelAction_WaitGolem                   ; 13
+	dw ReelAction_EndGolem                    ; 14
+	dw Slots_InitChansey                      ; 15
+	dw ReelAction_WaitChansey                 ; 16
 	dw ReelAction_WaitEgg                     ; 17
 	dw ReelAction_DropReel                    ; 18
 
@@ -878,7 +878,7 @@ ReelAction_FastSpinReel2UntilLinedUp7s:
 	ret z
 	jmp Slots_StopReel
 
-ReelAction_InitGigalith:
+ReelAction_InitGolem:
 	call Slots_CheckMatchedAllThreeReels
 	ret c
 	ld a, SFX_STOP_SLOT
@@ -890,11 +890,11 @@ ReelAction_InitGigalith:
 	ld hl, wReel1SpinRate - wReel1
 	add hl, bc
 	ld [hl], $0
-	call Slots_GetNumberOfGigaliths
+	call Slots_GetNumberOfGolems
 	push bc
 	push af
 	depixel 12, 13
-	ld a, SPRITE_ANIM_INDEX_SLOTS_GIGALITH
+	ld a, SPRITE_ANIM_INDEX_SLOTS_GOLEM
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR3
 	add hl, bc
@@ -903,7 +903,7 @@ ReelAction_InitGigalith:
 	pop bc
 	xor a
 	ld [wSlotsDelay], a
-ReelAction_WaitGigalith:
+ReelAction_WaitGolem:
 	ld a, [wSlotsDelay]
 	dec a
 	jr z, .one
@@ -922,7 +922,7 @@ ReelAction_WaitGigalith:
 	ld [hl], $8
 	ret
 
-ReelAction_EndGigalith:
+ReelAction_EndGolem:
 	xor a
 	ld [wSlotsDelay], a
 	ld hl, wReel1ReelAction - wReel1
@@ -933,7 +933,7 @@ ReelAction_EndGigalith:
 	ld [hl], $0
 	ret
 
-Slots_InitFluttrfawn:
+Slots_InitChansey:
 	call Slots_CheckMatchedAllThreeReels
 	ret c
 	ld a, SFX_STOP_SLOT
@@ -954,7 +954,7 @@ Slots_InitFluttrfawn:
 	ld [wSlotsDelay], a
 	ret
 
-ReelAction_WaitFluttrfawn:
+ReelAction_WaitChansey:
 	ld a, [wSlotsDelay]
 	and a
 	ret z
@@ -1015,7 +1015,7 @@ ReelAction_BoringReelDrops:
 	ld hl, wReel1ReelAction - wReel1
 	add hl, bc
 	inc [hl]
-	call Slots_GetNumberOfGigaliths
+	call Slots_GetNumberOfGolems
 	ld hl, wReel1Slot0a - wReel1
 	add hl, bc
 	ld [hl], a
@@ -1292,7 +1292,7 @@ Slots_CopyReelState:
 	ld [de], a
 	ret
 
-Slots_GetNumberOfGigaliths:
+Slots_GetNumberOfGolems:
 	ld hl, wReel1Position - wReel1
 	add hl, bc
 	ld a, [hl]
@@ -1659,7 +1659,7 @@ endr
 	call Slots_PlaySFX
 	jmp WaitSFX
 
-SlotMachine_AnimateGigalith:
+SlotMachine_AnimateGolem:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

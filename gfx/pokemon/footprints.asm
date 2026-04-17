@@ -41,9 +41,7 @@ CottoneeFootprint::
 WhimsicottFootprint::
 ForretressFootprint::
 GastlyFootprint::
-RoggenrolaFootprint::
-BoldoreFootprint::
-GigalithFootprint::
+GeodudeFootprint::
 GoldeenFootprint::
 GrimerFootprint::
 GyaradosFootprint::
@@ -145,6 +143,8 @@ MachopFootprint:: INCBIN "gfx/footprints/machop.1bpp.lz"
 MachokeFootprint:: INCBIN "gfx/footprints/machoke.1bpp.lz"
 MachampFootprint:: INCBIN "gfx/footprints/machamp.1bpp.lz"
 BellsproutFootprint:: INCBIN "gfx/footprints/bellsprout.1bpp.lz"
+GravelerFootprint:: INCBIN "gfx/footprints/graveler.1bpp.lz"
+GolemFootprint:: INCBIN "gfx/footprints/golem.1bpp.lz"
 PonytaFootprint:: INCBIN "gfx/footprints/ponyta.1bpp.lz"
 RapidashFootprint:: INCBIN "gfx/footprints/rapidash.1bpp.lz"
 SlowpokeFootprint:: INCBIN "gfx/footprints/slowpoke.1bpp.lz"

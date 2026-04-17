@@ -13,13 +13,13 @@ SpriteAnimOAMData:
 	spriteanimoam $00, .OAMData_TextEntryCursorBig     ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR_BIG
 	spriteanimoam $00, .OAMData_TextEntryCursorBlue    ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR_BLUE
 	spriteanimoam $00, .OAMData_TextEntryCursorBlueBig ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR_BLUE_BIG
-	spriteanimoam $00, .OAMData_SlotsGigalith             ; SPRITE_ANIM_OAMSET_SLOTS_GIGALITH_1
-	spriteanimoam $08, .OAMData_SlotsGigalith             ; SPRITE_ANIM_OAMSET_SLOTS_GIGALITH_2
-	spriteanimoam $10, .OAMData_SlotsFluttrfawn1          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_1
-	spriteanimoam $10, .OAMData_SlotsFluttrfawn2          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_2
-	spriteanimoam $10, .OAMData_SlotsFluttrfawn3          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_3
-	spriteanimoam $10, .OAMData_SlotsFluttrfawn4          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_4
-	spriteanimoam $10, .OAMData_SlotsFluttrfawn5          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_5
+	spriteanimoam $00, .OAMData_SlotsGolem             ; SPRITE_ANIM_OAMSET_SLOTS_GOLEM_1
+	spriteanimoam $08, .OAMData_SlotsGolem             ; SPRITE_ANIM_OAMSET_SLOTS_GOLEM_2
+	spriteanimoam $10, .OAMData_SlotsChansey1          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_1
+	spriteanimoam $10, .OAMData_SlotsChansey2          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_2
+	spriteanimoam $10, .OAMData_SlotsChansey3          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_3
+	spriteanimoam $10, .OAMData_SlotsChansey4          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_4
+	spriteanimoam $10, .OAMData_SlotsChansey5          ; SPRITE_ANIM_OAMSET_SLOTS_CHANSEY_5
 	spriteanimoam $3a, .OAMData_1x1_Palette0           ; SPRITE_ANIM_OAMSET_SLOTS_EGG
 	spriteanimoam $00, .OAMData_RedWalk                ; SPRITE_ANIM_OAMSET_STILL_CURSOR
 	spriteanimoam $00, .OAMData_TradePokeBall1         ; SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_1
@@ -278,7 +278,7 @@ SpriteAnimOAMData:
 	dsprite  0,  0,  3,  0, $01, $1 | OAM_YFLIP
 	dsprite  0,  0,  4,  0, $00, $1 | OAM_XFLIP | OAM_YFLIP
 
-.OAMData_SlotsGigalith:
+.OAMData_SlotsGolem:
 	db 6
 	dsprite -2,  4, -2,  4, $00, $5
 	dsprite -2,  4, -1,  4, $02, $5
@@ -287,7 +287,7 @@ SpriteAnimOAMData:
 	dsprite  0,  4, -1,  4, $06, $5
 	dsprite  0,  4,  0,  4, $04, $5 | OAM_XFLIP
 
-.OAMData_SlotsFluttrfawn1:
+.OAMData_SlotsChansey1:
 	db 6
 	dsprite -2,  4, -2,  4, $00, $6
 	dsprite -2,  4, -1,  4, $02, $6
@@ -296,7 +296,7 @@ SpriteAnimOAMData:
 	dsprite  0,  4, -1,  4, $08, $6
 	dsprite  0,  4,  0,  4, $0a, $6
 
-.OAMData_SlotsFluttrfawn2:
+.OAMData_SlotsChansey2:
 	db 6
 	dsprite -2,  4, -2,  4, $00, $6
 	dsprite -2,  4, -1,  4, $02, $6
@@ -305,7 +305,7 @@ SpriteAnimOAMData:
 	dsprite  0,  4, -1,  4, $0e, $6
 	dsprite  0,  4,  0,  4, $10, $6
 
-.OAMData_SlotsFluttrfawn3:
+.OAMData_SlotsChansey3:
 	db 6
 	dsprite -2,  4, -2,  4, $00, $6
 	dsprite -2,  4, -1,  4, $02, $6
@@ -314,7 +314,7 @@ SpriteAnimOAMData:
 	dsprite  0,  4, -1,  4, $14, $6
 	dsprite  0,  4,  0,  4, $16, $6
 
-.OAMData_SlotsFluttrfawn4:
+.OAMData_SlotsChansey4:
 	db 6
 	dsprite -2,  4, -2,  4, $00, $6
 	dsprite -2,  4, -1,  4, $02, $6
@@ -323,7 +323,7 @@ SpriteAnimOAMData:
 	dsprite  0,  4, -1,  4, $1a, $6
 	dsprite  0,  4,  0,  4, $1c, $6
 
-.OAMData_SlotsFluttrfawn5:
+.OAMData_SlotsChansey5:
 	db 6
 	dsprite -2,  4, -2,  4, $1e, $6
 	dsprite -2,  4, -1,  4, $20, $6

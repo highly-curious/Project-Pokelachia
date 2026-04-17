@@ -77,9 +77,9 @@ PokemonPicPointers::
 	pics Victreebel
 	pics Tentacool
 	pics Tentacruel
-	pics Roggenrola
-	pics Boldore
-	pics Gigalith
+	pics GeodudePlain
+	pics GravelerPlain
+	pics GolemPlain
 	pics PonytaPlain
 	pics RapidashPlain
 	pics SlowpokePlain
@@ -378,6 +378,9 @@ PokemonPicPointers::
 	pics DugtrioAlolan
 	pics MeowthAlolan
 	pics PersianAlolan
+	pics GeodudeAlolan
+	pics GravelerAlolan
+	pics GolemAlolan
 	pics GrimerAlolan
 	pics MukAlolan
 	pics MarowakAlolan

@@ -73,9 +73,9 @@ BitmasksPointers:
 	dw VictreebelBitmasks
 	dw TentacoolBitmasks
 	dw TentacruelBitmasks
-	dw RoggenrolaBitmasks
-	dw BoldoreBitmasks
-	dw GigalithBitmasks
+	dw GeodudePlainBitmasks
+	dw GravelerPlainBitmasks
+	dw GolemPlainBitmasks
 	dw PonytaPlainBitmasks
 	dw RapidashPlainBitmasks
 	dw SlowpokePlainBitmasks
@@ -374,6 +374,9 @@ BitmasksPointers:
 	dw DugtrioAlolanBitmasks
 	dw MeowthAlolanBitmasks
 	dw PersianAlolanBitmasks
+	dw GeodudeAlolanBitmasks
+	dw GravelerAlolanBitmasks
+	dw GolemAlolanBitmasks
 	dw GrimerAlolanBitmasks
 	dw MukAlolanBitmasks
 	dw MarowakAlolanBitmasks

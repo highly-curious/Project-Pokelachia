@@ -77,9 +77,9 @@ EvosAttacksPointers::
 	dw VictreebelEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
-	dw RoggenrolaEvosAttacks
-	dw BoldoreEvosAttacks
-	dw GigalithEvosAttacks
+	dw GeodudePlainEvosAttacks
+	dw GravelerPlainEvosAttacks
+	dw GolemPlainEvosAttacks
 	dw PonytaPlainEvosAttacks
 	dw RapidashPlainEvosAttacks
 	dw SlowpokePlainEvosAttacks
@@ -318,6 +318,9 @@ EvosAttacksPointers::
 	dw DugtrioAlolanEvosAttacks
 	dw MeowthAlolanEvosAttacks
 	dw PersianAlolanEvosAttacks
+	dw GeodudeAlolanEvosAttacks
+	dw GravelerAlolanEvosAttacks
+	dw GolemAlolanEvosAttacks
 	dw GrimerAlolanEvosAttacks
 	dw MukAlolanEvosAttacks
 	dw MarowakAlolanEvosAttacks

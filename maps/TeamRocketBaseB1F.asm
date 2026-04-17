@@ -22,7 +22,7 @@ TeamRocketBaseB1F_MapScriptHeader:
 	coord_event 22, 16, 0, SecurityCamera4
 	coord_event  8, 16, 0, SecurityCamera5
 	; There are spots on the floor that trigger a Pokémon battle.
-	; Each Pokémon (Voltorb, Koffing, Roggenrola) knows Explosion as a unique wild move.
+	; Each Pokémon (Voltorb, Koffing, Geodude) knows Explosion as a unique wild move.
 	coord_event  2,  7, 0, ExplodingTrap1
 	coord_event  3,  7, 0, ExplodingTrap2
 	coord_event  4,  7, 0, ExplodingTrap3
@@ -350,7 +350,7 @@ ExplodingTrap2:
 ExplodingTrap3:
 	checkevent EVENT_EXPLODING_TRAP_3
 	iftrue NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_3
 	end
@@ -366,7 +366,7 @@ ExplodingTrap4:
 ExplodingTrap5:
 	checkevent EVENT_EXPLODING_TRAP_5
 	iftrue NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_5
 	end
@@ -414,7 +414,7 @@ ExplodingTrap10:
 ExplodingTrap11:
 	checkevent EVENT_EXPLODING_TRAP_11
 	iftruefwd NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_11
 	end
@@ -422,7 +422,7 @@ ExplodingTrap11:
 ExplodingTrap12:
 	checkevent EVENT_EXPLODING_TRAP_12
 	iftruefwd NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_12
 	end
@@ -430,7 +430,7 @@ ExplodingTrap12:
 ExplodingTrap13:
 	checkevent EVENT_EXPLODING_TRAP_13
 	iftruefwd NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_13
 	end
@@ -470,7 +470,7 @@ ExplodingTrap17:
 ExplodingTrap18:
 	checkevent EVENT_EXPLODING_TRAP_18
 	iftruefwd NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_18
 	end
@@ -478,7 +478,7 @@ ExplodingTrap18:
 ExplodingTrap19:
 	checkevent EVENT_EXPLODING_TRAP_19
 	iftruefwd NoExplodingTrap
-	scall RoggenrolaExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_19
 	end
@@ -518,14 +518,14 @@ VoltorbExplodingTrap:
 	startbattle
 	end
 
-RoggenrolaExplodingTrap:
+GeodudeExplodingTrap:
 	special FadeOutPalettes
 	special LoadMapPalettes
-	cry ROGGENROLA
+	cry GEODUDE
 	special FadeInPalettes_EnableDynNoApply
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon ROGGENROLA, 28
+	loadwildmon GEODUDE, 28
 	startbattle
 	end
 

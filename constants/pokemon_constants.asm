@@ -97,9 +97,9 @@
 	const VICTREEBEL ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
-	const ROGGENROLA ; 4a
-	const BOLDORE    ; 4b
-	const GIGALITH   ; 4c
+	const GEODUDE    ; 4a
+	const GRAVELER   ; 4b
+	const GOLEM      ; 4c
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e
 	const SLOWPOKE   ; 4f
@@ -453,6 +453,9 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 167 dugtrio
 	const_skip ; 168 meowth
 	const_skip ; 169 persian
+	const_skip ; 16a geodude
+	const_skip ; 16b graveler
+	const_skip ; 16c golem
 	const_skip ; 16d grimer
 	const_skip ; 16e muk
 	const_skip ; 170 marowak

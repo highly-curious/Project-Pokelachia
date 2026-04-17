@@ -78,7 +78,7 @@ AlphabeticalPokedexOrder:
 	dp SCOURPOSS
 	dp GASTLY
 	dp GENGAR
-	dp ROGGENROLA
+	dp GEODUDE
 	dp GIRAFARIG
 	dp GLACEON
 	dp GLIGAR
@@ -88,9 +88,9 @@ AlphabeticalPokedexOrder:
 	dp GOLBAT
 	dp GOLDEEN
 	dp GOLDUCK
-	dp GIGALITH
+	dp GOLEM
 	dp GRANBULL
-	dp BOLDORE
+	dp GRAVELER
 	dp GRIMER
 	dp GROWLITHE
 	dp GYARADOS

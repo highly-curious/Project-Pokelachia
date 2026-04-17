@@ -655,7 +655,7 @@ MachopPokedexEntry::
 	next "lifting rocks in"
 	next "the mountains. It"
 	page "can even pick up a"
-	next "Boldore with"
+	next "Graveler with"
 	next "ease.@"
 
 SECTION "MachokePokedexEntry", ROMX
@@ -728,8 +728,8 @@ TentacruelPokedexEntry::
 	next "to entangle its"
 	next "prey.@"
 
-SECTION "RoggenrolaPokedexEntry", ROMX
-RoggenrolaPokedexEntry::
+SECTION "GeodudePlainPokedexEntry", ROMX
+GeodudePlainPokedexEntry::
 	db "Rock@"
 	db   "Proud of their"
 	next "sturdy bodies,"
@@ -738,8 +738,8 @@ RoggenrolaPokedexEntry::
 	next "contest to prove"
 	next "whose is harder.@"
 
-SECTION "BoldorePokedexEntry", ROMX
-BoldorePokedexEntry::
+SECTION "GravelerPlainPokedexEntry", ROMX
+GravelerPlainPokedexEntry::
 	db "Rock@"
 	db   "It travels by rol-"
 	next "ling on mountain"
@@ -748,8 +748,8 @@ BoldorePokedexEntry::
 	next "stops by running"
 	next "into huge rocks.@"
 
-SECTION "GigalithPokedexEntry", ROMX
-GigalithPokedexEntry::
+SECTION "GolemPlainPokedexEntry", ROMX
+GolemPlainPokedexEntry::
 	db "Megaton@"
 	db   "Its rock-like body"
 	next "is so durable,"
@@ -2647,7 +2647,7 @@ RhyperiorPokedexEntry::
 	db "Drill@"
 	db   "From holes in its"
 	next "palms, it fires"
-	next "out Roggenrola. Its"
+	next "out Geodude. Its"
 	page "carapace can with-"
 	next "stand volcanic"
 	next "eruptions.@"
@@ -3060,6 +3060,36 @@ PersianAlolanPokedexEntry::
 	page "fur in the heat of"
 	next "battle has a bea-"
 	next "uty all its own.@"
+
+SECTION "GeodudeAlolanPokedexEntry", ROMX
+GeodudeAlolanPokedexEntry::
+	db "Rock@"
+	db   "Its body is a mag-"
+	next "netic stone. Iron"
+	next "sand attaches to"
+	page "the portions of"
+	next "its body that are"
+	next "the most magnetic.@"
+
+SECTION "GravelerAlolanPokedexEntry", ROMX
+GravelerAlolanPokedexEntry::
+	db "Rock@"
+	db   "Its entire body is"
+	next "tinged with elec-"
+	next "tricity due to the"
+	page "stones it likes to"
+	next "eat. It's very"
+	next "quick-tempered.@"
+
+SECTION "GolemAlolanPokedexEntry", ROMX
+GolemAlolanPokedexEntry::
+	db "Megaton@"
+	db   "It fires rocks"
+	next "charged with elec-"
+	next "tricity. Just"
+	page "grazing an oppo-"
+	next "nent causes numb-"
+	next "ness and fainting.@"
 
 SECTION "PonytaGalarianPokedexEntry", ROMX
 PonytaGalarianPokedexEntry::

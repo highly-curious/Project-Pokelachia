@@ -1271,17 +1271,29 @@ SECTION "Perrserker Pics", ROMX
 PerrserkerFrontpic: INCBIN "gfx/pokemon/perrserker/front.animated.2bpp.lz"
 PerrserkerBackpic:  INCBIN "gfx/pokemon/perrserker/back.2bpp.lz"
 
-SECTION "Roggenrola Pics", ROMX
-RoggenrolaFrontpic: INCBIN "gfx/pokemon/roggenrola/front.animated.2bpp.lz"
-RoggenrolaBackpic:  INCBIN "gfx/pokemon/roggenrola/back.2bpp.lz"
+SECTION "GeodudePlain Pics", ROMX
+GeodudePlainFrontpic: INCBIN "gfx/pokemon/geodude_plain/front.animated.2bpp.lz"
+GeodudePlainBackpic:  INCBIN "gfx/pokemon/geodude_plain/back.2bpp.lz"
 
-SECTION "Boldore Pics", ROMX
-BoldoreFrontpic: INCBIN "gfx/pokemon/boldore/front.animated.2bpp.lz"
-BoldoreBackpic:  INCBIN "gfx/pokemon/boldore/back.2bpp.lz"
+SECTION "GravelerPlain Pics", ROMX
+GravelerPlainFrontpic: INCBIN "gfx/pokemon/graveler_plain/front.animated.2bpp.lz"
+GravelerPlainBackpic:  INCBIN "gfx/pokemon/graveler_plain/back.2bpp.lz"
 
-SECTION "Gigalith Pics", ROMX
-GigalithFrontpic: INCBIN "gfx/pokemon/gigalith/front.animated.2bpp.lz"
-GigalithBackpic:  INCBIN "gfx/pokemon/gigalith/back.2bpp.lz"
+SECTION "GolemPlain Pics", ROMX
+GolemPlainFrontpic: INCBIN "gfx/pokemon/golem_plain/front.animated.2bpp.lz"
+GolemPlainBackpic:  INCBIN "gfx/pokemon/golem_plain/back.2bpp.lz"
+
+SECTION "GeodudeAlolan Pics", ROMX
+GeodudeAlolanFrontpic: INCBIN "gfx/pokemon/geodude_alolan/front.animated.2bpp.lz"
+GeodudeAlolanBackpic:  INCBIN "gfx/pokemon/geodude_alolan/back.2bpp.lz"
+
+SECTION "GravelerAlolan Pics", ROMX
+GravelerAlolanFrontpic: INCBIN "gfx/pokemon/graveler_alolan/front.animated.2bpp.lz"
+GravelerAlolanBackpic:  INCBIN "gfx/pokemon/graveler_alolan/back.2bpp.lz"
+
+SECTION "GolemAlolan Pics", ROMX
+GolemAlolanFrontpic: INCBIN "gfx/pokemon/golem_alolan/front.animated.2bpp.lz"
+GolemAlolanBackpic:  INCBIN "gfx/pokemon/golem_alolan/back.2bpp.lz"
 
 SECTION "GrimerPlain Pics", ROMX
 GrimerPlainFrontpic: INCBIN "gfx/pokemon/grimer_plain/front.animated.2bpp.lz"

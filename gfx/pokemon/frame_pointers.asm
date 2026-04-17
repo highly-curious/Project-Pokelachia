@@ -73,9 +73,9 @@ FramesPointers:
 	dw VictreebelFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
-	dw RoggenrolaFrames
-	dw BoldoreFrames
-	dw GigalithFrames
+	dw GeodudePlainFrames
+	dw GravelerPlainFrames
+	dw GolemPlainFrames
 	dw PonytaPlainFrames
 	dw RapidashPlainFrames
 	dw SlowpokePlainFrames
@@ -374,6 +374,9 @@ FramesPointers:
 	dw DugtrioAlolanFrames
 	dw MeowthAlolanFrames
 	dw PersianAlolanFrames
+	dw GeodudeAlolanFrames
+	dw GravelerAlolanFrames
+	dw GolemAlolanFrames
 	dw GrimerAlolanFrames
 	dw MukAlolanFrames
 	dw MarowakAlolanFrames

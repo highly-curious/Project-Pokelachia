@@ -14,7 +14,7 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 * Removed: Cribnal, Cuardhart, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
 * New evolution methods work, like Eevee evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Seadra holding a Dragon Scale) now evolve by leveling up while holding the item.
-* Machoke, Boldore, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
+* Machoke, Graveler, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
 * Magneton evolves into Magnezone near the Lodestone in Rock Tunnel.
 
 

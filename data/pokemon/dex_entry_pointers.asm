@@ -74,9 +74,9 @@ PokedexDataPointerTable:
 	dba VictreebelPokedexEntry
 	dba TentacoolPokedexEntry
 	dba TentacruelPokedexEntry
-	dba RoggenrolaPokedexEntry
-	dba BoldorePokedexEntry
-	dba GigalithPokedexEntry
+	dba GeodudePlainPokedexEntry
+	dba GravelerPlainPokedexEntry
+	dba GolemPlainPokedexEntry
 	dba PonytaPlainPokedexEntry
 	dba RapidashPlainPokedexEntry
 	dba SlowpokePlainPokedexEntry
@@ -315,6 +315,9 @@ PokedexDataPointerTable:
 	dba DugtrioAlolanPokedexEntry
 	dba MeowthAlolanPokedexEntry
 	dba PersianAlolanPokedexEntry
+	dba GeodudeAlolanPokedexEntry
+	dba GravelerAlolanPokedexEntry
+	dba GolemAlolanPokedexEntry
 	dba GrimerAlolanPokedexEntry
 	dba MukAlolanPokedexEntry
 	dba MarowakAlolanPokedexEntry

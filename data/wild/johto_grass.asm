@@ -34,7 +34,7 @@
 	wildmon 2, TEDDIURSA
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, ROGGENROLA
+	wildmon 3, GEODUDE
 	wildmon 4, TEDDIURSA
 	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA
@@ -42,15 +42,15 @@
 	wildmon 2, TEDDIURSA
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, ROGGENROLA
+	wildmon 3, GEODUDE
 	wildmon 4, TEDDIURSA
-	wildmon 4, ROGGENROLA
+	wildmon 4, GEODUDE
 	wildmon 5, TEDDIURSA
 	; nite
 	wildmon 2, TEDDIURSA
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
-	wildmon 3, ROGGENROLA
+	wildmon 3, GEODUDE
 	wildmon 4, TEDDIURSA
 	wildmon 4, ZUBAT
 	wildmon 5, TEDDIURSA

@@ -44,9 +44,9 @@ NewPokedexOrder:
 	dp LEDIAN
 	dp JOLTIK
 	dp GALVANTULA
-	dp ROGGENROLA
-	dp BOLDORE
-	dp GIGALITH
+	dp GEODUDE
+	dp GRAVELER
+	dp GOLEM
 	dp ZUBAT
 	dp GOLBAT
 	dp CROBAT

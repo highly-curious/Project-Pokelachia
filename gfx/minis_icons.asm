@@ -372,20 +372,20 @@ TentacruelMini::     INCBIN "gfx/minis/tentacruel.2bpp.lz"
 TentacruelMiniMask:: INCBIN "gfx/minis/tentacruel_mask.1bpp.lz"
 TentacruelIcon::     INCBIN "gfx/icons/tentacruel.2bpp.lz"
 
-SECTION "Roggenrola Mini Icon", ROMX
-RoggenrolaMini::     INCBIN "gfx/minis/roggenrola.2bpp.lz"
-RoggenrolaMiniMask:: INCBIN "gfx/minis/roggenrola_mask.1bpp.lz"
-RoggenrolaIcon::     INCBIN "gfx/icons/roggenrola.2bpp.lz"
+SECTION "Geodude Mini Icon", ROMX
+GeodudeMini::     INCBIN "gfx/minis/geodude.2bpp.lz"
+GeodudeMiniMask:: INCBIN "gfx/minis/geodude_mask.1bpp.lz"
+GeodudeIcon::     INCBIN "gfx/icons/geodude.2bpp.lz"
 
-SECTION "Boldore Mini Icon", ROMX
-BoldoreMini::     INCBIN "gfx/minis/boldore.2bpp.lz"
-BoldoreMiniMask:: INCBIN "gfx/minis/boldore_mask.1bpp.lz"
-BoldoreIcon::     INCBIN "gfx/icons/boldore.2bpp.lz"
+SECTION "Graveler Mini Icon", ROMX
+GravelerMini::     INCBIN "gfx/minis/graveler.2bpp.lz"
+GravelerMiniMask:: INCBIN "gfx/minis/graveler_mask.1bpp.lz"
+GravelerIcon::     INCBIN "gfx/icons/graveler.2bpp.lz"
 
-SECTION "Gigalith Mini Icon", ROMX
-GigalithMini::     INCBIN "gfx/minis/gigalith.2bpp.lz"
-GigalithMiniMask:: INCBIN "gfx/minis/gigalith_mask.1bpp.lz"
-GigalithIcon::     INCBIN "gfx/icons/gigalith.2bpp.lz"
+SECTION "Golem Mini Icon", ROMX
+GolemMini::     INCBIN "gfx/minis/golem.2bpp.lz"
+GolemMiniMask:: INCBIN "gfx/minis/golem_mask.1bpp.lz"
+GolemIcon::     INCBIN "gfx/icons/golem.2bpp.lz"
 
 SECTION "Ponyta Mini Icon", ROMX
 PonytaMini::     INCBIN "gfx/minis/ponyta.2bpp.lz"
@@ -1656,6 +1656,21 @@ SECTION "PersianAlolan Mini Icon", ROMX
 PersianAlolanMini::     INCBIN "gfx/minis/persian_alolan.2bpp.lz"
 PersianAlolanMiniMask:: INCBIN "gfx/minis/persian_alolan_mask.1bpp.lz"
 PersianAlolanIcon::     INCBIN "gfx/icons/persian_alolan.2bpp.lz"
+
+SECTION "GeodudeAlolan Mini Icon", ROMX
+GeodudeAlolanMini::     INCBIN "gfx/minis/geodude_alolan.2bpp.lz"
+GeodudeAlolanMiniMask:: INCBIN "gfx/minis/geodude_alolan_mask.1bpp.lz"
+GeodudeAlolanIcon::     INCBIN "gfx/icons/geodude_alolan.2bpp.lz"
+
+SECTION "GravelerAlolan Mini Icon", ROMX
+GravelerAlolanMini::     INCBIN "gfx/minis/graveler_alolan.2bpp.lz"
+GravelerAlolanMiniMask:: INCBIN "gfx/minis/graveler_alolan_mask.1bpp.lz"
+GravelerAlolanIcon::     INCBIN "gfx/icons/graveler_alolan.2bpp.lz"
+
+SECTION "GolemAlolan Mini Icon", ROMX
+GolemAlolanMini::     INCBIN "gfx/minis/golem_alolan.2bpp.lz"
+GolemAlolanMiniMask:: INCBIN "gfx/minis/golem_alolan_mask.1bpp.lz"
+GolemAlolanIcon::     INCBIN "gfx/icons/golem_alolan.2bpp.lz"
 
 SECTION "GrimerAlolan Mini Icon", ROMX
 GrimerAlolanMini::     INCBIN "gfx/minis/grimer_alolan.2bpp.lz"

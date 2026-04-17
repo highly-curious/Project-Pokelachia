@@ -80,9 +80,9 @@ PokemonBodyData:
 	body_data  17,  155, HEAD_BASE,    GREEN  ; VICTREEBEL
 	body_data   9,  455, TENTACLES,    BLUE   ; TENTACOOL
 	body_data  16,  550, TENTACLES,    BLUE   ; TENTACRUEL
-	body_data   4,  200, HEAD_ARMS,    BROWN  ; ROGGENROLA
-	body_data  10, 1050, BIPEDAL,      BROWN  ; BOLDORE
-	body_data  14, 3000, BIPEDAL,      BROWN  ; GIGALITH
+	body_data   4,  200, HEAD_ARMS,    BROWN  ; GEODUDE
+	body_data  10, 1050, BIPEDAL,      BROWN  ; GRAVELER
+	body_data  14, 3000, BIPEDAL,      BROWN  ; GOLEM
 	body_data  10,  300, QUADRUPED,    YELLOW ; PONYTA
 	body_data  17,  950, QUADRUPED,    YELLOW ; RAPIDASH
 	body_data  12,  360, QUADRUPED,    PINK   ; SLOWPOKE
@@ -321,6 +321,9 @@ PokemonBodyData:
 	body_data   7,  666, MULTIBODY,    BROWN  ; DUGTRIO (ALOLAN_FORM)
 	body_data   4,   42, QUADRUPED,    BLUE   ; MEOWTH (ALOLAN_FORM)
 	body_data  11,  330, QUADRUPED,    BLUE   ; PERSIAN (ALOLAN_FORM)
+	body_data   4,  203, HEAD_ARMS,    GRAY   ; GEODUDE (ALOLAN_FORM)
+	body_data  10, 1100, BIPEDAL,      GRAY   ; GRAVELER (ALOLAN_FORM)
+	body_data  17, 3160, BIPEDAL,      GRAY   ; GOLEM (ALOLAN_FORM)
 	body_data   7,  420, HEAD_ARMS,    GREEN  ; GRIMER (ALOLAN_FORM)
 	body_data  10,  520, HEAD_ARMS,    GREEN  ; MUK (ALOLAN_FORM)
 	body_data  10,  340, BIPEDAL_TAIL, PURPLE ; MAROWAK (ALOLAN_FORM)
