@@ -541,7 +541,7 @@ BrunoGroup:
 	tr_mon 53, ONIX @ HARD_STONE
 		tr_evs 100 HP, 252 Atk
 		tr_moves BODY_SLAM, EARTHQUAKE, CRUNCH, ROCK_SLIDE
-	tr_mon 55, MACHAMP @ LEFTOVERS
+	tr_mon 55, CONKELDURR @ LEFTOVERS
 		tr_evs 100 HP, 252 Atk
 		tr_moves ROCK_SLIDE, FORESIGHT, CROSS_CHOP, BULK_UP
 	end_trainer
@@ -557,7 +557,7 @@ BrunoGroup:
 		tr_moves THUNDERPUNCH, ICE_PUNCH, POISON_JAB, MACH_PUNCH
 	tr_mon 72, STEELIX @ LEFTOVERS
 		tr_moves CURSE, EARTHQUAKE, STONE_EDGE, IRON_HEAD
-	tr_mon 74, MACHAMP @ MUSCLE_BAND
+	tr_mon 74, CONKELDURR @ MUSCLE_BAND
 		tr_moves BULK_UP, STONE_EDGE, BODY_SLAM, CROSS_CHOP
 	end_trainer
 
@@ -969,7 +969,7 @@ BlueGroup:
 		tr_moves PSYCHIC_M, LEECH_SEED, TRICK_ROOM, GIGA_DRAIN
 	tr_mon 69, UMBREON @ LEFTOVERS
 		tr_moves CONFUSE_RAY, TOXIC, FEINT_ATTACK, PROTECT
-	tr_mon 66, MACHAMP @ BLACK_BELT
+	tr_mon 66, CONKELDURR @ BLACK_BELT
 		tr_moves DYNAMICPUNCH, EARTHQUAKE, STONE_EDGE, THUNDERPUNCH
 	tr_mon 67, KABUTOPS @ HARD_STONE
 		tr_moves SLASH, SURF, STONE_EDGE, GIGA_DRAIN
@@ -986,7 +986,7 @@ endc
 	def_trainer 2, "Blue"
 	tr_mon 74, UMBREON @ BRIGHTPOWDER
 		tr_moves CONFUSE_RAY, TOXIC, FEINT_ATTACK, PROTECT
-	tr_mon 73, MACHAMP @ BLACK_BELT
+	tr_mon 73, CONKELDURR @ BLACK_BELT
 		tr_moves CROSS_CHOP, EARTHQUAKE, STONE_EDGE, THUNDERPUNCH
 	tr_mon 74, KABUTOPS @ HARD_STONE
 		tr_moves SLASH, SURF, STONE_EDGE, GIGA_DRAIN
@@ -2564,24 +2564,24 @@ HikerGroup:
 	def_trainer_class HIKER
 	def_trainer ANTHONY1, "Anthony"
 	tr_mon 12, GEODUDE
-	tr_mon 12, MACHOP
+	tr_mon 12, TIMBURR
 	end_trainer
 
 	def_trainer ANTHONY2, "Anthony"
 	tr_mon 16, GEODUDE
-	tr_mon 18, MACHOKE
+	tr_mon 18, GURDURR
 	end_trainer
 
 	def_trainer ANTHONY3, "Anthony"
 	tr_mon 25, GRAVELER
 	tr_mon 27, GRAVELER
-	tr_mon 29, MACHOKE
+	tr_mon 29, GURDURR
 	end_trainer
 
 	def_trainer ANTHONY4, "Anthony"
 	tr_mon 30, GRAVELER
 	tr_mon 30, GRAVELER
-	tr_mon 32, MACHOKE
+	tr_mon 32, GURDURR
 	end_trainer
 
 	def_trainer ANTHONY5, "Anthony"
@@ -2589,7 +2589,7 @@ HikerGroup:
 		tr_moves MAGNITUDE, MUD_SLAP, SANDSTORM, ROCK_SLIDE
 	tr_mon 36, GOLEM
 		tr_moves BULLDOZE, EXPLOSION, DEFENSE_CURL, ROLLOUT
-	tr_mon 34, MACHAMP
+	tr_mon 34, CONKELDURR
 		tr_moves KARATE_CHOP, BULLET_PUNCH, HEADBUTT, DIG
 	end_trainer
 
@@ -2625,7 +2625,7 @@ HikerGroup:
 
 	def_trainer LEONARD, "Leonard"
 	tr_mon 23, GEODUDE
-	tr_mon 25, MACHOP
+	tr_mon 25, TIMBURR
 	end_trainer
 
 	def_trainer BENJAMIN, "Benjamin"
@@ -2682,7 +2682,7 @@ HikerGroup:
 	end_trainer
 
 	def_trainer JIM, "Jim"
-	tr_mon 57, MACHAMP
+	tr_mon 57, CONKELDURR
 	end_trainer
 
 	def_trainer DANIEL, "Daniel"
@@ -2715,7 +2715,7 @@ HikerGroup:
 	def_trainer MARCOS, "Marcos"
 	tr_mon 60, SANDSLASH
 	tr_mon 59, SANDSHREW
-	tr_mon 62, MACHOKE
+	tr_mon 62, GURDURR
 	tr_mon 62, ONIX
 	end_trainer
 
@@ -2744,7 +2744,7 @@ HikerGroup:
 	def_trainer LESTER, "Lester"
 	tr_mon 55, CLEFABLE
 	tr_mon 53, SCYTHER
-	tr_mon 54, MACHOKE
+	tr_mon 54, GURDURR
 	end_trainer
 
 	def_trainer GRADY, "Grady"
@@ -3111,7 +3111,7 @@ OfficerMGroup:
 
 	def_trainer DIRK, "Dirk"
 	tr_mon 15, GROWLITHE
-	tr_mon 15, MACHOP
+	tr_mon 15, TIMBURR
 	end_trainer
 
 
@@ -3626,7 +3626,7 @@ BeautyGroup:
 	end_trainer
 
 	def_trainer RACHAEL, "Rachael"
-	tr_mon LEVEL_FROM_BADGES + 9, MACHAMP, MALE
+	tr_mon LEVEL_FROM_BADGES + 9, CONKELDURR, MALE
 	tr_mon LEVEL_FROM_BADGES + 7, CLEFABLE, FEMALE
 	end_trainer
 
@@ -3848,7 +3848,7 @@ JugglerGroup:
 	def_trainer FRITZ, "Fritz"
 	tr_mon 45, MR__MIME
 	tr_mon 45, MAGMAR
-	tr_mon 45, MACHOKE
+	tr_mon 45, GURDURR
 	end_trainer
 
 	def_trainer HORTON, "Horton"
@@ -4578,7 +4578,7 @@ endc
 	def_trainer TOBIN, "Tobin"
 	tr_mon 53, MAGMAR
 	tr_mon 54, GOLEM
-	tr_mon 55, MACHOKE
+	tr_mon 55, GURDURR
 	end_trainer
 
 
@@ -4742,8 +4742,8 @@ SailorGroup:
 	end_trainer
 
 	def_trainer ERNEST, "Roberto" ; MISMATCH
-	tr_mon 18, MACHOP
-	tr_mon 18, MACHOP
+	tr_mon 18, TIMBURR
+	tr_mon 18, TIMBURR
 	tr_mon 18, POLIWHIRL
 	end_trainer
 
@@ -4757,15 +4757,15 @@ SailorGroup:
 	end_trainer
 
 	def_trainer KENNETH, "Kenneth"
-	tr_mon 44, MACHOP
-	tr_mon 45, MACHOKE
+	tr_mon 44, TIMBURR
+	tr_mon 45, GURDURR
 	tr_mon 46, POLIWRATH
-	tr_mon 45, MACHOKE
+	tr_mon 45, GURDURR
 	end_trainer
 
 	def_trainer STANLY, "Stanley" ; MISMATCH
-	tr_mon 45, MACHOP
-	tr_mon 48, MACHOKE
+	tr_mon 45, TIMBURR
+	tr_mon 48, GURDURR
 	tr_mon 44, PSYDUCK
 	end_trainer
 
@@ -4783,8 +4783,8 @@ SailorGroup:
 	end_trainer
 
 	def_trainer HARVEY, "Harvey"
-	tr_mon LEVEL_FROM_BADGES + 0, MACHOP
-	tr_mon LEVEL_FROM_BADGES + 2, MACHOKE
+	tr_mon LEVEL_FROM_BADGES + 0, TIMBURR
+	tr_mon LEVEL_FROM_BADGES + 2, GURDURR
 	end_trainer
 
 
@@ -5340,7 +5340,7 @@ BlackbeltGroup:
 
 	def_trainer_class BLACKBELT_T
 	def_trainer KENJI1, "Kenji"
-	tr_mon 39, MACHOKE
+	tr_mon 39, GURDURR
 	end_trainer
 
 ;	; unused
@@ -5348,13 +5348,13 @@ BlackbeltGroup:
 ;	tr_mon 36, ONIX
 ;	tr_mon 38, HITMONLEE
 ;	tr_mon 36, ONIX
-;	tr_mon 39, MACHOKE
+;	tr_mon 39, GURDURR
 ;	end_trainer
 
 ;	def_trainer KENJI3, "Kenji"
 ;	tr_mon 33, ONIX
 ;		tr_moves WRAP, ROCK_THROW, TOXIC, DIG
-;	tr_mon 38, MACHAMP
+;	tr_mon 38, CONKELDURR
 ;		tr_moves HEADBUTT, SWAGGER, THUNDERPUNCH, BULLET_PUNCH
 ;	tr_mon 33, STEELIX
 ;		tr_moves EARTHQUAKE, ROCK_THROW, IRON_TAIL, SANDSTORM
@@ -5373,9 +5373,9 @@ BlackbeltGroup:
 	end_trainer
 
 	def_trainer NOB, "Nob"
-	tr_mon 25, MACHOP
+	tr_mon 25, TIMBURR
 		tr_moves LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
-	tr_mon 25, MACHOKE
+	tr_mon 25, GURDURR
 		tr_moves LEER, KARATE_CHOP, SEISMIC_TOSS, ROCK_SLIDE
 	end_trainer
 
@@ -5386,15 +5386,15 @@ BlackbeltGroup:
 	end_trainer
 
 	def_trainer WAI, "Wai"
-	tr_mon 46, MACHOKE
-	tr_mon 48, MACHOKE
-	tr_mon 50, MACHOKE
+	tr_mon 46, GURDURR
+	tr_mon 48, GURDURR
+	tr_mon 50, GURDURR
 	end_trainer
 
 	def_trainer INIGO, "Inigo"
 	tr_mon 59, PRIMEAPE
 	tr_mon 59, PRIMEAPE
-	tr_mon 60, MACHAMP
+	tr_mon 60, CONKELDURR
 	end_trainer
 
 	def_trainer MANFORD, "Manford"
@@ -5404,7 +5404,7 @@ BlackbeltGroup:
 	def_trainer ANDER, "Ander"
 	tr_mon 61, PRIMEAPE
 	tr_mon 57, GRAVELER
-	tr_mon 62, MACHOKE
+	tr_mon 62, GURDURR
 	end_trainer
 
 	def_trainer TAKEO, "Takeo"
@@ -5425,8 +5425,8 @@ BattleGirlGroup:
 
 	def_trainer_class BATTLE_GIRL
 	def_trainer SUBARU, "Subaru"
-	tr_mon LEVEL_FROM_BADGES + 6, MACHOP
-	tr_mon LEVEL_FROM_BADGES + 7, MACHOKE
+	tr_mon LEVEL_FROM_BADGES + 6, TIMBURR
+	tr_mon LEVEL_FROM_BADGES + 7, GURDURR
 	tr_mon LEVEL_FROM_BADGES + 8, PRIMEAPE
 	end_trainer
 
@@ -5437,19 +5437,19 @@ BattleGirlGroup:
 
 	def_trainer KAGAMI, "Kagami"
 	tr_mon LEVEL_FROM_BADGES + 5, PRIMEAPE
-	tr_mon LEVEL_FROM_BADGES + 5, MACHOKE
+	tr_mon LEVEL_FROM_BADGES + 5, GURDURR
 	tr_mon LEVEL_FROM_BADGES + 7, URSARING
 	end_trainer
 
 	def_trainer NOZOMI, "Nozomi"
-	tr_mon 36, MACHOKE
-	tr_mon 36, MACHOKE
+	tr_mon 36, GURDURR
+	tr_mon 36, GURDURR
 	tr_mon 37, HITMONTOP
 	end_trainer
 
 	def_trainer RONDA, "Ronda"
 	tr_mon 37, HITMONCHAN
-	tr_mon 39, MACHAMP
+	tr_mon 39, CONKELDURR
 	tr_mon 38, URSARING
 	end_trainer
 
@@ -5985,7 +5985,7 @@ SightseerFGroup:
 		tr_extra SYNCHRONIZE, SATK_UP_ATK_DOWN
 		tr_evs 168 SAt
 		tr_moves LIGHT_SCREEN, REFLECT, PSYCHIC_M, SHADOW_BALL
-	tr_mon LEVEL_FROM_BADGES + 6, MACHAMP @ FLAME_ORB, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 6, CONKELDURR @ FLAME_ORB, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 168 Atk
 		tr_moves FACADE, MACH_PUNCH, BULLET_PUNCH, ICE_PUNCH
@@ -6196,7 +6196,7 @@ CooltrainerMGroup:
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 62, PINSIR @ KINGS_ROCK
 		tr_evs 192 Atk, 192 Spe
-	tr_mon 63, MACHAMP @ FOCUS_BAND
+	tr_mon 63, CONKELDURR @ FOCUS_BAND
 		tr_evs 132 HP, 252 Atk
 	tr_mon 64, "Firebrand", PYROBOROS @ LEFTOVERS
 		tr_evs 192 Atk, 192 SAt
@@ -7192,7 +7192,7 @@ RileyGroup:
 
 	def_trainer_class RILEY
 	def_trainer 1, "Riley"
-	tr_mon 58, MACHAMP
+	tr_mon 58, CONKELDURR
 	tr_mon 57, DRAGONITE
 	tr_mon 56, RHYPERIOR
 	tr_mon 55, NIDOKING
@@ -7201,7 +7201,7 @@ RileyGroup:
 	end_trainer
 
 	def_trainer 2, "Riley"
-	tr_mon 75, MACHAMP
+	tr_mon 75, CONKELDURR
 	tr_mon 74, DRAGONITE
 	tr_mon 73, RHYPERIOR
 	tr_mon 72, NIDOKING
@@ -7329,7 +7329,7 @@ DarachGroup:
 	tr_mon 58, NIDOQUEEN
 	tr_mon 56, HERACROSS
 if DEF(FAITHFUL)
-	tr_mon 57, MACHAMP
+	tr_mon 57, CONKELDURR
 	tr_mon 56, SKARMORY
 else
 	tr_mon 57, RIVASTION
@@ -7447,7 +7447,7 @@ else
 	tr_mon 62, MAGMORTAR
 		tr_evs 252 SAt, 140 Spe
 endc
-	tr_mon 63, MACHAMP
+	tr_mon 63, CONKELDURR
 		tr_evs 140 HP, 252 Atk
 	end_trainer
 
@@ -7462,7 +7462,7 @@ else
 	tr_mon 73, ELECTIVIRE
 	tr_mon 73, MAGMORTAR
 endc
-	tr_mon 75, MACHAMP
+	tr_mon 75, CONKELDURR
 	end_trainer
 
 

@@ -151,9 +151,9 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 2, DEBRITE
 	wildmon 2, SLUGMA
 	wildmon 3, SLUGMA
-	wildmon 3, MACHOP
+	wildmon 3, TIMBURR
 	wildmon 4, DEBRITE
-	wildmon 5, MACHOP
+	wildmon 5, TIMBURR
 	wildmon 6, SKARMORY
 	; nite
 	wildmon 2, DEBRITE
