@@ -138,4 +138,30 @@
 	end_grass_wildmons
 	db -1 ; end
 
-
+def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	wildmon 2, DEBRITE
+	wildmon 2, MEOWTH, GALARIAN_FORM
+	wildmon 3, DEBRITE
+	wildmon 3, MEOWTH, GALARIAN_FORM
+	wildmon 3, SLUGMA
+	wildmon 5, SLUGMA
+	wildmon 6, SKARMORY
+	; day
+	wildmon 2, DEBRITE
+	wildmon 2, SLUGMA
+	wildmon 3, SLUGMA
+	wildmon 3, MACHOP
+	wildmon 4, DEBRITE
+	wildmon 5, MACHOP
+	wildmon 6, SKARMORY
+	; nite
+	wildmon 2, DEBRITE
+	wildmon 2, MEOWTH, GALARIAN_FORM
+	wildmon 3, SLUGMA
+	wildmon 3, MEOWTH, GALARIAN_FORM
+	wildmon 3, DEBRITE
+	wildmon 5, MEOWTH, GALARIAN_FORM
+	wildmon 6, SKARMORY
+	end_grass_wildmons
+	db -1 ; end
