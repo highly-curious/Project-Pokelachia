@@ -101,13 +101,13 @@
 	wildmon 5, SINISTEA
 	wildmon 6, SINISTEA
 	; nite
-	wildmon 3, SINISTEA
-	wildmon 4, SINISTEA
-	wildmon 3, SINISTEA
-	wildmon 5, SINISTEA
-	wildmon 3, SINISTEA
-	wildmon 6, SINISTEA
-	wildmon 10, SINISTEA
+	wildmon 3, DOOZEE
+	wildmon 4, DOOZEE
+	wildmon 3, DOOZEE
+	wildmon 5, DOOZEE
+	wildmon 3, DOOZEE
+	wildmon 6, DOOZEE
+	wildmon 10, DOOZEE
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_FOREST_1
