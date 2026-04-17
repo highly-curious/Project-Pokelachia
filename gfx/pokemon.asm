@@ -688,9 +688,9 @@ SECTION "Scizor Pics", ROMX
 ScizorFrontpic: INCBIN "gfx/pokemon/scizor/front.animated.2bpp.lz"
 ScizorBackpic:  INCBIN "gfx/pokemon/scizor/back.2bpp.lz"
 
-SECTION "Shuckle Pics", ROMX
-ShuckleFrontpic: INCBIN "gfx/pokemon/shuckle/front.animated.2bpp.lz"
-ShuckleBackpic:  INCBIN "gfx/pokemon/shuckle/back.2bpp.lz"
+SECTION "Doozee Pics", ROMX
+DoozeeFrontpic: INCBIN "gfx/pokemon/doozee/front.animated.2bpp.lz"
+DoozeeBackpic:  INCBIN "gfx/pokemon/doozee/back.2bpp.lz"
 
 SECTION "Heracross Pics", ROMX
 HeracrossFrontpic: INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"

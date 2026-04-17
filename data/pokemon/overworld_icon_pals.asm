@@ -216,7 +216,7 @@ OverworldMonIconColors::
 	iconpal PURPLE, GRAY ; GRANBULL
 	iconpal BLUE, PURPLE ; QWILFISH
 	iconpal RED, GRAY ; SCIZOR
-	iconpal RED, BLUE ; SHUCKLE
+	iconpal RED, BLUE ; DOOZEE
 	iconpal BLUE, PURPLE ; HERACROSS
 	iconpal BLUE, RED ; SNEASEL
 	iconpal BROWN, GREEN ; TEDDIURSA

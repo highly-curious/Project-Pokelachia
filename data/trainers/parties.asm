@@ -3227,7 +3227,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ENZO, "Enzo"
-	tr_mon LEVEL_FROM_BADGES + 8, SHUCKLE
+	tr_mon LEVEL_FROM_BADGES + 8, DOOZEE
 	end_trainer
 
 	def_trainer MILLER, "Miller"
@@ -7629,7 +7629,7 @@ KatyGroup:
 	def_trainer 1, "Katy"
 	tr_mon 55, GALVANTULA
 	tr_mon 55, BUTTERFREE
-	tr_mon 56, SHUCKLE
+	tr_mon 56, DOOZEE
 	tr_mon 56, KLEAVOR
 	tr_mon 54, HERACROSS
 	tr_mon 57, URSARING
@@ -7638,7 +7638,7 @@ KatyGroup:
 	def_trainer 2, "Katy"
 	tr_mon 73, GALVANTULA
 	tr_mon 73, BUTTERFREE
-	tr_mon 74, SHUCKLE
+	tr_mon 74, DOOZEE
 	tr_mon 74, KLEAVOR
 	tr_mon 72, HERACROSS
 	tr_mon 75, URSALUNA
