@@ -19,7 +19,7 @@ AlphabeticalPokedexOrder:
 	dp BEEDRILL
 	dp BELLOSSOM
 	dp BELLSPROUT
-	dp BLISSEY
+	dp ETHEREDEER
 	dp BONSLY
 	dp BUTTERFREE
 	dp CASTORCH
@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	dp GRIMER
 	dp GROWLITHE
 	dp GYARADOS
-	dp HAPPINY
+	dp NOFAWTS
 	dp HAUNTER
 	dp HERACROSS
 	dp HITMONCHAN

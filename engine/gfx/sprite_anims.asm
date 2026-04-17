@@ -124,7 +124,7 @@ AnimSeq_SlotsGolem:
 	farjp SlotMachine_AnimateGolem
 
 AnimSeq_SlotsChansey:
-	farcall Slots_AnimateChansey
+	farcall Slots_AnimateFluttrfawn
 	ld hl, wSlotsDelay
 	ld a, [hl]
 	cp 2

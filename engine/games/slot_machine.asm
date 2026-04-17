@@ -1748,7 +1748,7 @@ SlotMachine_AnimateGolem:
 	ldh [hSCY], a
 	ret
 
-Slots_AnimateChansey:
+Slots_AnimateFluttrfawn:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

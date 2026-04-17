@@ -1208,8 +1208,8 @@ MimeJrEggSpeciesMoves:
 	db TRICK
 	db $ff
 
-HappinyEggSpeciesMoves:
-	dp HAPPINY, PLAIN_FORM
+NofawtsEggSpeciesMoves:
+	dp NOFAWTS, PLAIN_FORM
 	db HEAL_BELL
 	db $ff
 

@@ -3146,7 +3146,7 @@ NurseGroup:
 	end_trainer
 
 	def_trainer KEIKO, "Keiko"
-	tr_mon LEVEL_FROM_BADGES + 0, HAPPINY
+	tr_mon LEVEL_FROM_BADGES + 0, NOFAWTS
 	tr_mon LEVEL_FROM_BADGES + 5, CHANSEY
 	end_trainer
 
@@ -3155,7 +3155,7 @@ NurseGroup:
 	end_trainer
 
 	def_trainer WINIFRED, "Winifred"
-	tr_mon LEVEL_FROM_BADGES + 6, BLISSEY
+	tr_mon LEVEL_FROM_BADGES + 6, ETHEREDEER
 	end_trainer
 
 
@@ -4553,7 +4553,7 @@ RichBoyGroup:
 
 	def_trainer GERALD, "Gerald"
 	tr_mon 42, AZUMARILL @ NUGGET
-	tr_mon 40, BLISSEY @ NUGGET
+	tr_mon 40, ETHEREDEER @ NUGGET
 	end_trainer
 
 	def_trainer IRVING, "Irving"
@@ -4587,7 +4587,7 @@ LadyGroup:
 
 	def_trainer_class LADY
 	def_trainer JESSICA, "Jessica"
-	tr_mon 55, BLISSEY @ NUGGET
+	tr_mon 55, ETHEREDEER @ NUGGET
 	tr_mon 54, SCOURPOSS @ NUGGET
 	end_trainer
 
@@ -7169,7 +7169,7 @@ CherylGroup:
 	end_trainer
 
 	def_trainer 2, "Cheryl"
-	tr_mon 60, BLISSEY
+	tr_mon 60, ETHEREDEER
 	tr_mon 59, NIDOQUEEN
 	tr_mon 56, CLEFABLE
 	tr_mon 56, WIGGLYTUFF
@@ -7178,7 +7178,7 @@ CherylGroup:
 	end_trainer
 
 	def_trainer 3, "Cheryl"
-	tr_mon 75, BLISSEY
+	tr_mon 75, ETHEREDEER
 	tr_mon 74, NIDOQUEEN
 	tr_mon 71, CLEFABLE
 	tr_mon 71, WIGGLYTUFF
